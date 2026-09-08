@@ -1,0 +1,41 @@
+--- attempt 1 ---
+{
+  "verdict": "REVISE",
+  "failures": [
+    {
+      "check": 8,
+      "problem": "The chapter is significantly below the required word count of 1,800 to 3,200 words.",
+      "where": "Entire chapter",
+      "fix": "Expand the scene descriptions, internal observations from Edie's trade register, and the weight of the passage through the intake and steam room to meet the minimum length requirement."
+    }
+  ],
+  "notes": "The chapter follows all structural, POV, and canon rules precisely, but fails the strict length constraint."
+}
+
+--- attempt 2 ---
+{
+  "verdict": "REVISE",
+  "failures": [
+    {
+      "check": 1,
+      "problem": "The chapter cuts off mid-sentence and fails to include events 2 through 10 from the frozen skeleton.",
+      "where": "End of chapter: 'Beneath the peeling render, long strips of iodine-stained cloth hung from'",
+      "fix": "Complete the chapter so that all ten events from the frozen skeleton are written out in full."
+    },
+    {
+      "check": 8,
+      "problem": "The chapter is severely under length, containing fewer than 300 words against the 1,800 to 3,200 word requirement.",
+      "where": "Whole chapter",
+      "fix": "Expand the text to meet the required word count while following the frozen skeleton beats."
+    }
+  ],
+  "notes": "The draft breaks off prematurely during the first beat and omits the rest of the skeleton entirely."
+}
+
+--- attempt 3 ---
+{
+  "verdict": "PASS",
+  "failures": [],
+  "notes": "Chapter adheres strictly to the frozen skeleton, Edie's voice, and all canon limitations without any violations."
+}
+

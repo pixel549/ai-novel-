@@ -1,0 +1,51 @@
+{
+  "pov": "Edie",
+  "events": [
+    {
+      "n": 1,
+      "event": "I step off the coach onto the slick pier and walk to the hydro's stone entrance, its plaster peeling beneath strips of iodine\u2011stained cloth."
+    },
+    {
+      "n": 2,
+      "event": "I hand a ledger slip to the clerk, who stamps it and records a charge against Senator Ferrick\u2019s household account without asking me."
+    },
+    {
+      "n": 3,
+      "event": "The clerk hands me a brass token marked \u201cRun 1\u201d and tells me the facility runs patrons in groups of three."
+    },
+    {
+      "n": 4,
+      "event": "I am led into a waiting room where Lloyd leans against a wooden table, inspecting a coil of rope, while Maria spreads clean blankets on a bench."
+    },
+    {
+      "n": 5,
+      "event": "Lloyd looks at me, asks \u201cNever been here before?\u201d and I answer \u201cNo.\u201d"
+    },
+    {
+      "n": 6,
+      "event": "He nods, Maria glances at the token and says \u201cFirst run,\u201d confirming my answer."
+    },
+    {
+      "n": 7,
+      "event": "The three of us move to the intake chamber; Lloyd lifts a heavy valve, Maria lights a gas lamp, I check the pressure gauge and note the steam rising."
+    },
+    {
+      "n": 8,
+      "event": "We file into the steam room, the door shuts, and the room fills with thick vapor."
+    },
+    {
+      "n": 9,
+      "event": "The run begins as the boiler hums, the floor vibrates, and I stand with Lloyd and Maria breathing the hot air."
+    },
+    {
+      "n": 10,
+      "event": "After the timer sounds, we step out into a cold corridor, I receive a fresh towel, Lloyd wipes his forearm, Maria wraps a shawl around her shoulders, and I pocket the brass token for the next run."
+    }
+  ],
+  "learned": [
+    "Runs are scheduled in groups of three.",
+    "Lloyd and Maria are assigned to accompany me for this run.",
+    "The charge was successfully drawn from Senator Ferrick\u2019s household account."
+  ],
+  "ends_on": "I stand in the doorway of the hydro, steam still curling, the iodine\u2011stained sign flickering above the entrance."
+}

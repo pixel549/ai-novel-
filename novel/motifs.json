@@ -1,0 +1,162 @@
+{
+  "action": [
+    {
+      "id": "iodine-sign",
+      "subject": "hydro sign",
+      "detail": "iodine\u2011stained sign flickering above entrance",
+      "min_gap": 5,
+      "last_used": 1
+    },
+    {
+      "id": "brass-token",
+      "subject": "token",
+      "detail": "brass token marked Run 1",
+      "min_gap": 1,
+      "last_used": 1
+    },
+    {
+      "id": "plaster-peeling",
+      "subject": "entrance",
+      "detail": "plaster peeling beneath strips of iodine\u2011stained cloth",
+      "min_gap": 5,
+      "last_used": 1
+    },
+    {
+      "id": "heavy-valve",
+      "subject": "valve",
+      "detail": "heavy valve lifted in intake chamber",
+      "min_gap": 3,
+      "last_used": 1
+    },
+    {
+      "id": "gas-lamp",
+      "subject": "lamp",
+      "detail": "gas lamp lit in intake chamber",
+      "min_gap": 3,
+      "last_used": 1
+    },
+    {
+      "id": "pressure-gauge",
+      "subject": "gauge",
+      "detail": "pressure gauge read 120 psi",
+      "min_gap": 3,
+      "last_used": 1
+    },
+    {
+      "id": "steam-room-door",
+      "subject": "door",
+      "detail": "steel door closed behind us in steam room",
+      "min_gap": 3,
+      "last_used": 1
+    },
+    {
+      "id": "shawl-wrap",
+      "subject": "shawl",
+      "detail": "shawl wrapped around Maria's shoulders",
+      "min_gap": 4,
+      "last_used": 1
+    }
+  ],
+  "character": [
+    {
+      "id": "brass-token",
+      "subject": "Edie",
+      "detail": "brass token marked Run 1",
+      "min_gap": 1,
+      "last_used": 1
+    },
+    {
+      "id": "plaster-peeling",
+      "subject": "Stillwell Hydro",
+      "detail": "plaster peeling beneath strips of iodine-stained cloth",
+      "min_gap": 6,
+      "last_used": 1
+    },
+    {
+      "id": "heavy-valve",
+      "subject": "Stillwell Hydro",
+      "detail": "heavy valve lifted in intake chamber",
+      "min_gap": 4,
+      "last_used": 1
+    },
+    {
+      "id": "gas-lamp",
+      "subject": "Stillwell Hydro",
+      "detail": "gas lamp lit in intake chamber",
+      "min_gap": 4,
+      "last_used": 1
+    },
+    {
+      "id": "pressure-gauge",
+      "subject": "Stillwell Hydro",
+      "detail": "pressure gauge read 120 psi",
+      "min_gap": 4,
+      "last_used": 1
+    },
+    {
+      "id": "steam-room-door",
+      "subject": "Stillwell Hydro",
+      "detail": "steel door closed behind us in steam room",
+      "min_gap": 4,
+      "last_used": 1
+    },
+    {
+      "id": "shawl-wrap",
+      "subject": "Maria",
+      "detail": "shawl wrapped around Maria's shoulders",
+      "min_gap": 5,
+      "last_used": 1
+    }
+  ],
+  "atmosphere": [
+    {
+      "id": "brass-token",
+      "subject": "Edie",
+      "detail": "brass token marked Run 1",
+      "min_gap": 2,
+      "last_used": 1
+    },
+    {
+      "id": "plaster-peeling",
+      "subject": "Stillwell Hydro",
+      "detail": "plaster peeling beneath strips of iodine-stained cloth",
+      "min_gap": 7,
+      "last_used": 1
+    },
+    {
+      "id": "heavy-valve",
+      "subject": "Stillwell Hydro",
+      "detail": "heavy valve lifted in intake chamber",
+      "min_gap": 4,
+      "last_used": 1
+    },
+    {
+      "id": "gas-lamp",
+      "subject": "Stillwell Hydro",
+      "detail": "gas lamp lit in intake chamber",
+      "min_gap": 4,
+      "last_used": 1
+    },
+    {
+      "id": "pressure-gauge",
+      "subject": "Stillwell Hydro",
+      "detail": "pressure gauge read 120 psi",
+      "min_gap": 4,
+      "last_used": 1
+    },
+    {
+      "id": "steam-room-door",
+      "subject": "Stillwell Hydro",
+      "detail": "steel door closed behind us in steam room",
+      "min_gap": 4,
+      "last_used": 1
+    },
+    {
+      "id": "shawl-wrap",
+      "subject": "Maria",
+      "detail": "shawl wrapped around Maria's shoulders",
+      "min_gap": 5,
+      "last_used": 1
+    }
+  ]
+}

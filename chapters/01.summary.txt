@@ -1,0 +1,19 @@
+<think>
+Here's a thinking process:
+
+1.  **Analyze User Input:**
+   - **Task:** Summarize the provided novel chapter.
+   - **Constraints:** 
+     - Four sentences or fewer.
+     - Cover only: what happened, what changed between characters, what anyone learned.
+     - Omit everything non-load-bearing, no atmosphere/style.
+     - Output only the summary.
+   - **Input Text:** A detailed, atmospheric chapter describing a character (Edie) arriving at a hydro/steam facility, paying for a "run" using a senator's ledger slip, receiving a brass token, meeting two other patrons (a heavy man with a rope and Maria with burn scars), learning about the process (batches of three, first run clears moisture, high pressure), entering an intake chamber, operating/observing valves and gauges to build pressure, and finally stepping into a steam room that locks them in for a ten-minute cycle.
+
+2.  **Identify Key Load-Bearing Elements:**
+   - *What happened:* Edie arrives at a steam/hydro facility, pays for an entry using Senator Ferrick's account, receives a brass token marked "1," and enters a waiting room with two other patrons. After a bell signals, the three proceed to an intake chamber, open valves/build pressure, and are locked into a steam room for a ten-minute cycle.
+   - *What changed between characters:* Edie meets two strangers (a working-class man and a woman named Maria), exchanges minimal information (names only), and establishes a cooperative, procedural dynamic for the steam treatment/run. No deep relational shifts, just the formation of a temporary three-person batch.
+   - *What anyone learned:* Edie learns the facility operates in mandatory batches of three to balance boiler pressure, that the first run requires specific breathing adjustments due to hot moisture-clearing cycles, and Maria explains these operational details. The attendant confirms the ten-minute duration for the first charge.
+
+3.  **Draft Summary (Mental Refinement - aiming for ≤4 sentences, strict constraints):**
+   Edie used Senator Ferrick’s ledger slip to pay for a steam run, received a numbered brass token, and joined two strangers in a waiting room. Maria informed Edie that the facility strictly requires batches of three to maintain boiler pressure and that the first cycle vents hot moisture, requiring adjusted breathing. The trio proceeded to the intake chamber, where
