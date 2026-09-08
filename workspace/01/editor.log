@@ -1,0 +1,21 @@
+--- attempt 1 ---
+{
+  "verdict": "REVISE",
+  "failures": [
+    {
+      "check": 8,
+      "problem": "The chapter is significantly below the required length of 1,800 to 3,200 words.",
+      "where": "Entire chapter (approx. 330 words)",
+      "init": "Expand the scene to meet the minimum word count while maintaining Edie's sparse, observational narrative voice and strictly following the skeleton."
+    }
+  ],
+  "notes": "The chapter follows all canon rules, POV constraints, and skeleton events accurately, but fails the word count constraint."
+}
+
+--- attempt 2 ---
+{
+  "verdict": "PASS",
+  "failures": [],
+  "notes": "The chapter adheres strictly to the frozen skeleton, canon, and Edie's narrative constraints with no cooldown violations or POV breaks."
+}
+

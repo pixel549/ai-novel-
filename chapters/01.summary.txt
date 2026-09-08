@@ -1,0 +1,27 @@
+<think>
+Here's a thinking process:
+
+1.  **Analyze User Input:**
+   - **Task:** Summarize the provided novel chapter.
+   - **Constraints:** 
+     - Four sentences or fewer.
+     - Cover only: what happened, what changed between characters, what anyone learned.
+     - Omit nothing load-bearing.
+     - Include no atmosphere/style.
+     - Output only the summary.
+     - Plain, factual tone.
+
+2.  **Extract Key Information from the Text:**
+   - *Setting/Context:* Stillwell Hydro, a coastal dive/industrial facility. Protagonist arrives with a signed voucher from Senator Ferrick.
+   - *Action 1:* Protagonist enters, presents the voucher to a clerk who verifies it meticulously and issues brass tag #12 for "diving preparation, bay three."
+   - *Action 2:* Protagonist is led by a boy to a concrete preparation bay.
+   - *Characters Introduced:* Lloyd Hale (large, scarred, broken nose, crooked fingers) and Maria Vesk (small, sharp, burn scars on arms).
+   - *Interaction/Dialogue:* Lloyd asks if protagonist has been here before. Protagonist says no. Maria checks a tally board, notes their group entry, and confirms "First time for all of us." They acknowledge silently and begin preparing for the dive/work without further instruction.
+   - *Changes/Relationships:* Initial tension/observation dissolves into a silent, professional understanding among the three newcomers. They recognize each other as equally inexperienced but competent enough to start work autonomously.
+   - *Learnings:* Protagonist learns this is a dive/industrial operation requiring preparation. The new group learns they are all newcomers to the site but quickly establish a tacit professional rapport.
+
+3.  **Filter for Constraints:**
+   - *What happened:* Protagonist presents Senator Ferrick's voucher at Stillwell Hydro, receives tag #12, and enters dipreparation bay where he meets Lloyd Hale and Maria Vesk.
+   - *What changed between characters:* Initial mutual observation shifts to silent professional alignment as they recognize their shared inexperience and immediately begin equipment preparation.
+   - *What anyone learned:* They confirm they are all first-timers at the facility and understand the work requires autonomous preparation before the tender returns.
+   - *Constraint Check:* 4 sentences or fewer. Plain
