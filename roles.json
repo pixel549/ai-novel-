@@ -1,0 +1,9 @@
+{
+  "skeleton":   { "role": "skeleton",   "provider": "stub" },
+  "action":     { "role": "action",     "provider": "stub" },
+  "character":  { "role": "character",  "provider": "stub" },
+  "atmosphere": { "role": "atmosphere", "provider": "stub" },
+  "unify":      { "role": "unify",      "provider": "stub" },
+  "editor":     { "role": "editor",     "provider": "stub" },
+  "summariser": { "role": "summariser", "provider": "stub" }
+}
