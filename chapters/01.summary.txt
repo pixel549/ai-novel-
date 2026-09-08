@@ -1,0 +1,22 @@
+<think>
+Here's a thinking process:
+
+1.  **Analyze User Input:**
+   - **Task:** Summarize the chapter in 4 sentences or fewer.
+   - **Constraints:** Cover only: what happened, what changed between characters, and what anyone learned. Omit nothing load-bearing. Include no atmosphere. Plain, factual, no style. Output only the summary.
+   - **Input Text:** A detailed, atmospheric chapter describing a protagonist (Edith Marrow, a former sapper) arriving at the Stillwell Hydro sanatorium, presenting a signed slip from Senator Ferrick, getting checked in by a clerk, walking to the immersion dock, observing divers entering a tube, meeting two new characters (Lloyd Hale and Maria Vesk), confirming her assignment, and receiving role assignments for an upcoming dive/run.
+
+2.  **Identify Load-Bearing Plot Points:**
+   - Protagonist (Edith Marrow) arrives at Stillwell Hydro sanatorium with official authorization from Senator Ferrick.
+   - She is processed by a clerk, paying/confirming fees against Ferrick's account.
+   - She walks to the immersion dock where divers are preparing to enter a heavy steel tube.
+   - She meets Lloyd Hale and Maria Vesk, confirming her identity and background (sapper from Fourth Tunnelling).
+   - Maria logs her clearance and assigns her a role ("third hand" for the run).
+   - Hale gives initial assignments: he takes the head, Maria takes flank/light, Marrow takes spools/spare.
+   - Key changes/learnings: Marrow is officially cleared and integrated into the team; roles are assigned for the upcoming operation; she learns the team composition and her specific duty.
+
+3.  **Draft - Sentence by Sentence (aiming for ≤4):**
+   - Edith Marrow arrives at the Stillwell Hydro sanatorium, uses Senator Ferrick’s signed authorization to clear entry and equipment fees, and proceeds to the immersion dock.
+   - There she meets team members Lloyd Hale and Maria Vesk, confirming her background as a former Fourth Tunnelling sapper.
+   - Maria verifies Marrow’s clearance, officially logs her as the third hand for the operation, and Hale assigns roles: he will lead, Vesk will handle flank and light, and Marrow will manage the spools and spare equipment.
+   - The team is now formalized and

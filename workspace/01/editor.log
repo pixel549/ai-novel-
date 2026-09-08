@@ -1,0 +1,21 @@
+--- attempt 1 ---
+{
+  "verdict": "FAIL",
+  "failures": [
+    {
+      "check": 8,
+      "problem": "The chapter is approximately 300 words long, falling far short of the mandatory 1,800 to 3,200 word range.",
+      "where": "Entire chapter",
+      "fix": "Expand the scene and interiority while maintaining Edie's plain, declarative voice and trade register to meet the minimum word count."
+    }
+  ],
+  "notes": "The chapter adheres to canon, POV, and skeleton constraints, but fails drastically on word count."
+}
+
+--- attempt 2 ---
+{
+  "verdict": "PASS",
+  "failures": [],
+  "notes": "Chapter adheres strictly to the frozen skeleton, canon limits, and Edie's distinct narrative voice and POV constraints."
+}
+
