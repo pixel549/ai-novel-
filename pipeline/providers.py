@@ -88,7 +88,10 @@ def _gemini(system, user, model, max_tokens, retries=4):
             req = urllib.request.Request(
                 url,
                 data=json.dumps(body).encode(),
-                headers={"Content-Type": "application/json"},
+                headers={
+                    "Content-Type": "application/json",
+                    "User-Agent": "ai-novel-pipeline/1.0",
+                },
             )
             with urllib.request.urlopen(req, timeout=180) as resp:
                 data = json.loads(resp.read())
@@ -132,6 +135,7 @@ def _openai_compatible(role_cfg, system, user, max_tokens, retries=4):
                 headers={
                     "Content-Type": "application/json",
                     "Authorization": f"Bearer {key}",
+                    "User-Agent": "ai-novel-pipeline/1.0",
                 },
             )
             with urllib.request.urlopen(req, timeout=180) as resp:
