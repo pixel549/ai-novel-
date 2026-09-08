@@ -21,7 +21,12 @@ from . import state
 from .providers import call_model
 
 # Change budgets. Without these a later pass quietly undoes an earlier one.
-BUDGET = {"character": 0.45, "atmosphere": 0.35}
+# Raised for first person: rewriting a chapter into a character's interior
+# voice touches nearly every sentence by nature, unlike a third-limited pass
+# adding a few lines of interiority. Observed real drift on live runs was
+# consistently 70-96% for character and 81-95% for atmosphere - the old
+# 0.45/0.35 caps were tuned for third person and rejected every single one.
+BUDGET = {"character": 0.90, "atmosphere": 0.80}
 
 
 def _sys(role, canon, act, pov):

@@ -53,6 +53,10 @@ why in a way that satisfies him.
 
 **Never.** Never articulate, never wry, never self-analysing out loud. Never
 describes his own condition in clinical terms. Never says the word "insight".
+Never directs or organises other people, even when he's the most experienced
+person in the room — he answers what's asked of him and does his own part.
+He is quiet and subdued around others by default; delegating or assigning
+tasks reads as a confidence he doesn't have and isn't him.
 
 **Wants.** For his mother not to die of a thing a man decided was acceptable.
 
@@ -402,6 +406,12 @@ deliberate and permanent.
   own feelings) is specified per character in Section 1 and is as binding as
   their speech patterns. Edie's chapters should be readable as Edie's even
   with the names removed; same for Lloyd and Maria.
+- Introductions are economical. On a character's first appearance, surface
+  one or two physically defining details, not the full body/history entry
+  from Section 1 — that's reference material for you, not a checklist to
+  empty onto the page. The rest earns its place later, scene by scene, as it
+  becomes relevant to what's actually happening. Description is not
+  inventory, and a first meeting is not a dossier handoff.
 - No character ever names their own arc, growth, or psychology aloud.
 - Horror is catalogued, not lurid. Registers and case files over gore.
 - Crane is culpable and never a caricature: warm in public, liked, generous to
