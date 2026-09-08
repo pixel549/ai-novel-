@@ -1,0 +1,42 @@
+{
+  "action": [],
+  "character": [
+    {
+      "id": "lloyd-broken-nose",
+      "subject": "Lloyd",
+      "detail": "nose set crooked twice across the bridge",
+      "min_gap": 1,
+      "last_used": 1
+    },
+    {
+      "id": "maria-arm-scars",
+      "subject": "Maria",
+      "detail": "dark burn scars running flat across her forearms",
+      "min_gap": 1,
+      "last_used": 1
+    },
+    {
+      "id": "edie-scarred-hands",
+      "subject": "Edie",
+      "detail": "scarred palms checking webbing and iron hardware",
+      "min_gap": 1,
+      "last_used": 1
+    }
+  ],
+  "atmosphere": [
+    {
+      "id": "lloyd-broken-nose",
+      "subject": "Lloyd",
+      "detail": "nose set crooked twice across the bridge",
+      "min_gap": 2,
+      "last_used": 1
+    },
+    {
+      "id": "maria-arm-scars",
+      "subject": "Maria",
+      "detail": "burn scars running flat across forearms",
+      "min_gap": 2,
+      "last_used": 1
+    }
+  ]
+}

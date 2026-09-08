@@ -1,0 +1,53 @@
+{
+  "pov": "Edie",
+  "events": [
+    {
+      "n": 1,
+      "event": "I step through the stone arch of Stillwell Hydro, the wind cutting, the paint peeling, a sharp iodine scent clinging to the air."
+    },
+    {
+      "n": 2,
+      "event": "At the desk I hand over a signed voucher and the clerk debits Senator Ferrick's household account without his knowledge."
+    },
+    {
+      "n": 3,
+      "event": "The clerk points me to the lounge where three groups of patients line up, the schedule showing runs will start in threes."
+    },
+    {
+      "n": 4,
+      "event": "Lloyd, broad\u2011shouldered with a scarred nose, steps out of the first line, followed by Maria, wiry with burn scars on her forearms."
+    },
+    {
+      "n": 5,
+      "event": "A staff member assigns Lloyd and Maria to my group, stating it is the prearranged pairing for this run."
+    },
+    {
+      "n": 6,
+      "event": "Lloyd asks me, \"Never been here before?\" I answer \"No,\" and he nods, accepting my response."
+    },
+    {
+      "n": 7,
+      "event": "Maria repeats the question, \"First time?\" and records my answer, confirming the pairing."
+    },
+    {
+      "n": 8,
+      "event": "We are escorted to the preparation room where staff set up the steam basin; Lloyd hefts the heavy iron door, Maria arranges the lamps, I inspect the harnesses."
+    },
+    {
+      "n": 9,
+      "event": "I sign the consent form, noting only that I am entering, not stating any reason for wanting a chalice."
+    },
+    {
+      "n": 10,
+      "event": "The door seals shut, steam begins to billow, and the heat presses against my skin as the run starts."
+    }
+  ],
+  "learned": [
+    "Runs at Stillwell Hydro are organized in groups of three.",
+    "Lloyd and Maria have been assigned to work with me for this run.",
+    "Lloyd asked whether I had ever been here and accepted my answer.",
+    "Maria also verified my answer, confirming the arrangement.",
+    "The division of labour is visible: Lloyd handles heavy equipment, Maria handles lighting and medical setup."
+  ],
+  "ends_on": "Steam swirls around us, and the first pulse of heat presses against my skin."
+}
