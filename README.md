@@ -91,5 +91,5 @@ is miserable.
 
 - Ch. 16 (Lloyd delirious, deliberately unreliable) is the chapter most likely
   to come out as mush. Candidate for writing by hand.
-- Three open change requests in `novel/change_requests.md` need resolving
-  before Act II drafts — canon and outline disagree about Maria.
+- `novel/change_requests.md` has no open requests right now — check it before
+  drafting Act II in case that's changed.

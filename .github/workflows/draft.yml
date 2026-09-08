@@ -1,0 +1,73 @@
+name: Draft chapter
+
+on:
+  schedule:
+    - cron: "0 12 * * *"   # once a day
+  workflow_dispatch:
+    inputs:
+      chapter:
+        description: "Chapter number (blank = next undrafted chapter)"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: draft-chapter
+  cancel-in-progress: false
+
+jobs:
+  draft:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Pick chapter number
+        id: pick
+        run: |
+          if [ -n "${{ github.event.inputs.chapter }}" ]; then
+            n="${{ github.event.inputs.chapter }}"
+          else
+            n=1
+            for f in chapters/*.md; do
+              [ -e "$f" ] || continue
+              base=$(basename "$f" .md)
+              i=$((10#$base))
+              if [ "$i" -ge "$n" ]; then n=$((i + 1)); fi
+            done
+          fi
+
+          total=$(grep -c '^## Ch\. ' novel/outline.md)
+          if [ "$n" -gt "$total" ]; then
+            echo "All $total chapters are drafted. Nothing to do."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+            echo "chapter=$n" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Run pipeline
+        if: steps.pick.outputs.skip != 'true'
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: python run_chapter.py "${{ steps.pick.outputs.chapter }}"
+
+      - name: Commit result
+        if: steps.pick.outputs.skip != 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add chapters workspace novel
+          if git diff --cached --quiet; then
+            echo "Nothing changed, not committing."
+          else
+            git commit -m "Draft chapter ${{ steps.pick.outputs.chapter }}"
+            git push
+          fi
