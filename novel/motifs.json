@@ -1,0 +1,92 @@
+{
+  "action": [
+    {
+      "id": "faint-iodine-scent",
+      "subject": "building",
+      "detail": "a faint iodine scent",
+      "min_gap": 4,
+      "last_used": 1
+    },
+    {
+      "id": "brass-tag",
+      "subject": "character",
+      "detail": "a brass tag",
+      "min_gap": 4,
+      "last_used": 1
+    },
+    {
+      "id": "steam-fogging",
+      "subject": "environment",
+      "detail": "steam fogging the view",
+      "min_gap": 4,
+      "last_used": 1
+    },
+    {
+      "id": "scarred-nose",
+      "subject": "character",
+      "detail": "scarred nose",
+      "min_gap": 4,
+      "last_used": 1
+    }
+  ],
+  "character": [
+    {
+      "id": "faint-iodine-scent",
+      "subject": "Stillwell Hydro",
+      "detail": "a faint iodine scent over older stone",
+      "min_gap": 4,
+      "last_used": 1
+    },
+    {
+      "id": "brass-tag",
+      "subject": "Stillwell Hydro",
+      "detail": "a brass tag",
+      "min_gap": 4,
+      "last_used": 1
+    },
+    {
+      "id": "scarred-nose",
+      "subject": "Lloyd",
+      "detail": "scarred nose",
+      "min_gap": 1,
+      "last_used": 1
+    },
+    {
+      "id": "burn-scars-forearms",
+      "subject": "Maria",
+      "detail": "burn marks on her forearms",
+      "min_gap": 1,
+      "last_used": 1
+    }
+  ],
+  "atmosphere": [
+    {
+      "id": "faint-iodine-scent",
+      "subject": "Stillwell Hydro",
+      "detail": "faint iodine scent over older stone",
+      "min_gap": 4,
+      "last_used": 1
+    },
+    {
+      "id": "brass-tag",
+      "subject": "Stillwell Hydro",
+      "detail": "numbered brass tag",
+      "min_gap": 4,
+      "last_used": 1
+    },
+    {
+      "id": "scarred-nose",
+      "subject": "Lloyd Hale",
+      "detail": "scarred nose set crooked",
+      "min_gap": 1,
+      "last_used": 1
+    },
+    {
+      "id": "burn-scars-forearms",
+      "subject": "Maria Vesk",
+      "detail": "burn marks on forearms",
+      "min_gap": 1,
+      "last_used": 1
+    }
+  ]
+}
