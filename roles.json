@@ -1,5 +1,5 @@
 {
-  "_comment": "Live config. unify carries the actual prose (Gemini 3.1 Pro). skeleton/action/summariser stay on Groq (proven live, and their prompts never carry the full accumulated draft on top of canon.md's ~4.3k tokens, so they stay well under Groq's per-model TPM caps). character/atmosphere/editor all re-send canon + the growing draft every call, which is exactly what blew Groq gpt-oss-20b's 8000 TPM cap (real error: 8978 requested vs 8000 limit) - moved those three to Gemini 3.6 Flash, whose free tier reports a much larger TPM budget. editor being same-lab-different-tier from unify (Flash vs Pro) is weaker than a cross-lab pick for 'can't grade its own homework', but every actual cross-lab option (Mistral, Cerebras) has hit a hard wall today - revisit once Mistral's dashboard limits are checked. Mistral is parked entirely: 429 rate_limited on the very first call, two different roles, two separate runs, before Groq's own error confirmed canon.md's size is the real constraint.",
+  "_comment": "Live config. unify carries the actual prose. gemini-3.1-pro-preview hit a hard 429 'exceeded your current quota' on unify's very first call - preview Pro-tier models appear to carry zero free-tier allowance, not just a low one. Switched unify to gemini-2.5-pro, an older GA Pro-tier model reported to retain some free-tier quota (~50 req/day) - unconfirmed live, next thing to verify. skeleton/action/summariser stay on Groq (proven live, and their prompts never carry the full accumulated draft on top of canon.md's ~4.3k tokens, so they stay well under Groq's per-model TPM caps). character/atmosphere/editor are on Gemini 3.6 Flash after Groq gpt-oss-20b's 8000 TPM cap rejected a character request outright (8978 requested vs 8000 limit). Note: character/atmosphere both blew their change budgets on Flash (96%/95% drift vs 45%/35% caps) and got discarded in favour of action's draft - worth a closer look once unify actually completes. editor being same-lab-different-tier from unify (Flash vs Pro) is weaker than a cross-lab pick for 'can't grade its own homework', but every actual cross-lab option (Mistral, Cerebras) has hit a hard wall today - revisit once Mistral's dashboard limits are checked. Mistral is parked entirely: 429 rate_limited on the very first call, two different roles, two separate runs, before Groq's own error confirmed canon.md's size is the real constraint.",
 
   "skeleton":   { "role": "skeleton",   "provider": "openai_compatible",
                   "model": "openai/gpt-oss-120b",
@@ -15,7 +15,7 @@
 
   "atmosphere": { "role": "atmosphere", "provider": "gemini", "model": "gemini-3.6-flash" },
 
-  "unify":      { "role": "unify",      "provider": "gemini", "model": "gemini-3.1-pro-preview" },
+  "unify":      { "role": "unify",      "provider": "gemini", "model": "gemini-2.5-pro" },
 
   "editor":     { "role": "editor",     "provider": "gemini", "model": "gemini-3.6-flash" },
 
