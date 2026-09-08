@@ -7,9 +7,9 @@
                   "api_key_env": "GROQ_API_KEY" },
 
   "action":     { "role": "action",     "provider": "openai_compatible",
-                  "model": "mistral-small-latest",
-                  "base_url": "https://api.mistral.ai/v1",
-                  "api_key_env": "MISTRAL_API_KEY" },
+                  "model": "openai/gpt-oss-20b",
+                  "base_url": "https://api.groq.com/openai/v1",
+                  "api_key_env": "GROQ_API_KEY" },
 
   "character":  { "role": "character",  "provider": "openai_compatible",
                   "model": "mistral-medium-latest",
@@ -17,9 +17,9 @@
                   "api_key_env": "MISTRAL_API_KEY" },
 
   "atmosphere": { "role": "atmosphere", "provider": "openai_compatible",
-                  "model": "mistral-medium-latest",
-                  "base_url": "https://api.mistral.ai/v1",
-                  "api_key_env": "MISTRAL_API_KEY" },
+                  "model": "qwen/qwen3.6-27b",
+                  "base_url": "https://api.groq.com/openai/v1",
+                  "api_key_env": "GROQ_API_KEY" },
 
   "unify":      { "role": "unify",      "provider": "gemini", "model": "gemini-3.1-pro-preview" },
 
