@@ -1,5 +1,5 @@
 {
-  "_comment": "Live config. unify carries the actual prose. gemini-3.1-pro-preview hit a hard 429 'exceeded your current quota' on unify's very first call - preview Pro-tier models appear to carry zero free-tier allowance, not just a low one. Switched unify to gemini-2.5-pro, an older GA Pro-tier model reported to retain some free-tier quota (~50 req/day) - unconfirmed live, next thing to verify. skeleton/action/summariser stay on Groq (proven live, and their prompts never carry the full accumulated draft on top of canon.md's ~4.3k tokens, so they stay well under Groq's per-model TPM caps). character/atmosphere/editor are on Gemini 3.6 Flash after Groq gpt-oss-20b's 8000 TPM cap rejected a character request outright (8978 requested vs 8000 limit). Note: character/atmosphere both blew their change budgets on Flash (96%/95% drift vs 45%/35% caps) and got discarded in favour of action's draft - worth a closer look once unify actually completes. editor being same-lab-different-tier from unify (Flash vs Pro) is weaker than a cross-lab pick for 'can't grade its own homework', but every actual cross-lab option (Mistral, Cerebras) has hit a hard wall today - revisit once Mistral's dashboard limits are checked. Mistral is parked entirely: 429 rate_limited on the very first call, two different roles, two separate runs, before Groq's own error confirmed canon.md's size is the real constraint.",
+  "_comment": "Live config. Both Gemini Pro-tier options are dead ends: gemini-3.1-pro-preview hit a hard 429 quota-exceeded (needs billing enabled, not just a low free allowance) and gemini-2.5-pro came back 404 'no longer available to new users' - a real decommission, not a rate issue. Per Jake: stop gambling on unproven models, use what's actually proven live today. unify now runs on gemini-3.6-flash, same as character/atmosphere (all three succeeded live in run 6-8). editor runs on gemini-3.5-flash-lite - a distinct GA model from unify's 3.6-flash, so it isn't literally grading its own output, while staying in the same reliable free-tier family rather than gambling on another provider. skeleton/action/summariser stay on Groq - their prompts never carry the full accumulated draft on top of canon.md's ~4.3k tokens, so they stay well under Groq's per-model TPM caps (character blew straight through gpt-oss-20b's 8000 TPM cap: 8978 requested). Known open issue: character/atmosphere have blown their change budgets (up to 96% drift vs 35-45% caps) on every real run so far and gotten discarded in favour of action's flatter draft - BUDGET in pipeline/passes.py was tuned for third-person incremental edits and first-person interior narration may just be a bigger rewrite by nature; revisit once a chapter completes end to end. Mistral is parked entirely: 429 rate_limited on the very first call, two different roles, two separate runs, before Groq's own error confirmed canon.md's size is the real constraint - worth checking its dashboard limits directly before trying again.",
 
   "skeleton":   { "role": "skeleton",   "provider": "openai_compatible",
                   "model": "openai/gpt-oss-120b",
@@ -15,9 +15,9 @@
 
   "atmosphere": { "role": "atmosphere", "provider": "gemini", "model": "gemini-3.6-flash" },
 
-  "unify":      { "role": "unify",      "provider": "gemini", "model": "gemini-2.5-pro" },
+  "unify":      { "role": "unify",      "provider": "gemini", "model": "gemini-3.6-flash" },
 
-  "editor":     { "role": "editor",     "provider": "gemini", "model": "gemini-3.6-flash" },
+  "editor":     { "role": "editor",     "provider": "gemini", "model": "gemini-3.5-flash-lite" },
 
   "summariser": { "role": "summariser", "provider": "openai_compatible",
                   "model": "qwen/qwen3.6-27b",
