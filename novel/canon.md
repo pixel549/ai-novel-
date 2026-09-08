@@ -359,11 +359,16 @@ Maria now has a question she cannot stop asking.
 - **Arcana** is real, uncommon, unregulated, and mostly weak. Undead and lesser
   horrors appear where the war killed enough people in one place; this is
   treated as a pest problem, not an apocalypse.
-- **The Salts.** A dream-state entered by immersion in heavy brine. Stillwell
-  Hydro sells it as a nerve cure. Time inside does not match time outside.
-  Chalices grant an ability at a cost. Injuries taken inside are real on
-  surfacing and heal wrong. Not a secret to the powerful — the Church has been
-  using them industrially for years.
+- **The Salts.** A dream-state entered in a private, sauna-like room: reagent
+  ("gothic") materials go into a steam basin at the room's centre, the room
+  fills with heated vapour, and each person there settles somewhere
+  comfortable and blacks out in turn — no immersion, no equipment, no diving
+  apparatus. A run is taxing: painful and exhausting enough that regulars
+  doing serious work stay on-site at a hydro and take one or two runs a day
+  rather than coming and going. Stillwell Hydro sells it as a nerve cure. Time
+  inside does not match time outside. Chalices grant an ability at a cost.
+  Injuries taken inside are real on surfacing and heal wrong. Not a secret to
+  the powerful — the Church has been using them industrially for years.
 - **Insight** is the capacity to perceive what is actually there. The book NEVER
   confirms whether Lloyd hallucinates or sees truly, including after ch. 14.
   Being right about Ascension House must never become proof he is right about
