@@ -27,10 +27,13 @@ BUDGET = {"character": 0.45, "atmosphere": 0.35}
 def _sys(role, canon, act, pov):
     return f"""You are one stage of a multi-stage novel drafting pipeline. You are the {role}.
 
-The book is THE SWEETWATER YEARS: grimdark Victorian fantasy, third person
-limited, past tense. This chapter is in Act {act} and the point of view
-character is {pov}. Never break POV. If {pov} does not know a thing, the
-chapter cannot say it.
+The book is THE SWEETWATER YEARS: grimdark Victorian fantasy, first person,
+past tense. This chapter is in Act {act} and is narrated by {pov} — always
+"I", never third person, never any other POV. Never break POV. If {pov} does
+not know a thing, the chapter cannot say it. {pov}'s narrative voice (sentence
+shape, rhythm, how they handle their own feelings) is specified in canon and
+is as binding as anything else here — the prose should read as unmistakably
+{pov}'s even without the name attached.
 
 The canon below is binding. Where your instinct and the canon disagree, the
 canon is right.
@@ -107,6 +110,13 @@ def skeleton(roles, n, beats, act, pov, canon, prev):
 
 WHAT HAPPENED IN THE LAST FEW CHAPTERS:
 {prev}
+
+THE PREVIOUS CHAPTER ENDED ON: {state.previous_ending(n)}
+Your first event should either continue directly from that image (pick it up
+a beat later, same scene) or make a deliberate, legible cut away from it (new
+scene, new time, new place) — never open as if the previous chapter didn't
+just happen. If this is the first chapter of a new Act with a new POV, a
+clean cut is expected; make it a considered choice, not a default.
 
 THIS CHAPTER'S BEATS (from the locked outline — you may not add, remove or
 reorder anything):
@@ -278,10 +288,16 @@ the specific line or passage at fault.
    no cold eyes, no pauses before answering.
 7. SELF-ANALYSIS: does any character name their own arc, growth or psychology
    aloud?
-8. LENGTH: is the chapter between 1,800 and 3,200 words?"""
+8. LENGTH: is the chapter between 1,800 and 3,200 words?
+9. MOTIF COOLDOWN: cross-reference RECURRING DETAILS below. Does the chapter
+   reuse a detail marked ON COOLDOWN in a way that ISN'T plot-load-bearing —
+   not the subject of a beat, not something a character is actively
+   discussing, just reached for out of habit? A cooldown detail that's
+   genuinely doing work this chapter is not a failure; one that's decorative
+   repetition is."""
 
 
-def editor(roles, n, act, pov, canon, skel, draft, prev):
+def editor(roles, n, act, pov, canon, skel, draft, prev, motif_brief):
     cfg = roles["editor"]
     raw = call_model(
         cfg,
@@ -293,6 +309,10 @@ def editor(roles, n, act, pov, canon, skel, draft, prev):
 
 RECENT CHAPTERS:
 {prev}
+
+RECURRING DETAILS (as logged before this chapter ran — action, character and
+atmosphere may have used some of these while drafting):
+{motif_brief}
 
 FROZEN SKELETON:
 {json.dumps(skel, indent=2)}
@@ -306,7 +326,7 @@ Output JSON only:
 {{
   "verdict": "PASS" or "REVISE",
   "failures": [
-    {{"check": 1-8, "problem": "what is wrong", "where": "the offending line or passage", "fix": "what to do instead"}}
+    {{"check": 1-9, "problem": "what is wrong", "where": "the offending line or passage", "fix": "what to do instead"}}
   ],
   "notes": "one sentence"
 }}""",

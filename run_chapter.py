@@ -38,6 +38,7 @@ def main():
     act, pov = state.act_of(n)
     prev = state.last_chapters(n)
     motifs = state.load_motifs()
+    motif_snapshot = state.motif_brief(n, motifs)
 
     print(f"\n=== Chapter {n}: {beats['title']} (Act {act}, POV {pov}) ===")
 
@@ -49,6 +50,7 @@ def main():
         print("  [skeleton] running")
         skel = passes.skeleton(roles, n, beats, act, pov, canon, prev)
         state.save_pass(n, "skeleton", json.dumps(skel, indent=2))
+    state.save_ends_on(n, skel["ends_on"])
     print(f"             {len(skel['events'])} events")
     if args.stop == "skeleton":
         return
@@ -97,7 +99,7 @@ def main():
     # ---- editor ---------------------------------------------------------
     for attempt in range(1, MAX_REVISIONS + 1):
         print(f"  [editor] attempt {attempt}")
-        verdict = passes.editor(roles, n, act, pov, canon, skel, draft, prev)
+        verdict = passes.editor(roles, n, act, pov, canon, skel, draft, prev, motif_snapshot)
         state.log_editor(n, attempt, verdict)
         print(f"           {verdict['verdict']}: {len(verdict.get('failures', []))} failures")
         for f in verdict.get("failures", []):

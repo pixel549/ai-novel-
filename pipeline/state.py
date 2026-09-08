@@ -119,6 +119,19 @@ def act_of(n):
     return 3, "Maria"
 
 
+def save_ends_on(n, text):
+    """The skeleton's closing image, persisted the moment skeleton completes.
+    Every later pass is instructed to preserve it, so it's a reliable record
+    of how the chapter actually ends — used to bridge into the next one."""
+    CHAPTERS.mkdir(parents=True, exist_ok=True)
+    (CHAPTERS / f"{n:02d}.ends_on.txt").write_text(text.strip())
+
+
+def previous_ending(n):
+    p = CHAPTERS / f"{n - 1:02d}.ends_on.txt"
+    return p.read_text().strip() if p.exists() else "(this is the first chapter)"
+
+
 def last_chapters(n, k=3):
     """Summaries, not text. The drafter never sees a previous chapter whole —
     that is what stops context growing and what stops it continuing from prose

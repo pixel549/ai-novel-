@@ -28,6 +28,23 @@ saying it cost me. He has been doing this since nineteen and it is exhausting
 and entirely invisible from outside. He is not tormented in a poetic way. He is
 tired in a practical way.
 
+**Narrative voice (first person).** Runs long, then breaks — a thought
+escalates in one bleeding run-on sentence, then snaps into fragments as he cuts
+it off or gets cut off. Sophisticated, sometimes overprecise vocabulary for a
+labourer, and that mismatch is itself part of the wrongness of him. He watches
+his own body from slightly outside it — reports on what his hands are doing,
+how he's standing, whether he looks steady — narrating his own performance
+rather than simply living it, because half the job is making sure nobody else
+sees what he sees. When something escalates in his head, walk it up in stages
+and then walk it back down the same way, in roughly the same number of beats —
+the wind-down is a visible, deliberate effort, never a jump cut to calm. He
+knows some of what he perceives is Insight and notes it to himself in passing,
+dryly, without dwelling on it. In a fight the noise mostly stops: bloodlust and
+instinct take over and the prose should move faster and plainer than his
+resting thought. Wry, deflecting humour is his main defence against his own
+spiral — when it gets bad, he jokes before anyone (including himself) can be
+sincere at him.
+
 **History.** Insight began at nineteen. At twenty-two he said what he saw to the
 wrong person in Carrowgate and spent five weeks somewhere with locks on it. He
 has never said what happened there and never will. Left the valley for work, sent
@@ -57,6 +74,18 @@ anyway, thirty seconds later, when nobody's braced for it.
 naivety — she has seen more death than either of the others and simply decided
 what she is going to be about it. What she loses across the book is the
 institution, not the goodness.
+
+**Narrative voice (first person).** Compound-complex sentences that loop back
+on themselves — a clause qualifying the clause before it — broken by short
+fragments when a feeling arrives faster than the longer structure can hold it.
+She circles: a present action keeps snagging on a past one, and the prose
+should let her drift sideways into a memory or a prior failure before pulling
+herself back to the room. Self-doubt is explicit and named, not implied — she
+says what she's afraid of, in her own head, often before she says anything
+else. Guilt attaches to outcomes regardless of result: a success gets
+qualified or undercut in the same breath it's reported. She does not resolve
+the contradiction between guilt and determination — let both sit in the same
+paragraph, unreconciled, and never tidy that up on her behalf.
 
 **History.** Seven years old, orphaned, taken in. Vail taught her to read, to
 work, and to use what she could do. She has never known another mother and does
@@ -89,6 +118,17 @@ question and answers them briefly when asked.
 where the exit is. She thinks in costs and quantities. She is not cold, she is
 economical, and the difference should be visible in what she does rather than
 what she says.
+
+**Narrative voice (first person).** Short, declarative sentences. Plain,
+concrete vocabulary — the same trade register as her speech, turned inward.
+She observes before she reacts: notice, assess, decide, act, in that order,
+and the prose should show the gap between each step rather than collapsing
+them. No self-analysis, no hedging, no rhetorical questions aimed at herself.
+In a fight her thinking sharpens rather than fragments — options laid out and
+discarded in the same breath, the calculation always a half-step ahead of the
+body, skilled and mechanical rather than desperate. She does not narrate
+feelings by name — grief, fear or anger surface as an observation about the
+world (what's broken, what's now missing) rather than a stated emotion.
 
 **History.** Colonel Absolom Reyne collapsed a tunnel to seal a breach with
 ninety-one of his own sappers inside. Nine got out. Edie killed him eleven weeks
@@ -353,9 +393,15 @@ deliberate and permanent.
 
 # 7. STANDING PROSE CONSTRAINTS
 
-- Third person limited, past tense, one POV per act, no head-hopping.
+- First person, past tense, one POV per act, no head-hopping. The narrating
+  "I" is bound exactly as third-limited was — everything below about broken
+  POV applies unchanged.
 - The POV character's ignorance is binding: if Maria doesn't know it, the
   chapter can't say it.
+- Each POV's narrative voice (sentence shape, rhythm, how they handle their
+  own feelings) is specified per character in Section 1 and is as binding as
+  their speech patterns. Edie's chapters should be readable as Edie's even
+  with the names removed; same for Lloyd and Maria.
 - No character ever names their own arc, growth, or psychology aloud.
 - Horror is catalogued, not lurid. Registers and case files over gore.
 - Crane is culpable and never a caricature: warm in public, liked, generous to
