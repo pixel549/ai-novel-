@@ -1,5 +1,5 @@
 {
-  "_comment": "Live config. unify carries the actual prose (Gemini 3.1 Pro). editor is deliberately a different lab/architecture (Mistral Large 3) so it isn't grading its own homework. Load is spread so no provider takes more than 2 back-to-back calls a chapter: Groq gets skeleton/action/atmosphere/summariser (each a different model, so none stacks on one model's own sub-quota), Mistral just character+editor after its free tier 429'd under 4 roles' worth of rapid sequential calls.",
+  "_comment": "Live config. unify carries the actual prose (Gemini 3.1 Pro). Every other role runs on Groq, on one of the two models that have actually succeeded live in this pipeline (gpt-oss-120b, gpt-oss-20b) or Groq's own recommended qwen3.6-27b - Mistral is parked for now after 429 rate_limited on the very first call, two different roles, two separate runs (looks like a tight TPM cap given canon.md alone is ~4.3k tokens, not something retries fix). editor on Groq's gpt-oss-120b is still a completely different lab/architecture from unify's Gemini, so it isn't grading its own homework.",
 
   "skeleton":   { "role": "skeleton",   "provider": "openai_compatible",
                   "model": "openai/gpt-oss-120b",
@@ -12,9 +12,9 @@
                   "api_key_env": "GROQ_API_KEY" },
 
   "character":  { "role": "character",  "provider": "openai_compatible",
-                  "model": "mistral-medium-latest",
-                  "base_url": "https://api.mistral.ai/v1",
-                  "api_key_env": "MISTRAL_API_KEY" },
+                  "model": "openai/gpt-oss-20b",
+                  "base_url": "https://api.groq.com/openai/v1",
+                  "api_key_env": "GROQ_API_KEY" },
 
   "atmosphere": { "role": "atmosphere", "provider": "openai_compatible",
                   "model": "qwen/qwen3.6-27b",
@@ -24,9 +24,9 @@
   "unify":      { "role": "unify",      "provider": "gemini", "model": "gemini-3.1-pro-preview" },
 
   "editor":     { "role": "editor",     "provider": "openai_compatible",
-                  "model": "mistral-large-latest",
-                  "base_url": "https://api.mistral.ai/v1",
-                  "api_key_env": "MISTRAL_API_KEY" },
+                  "model": "openai/gpt-oss-120b",
+                  "base_url": "https://api.groq.com/openai/v1",
+                  "api_key_env": "GROQ_API_KEY" },
 
   "summariser": { "role": "summariser", "provider": "openai_compatible",
                   "model": "qwen/qwen3.6-27b",
