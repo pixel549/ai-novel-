@@ -23,6 +23,72 @@ def canon():
     return (NOVEL / "canon.md").read_text()
 
 
+# ------------------------------------------------------------------ motifs
+
+
+MOTIF_ROLES = ("action", "character", "atmosphere")
+
+
+def load_motifs():
+    p = NOVEL / "motifs.json"
+    if not p.exists():
+        return {role: [] for role in MOTIF_ROLES}
+    data = json.loads(p.read_text())
+    for role in MOTIF_ROLES:
+        data.setdefault(role, [])
+    return data
+
+
+def save_motifs(motifs):
+    (NOVEL / "motifs.json").write_text(json.dumps(motifs, indent=2))
+
+
+def motif_brief(n, motifs):
+    """Every logged detail across all three descriptive passes, so atmosphere
+    knows what character already spent and vice versa. Cooldown is advisory —
+    the prompt tells the model it can override for plot-load-bearing detail."""
+    rows = []
+    for role in MOTIF_ROLES:
+        for m in motifs.get(role, []):
+            since = n - m["last_used"]
+            gap = m.get("min_gap", 1)
+            if since < gap:
+                status = f"ON COOLDOWN — free again ch. {m['last_used'] + gap} unless this chapter's events need it now"
+            else:
+                status = "free to reuse"
+            subj = f"{m['subject']} — " if m.get("subject") else ""
+            rows.append(
+                f"- [{role}] {subj}\"{m['detail']}\" (id: {m['id']}) — "
+                f"last used ch. {m['last_used']}, {status}"
+            )
+    return "\n".join(rows) if rows else "(no recurring details logged yet)"
+
+
+def merge_motifs(motifs, role, n, entries):
+    log = motifs.setdefault(role, [])
+    by_id = {m["id"]: m for m in log}
+    for e in entries:
+        mid = e.get("id")
+        if not mid:
+            continue
+        gap = e.get("min_gap")
+        gap = gap if isinstance(gap, int) and gap > 0 else 3
+        if mid in by_id:
+            by_id[mid]["last_used"] = n
+            by_id[mid]["min_gap"] = gap
+        else:
+            rec = {
+                "id": mid,
+                "subject": e.get("subject", ""),
+                "detail": e.get("detail", ""),
+                "min_gap": gap,
+                "last_used": n,
+            }
+            log.append(rec)
+            by_id[mid] = rec
+    save_motifs(motifs)
+
+
 # ------------------------------------------------------------------ outline
 
 

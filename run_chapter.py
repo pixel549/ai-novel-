@@ -37,6 +37,7 @@ def main():
     beats = state.chapter_beats(n)
     act, pov = state.act_of(n)
     prev = state.last_chapters(n)
+    motifs = state.load_motifs()
 
     print(f"\n=== Chapter {n}: {beats['title']} (Act {act}, POV {pov}) ===")
 
@@ -64,11 +65,11 @@ def main():
 
         print(f"  [{name}] running")
         if name == "action":
-            new = passes.action(roles, n, beats, act, pov, canon, prev, skel)
+            new = passes.action(roles, n, beats, act, pov, canon, prev, skel, motifs)
         elif name == "character":
-            new = passes.character(roles, n, act, pov, canon, skel, draft)
+            new = passes.character(roles, n, act, pov, canon, skel, draft, motifs)
         elif name == "atmosphere":
-            new = passes.atmosphere(roles, n, act, pov, canon, skel, draft)
+            new = passes.atmosphere(roles, n, act, pov, canon, skel, draft, motifs)
         else:
             new = passes.unify(roles, n, act, pov, canon, skel, draft)
 
@@ -78,9 +79,9 @@ def main():
             print(f"             drift {d:.0%} (budget {passes.BUDGET[name]:.0%})")
             if d > passes.BUDGET[name]:
                 print(f"             OVER BUDGET — retrying once, tighter")
-                new = passes.character(roles, n, act, pov, canon, skel, draft) \
+                new = passes.character(roles, n, act, pov, canon, skel, draft, motifs) \
                     if name == "character" else \
-                    passes.atmosphere(roles, n, act, pov, canon, skel, draft)
+                    passes.atmosphere(roles, n, act, pov, canon, skel, draft, motifs)
                 d = drift(draft, new)
                 print(f"             drift {d:.0%}")
                 if d > passes.BUDGET[name]:

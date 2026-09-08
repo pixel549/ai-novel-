@@ -53,6 +53,13 @@ of the content dimensions.
   get real rejections.
 - **Every pass writes to disk immediately.** A rate limit costs one pass, not
   the chapter. Run the same command again.
+- **Motifs are logged, not remembered.** `action`, `character` and
+  `atmosphere` share one ledger (`novel/motifs.json`) of small recurring
+  details — a scar, a gesture, a smell — each with a suggested cooldown
+  before it should reappear. It's a nudge: the skeleton can always override
+  it when a detail is genuinely load-bearing this chapter. This is how a
+  character's bright blue eyes don't get mentioned every single chapter
+  without the pipeline having to re-read any previous chapter's prose.
 
 ## Going live
 
@@ -64,13 +71,14 @@ environment. Two rules:
   work.
 
 Roles are mapped to providers individually, so you can split across free tiers
-(Gemini, Groq, Mistral, OpenRouter) without any other file knowing.
+(Gemini, Groq, Mistral, Cerebras) without any other file knowing.
 
 ## Layout
 
     novel/outline.md           25 chapters of beats. Frozen.
     novel/canon.md             Characters, abilities, world, who-knows-what.
     novel/change_requests.md   Proposed outline amendments, pending approval.
+    novel/motifs.json          Recurring detail ledger, shared by action/character/atmosphere.
     roles.json                 Which model does which job.
     chapters/NN.md             Finished chapters.
     chapters/NN.summary.txt    What later chapters see.

@@ -47,6 +47,53 @@ def _drift(a, b):
     return 1.0 - difflib.SequenceMatcher(None, a, b).ratio()
 
 
+# ------------------------------------------------------------------ motifs
+
+
+def _motif_section(n, motifs):
+    """Appended to action/character/atmosphere prompts. All three passes
+    share one ledger (novel/motifs.json) so none of them repeats a detail
+    another already spent, without needing the full previous chapters."""
+    return f"""
+
+RECURRING DETAILS ALREADY ESTABLISHED (logged by every descriptive pass —
+action, character, atmosphere — across earlier chapters):
+{state.motif_brief(n, motifs)}
+
+A cooldown is a nudge, not a rule. If this chapter's skeleton or dialogue
+genuinely needs a detail marked ON COOLDOWN — it's the subject of a beat, a
+plot point, something a character is actively discussing — use it anyway.
+Otherwise reach for something new, or a detail marked free to reuse.
+
+When you finish the chapter, on its own new line write the marker @@MOTIFS@@
+followed by a JSON array logging any small, distinctive recurring detail you
+introduced or reused this chapter (a scar, a phrase, a signature gesture, a
+recurring smell — not generic prose). Format:
+[{{"id": "kebab-case-id", "subject": "who or where it belongs to, or \"\"",
+"detail": "the detail, a few words", "min_gap": N, "status": "new" or
+"reused"}}]
+Reuse an existing id exactly when referencing a logged detail. min_gap is how
+many chapters should normally pass before it reappears unless the plot needs
+it sooner — use 1 for a trait that's simply always true of the character and
+will come up often (a fighter's hands, a limp), 4-8 for a distinctive one-off
+(a scar, a specific memory, an unusual object). If nothing here is worth
+tracking, output an empty array."""
+
+
+def _log_motifs(raw, role, n, motifs):
+    marker = "@@MOTIFS@@"
+    if marker not in raw:
+        return raw.rstrip()
+    draft, _, tail = raw.partition(marker)
+    m = re.search(r"\[.*\]", tail, re.DOTALL)
+    if m:
+        try:
+            state.merge_motifs(motifs, role, n, json.loads(m.group(0)))
+        except (json.JSONDecodeError, TypeError):
+            pass
+    return draft.rstrip()
+
+
 # ---------------------------------------------------------------- skeleton
 
 
@@ -87,9 +134,9 @@ it, so put nothing in it that the beats do not support.""",
 # ------------------------------------------------------------------ action
 
 
-def action(roles, n, beats, act, pov, canon, prev, skel):
+def action(roles, n, beats, act, pov, canon, prev, skel, motifs):
     cfg = roles["action"]
-    return call_model(
+    raw = call_model(
         cfg,
         _sys("action and spatial logic pass", canon, act, pov),
         f"""Chapter {n}: {beats['title']}
@@ -112,17 +159,18 @@ COMPLETENESS AND PHYSICAL COHERENCE, not quality. Specifically:
 
 Do NOT reach for style. Do NOT add interiority, metaphor or sensory texture —
 later passes add those and will fight you for the space. Plain declarative
-prose. Around 2,000 words.""",
+prose. Around 2,000 words.{_motif_section(n, motifs)}""",
         max_tokens=6000,
     )
+    return _log_motifs(raw, "action", n, motifs)
 
 
 # --------------------------------------------------------------- character
 
 
-def character(roles, n, act, pov, canon, skel, draft):
+def character(roles, n, act, pov, canon, skel, draft, motifs):
     cfg = roles["character"]
-    out = call_model(
+    raw = call_model(
         cfg,
         _sys("character and dialogue pass", canon, act, pov),
         f"""Here is a structurally complete but flat draft. Add the people to it.
@@ -141,18 +189,18 @@ Your job:
 - Reaction, hesitation, what someone does with their hands.
 - Cut any line where a character explains their own arc.
 
-Rewrite sentences. Do not rewrite the story. Return the full chapter.""",
+Rewrite sentences. Do not rewrite the story. Return the full chapter.{_motif_section(n, motifs)}""",
         max_tokens=6000,
     )
-    return out
+    return _log_motifs(raw, "character", n, motifs)
 
 
 # -------------------------------------------------------------- atmosphere
 
 
-def atmosphere(roles, n, act, pov, canon, skel, draft):
+def atmosphere(roles, n, act, pov, canon, skel, draft, motifs):
     cfg = roles["atmosphere"]
-    return call_model(
+    raw = call_model(
         cfg,
         _sys("atmosphere pass", canon, act, pov),
         f"""Here is a draft with structure and people. Add the world around them.
@@ -171,9 +219,10 @@ decorate scenes that are already working, and do not put weather in every
 paragraph. Two precise details beat six vague ones. Never add a metaphor that
 {pov} would not think of.
 
-Rewrite sentences. Do not rewrite the story. Return the full chapter.""",
+Rewrite sentences. Do not rewrite the story. Return the full chapter.{_motif_section(n, motifs)}""",
         max_tokens=6000,
     )
+    return _log_motifs(raw, "atmosphere", n, motifs)
 
 
 # ------------------------------------------------------------------ unify
