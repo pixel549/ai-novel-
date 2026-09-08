@@ -1,25 +1,35 @@
 {
   "_comment": "Live config. Put your best model on unify - it writes the book. The editor must be a different model from unify, or it will approve its own work.",
 
-  "skeleton":   { "role": "skeleton",   "provider": "gemini", "model": "gemini-2.0-flash" },
-  "action":     { "role": "action",     "provider": "gemini", "model": "gemini-2.0-flash" },
-
-  "character":  { "role": "character",  "provider": "openai_compatible",
-                  "model": "llama-3.3-70b-versatile",
+  "skeleton":   { "role": "skeleton",   "provider": "openai_compatible",
+                  "model": "openai/gpt-oss-120b",
                   "base_url": "https://api.groq.com/openai/v1",
                   "api_key_env": "GROQ_API_KEY" },
 
+  "action":     { "role": "action",     "provider": "openai_compatible",
+                  "model": "llama-4-maverick-17b-128e-instruct",
+                  "base_url": "https://api.cerebras.ai/v1",
+                  "api_key_env": "CEREBRAS_API_KEY" },
+
+  "character":  { "role": "character",  "provider": "openai_compatible",
+                  "model": "mistral-medium-latest",
+                  "base_url": "https://api.mistral.ai/v1",
+                  "api_key_env": "MISTRAL_API_KEY" },
+
   "atmosphere": { "role": "atmosphere", "provider": "openai_compatible",
+                  "model": "qwen-3-235b-a22b-instruct-2507",
+                  "base_url": "https://api.cerebras.ai/v1",
+                  "api_key_env": "CEREBRAS_API_KEY" },
+
+  "unify":      { "role": "unify",      "provider": "gemini", "model": "gemini-3.1-pro-preview" },
+
+  "editor":     { "role": "editor",     "provider": "openai_compatible",
                   "model": "mistral-large-latest",
                   "base_url": "https://api.mistral.ai/v1",
                   "api_key_env": "MISTRAL_API_KEY" },
 
-  "unify":      { "role": "unify",      "provider": "gemini", "model": "gemini-2.5-pro" },
-
-  "editor":     { "role": "editor",     "provider": "openai_compatible",
-                  "model": "llama-3.3-70b-versatile",
+  "summariser": { "role": "summariser", "provider": "openai_compatible",
+                  "model": "qwen/qwen3.6-27b",
                   "base_url": "https://api.groq.com/openai/v1",
-                  "api_key_env": "GROQ_API_KEY" },
-
-  "summariser": { "role": "summariser", "provider": "gemini", "model": "gemini-2.0-flash" }
+                  "api_key_env": "GROQ_API_KEY" }
 }

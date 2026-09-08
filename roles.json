@@ -1,9 +1,35 @@
 {
-  "skeleton":   { "role": "skeleton",   "provider": "stub" },
-  "action":     { "role": "action",     "provider": "stub" },
-  "character":  { "role": "character",  "provider": "stub" },
-  "atmosphere": { "role": "atmosphere", "provider": "stub" },
-  "unify":      { "role": "unify",      "provider": "stub" },
-  "editor":     { "role": "editor",     "provider": "stub" },
-  "summariser": { "role": "summariser", "provider": "stub" }
+  "_comment": "Live config. unify carries the actual prose (Gemini 3.1 Pro). editor is deliberately a different lab/architecture (Mistral Large 3) so it isn't grading its own homework. Mechanical/bounded passes run on Groq and Cerebras for speed and headroom on their free tiers.",
+
+  "skeleton":   { "role": "skeleton",   "provider": "openai_compatible",
+                  "model": "openai/gpt-oss-120b",
+                  "base_url": "https://api.groq.com/openai/v1",
+                  "api_key_env": "GROQ_API_KEY" },
+
+  "action":     { "role": "action",     "provider": "openai_compatible",
+                  "model": "llama-4-maverick-17b-128e-instruct",
+                  "base_url": "https://api.cerebras.ai/v1",
+                  "api_key_env": "CEREBRAS_API_KEY" },
+
+  "character":  { "role": "character",  "provider": "openai_compatible",
+                  "model": "mistral-medium-latest",
+                  "base_url": "https://api.mistral.ai/v1",
+                  "api_key_env": "MISTRAL_API_KEY" },
+
+  "atmosphere": { "role": "atmosphere", "provider": "openai_compatible",
+                  "model": "qwen-3-235b-a22b-instruct-2507",
+                  "base_url": "https://api.cerebras.ai/v1",
+                  "api_key_env": "CEREBRAS_API_KEY" },
+
+  "unify":      { "role": "unify",      "provider": "gemini", "model": "gemini-3.1-pro-preview" },
+
+  "editor":     { "role": "editor",     "provider": "openai_compatible",
+                  "model": "mistral-large-latest",
+                  "base_url": "https://api.mistral.ai/v1",
+                  "api_key_env": "MISTRAL_API_KEY" },
+
+  "summariser": { "role": "summariser", "provider": "openai_compatible",
+                  "model": "qwen/qwen3.6-27b",
+                  "base_url": "https://api.groq.com/openai/v1",
+                  "api_key_env": "GROQ_API_KEY" }
 }
