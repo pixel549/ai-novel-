@@ -17,6 +17,14 @@ from pipeline import passes, state
 
 ORDER = ["action", "character", "atmosphere", "unify"]
 MAX_REVISIONS = 3
+MIN_LENGTH, MAX_LENGTH = 1800, 3200
+
+# character and atmosphere are bounded edits that add to the draft - they
+# should never shrink it drastically. This catches content loss (a pass
+# gutting the draft instead of layering onto it) without the false positives
+# the old text-similarity BUDGET check produced on legitimate first-person
+# rewrites, which touch almost every sentence by nature.
+MIN_RETENTION = {"character": 0.85, "atmosphere": 0.85}
 
 
 def main():
@@ -70,6 +78,13 @@ def main():
         else:
             new = passes.unify(roles, n, act, pov, canon, skel, draft)
 
+        if draft and name in MIN_RETENTION:
+            old_words, new_words = len(draft.split()), len(new.split())
+            if new_words < MIN_RETENTION[name] * old_words:
+                print(f"             cut {old_words}->{new_words} words "
+                      f"({new_words / old_words:.0%}) — discarding, keeping previous pass")
+                new = draft
+
         draft = new
         state.save_pass(n, name, draft)
         print(f"             {len(draft.split())} words")
@@ -80,6 +95,26 @@ def main():
     for attempt in range(1, MAX_REVISIONS + 1):
         print(f"  [editor] attempt {attempt}")
         verdict = passes.editor(roles, n, act, pov, canon, skel, draft, prev, motif_snapshot)
+
+        # The editor LLM is unreliable at actually counting words - verified
+        # live (it passed a 393-word chapter against an 1800-3200 requirement).
+        # Word count is cheap to check in code, so don't trust the model's
+        # self-report for it.
+        word_count = len(draft.split())
+        if verdict["verdict"] == "PASS" and not (MIN_LENGTH <= word_count <= MAX_LENGTH):
+            verdict = {
+                "verdict": "REVISE",
+                "failures": [{
+                    "check": 8,
+                    "problem": f"Chapter is {word_count} words, outside the required "
+                               f"{MIN_LENGTH}-{MAX_LENGTH} range.",
+                    "where": "(whole chapter)",
+                    "fix": f"{'Expand' if word_count < MIN_LENGTH else 'Trim'} to land "
+                           f"within {MIN_LENGTH}-{MAX_LENGTH} words.",
+                }],
+                "notes": "length override — code-checked, not the editor's own count",
+            }
+
         state.log_editor(n, attempt, verdict)
         print(f"           {verdict['verdict']}: {len(verdict.get('failures', []))} failures")
         for f in verdict.get("failures", []):
