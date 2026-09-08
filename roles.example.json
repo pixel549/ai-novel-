@@ -11,22 +11,13 @@
                   "base_url": "https://api.groq.com/openai/v1",
                   "api_key_env": "GROQ_API_KEY" },
 
-  "character":  { "role": "character",  "provider": "openai_compatible",
-                  "model": "openai/gpt-oss-20b",
-                  "base_url": "https://api.groq.com/openai/v1",
-                  "api_key_env": "GROQ_API_KEY" },
+  "character":  { "role": "character",  "provider": "gemini", "model": "gemini-3.6-flash" },
 
-  "atmosphere": { "role": "atmosphere", "provider": "openai_compatible",
-                  "model": "qwen/qwen3.6-27b",
-                  "base_url": "https://api.groq.com/openai/v1",
-                  "api_key_env": "GROQ_API_KEY" },
+  "atmosphere": { "role": "atmosphere", "provider": "gemini", "model": "gemini-3.6-flash" },
 
   "unify":      { "role": "unify",      "provider": "gemini", "model": "gemini-3.1-pro-preview" },
 
-  "editor":     { "role": "editor",     "provider": "openai_compatible",
-                  "model": "openai/gpt-oss-120b",
-                  "base_url": "https://api.groq.com/openai/v1",
-                  "api_key_env": "GROQ_API_KEY" },
+  "editor":     { "role": "editor",     "provider": "gemini", "model": "gemini-3.6-flash" },
 
   "summariser": { "role": "summariser", "provider": "openai_compatible",
                   "model": "qwen/qwen3.6-27b",
