@@ -43,10 +43,6 @@ of the content dimensions.
 - **Context stays flat.** A chapter sees its own beats, the canon, and
   summaries — never text — of the last three chapters. Chapter 25 costs the
   same as chapter 2.
-- **Change budgets.** Later passes are capped on how much they may alter
-  (`passes.BUDGET`), because models never no-op: tell one to improve
-  atmosphere and it will add atmosphere whether or not the scene needed any.
-  Over budget retries once, then keeps the earlier pass.
 - **The editor has fail conditions, not taste.** Ask a model if a chapter is
   good and it says yes. Ask whether every skeleton event occurs, whether the
   POV knows what it narrates, whether Lloyd's Insight got resolved — and you

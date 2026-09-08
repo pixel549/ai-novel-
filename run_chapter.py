@@ -10,7 +10,6 @@ costs you one pass, not the chapter — run the same command again.
 """
 
 import argparse
-import difflib
 import json
 import sys
 
@@ -18,10 +17,6 @@ from pipeline import passes, state
 
 ORDER = ["action", "character", "atmosphere", "unify"]
 MAX_REVISIONS = 3
-
-
-def drift(a, b):
-    return 1.0 - difflib.SequenceMatcher(None, a, b).ratio()
 
 
 def main():
@@ -74,21 +69,6 @@ def main():
             new = passes.atmosphere(roles, n, act, pov, canon, skel, draft, motifs)
         else:
             new = passes.unify(roles, n, act, pov, canon, skel, draft)
-
-        # Change budget: stop a later pass quietly undoing an earlier one.
-        if draft and name in passes.BUDGET:
-            d = drift(draft, new)
-            print(f"             drift {d:.0%} (budget {passes.BUDGET[name]:.0%})")
-            if d > passes.BUDGET[name]:
-                print(f"             OVER BUDGET — retrying once, tighter")
-                new = passes.character(roles, n, act, pov, canon, skel, draft, motifs) \
-                    if name == "character" else \
-                    passes.atmosphere(roles, n, act, pov, canon, skel, draft, motifs)
-                d = drift(draft, new)
-                print(f"             drift {d:.0%}")
-                if d > passes.BUDGET[name]:
-                    print(f"             STILL OVER — keeping previous pass")
-                    new = draft
 
         draft = new
         state.save_pass(n, name, draft)

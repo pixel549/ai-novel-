@@ -36,11 +36,12 @@ Lloyd delirious after the siege, not a lost day on the road.
 
 ### The Salts
 
-- A dream-state reached by immersion in heavy brine. Stillwell Hydro sells it
-  as a nerve cure; the tanks are the door.
+- A dream-state reached in a private, sauna-like room: reagent materials go
+  into a steam basin, the room fills with vapour, and each person present
+  blacks out in turn. Stillwell Hydro sells it as a nerve cure.
 - Time inside does not match time outside.
 - **Chalices** grant a permanent arcane ability shaped by the drinker, at a
-  cost. Most divers never find one. Many don't surface.
+  cost. Most who run never find one. Many don't come back.
 - Injuries taken inside are real on surfacing and heal wrong.
 - The Salts are not a secret to the powerful. The Church has been using them
   industrially for years, which is the discovery at the heart of Act II.
@@ -148,7 +149,7 @@ sees from outside. Claustrophobic. No world-building above ground.
   something older.
 - Edie pays her entry with money drawn against Ferrick's household account
   without his knowledge. Stated plainly; she does not agonise.
-- Divers go in threes. She meets Lloyd and Maria as an arrangement, not a choice.
+- Runs go in threes. She meets Lloyd and Maria as an arrangement, not a choice.
 - Lloyd asks whether she's ever been and accepts her answer. Maria checks it.
   The division of labour between them is visible before either speaks of it.
 - She does not say what she wants a chalice for.
@@ -158,7 +159,7 @@ sees from outside. Claustrophobic. No world-building above ground.
 - First temporal slip — one corridor takes two days by her own hunger.
 - First combat. Something thin and many-elbowed. Lloyd goes at it bare-handed;
   Maria steadies him mid-fight, arcane and casual. Edie is the only one shaken.
-- Maria has done many dives. Lloyd more.
+- Maria has done many runs. Lloyd more.
 - The knot-cord begins.
 
 ## Ch. 3 — The Long Search
@@ -191,11 +192,11 @@ sees from outside. Claustrophobic. No world-building above ground.
   gives up sleeping without waking twice.
 - Two abilities land — brief, physical, no mechanics explained. Lloyd's right
   arm looks and works like an arm, and he does not mention that it goes through
-  the tank rail, or that there are two of them.
+  the bench beneath him, or that there are two of them.
 - Extraction. Nineteen days on the cord, four hours on the clock. A nurse asks
   if they enjoyed the treatment.
-- Last beat: Lloyd, still half in the water, waiting for Maria to tell him the
-  room is real before he'll get out.
+- Last beat: Lloyd, still slumped in the steam, waiting for Maria to tell him
+  the room is real before he'll move.
 
 ---
 

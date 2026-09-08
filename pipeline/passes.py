@@ -2,8 +2,8 @@
 
     skeleton    events only, structured, FROZEN after this point
     action      blocking and spatial logic. Complete, not good.
-    character   interiority and dialogue. Bounded edit.
-    atmosphere  sensory texture. Bounded edit.
+    character   interiority and dialogue.
+    atmosphere  sensory texture.
     unify       rewrites the accumulated material as one continuous piece of
                 prose. This is the pass that actually writes the book. It may
                 cut freely and may not add events.
@@ -13,20 +13,11 @@ The first three passes are researchers handing notes to the fourth. Only the
 unify pass is asked to write well.
 """
 
-import difflib
 import json
 import re
 
 from . import state
 from .providers import call_model
-
-# Change budgets. Without these a later pass quietly undoes an earlier one.
-# Raised for first person: rewriting a chapter into a character's interior
-# voice touches nearly every sentence by nature, unlike a third-limited pass
-# adding a few lines of interiority. Observed real drift on live runs was
-# consistently 70-96% for character and 81-95% for atmosphere - the old
-# 0.45/0.35 caps were tuned for third person and rejected every single one.
-BUDGET = {"character": 0.90, "atmosphere": 0.80}
 
 
 def _sys(role, canon, act, pov):
@@ -49,10 +40,6 @@ canon is right.
 
 Output only the requested text. No preamble, no commentary, no headings, no
 notes about what you did."""
-
-
-def _drift(a, b):
-    return 1.0 - difflib.SequenceMatcher(None, a, b).ratio()
 
 
 # ------------------------------------------------------------------ motifs
