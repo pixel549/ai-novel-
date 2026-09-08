@@ -60,7 +60,7 @@ jobs:
         run: python run_chapter.py "${{ steps.pick.outputs.chapter }}"
 
       - name: Commit result
-        if: steps.pick.outputs.skip != 'true'
+        if: always() && steps.pick.outputs.skip != 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -68,6 +68,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "Nothing changed, not committing."
           else
-            git commit -m "Draft chapter ${{ steps.pick.outputs.chapter }}"
+            git commit -m "Draft chapter ${{ steps.pick.outputs.chapter }} (checkpoint)"
             git push
           fi
