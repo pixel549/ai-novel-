@@ -1,0 +1,14 @@
+--- attempt 1 ---
+{
+  "verdict": "REVISE",
+  "failures": [
+    {
+      "check": 8,
+      "problem": "The chapter length is below the 1,800 word minimum (it is approximately 630 words long).",
+      "where": "entire chapter",
+      "fix": "Expand the scene to meet the minimum word count of 1,800 words while maintaining Edie's voice and the frozen skeleton beats."
+    }
+  ],
+  "notes": "The chapter fails the length constraint by being far too short, though the narrative voice and skeleton alignment are otherwise correct."
+}
+

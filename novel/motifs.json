@@ -55,6 +55,13 @@
       "detail": "shawl wrapped around Maria's shoulders",
       "min_gap": 4,
       "last_used": 1
+    },
+    {
+      "id": "frayed-knot-cord",
+      "subject": "Stillwell Hydro",
+      "detail": "thick knot-cord frayed at the ends",
+      "min_gap": 4,
+      "last_used": 2
     }
   ],
   "character": [
@@ -111,7 +118,14 @@
       "id": "frayed-knot-cord",
       "subject": "Stillwell Hydro",
       "detail": "thick knot-cord frayed at the ends",
-      "min_gap": 4,
+      "min_gap": 6,
+      "last_used": 2
+    },
+    {
+      "id": "scarred-palms",
+      "subject": "Edie",
+      "detail": "flat scars across palms from cable work",
+      "min_gap": 1,
       "last_used": 2
     }
   ],
