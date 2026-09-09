@@ -32,6 +32,16 @@ MIN_RETENTION = {"character": 0.85, "atmosphere": 0.85}
 # from (character/atmosphere only add to what's there; unify only cuts).
 MIN_ACTION_WORDS = 1200
 
+# unify is supposed to cut 15-25% (retain 75-85%), but it isn't optional the
+# way character/atmosphere are - discarding a bad unify pass and shipping the
+# raw multi-voice draft would skip the one pass whose whole job is making it
+# read like one author. So it gets a retry, like action, not a discard.
+# Floor set well below the 75-85% target to allow real variance while still
+# catching what's actually been observed live: 22%, 51%, and 64% retention on
+# three separate chapters - a different failure mode from "cuts hard," this
+# is losing most of the chapter's content outright.
+MIN_UNIFY_RETENTION = 0.60
+
 
 def main():
     ap = argparse.ArgumentParser()
@@ -92,6 +102,13 @@ def main():
             new = passes.atmosphere(roles, n, act, pov, canon, skel, draft, motifs)
         else:
             new = passes.unify(roles, n, act, pov, canon, skel, draft)
+            if len(new.split()) < MIN_UNIFY_RETENTION * len(draft.split()):
+                old_words, new_words = len(draft.split()), len(new.split())
+                print(f"             cut {old_words}->{new_words} words "
+                      f"({new_words / old_words:.0%}) — under floor, retrying once")
+                retry = passes.unify(roles, n, act, pov, canon, skel, draft)
+                print(f"             retry: {len(retry.split())} words")
+                new = retry if len(retry.split()) > len(new.split()) else new
 
         if draft and name in MIN_RETENTION:
             old_words, new_words = len(draft.split()), len(new.split())
