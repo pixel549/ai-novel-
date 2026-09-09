@@ -6,10 +6,7 @@
                   "base_url": "https://api.groq.com/openai/v1",
                   "api_key_env": "GROQ_API_KEY" },
 
-  "action":     { "role": "action",     "provider": "openai_compatible",
-                  "model": "openai/gpt-oss-20b",
-                  "base_url": "https://api.groq.com/openai/v1",
-                  "api_key_env": "GROQ_API_KEY" },
+  "action":     { "role": "action",     "provider": "gemini", "model": "gemini-3.6-flash" },
 
   "character":  { "role": "character",  "provider": "gemini", "model": "gemini-3.6-flash" },
 
