@@ -1,0 +1,44 @@
+{
+  "pov": "Edie",
+  "events": [
+    {
+      "n": 1,
+      "event": "I step from the doorway into a salt\u2011crusted hall, down a stone stair into a wide, chapel\u2011shaped corridor slick with brine."
+    },
+    {
+      "n": 2,
+      "event": "I follow a narrow passage that seems to stretch; my stomach growls for two days before I reach the next chamber."
+    },
+    {
+      "n": 3,
+      "event": "In the dim steam I see a thin, many\u2011elbowed shape flickering like twisted wire."
+    },
+    {
+      "n": 4,
+      "event": "Lloyd lunges at the creature, bare\u2011handed, while Maria extends a hand of light that steadies his arm."
+    },
+    {
+      "n": 5,
+      "event": "The creature recoils, snapping back as Lloyd's grip slips and Maria's arcane pulse holds it in place."
+    },
+    {
+      "n": 6,
+      "event": "A sudden surge of pressure knocks me to my knees, the world tilting around me."
+    },
+    {
+      "n": 7,
+      "event": "The entity collapses, dissolving into salty mist that drifts upward."
+    },
+    {
+      "n": 8,
+      "event": "Maria pulls a length of knotted cord, loops it around a rusted pipe, and secures it for the next run."
+    }
+  ],
+  "learned": [
+    "The corridor can cause a temporal slip, making a short walk feel like two days of hunger.",
+    "Lloyd can engage a hostile entity bare\u2011handed without tools.",
+    "Maria can project stabilizing arcane light to aid a comrade in combat.",
+    "The knot\u2011cord is used to secure passages or equipment for subsequent runs."
+  ],
+  "ends_on": "I watch the knot\u2011cord tighten as the salt\u2011stained walls hum with unseen tension."
+}
