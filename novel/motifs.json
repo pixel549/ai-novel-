@@ -62,6 +62,20 @@
       "detail": "thick knot-cord frayed at the ends",
       "min_gap": 4,
       "last_used": 2
+    },
+    {
+      "id": "salt-crust-floor",
+      "subject": "Stillwell Hydro",
+      "detail": "stone floor coated in a thick crust of dried salt",
+      "min_gap": 4,
+      "last_used": 2
+    },
+    {
+      "id": "jointed-creature",
+      "subject": "",
+      "detail": "thin, many-elbowed creature sliding along walls",
+      "min_gap": 6,
+      "last_used": 2
     }
   ],
   "character": [
@@ -191,6 +205,13 @@
       "subject": "Stillwell Hydro",
       "detail": "thick knot-cord frayed at the ends",
       "min_gap": 4,
+      "last_used": 2
+    },
+    {
+      "id": "scarred-palms",
+      "subject": "Edie",
+      "detail": "flat scars across palms from cable work",
+      "min_gap": 1,
       "last_used": 2
     }
   ]

@@ -60,3 +60,29 @@
   "notes": "The draft is incomplete, cutting off early and missing most of the frozen skeleton."
 }
 
+--- attempt 1 ---
+{
+  "verdict": "FAIL",
+  "failures": [
+    {
+      "check": 1,
+      "problem": "The frozen skeleton specifies that three characters (Edie, Lloyd, Maria) are present in the batch, but the chapter text begins with singular pronouns (\"I stepped off...\", \"We walked...\") and introduces Lloyd and Maria mid-corridor as if they were already there, missing the sequence where they form a batch in the waiting room and proceed together through the intake.",
+      "where": "Throughout the chapter, particularly paragraphs 3-5.",
+      "fix": "Align the prose to follow the frozen skeleton's sequence of events precisely."
+    },
+    {
+      "check": 2,
+      "problem": "The chapter includes a hallucination/time-distortion sequence in the corridor (\"The corridor stretched... two minutes felt like two days\") which is not in the frozen skeleton, and omits the transition from the waiting room to the intake chamber where valves and pressure gauges are manipulated.",
+      "where": "Paragraphs 2-4",
+      "fix": "Remove the unauthorized corridor-stretching sequence and include the events from the skeleton regarding the intake chamber."
+    },
+    {
+      "check": 8,
+      "problem": "The chapter is significantly below the minimum word count of 1,800 words (it is approximately 350 words).",
+      "where": "Entire chapter",
+      "fix": "Expand the scene to meet the length requirement while adhering strictly to the frozen skeleton."
+    }
+  ],
+  "notes": "The drafted chapter deviates heavily from the frozen skeleton's sequence of events and length requirements."
+}
+
