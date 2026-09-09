@@ -1,0 +1,48 @@
+--- attempt 1 ---
+{
+  "verdict": "REVISE",
+  "failures": [
+    {
+      "check": 8,
+      "problem": "Chapter word count is severely under the minimum limit of 1,800 words (the draft is approximately 300 words).",
+      "where": "Whole chapter",
+      "fix": "Expand the scene to meet the length requirement of 1,800 to 3,200 words while maintaining Edie's voice and the skeleton events."
+    }
+  ],
+  "notes": "The chapter is far too short and must be expanded to meet the length constraints."
+}
+
+--- attempt 2 ---
+{
+  "verdict": "REVISE",
+  "failures": [
+    {
+      "check": 1,
+      "problem": "The frozen skeleton has 12 specified events in order, but the draft stops at event 5 (Maria steadying Lloyd with light) and cuts off mid-sentence, failing to complete the remaining events (Edie's reaction, creature's destruction, conversation about runs, the knot-cord action and snap).",
+      "where": "The end of the chapter: 'The light touched Lloyd across the back of his'",
+      "fix": "Complete the chapter text so that it matches all events in the frozen skeleton in their exact specified order."
+    },
+    {
+      "check": 8,
+      "problem": "The word count of the provided text is approximately 1,285 words, which falls short of the mandatory 1,800 to 3,200 word range.",
+      "where": "Whole chapter",
+      "fix": "Expand the narrative to ensure the total word count is within the 1,800 to 3,200 range while fulfilling all skeleton events."
+    }
+  ],
+  "notes": "The chapter draft cuts off prematurely, missing skeleton events 6 through 12 and failing the minimum word count requirement."
+}
+
+--- attempt 3 ---
+{
+  "verdict": "REVISE",
+  "failures": [
+    {
+      "check": 1,
+      "problem": "The chapter entirely diverges from the frozen skeleton events, replacing the intended narrative with a completely different sequence and setting.",
+      "where": "Throughout the chapter text",
+      "fix": "Rewrite the chapter to match the frozen skeleton events provided in the prompt."
+    }
+  ],
+  "notes": "The provided chapter text bears no resemblance to the required frozen skeleton for Chapter 2."
+}
+

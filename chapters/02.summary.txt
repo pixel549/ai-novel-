@@ -1,0 +1,23 @@
+<think>
+Here's a thinking process:
+
+1.  **Analyze User Input:**
+   - **Task:** Summarize the provided chapter excerpt in four sentences or fewer.
+   - **Constraints:** 
+     - Plain, factual, no style.
+     - Output only the summary.
+     - Cover only: what happened, what changed between characters, and what anyone learned.
+     - Omit nothing load-bearing.
+     - Include no atmosphere.
+     - This summary is for a drafting pipeline (later chapters will only see this summary).
+   - **Input Text:** A descriptive passage about two characters ("I" and "Lloyd") descending stairs into an underground/stone gallery. Focuses on architectural details (22 steps, sandstone, salt crust, vaulted gallery, corbels, stone ribbing), sensory details (dead left ear, silence, cold draught feeling walking style of Lloyd (heavy heels, unsure of floor). Cuts off mid-sentence.
+
+2.  **Identify Load-Bearing Elements:**
+   - *What happened:* The narrator and Lloyd descended 22 steps into a spacious sandstone
+   - *What changed:* "The oak door locked behind us. Lloyd walks cautiously ahead.
+     - *Character change:* Lloyd is tense/cautious. No explicit relationship shift mentioned, but they are navigating together.
+     - *What learned:* The narrator learns the room's architecture (high vaulted gallery, plain stone ribbing, no shoring) and notes their own dead left ear. (Implicitly learns the people who built it were skilled or trusted the ground.
+     - *Atmosphere/Style to omit:* The description of the door thud, counting steps by timber risers, sandstone worn hollow, salt like hoar-frost that doesn't melt, feels like cold draught, turning head 4 inches, Lloyd's shoulder down, walking heavy on heels unsure of floor. All descriptive/atmospheric.
+
+3.  **Draft - Mental Refinement (aiming for ≤4 sentences, factual, load-bearing only):**
+   The narrator and Lloyd descend 22 steps into a large, vaulted sandstone gallery. The narrator notes their left ear is dead and observes the room's unshored stone vaulting and thick salt crusts on the walls. Lloyd walks cautiously ahead, unsure of the floor. They learn the builders were skilled in
