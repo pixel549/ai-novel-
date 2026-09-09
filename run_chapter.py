@@ -79,7 +79,13 @@ def main():
             new = passes.action(roles, n, beats, act, pov, canon, prev, skel, motifs)
             if len(new.split()) < MIN_ACTION_WORDS:
                 print(f"             {len(new.split())} words — under floor, retrying once")
-                new = passes.action(roles, n, beats, act, pov, canon, prev, skel, motifs)
+                retry = passes.action(roles, n, beats, act, pov, canon, prev, skel, motifs)
+                print(f"             retry: {len(retry.split())} words")
+                # Verified live: a retry can come back shorter than the
+                # original (1165 words -> 195-word retry) - keep whichever
+                # attempt is actually longer instead of blindly trusting
+                # the retry.
+                new = retry if len(retry.split()) > len(new.split()) else new
         elif name == "character":
             new = passes.character(roles, n, act, pov, canon, skel, draft, motifs)
         elif name == "atmosphere":
