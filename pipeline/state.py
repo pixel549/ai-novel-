@@ -165,6 +165,10 @@ def load_pass(n, name):
     return (ws(n) / f"{name}.txt").read_text()
 
 
+def clear_pass(n, name):
+    (ws(n) / f"{name}.txt").unlink(missing_ok=True)
+
+
 def save_chapter(n, title, text):
     CHAPTERS.mkdir(parents=True, exist_ok=True)
     (CHAPTERS / f"{n:02d}.md").write_text(f"# {n}. {title}\n\n{text}\n")

@@ -26,6 +26,12 @@ MIN_LENGTH, MAX_LENGTH = 1800, 3200
 # rewrites, which touch almost every sentence by nature.
 MIN_RETENTION = {"character": 0.85, "atmosphere": 0.85}
 
+# action has no previous draft to compare against - it's the first pass - so
+# it needs an absolute floor instead of a retention ratio. Caught live: action
+# wrote 190 words for a 12-event chapter, which no later pass could recover
+# from (character/atmosphere only add to what's there; unify only cuts).
+MIN_ACTION_WORDS = 1200
+
 
 def main():
     ap = argparse.ArgumentParser()
@@ -71,6 +77,9 @@ def main():
         print(f"  [{name}] running")
         if name == "action":
             new = passes.action(roles, n, beats, act, pov, canon, prev, skel, motifs)
+            if len(new.split()) < MIN_ACTION_WORDS:
+                print(f"             {len(new.split())} words — under floor, retrying once")
+                new = passes.action(roles, n, beats, act, pov, canon, prev, skel, motifs)
         elif name == "character":
             new = passes.character(roles, n, act, pov, canon, skel, draft, motifs)
         elif name == "atmosphere":
@@ -123,14 +132,29 @@ def main():
         if verdict["verdict"] == "PASS":
             break
         if attempt == MAX_REVISIONS:
-            print("           MAX REVISIONS — shipping flagged")
+            # Don't ship this as if it were finished - a chapter still
+            # failing after MAX_REVISIONS attempts (caught live: the revise
+            # loop oscillated 259->1285->268 words, regressing rather than
+            # converging) is a real failure, not a "close enough, flag it."
+            # Shipping it would let the next run move on to the chapter
+            # after this one, permanently leaving broken prose behind.
+            # Clear this chapter's passes so the next attempt regenerates
+            # from action instead of reloading the same bad drafts, and
+            # exit nonzero so the workflow shows red instead of a
+            # deceptive green checkmark.
+            print("           MAX REVISIONS — discarding, not shipping")
             state.save_pass(n, "FLAGGED", json.dumps(verdict, indent=2))
-            break
+            for name in ORDER:
+                state.clear_pass(n, name)
+            for i in range(1, MAX_REVISIONS):
+                state.clear_pass(n, f"revision_{i}")
+            return 1
 
         draft = passes.revise(roles, n, act, pov, canon, skel, draft, verdict)
         state.save_pass(n, f"revision_{attempt}", draft)
 
     # ---- ship -----------------------------------------------------------
+    state.clear_pass(n, "FLAGGED")  # stale from an earlier failed attempt, if any
     state.save_chapter(n, beats["title"], draft)
     summary = passes.summarise(roles, n, canon, draft)
     state.save_summary(n, summary)
