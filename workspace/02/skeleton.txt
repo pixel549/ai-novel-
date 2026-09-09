@@ -1,0 +1,53 @@
+{
+  "pov": "Edie",
+  "events": [
+    {
+      "n": 1,
+      "event": "I step down the salt\u2011crusted stairs into a corridor whose arches curve like a chapel."
+    },
+    {
+      "n": 2,
+      "event": "I turn down a side hallway and, driven by hunger, the walk stretches until it feels like two days."
+    },
+    {
+      "n": 3,
+      "event": "Lloyd spots a thin, many\u2011jointed thing coiling along the far wall and lunges at it with bare fists."
+    },
+    {
+      "n": 4,
+      "event": "The creature darts, its limbs snapping, and Lloyd lands a punch that cracks one of its joints."
+    },
+    {
+      "n": 5,
+      "event": "Maria steps forward, raises her hand, and a flash of light steadies the creature, pinning it against the stone."
+    },
+    {
+      "n": 6,
+      "event": "I watch the strike land, my own reaction lagging, and the shock of the impact reverberates through the corridor."
+    },
+    {
+      "n": 7,
+      "event": "The creature collapses into a pile of ash, and Lloyd wipes the blood from his knuckles."
+    },
+    {
+      "n": 8,
+      "event": "Maria says she has run the Salts many times, her voice flat as she mentions the routine."
+    },
+    {
+      "n": 9,
+      "event": "Lloyd adds that he has been through more runs than anyone else here, counting them silently."
+    },
+    {
+      "n": 10,
+      "event": "An attendant hands us a coiled knot\u2011cord, and I begin to loop it around my wrist, the rope tightening against the stone floor."
+    }
+  ],
+  "learned": [
+    "I can experience a temporal slip where a short corridor feels like two days because of my hunger.",
+    "Lloyd can fight bare\u2011handed against a thin, many\u2011jointed creature.",
+    "Maria can project arcane light to steady a hostile entity.",
+    "The knot\u2011cord is used to bind something, marking the start of a ritual.",
+    "Lloyd has completed more Salts runs than any other person present."
+  ],
+  "ends_on": "The knot\u2011cord snaps shut, a faint metallic chime echoing in the salt\u2011lined stone."
+}

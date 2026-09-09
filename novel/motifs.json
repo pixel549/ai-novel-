@@ -76,6 +76,41 @@
       "detail": "thin, many-elbowed creature sliding along walls",
       "min_gap": 6,
       "last_used": 2
+    },
+    {
+      "id": "copper-wire-apron",
+      "subject": "attendant",
+      "detail": "canvas apron tied at the waist with copper wire",
+      "min_gap": 4,
+      "last_used": 2
+    },
+    {
+      "id": "brass-ferrule-cord",
+      "subject": "Stillwell Hydro",
+      "detail": "hemp knot-cord bound with brass wire ferrules",
+      "min_gap": 4,
+      "last_used": 2
+    },
+    {
+      "id": "salt-crusted-stairs",
+      "subject": "Stillwell Hydro",
+      "detail": "salt-crusted stairs leading down to chapel-like arches",
+      "min_gap": 4,
+      "last_used": 2
+    },
+    {
+      "id": "scarred-palms",
+      "subject": "Edie",
+      "detail": "flat scars across palms from cable work",
+      "min_gap": 1,
+      "last_used": 2
+    },
+    {
+      "id": "knot-cord-hitch",
+      "subject": "Stillwell Hydro",
+      "detail": "coiled knot-cord running hitch around wrist",
+      "min_gap": 3,
+      "last_used": 2
     }
   ],
   "character": [
