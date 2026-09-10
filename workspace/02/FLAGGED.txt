@@ -3,16 +3,22 @@
   "failures": [
     {
       "check": 1,
-      "problem": "The chapter entirely deviates from the frozen skeleton. The skeleton describes a multi-person combat encounter involving Edie, Lloyd, and Maria fighting a jointed creature, whereas the text provided is a solo/group descent into a salt-crusted hall where Lloyd and Edie are just walking down stairs, with no creature or combat.",
-      "where": "Whole chapter",
-      "fix": "Rewrite the chapter to match the events, order, and details specified in the frozen skeleton."
+      "problem": "The frozen skeleton includes Lloyd, Maria, and a creature combat scene inside the Salts, but Chapter 2 as written is actually Edie's arrival and registration at the Stillwell Hydro facility (paying with Ferrick's slip, getting a brass token, meeting Maria and a heavy man in the waiting room). The drafted text completely replaces the actual narrative content with a hallucinated skeleton-matching scene.",
+      "where": "Entire chapter",
+      "fix": "Rewrite the chapter to match the actual draft content where Edie arrives at the Stillwell Hydro, pays with the senator's ledger slip, receives her token, and waits with Maria and the heavy man."
+    },
+    {
+      "check": 3,
+      "problem": "Edie narrates events involving Lloyd and Maria fighting an entity in the Salts, which contradicts the actual events of Chapter 2 (Edie is simply at the hydro intake/waiting room). Furthermore, Edie's POV is violated by the inclusion of active combat she shouldn't be part of here.",
+      "where": "Paragraphs 3-8",
+      "fix": "Align the text with Edie's actual experiences at the Stillwell Hydro intake."
     },
     {
       "check": 8,
-      "problem": "The chapter text is far too short (roughly 330 words), well below the 1,800 to 3,200 word count constraint.",
-      "where": "Whole chapter",
-      "fix": "Expand the narrative to meet the minimum word count while adhering to the skeleton and POV."
+      "problem": "The chapter is only ~350 words long, falling well short of the 1,800 to 3,200 word length constraint.",
+      "where": "Entire chapter",
+      "fix": "Expand the chapter content to meet the minimum word count requirement of 1,800 words."
     }
   ],
-  "notes": "The chapter text bears almost no resemblance to the frozen skeleton for Chapter 2."
+  "notes": "The chapter text does not match the required narrative events and is drastically underweight on word count."
 }
