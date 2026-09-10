@@ -248,6 +248,8 @@ Do not change what happens. Return the full chapter.{_motif_section(n, motifs)}"
 def unify(roles, n, act, pov, canon, skel, draft):
     """The pass that actually writes the book."""
     cfg = roles["unify"]
+    words = len(draft.split())
+    floor, ceiling = int(words * 0.75), int(words * 0.85)
     return call_model(
         cfg,
         _sys("final prose pass", canon, act, pov),
@@ -260,7 +262,7 @@ Rewrite it as one continuous piece of prose by a single author.
 THE FROZEN EVENT SKELETON — every event must survive. You may not add events:
 {json.dumps(skel['events'], indent=2)}
 
-DRAFT:
+DRAFT ({words} words):
 {draft}
 
 Your mandate:
@@ -268,7 +270,10 @@ Your mandate:
   fallen into a uniform sentence length; break it.
 - CUT. Anything doing a job that is already done elsewhere. Any detail added
   for its own sake. Any sentence that restates the previous sentence with
-  different words. Expect to remove 15-25% of the words.
+  different words.
+- Target length: {floor}-{ceiling} words. That's a real floor, not a
+  suggestion of scale — coming in under {floor} words means you cut content,
+  not fat, and that's a failure even where the remaining prose reads well.
 - End scenes one beat earlier than the draft does.
 - Keep every event. Keep the closing image: {skel['ends_on']}
 
@@ -368,8 +373,10 @@ This chapter is {len(draft.split())} words and must reach at least 1,800. The
 fix is to ADD - more interiority, more dialogue, more sensory detail, beats
 played out in full rather than summarized. Do not cut, condense or tighten
 anything to compensate; a chapter that comes out of this pass shorter than it
-went in is a failure regardless of anything else it gets right. Where an
-event feels rushed, that is exactly where to slow down and add page."""
+went in is a failure regardless of anything else it gets right. Add to the
+scenes and beats already in the frozen skeleton below - do not introduce a
+new scene, encounter or character to pad the length. Where an event feels
+rushed, that is exactly where to slow down and add page."""
     return call_model(
         cfg,
         _sys("revision pass", canon, act, pov),
@@ -380,7 +387,8 @@ opportunity to rewrite anything else.{expansion_note}
 FAILURES:
 {json.dumps(verdict['failures'], indent=2)}
 
-FROZEN SKELETON:
+FROZEN SKELETON — every one of these events must still be clearly present in
+your output; do not drop, merge, replace or add to them:
 {json.dumps(skel['events'], indent=2)}
 
 CHAPTER:
