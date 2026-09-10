@@ -161,7 +161,12 @@ COMPLETENESS AND PHYSICAL COHERENCE, not quality. Specifically:
 
 Do NOT reach for style. Do NOT add interiority, metaphor or sensory texture —
 later passes add those and will fight you for the space. Plain declarative
-prose. Around 2,000 words.{_motif_section(n, motifs)}""",
+prose.
+
+This must run at least 2,000 words. If you're unsure whether you've covered
+enough, you haven't — render every event as a full beat with real blocking,
+not a one-line summary of what happened. A short pass here is a failure no
+later pass can recover from.{_motif_section(n, motifs)}""",
         max_tokens=6000,
     )
     return _log_motifs(raw, "action", n, motifs)
@@ -191,7 +196,16 @@ Your job:
 - Reaction, hesitation, what someone does with their hands.
 - Cut any line where a character explains their own arc.
 
-Rewrite sentences. Do not rewrite the story. Return the full chapter.{_motif_section(n, motifs)}""",
+This is not a polish pass — the action draft is deliberately thin, and most of
+this chapter's real weight is supposed to come from here. Extend reactions
+into full paragraphs. Let exchanges run as long as the beat supports. Give
+{pov} room to actually feel something instead of a single sentence naming
+that they felt it. Expect this pass to add substantially to the draft's
+length, not just retouch its sentences.
+
+You may not change what happens or the order it happens in — you're filling
+the space around the skeleton, not moving through it faster or slower. Return
+the full chapter.{_motif_section(n, motifs)}""",
         max_tokens=6000,
     )
     return _log_motifs(raw, "character", n, motifs)
@@ -216,12 +230,13 @@ DRAFT:
 Your job: sensory specificity. Light, smell, damp, cold, noise, texture, the
 particular grime of this place. Grimdark Victorian: industrial, wet, tired.
 
-Restraint is the whole skill here. Add texture where a scene is bare. Do not
-decorate scenes that are already working, and do not put weather in every
-paragraph. Two precise details beat six vague ones. Never add a metaphor that
-{pov} would not think of.
+Precision, not sparseness, is the skill here. Two precise details beat six
+vague ones — but a scene with none is bare, not restrained, and this draft
+runs bare more often than it runs overwritten. Do not decorate a scene that's
+already doing its job, but ground every scene that isn't yet. Never add a
+metaphor that {pov} would not think of.
 
-Rewrite sentences. Do not rewrite the story. Return the full chapter.{_motif_section(n, motifs)}""",
+Do not change what happens. Return the full chapter.{_motif_section(n, motifs)}""",
         max_tokens=6000,
     )
     return _log_motifs(raw, "atmosphere", n, motifs)
@@ -335,12 +350,32 @@ Output JSON only:
 
 def revise(roles, n, act, pov, canon, skel, draft, verdict):
     cfg = roles["unify"]
+    # Caught live: handed a too-short chapter and a check-8 "expand" failure,
+    # this pass shrank it further two rounds running (859 -> ~330 words)
+    # instead of growing it - "fix only what's named, don't touch the rest"
+    # reads to the model as license to trim rather than add. Spell out the
+    # expand case explicitly so cutting isn't the safe-looking move.
+    expand = next(
+        (f for f in verdict["failures"]
+         if f.get("check") == 8 and "expand" in f.get("fix", "").lower()),
+        None,
+    )
+    expansion_note = ""
+    if expand:
+        expansion_note = f"""
+
+This chapter is {len(draft.split())} words and must reach at least 1,800. The
+fix is to ADD - more interiority, more dialogue, more sensory detail, beats
+played out in full rather than summarized. Do not cut, condense or tighten
+anything to compensate; a chapter that comes out of this pass shorter than it
+went in is a failure regardless of anything else it gets right. Where an
+event feels rushed, that is exactly where to slow down and add page."""
     return call_model(
         cfg,
         _sys("revision pass", canon, act, pov),
         f"""The editor has rejected this chapter. Fix ONLY the listed failures.
 Everything not named below stays exactly as it is — do not take the
-opportunity to rewrite anything else.
+opportunity to rewrite anything else.{expansion_note}
 
 FAILURES:
 {json.dumps(verdict['failures'], indent=2)}

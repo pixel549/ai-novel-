@@ -30,7 +30,22 @@ MIN_RETENTION = {"character": 0.85, "atmosphere": 0.85}
 # it needs an absolute floor instead of a retention ratio. Caught live: action
 # wrote 190 words for a 12-event chapter, which no later pass could recover
 # from (character/atmosphere only add to what's there; unify only cuts).
-MIN_ACTION_WORDS = 1200
+# Raised from 1200 after a second live failure: action landed at 995-1115
+# words (chapter's own prompt target is ~2000) and character/atmosphere only
+# padded that to ~1230 combined - nowhere near enough for unify to leave
+# 1800+ words after its own 15-25% cut. 1600 leaves less room for action to
+# undershoot before the floor catches it.
+MIN_ACTION_WORDS = 1600
+
+# character and atmosphere are supposed to meaningfully lengthen the draft,
+# not just retouch it - MIN_RETENTION below only catches them shrinking it.
+# Caught live: character added 105 words and atmosphere added 12, on a chapter
+# that needed hundreds more from each to reach the 1800-word floor after
+# unify's cut. These are separate, smaller floors on top of MIN_RETENTION:
+# character carries most of a short chapter's missing weight (interiority and
+# dialogue), atmosphere a more modest amount (sensory grounding).
+MIN_CHARACTER_GROWTH = 300
+MIN_ATMOSPHERE_GROWTH = 100
 
 # unify is supposed to cut 15-25% (retain 75-85%), but it isn't optional the
 # way character/atmosphere are - discarding a bad unify pass and shipping the
@@ -98,8 +113,18 @@ def main():
                 new = retry if len(retry.split()) > len(new.split()) else new
         elif name == "character":
             new = passes.character(roles, n, act, pov, canon, skel, draft, motifs)
+            if len(new.split()) < len(draft.split()) + MIN_CHARACTER_GROWTH:
+                print(f"             {len(new.split())} words — under growth floor, retrying once")
+                retry = passes.character(roles, n, act, pov, canon, skel, draft, motifs)
+                print(f"             retry: {len(retry.split())} words")
+                new = retry if len(retry.split()) > len(new.split()) else new
         elif name == "atmosphere":
             new = passes.atmosphere(roles, n, act, pov, canon, skel, draft, motifs)
+            if len(new.split()) < len(draft.split()) + MIN_ATMOSPHERE_GROWTH:
+                print(f"             {len(new.split())} words — under growth floor, retrying once")
+                retry = passes.atmosphere(roles, n, act, pov, canon, skel, draft, motifs)
+                print(f"             retry: {len(retry.split())} words")
+                new = retry if len(retry.split()) > len(new.split()) else new
         else:
             new = passes.unify(roles, n, act, pov, canon, skel, draft)
             if len(new.split()) < MIN_UNIFY_RETENTION * len(draft.split()):
