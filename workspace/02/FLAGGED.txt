@@ -1,0 +1,18 @@
+{
+  "verdict": "REVISE",
+  "failures": [
+    {
+      "check": 1,
+      "problem": "The chapter entirely deviates from the frozen skeleton. The skeleton describes a multi-person combat encounter involving Edie, Lloyd, and Maria fighting a jointed creature, whereas the text provided is a solo/group descent into a salt-crusted hall where Lloyd and Edie are just walking down stairs, with no creature or combat.",
+      "where": "Whole chapter",
+      "fix": "Rewrite the chapter to match the events, order, and details specified in the frozen skeleton."
+    },
+    {
+      "check": 8,
+      "problem": "The chapter text is far too short (roughly 330 words), well below the 1,800 to 3,200 word count constraint.",
+      "where": "Whole chapter",
+      "fix": "Expand the narrative to meet the minimum word count while adhering to the skeleton and POV."
+    }
+  ],
+  "notes": "The chapter text bears almost no resemblance to the frozen skeleton for Chapter 2."
+}

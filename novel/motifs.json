@@ -11,8 +11,8 @@
       "id": "brass-token",
       "subject": "token",
       "detail": "brass token marked Run 1",
-      "min_gap": 1,
-      "last_used": 1
+      "min_gap": 3,
+      "last_used": 2
     },
     {
       "id": "plaster-peeling",
@@ -74,7 +74,7 @@
       "id": "jointed-creature",
       "subject": "",
       "detail": "thin, many-elbowed creature sliding along walls",
-      "min_gap": 6,
+      "min_gap": 10,
       "last_used": 2
     },
     {
@@ -95,7 +95,7 @@
       "id": "salt-crusted-stairs",
       "subject": "Stillwell Hydro",
       "detail": "salt-crusted stairs leading down to chapel-like arches",
-      "min_gap": 4,
+      "min_gap": 8,
       "last_used": 2
     },
     {
@@ -176,6 +176,13 @@
       "detail": "flat scars across palms from cable work",
       "min_gap": 1,
       "last_used": 2
+    },
+    {
+      "id": "salt-crusted-stairs",
+      "subject": "Stillwell Hydro",
+      "detail": "salt-crusted stairs leading down to chapel-like arches",
+      "min_gap": 10,
+      "last_used": 2
     }
   ],
   "atmosphere": [
@@ -247,6 +254,13 @@
       "subject": "Edie",
       "detail": "flat scars across palms from cable work",
       "min_gap": 1,
+      "last_used": 2
+    },
+    {
+      "id": "salt-crust-floor",
+      "subject": "Stillwell Hydro",
+      "detail": "stone floor coated in a thick crust of dried salt",
+      "min_gap": 4,
       "last_used": 2
     }
   ]

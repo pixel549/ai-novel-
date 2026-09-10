@@ -1,0 +1,54 @@
+--- attempt 1 ---
+{
+  "verdict": "REVISE",
+  "failures": [
+    {
+      "check": 8,
+      "problem": "Chapter is 859 words, outside the required 1800-3200 range.",
+      "where": "(whole chapter)",
+      "fix": "Expand to land within 1800-3200 words."
+    }
+  ],
+  "notes": "length override \u2014 code-checked, not the editor's own count"
+}
+
+--- attempt 2 ---
+{
+  "verdict": "REVISE",
+  "failures": [
+    {
+      "check": 1,
+      "problem": "The frozen skeleton sequence is entirely broken. The skeleton expects the scene to jump straight into the combat with the entity, Lloyd lunging, Maria using light, etc., but the draft spends paragraphs on Edie's subjective passage of time, hunger, and surveying the chamber, inserting actions and pacing completely out of order with the skeleton's enumerated events.",
+      "where": "Throughout the middle section down to the end of the text.",
+      "fix": "Realign the prose directly to the frozen skeleton's sequence of events: corridor slip -> encountering the thin, many-elbowed shape -> Lloyd lunging -> Maria's hand of light -> entity recoiling -> pressure surge -> entity collapsing into mist -> Maria securing the knot-cord."
+    },
+    {
+      "check": 8,
+      "problem": "The chapter length is below the 1,800-word minimum.",
+      "where": "Entire chapter",
+      "fix": "Expand the prose to meet the minimum word count of 1,800 words while adhering strictly to Edie's POV and the frozen skeleton."
+    }
+  ],
+  "notes": "The chapter fails due to a severe deviation from the frozen skeleton's sequence and an under-length word count."
+}
+
+--- attempt 3 ---
+{
+  "verdict": "REVISE",
+  "failures": [
+    {
+      "check": 1,
+      "problem": "The chapter entirely deviates from the frozen skeleton. The skeleton describes a multi-person combat encounter involving Edie, Lloyd, and Maria fighting a jointed creature, whereas the text provided is a solo/group descent into a salt-crusted hall where Lloyd and Edie are just walking down stairs, with no creature or combat.",
+      "where": "Whole chapter",
+      "fix": "Rewrite the chapter to match the events, order, and details specified in the frozen skeleton."
+    },
+    {
+      "check": 8,
+      "problem": "The chapter text is far too short (roughly 330 words), well below the 1,800 to 3,200 word count constraint.",
+      "where": "Whole chapter",
+      "fix": "Expand the narrative to meet the minimum word count while adhering to the skeleton and POV."
+    }
+  ],
+  "notes": "The chapter text bears almost no resemblance to the frozen skeleton for Chapter 2."
+}
+
