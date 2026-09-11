@@ -140,3 +140,10 @@
   "notes": "Chapter strictly adheres to skeleton, POV constraints, and canon rules."
 }
 
+--- attempt 1 ---
+{
+  "verdict": "PASS",
+  "failures": [],
+  "notes": "Chapter 2 strictly follows the skeleton, canon limits, and Edie's narrative constraints."
+}
+
