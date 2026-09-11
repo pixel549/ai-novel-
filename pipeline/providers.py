@@ -146,6 +146,16 @@ def _openai_compatible(role_cfg, system, user, max_tokens, retries=4):
         "temperature": 1.0,
         "max_tokens": max_tokens,
     }
+    # Optional, per-role: a reasoning model (Groq's qwen roles) can emit its
+    # whole chain-of-thought as literal <think>...</think> text sharing the
+    # same max_tokens budget as the real answer - caught live on the
+    # summariser, where it burned 2000 tokens on reasoning and never reached
+    # the actual summary. Only set on roles.json entries that need it, so
+    # this can't affect a role that doesn't recognize these fields.
+    if "reasoning_effort" in role_cfg:
+        body["reasoning_effort"] = role_cfg["reasoning_effort"]
+    if "reasoning_format" in role_cfg:
+        body["reasoning_format"] = role_cfg["reasoning_format"]
 
     for attempt in range(retries):
         try:
