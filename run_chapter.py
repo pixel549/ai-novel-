@@ -149,57 +149,74 @@ def main():
             return
 
     # ---- editor ---------------------------------------------------------
-    for attempt in range(1, MAX_REVISIONS + 1):
-        print(f"  [editor] attempt {attempt}")
-        verdict = passes.editor(roles, n, act, pov, canon, skel, draft, prev, motif_snapshot)
+    # The whole loop is wrapped in try/except: a crash mid-loop (caught live
+    # - a Gemini 429/503 surfacing from revise() as an unhandled exception)
+    # used to bypass the MAX_REVISIONS cleanup below entirely, leaving that
+    # attempt's bad checkpoints in place for the next run to blindly reload
+    # instead of regenerating. Any crash here now gets the same
+    # discard-and-clear treatment before the error propagates and the
+    # workflow shows red.
+    try:
+        for attempt in range(1, MAX_REVISIONS + 1):
+            print(f"  [editor] attempt {attempt}")
+            verdict = passes.editor(roles, n, act, pov, canon, skel, draft, prev, motif_snapshot)
 
-        # The editor LLM is unreliable at actually counting words - verified
-        # live (it passed a 393-word chapter against an 1800-3200 requirement).
-        # Word count is cheap to check in code, so don't trust the model's
-        # self-report for it.
-        word_count = len(draft.split())
-        if verdict["verdict"] == "PASS" and not (MIN_LENGTH <= word_count <= MAX_LENGTH):
-            verdict = {
-                "verdict": "REVISE",
-                "failures": [{
-                    "check": 8,
-                    "problem": f"Chapter is {word_count} words, outside the required "
-                               f"{MIN_LENGTH}-{MAX_LENGTH} range.",
-                    "where": "(whole chapter)",
-                    "fix": f"{'Expand' if word_count < MIN_LENGTH else 'Trim'} to land "
-                           f"within {MIN_LENGTH}-{MAX_LENGTH} words.",
-                }],
-                "notes": "length override — code-checked, not the editor's own count",
-            }
+            # The editor LLM is unreliable at actually counting words - verified
+            # live (it passed a 393-word chapter against an 1800-3200 requirement).
+            # Word count is cheap to check in code, so don't trust the model's
+            # self-report for it.
+            word_count = len(draft.split())
+            if verdict["verdict"] == "PASS" and not (MIN_LENGTH <= word_count <= MAX_LENGTH):
+                verdict = {
+                    "verdict": "REVISE",
+                    "failures": [{
+                        "check": 8,
+                        "problem": f"Chapter is {word_count} words, outside the required "
+                                   f"{MIN_LENGTH}-{MAX_LENGTH} range.",
+                        "where": "(whole chapter)",
+                        "fix": f"{'Expand' if word_count < MIN_LENGTH else 'Trim'} to land "
+                               f"within {MIN_LENGTH}-{MAX_LENGTH} words.",
+                    }],
+                    "notes": "length override — code-checked, not the editor's own count",
+                }
 
-        state.log_editor(n, attempt, verdict)
-        print(f"           {verdict['verdict']}: {len(verdict.get('failures', []))} failures")
-        for f in verdict.get("failures", []):
-            print(f"           - check {f.get('check')}: {f.get('problem','')[:90]}")
+            state.log_editor(n, attempt, verdict)
+            print(f"           {verdict['verdict']}: {len(verdict.get('failures', []))} failures")
+            for f in verdict.get("failures", []):
+                print(f"           - check {f.get('check')}: {f.get('problem','')[:90]}")
 
-        if verdict["verdict"] == "PASS":
-            break
-        if attempt == MAX_REVISIONS:
-            # Don't ship this as if it were finished - a chapter still
-            # failing after MAX_REVISIONS attempts (caught live: the revise
-            # loop oscillated 259->1285->268 words, regressing rather than
-            # converging) is a real failure, not a "close enough, flag it."
-            # Shipping it would let the next run move on to the chapter
-            # after this one, permanently leaving broken prose behind.
-            # Clear this chapter's passes so the next attempt regenerates
-            # from action instead of reloading the same bad drafts, and
-            # exit nonzero so the workflow shows red instead of a
-            # deceptive green checkmark.
-            print("           MAX REVISIONS — discarding, not shipping")
-            state.save_pass(n, "FLAGGED", json.dumps(verdict, indent=2))
-            for name in ORDER:
-                state.clear_pass(n, name)
-            for i in range(1, MAX_REVISIONS):
-                state.clear_pass(n, f"revision_{i}")
-            return 1
+            if verdict["verdict"] == "PASS":
+                break
+            if attempt == MAX_REVISIONS:
+                # Don't ship this as if it were finished - a chapter still
+                # failing after MAX_REVISIONS attempts (caught live: the revise
+                # loop oscillated 259->1285->268 words, regressing rather than
+                # converging) is a real failure, not a "close enough, flag it."
+                # Shipping it would let the next run move on to the chapter
+                # after this one, permanently leaving broken prose behind.
+                # Clear this chapter's passes so the next attempt regenerates
+                # from action instead of reloading the same bad drafts, and
+                # exit nonzero so the workflow shows red instead of a
+                # deceptive green checkmark.
+                print("           MAX REVISIONS — discarding, not shipping")
+                state.save_pass(n, "FLAGGED", json.dumps(verdict, indent=2))
+                for name in ORDER:
+                    state.clear_pass(n, name)
+                for i in range(1, MAX_REVISIONS):
+                    state.clear_pass(n, f"revision_{i}")
+                return 1
 
-        draft = passes.revise(roles, n, act, pov, canon, skel, draft, verdict)
-        state.save_pass(n, f"revision_{attempt}", draft)
+            draft = passes.revise(roles, n, act, pov, canon, skel, draft, verdict)
+            state.save_pass(n, f"revision_{attempt}", draft)
+    except Exception:
+        print("           CRASH during editor/revise — discarding, not shipping")
+        state.save_pass(n, "FLAGGED", json.dumps(
+            {"verdict": "CRASH", "notes": "unhandled exception mid-revision loop"}, indent=2))
+        for name in ORDER:
+            state.clear_pass(n, name)
+        for i in range(1, MAX_REVISIONS):
+            state.clear_pass(n, f"revision_{i}")
+        raise
 
     # ---- ship -----------------------------------------------------------
     state.clear_pass(n, "FLAGGED")  # stale from an earlier failed attempt, if any

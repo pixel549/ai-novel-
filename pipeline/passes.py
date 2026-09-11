@@ -278,7 +278,12 @@ Your mandate:
 - Keep every event. Keep the closing image: {skel['ends_on']}
 
 You are the only pass being asked to write well. Return the full chapter.""",
-        max_tokens=8000,
+        # Raised from 8000 after unify truncated mid-sentence on a healthy
+        # 3413-word input - thinking tokens on this model count against this
+        # budget, so headroom matters more here than the word count alone
+        # would suggest. providers._gemini also now detects and retries a
+        # MAX_TOKENS cutoff, but starting higher means it shouldn't need to.
+        max_tokens=12000,
     )
 
 
@@ -395,7 +400,7 @@ CHAPTER:
 {draft}
 
 Return the full corrected chapter.""",
-        max_tokens=8000,
+        max_tokens=12000,  # see unify() - same truncation risk, same headroom
     )
 
 

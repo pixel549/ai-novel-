@@ -77,13 +77,22 @@ def _gemini(system, user, model, max_tokens, retries=4):
         f"https://generativelanguage.googleapis.com/v1beta/models/"
         f"{model}:generateContent?key={key}"
     )
-    body = {
-        "systemInstruction": {"parts": [{"text": system}]},
-        "contents": [{"role": "user", "parts": [{"text": user}]}],
-        "generationConfig": {"temperature": 1.0, "maxOutputTokens": max_tokens},
-    }
 
+    # Gemini 2.5/3.x "thinking" models count invisible reasoning tokens
+    # against maxOutputTokens with no separate budget or validation - a call
+    # can burn most of its budget thinking and return a chapter truncated
+    # mid-sentence with finishReason MAX_TOKENS, which looks like ordinary
+    # (short) text if you don't check for it. Caught live: unify given a
+    # healthy 3413-word draft returned 265 words that stopped mid-scene, and
+    # the editor read the incompleteness as the chapter diverging from the
+    # skeleton. Detect it and retry with a larger budget instead of quietly
+    # accepting a fragment as a finished pass.
     for attempt in range(retries):
+        body = {
+            "systemInstruction": {"parts": [{"text": system}]},
+            "contents": [{"role": "user", "parts": [{"text": user}]}],
+            "generationConfig": {"temperature": 1.0, "maxOutputTokens": max_tokens},
+        }
         try:
             req = urllib.request.Request(
                 url,
@@ -95,7 +104,18 @@ def _gemini(system, user, model, max_tokens, retries=4):
             )
             with urllib.request.urlopen(req, timeout=180) as resp:
                 data = json.loads(resp.read())
-            return data["candidates"][0]["content"]["parts"][0]["text"]
+            candidate = data["candidates"][0]
+            finish = candidate.get("finishReason")
+            parts = candidate.get("content", {}).get("parts", [])
+            text = parts[0]["text"] if parts else ""
+            if finish == "MAX_TOKENS" and attempt < retries - 1:
+                max_tokens = int(max_tokens * 1.6)
+                print(f"             (gemini hit MAX_TOKENS with {len(text.split())} "
+                      f"words visible - retrying with maxOutputTokens={max_tokens})")
+                continue
+            if not text:
+                raise ModelError(f"gemini returned no usable text (finishReason={finish})")
+            return text
         except urllib.error.HTTPError as e:
             if e.code in (429, 503) and attempt < retries - 1:
                 time.sleep(30 * (attempt + 1))
