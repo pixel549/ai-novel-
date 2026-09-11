@@ -1,0 +1,15 @@
+<think>
+Here's a thinking process:
+
+1.  **Analyze User Input:**
+   - **Task:** Summarize the provided novel chapter in four sentences or fewer.
+   - **Constraints:** Cover only: what happened, what changed between characters, and what anyone learned. Omit nothing load-bearing. Include no atmosphere/style. Output only the summary.
+   - **Input Text:** A detailed, atmospheric chapter about three characters (narrator/Edie, Lloyd, Maria) exploring an underground salt/brine-filled structure. They encounter spatial distortion (time/distance slipping), severe hunger/exhaustion effects, a strange wire-like entity, fight it (Lloyd physically attacks, Maria uses "Arcana" light/pulse to pin and weaken it, narrator feels a precognitive "Still Mind" warning but gets knocked down by a pressure wave/tilt), the entity dissolves into salt mist, the chamber stabilizes, Maria ties a marking cord to a pipe, and the narrator notes a low-frequency hum in the walls.
+
+2.  **Identify Load-Bearing Elements (What happened, what changed, what learned):**
+   - *What happened:* The trio enters a subterranean corridor where spatial distortion causes extreme fatigue and hunger. They enter a chamber and encounter a skeletal, wire-like entity. Lloyd attacks it physically while Maria uses Arcana to pin it to the wall. A sudden pressure wave and structural tilt knocks the narrator down, but the combined attack destroys the entity, which dissolves into salt mist. Afterward, Maria secures a marking cord to a wall pipe to track their progress.
+   - *What changed between characters:* Lloyd and Maria coordinate a successful attack (physical + magical), demonstrating their combat synergy. The narrator survives a near-miss thanks to precognition but is physically impacted. The team establishes a new marker and continues.
+   - *What anyone learned:* The narrator experiences a precognitive "Still Mind" warning that accurately predicts a structural/pressure event. They learn the entity is vulnerable to combined physical and Arcana attacks, and that the chamber/structure has active mechanical or environmental responses (pressure wave, tilt, hum). The spatial distortion affects physiology (hunger/fatigue).
+
+3.  **Draft Summary (aiming for ≤4 sentences, strict focus on constraints):**
+   The narrator, Lloyd, and Maria descend into a subterranean corridor where spatial distortion induces severe hunger and exhaustion

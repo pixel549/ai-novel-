@@ -67,14 +67,14 @@
       "id": "salt-crust-floor",
       "subject": "Stillwell Hydro",
       "detail": "stone floor coated in a thick crust of dried salt",
-      "min_gap": 4,
+      "min_gap": 6,
       "last_used": 2
     },
     {
       "id": "jointed-creature",
       "subject": "",
       "detail": "thin, many-elbowed creature sliding along walls",
-      "min_gap": 10,
+      "min_gap": 12,
       "last_used": 2
     },
     {
@@ -88,7 +88,7 @@
       "id": "brass-ferrule-cord",
       "subject": "Stillwell Hydro",
       "detail": "hemp knot-cord bound with brass wire ferrules",
-      "min_gap": 4,
+      "min_gap": 6,
       "last_used": 2
     },
     {
@@ -102,7 +102,7 @@
       "id": "scarred-palms",
       "subject": "Edie",
       "detail": "flat scars across palms from cable work",
-      "min_gap": 1,
+      "min_gap": 3,
       "last_used": 2
     },
     {
@@ -195,6 +195,20 @@
       "id": "brass-ferrule-cord",
       "subject": "Maria",
       "detail": "hemp knot-cord bound with brass wire ferrules",
+      "min_gap": 1,
+      "last_used": 2
+    },
+    {
+      "id": "camouflet-deafness",
+      "subject": "Edie",
+      "detail": "lead-weight silence in dead left ear from camouflet",
+      "min_gap": 1,
+      "last_used": 2
+    },
+    {
+      "id": "jointed-creature",
+      "subject": "Salts",
+      "detail": "thin, many-elbowed creature sliding along walls",
       "min_gap": 4,
       "last_used": 2
     }
@@ -274,14 +288,14 @@
       "id": "salt-crust-floor",
       "subject": "Stillwell Hydro",
       "detail": "stone floor coated in a thick crust of dried salt",
-      "min_gap": 4,
+      "min_gap": 3,
       "last_used": 2
     },
     {
       "id": "brass-ferrule-cord",
       "subject": "Stillwell Hydro",
       "detail": "hemp knot-cord bound with brass wire ferrules",
-      "min_gap": 4,
+      "min_gap": 3,
       "last_used": 2
     },
     {
@@ -289,6 +303,13 @@
       "subject": "",
       "detail": "thin, many-elbowed creature sliding along walls",
       "min_gap": 8,
+      "last_used": 2
+    },
+    {
+      "id": "camouflet-deafness",
+      "subject": "Edie",
+      "detail": "lead-weight silence in dead left ear from camouflet",
+      "min_gap": 1,
       "last_used": 2
     }
   ]
