@@ -1,0 +1,47 @@
+{
+  "pov": "Edie",
+  "events": [
+    {
+      "n": 1,
+      "event": "Weeks pass as I scrape crumbs from the rations, wipe grime from my hands, and flinch at sudden clatters that spike terror for a breath."
+    },
+    {
+      "n": 2,
+      "event": "Maria, Lloyd and I enter the chapel and run a systematic sweep, noting the stone arches and the altar's placement."
+    },
+    {
+      "n": 3,
+      "event": "We repeat the sweep a second time and find the candles rearranged and a splintered column that was not there before; Maria says the room is unchanged."
+    },
+    {
+      "n": 4,
+      "event": "A third pass reveals a cracked mosaic tile missing, and I mark the discrepancy in my notebook, contradicting Maria's insistence."
+    },
+    {
+      "n": 5,
+      "event": "Without warning a searing force slices Lloyd's right arm clean at the elbow; he holds the stump steady and says nothing."
+    },
+    {
+      "n": 6,
+      "event": "Maria places her hands on the wound, murmurs a low chant, and channels a steady glow that stitches flesh back together."
+    },
+    {
+      "n": 7,
+      "event": "The new arm surfaces crooked, the elbow joint misaligned; Lloyd flexes it, watches the movement, and offers no comment."
+    },
+    {
+      "n": 8,
+      "event": "I pull the knot\u2011cord down the shaft and the gauge clicks nineteen metres, a length that does not match my earlier calculations."
+    },
+    {
+      "n": 9,
+      "event": "I write a note questioning the cord's reading, the number feeling out of place in the stale air."
+    }
+  ],
+  "learned": [
+    "The chapel's interior shifts between searches, contradicting Maria's claim of sameness.",
+    "Lloyd's arm can regrow but the new limb is malformed.",
+    "The knot\u2011cord's measurement may be unreliable, as it reads nineteen metres contrary to my prior data."
+  ],
+  "ends_on": "I stare at the cord's nineteen\u2011metre mark, the number feeling wrong in the stale air."
+}

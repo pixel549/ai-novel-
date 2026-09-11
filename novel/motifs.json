@@ -53,8 +53,8 @@
       "id": "shawl-wrap",
       "subject": "shawl",
       "detail": "shawl wrapped around Maria's shoulders",
-      "min_gap": 4,
-      "last_used": 1
+      "min_gap": 1,
+      "last_used": 3
     },
     {
       "id": "frayed-knot-cord",
@@ -102,8 +102,8 @@
       "id": "scarred-palms",
       "subject": "Edie",
       "detail": "flat scars across palms from cable work",
-      "min_gap": 3,
-      "last_used": 2
+      "min_gap": 1,
+      "last_used": 3
     },
     {
       "id": "knot-cord-hitch",
@@ -111,6 +111,20 @@
       "detail": "coiled knot-cord running hitch around wrist",
       "min_gap": 3,
       "last_used": 2
+    },
+    {
+      "id": "camouflet-deafness",
+      "subject": "Edie",
+      "detail": "deaf in left ear from camouflet",
+      "min_gap": 1,
+      "last_used": 3
+    },
+    {
+      "id": "crooked-arm",
+      "subject": "Lloyd",
+      "detail": "right forearm set at five-degree inward angle with misaligned elbow",
+      "min_gap": 4,
+      "last_used": 3
     }
   ],
   "character": [
@@ -161,7 +175,7 @@
       "subject": "Maria",
       "detail": "shawl wrapped around Maria's shoulders",
       "min_gap": 1,
-      "last_used": 2
+      "last_used": 3
     },
     {
       "id": "frayed-knot-cord",
@@ -175,7 +189,7 @@
       "subject": "Edie",
       "detail": "flat scars across palms from cable work",
       "min_gap": 1,
-      "last_used": 2
+      "last_used": 3
     },
     {
       "id": "salt-crusted-stairs",
@@ -196,14 +210,14 @@
       "subject": "Maria",
       "detail": "hemp knot-cord bound with brass wire ferrules",
       "min_gap": 1,
-      "last_used": 2
+      "last_used": 3
     },
     {
       "id": "camouflet-deafness",
       "subject": "Edie",
       "detail": "lead-weight silence in dead left ear from camouflet",
       "min_gap": 1,
-      "last_used": 2
+      "last_used": 3
     },
     {
       "id": "jointed-creature",
@@ -211,6 +225,13 @@
       "detail": "thin, many-elbowed creature sliding along walls",
       "min_gap": 4,
       "last_used": 2
+    },
+    {
+      "id": "crooked-arm",
+      "subject": "Lloyd",
+      "detail": "right forearm set at five-degree inward angle with misaligned elbow",
+      "min_gap": 1,
+      "last_used": 3
     }
   ],
   "atmosphere": [
@@ -282,7 +303,7 @@
       "subject": "Edie",
       "detail": "flat scars across palms from cable work",
       "min_gap": 1,
-      "last_used": 2
+      "last_used": 3
     },
     {
       "id": "salt-crust-floor",
@@ -295,8 +316,8 @@
       "id": "brass-ferrule-cord",
       "subject": "Stillwell Hydro",
       "detail": "hemp knot-cord bound with brass wire ferrules",
-      "min_gap": 3,
-      "last_used": 2
+      "min_gap": 1,
+      "last_used": 3
     },
     {
       "id": "jointed-creature",
@@ -310,7 +331,14 @@
       "subject": "Edie",
       "detail": "lead-weight silence in dead left ear from camouflet",
       "min_gap": 1,
-      "last_used": 2
+      "last_used": 3
+    },
+    {
+      "id": "crooked-arm",
+      "subject": "Lloyd",
+      "detail": "right forearm set at five-degree inward angle with misaligned elbow",
+      "min_gap": 1,
+      "last_used": 3
     }
   ]
 }
