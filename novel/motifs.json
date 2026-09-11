@@ -190,6 +190,13 @@
       "detail": "stone floor coated in a thick crust of dried salt",
       "min_gap": 1,
       "last_used": 2
+    },
+    {
+      "id": "brass-ferrule-cord",
+      "subject": "Maria",
+      "detail": "hemp knot-cord bound with brass wire ferrules",
+      "min_gap": 4,
+      "last_used": 2
     }
   ],
   "atmosphere": [

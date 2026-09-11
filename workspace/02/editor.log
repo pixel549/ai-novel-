@@ -106,3 +106,23 @@
   "notes": "The chapter text does not match the required narrative events and is drastically underweight on word count."
 }
 
+--- attempt 1 ---
+{
+  "verdict": "REVISE",
+  "failures": [
+    {
+      "check": 1,
+      "problem": "The chapter's events completely diverge from the frozen skeleton. The skeleton describes a sequence involving a spatial slip, a multi-elbowed creature, and combat with Lloyd and Maria, whereas the draft text depicts an ordinary arrival at the hydro involving Edie, Lloyd, and Maria entering the facility.",
+      "where": "Entire chapter text vs. Skeleton",
+      "fix": "Rewrite the chapter to match the structural events and sequence specified in the frozen skeleton."
+    },
+    {
+      "check": 8,
+      "problem": "The chapter is incomplete and falls well short of the 1,800-word minimum length constraint.",
+      "where": "End of draft text",
+      "fix": "Expand the chapter content to meet the required length between 1,800 and 3,200 words."
+    }
+  ],
+  "notes": "The provided text cuts off mid-sentence and bears no structural resemblance to the frozen skeleton for Chapter 2."
+}
+
