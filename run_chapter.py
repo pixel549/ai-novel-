@@ -4,9 +4,17 @@
     python run_chapter.py 1
     python run_chapter.py 1 --force        rerun passes already on disk
     python run_chapter.py 1 --stop unify   stop after a given pass
+    python run_chapter.py 1 --redo unify   clear this pass onward, then run
 
 Every pass is written to workspace/NN/ the moment it finishes. A rate limit
 costs you one pass, not the chapter — run the same command again.
+
+When you're debugging one specific pass, prefer --redo over --force: --force
+reruns everything from skeleton, spending a full chapter's worth of API
+calls per attempt; --redo clears only the pass you named (and anything
+downstream of it) and reuses the good checkpoints already on disk. Cheaper
+still for iterating on a single pass's prompt: test_pass.py calls it once
+directly against a saved draft, with no pipeline run at all.
 """
 
 import argparse
@@ -63,9 +71,26 @@ def main():
     ap.add_argument("chapter", type=int)
     ap.add_argument("--force", action="store_true")
     ap.add_argument("--stop", choices=ORDER + ["skeleton"])
+    ap.add_argument("--redo", choices=ORDER + ["skeleton"],
+                     help="clear this pass and everything after it, then run "
+                          "normally - reuses good checkpoints instead of "
+                          "regenerating the whole chapter like --force does")
     args = ap.parse_args()
 
     n = args.chapter
+
+    if args.redo:
+        pass_order = ["skeleton"] + ORDER
+        for name in pass_order[pass_order.index(args.redo):]:
+            state.clear_pass(n, name)
+        # editor/revise have no checkpoint of their own before unify runs -
+        # their leftovers (revision_N.txt, FLAGGED.txt) are only stale once
+        # unify or anything upstream of it is being redone.
+        if pass_order.index(args.redo) <= pass_order.index("unify"):
+            for i in range(1, MAX_REVISIONS):
+                state.clear_pass(n, f"revision_{i}")
+            state.clear_pass(n, "FLAGGED")
+
     roles = state.load_roles()
     canon = state.canon()
     beats = state.chapter_beats(n)
