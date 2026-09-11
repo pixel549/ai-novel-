@@ -407,9 +407,26 @@ Return the full corrected chapter.""",
 # --------------------------------------------------------------- summariser
 
 
+def _strip_thinking(raw):
+    """qwen's reasoning variant (this pipeline's summariser) emits a literal
+    <think>...</think> block as part of the visible text rather than a
+    separate hidden channel. Caught live on chapter 2: a 500-token budget
+    got entirely consumed by the reasoning, leaving a truncated <think>
+    block and no summary at all - which would otherwise have been written
+    verbatim into chapters/02.summary.txt and fed to every later chapter as
+    "what happened" context."""
+    if "<think>" not in raw:
+        return raw.strip()
+    _, _, after = raw.partition("</think>")
+    after = after.strip()
+    if after:
+        return after
+    return "(summariser returned only reasoning, no summary - regenerate this chapter's summary)"
+
+
 def summarise(roles, n, canon, draft):
     cfg = roles["summariser"]
-    return call_model(
+    raw = call_model(
         cfg,
         "You summarise novel chapters for a drafting pipeline. Plain, factual, "
         "no style. Output the summary only.",
@@ -419,5 +436,8 @@ summary is all that later chapters will see of this one, so omit nothing
 load-bearing and include no atmosphere.
 
 {draft}""",
-        max_tokens=500,
+        # Raised from 500 - see _strip_thinking. A reasoning model needs
+        # headroom for the thinking block on top of the summary itself.
+        max_tokens=2000,
     )
+    return _strip_thinking(raw)
