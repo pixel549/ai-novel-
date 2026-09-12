@@ -1,0 +1,21 @@
+--- attempt 1 ---
+{
+  "verdict": "REVISE",
+  "failures": [
+    {
+      "check": 8,
+      "problem": "Chapter is 3724 words, outside the required 1800-3200 range.",
+      "where": "(whole chapter)",
+      "fix": "Trim to land within 1800-3200 words."
+    }
+  ],
+  "notes": "length override \u2014 code-checked, not the editor's own count"
+}
+
+--- attempt 2 ---
+{
+  "verdict": "PASS",
+  "failures": [],
+  "notes": "Chapter strictly adheres to the frozen skeleton, preserves Edie's observational POV and trade vocabulary, and maintains all character constraints."
+}
+

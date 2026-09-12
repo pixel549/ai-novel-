@@ -281,8 +281,8 @@
       "id": "shawl-wrap",
       "subject": "Maria",
       "detail": "shawl wrapped around Maria's shoulders",
-      "min_gap": 5,
-      "last_used": 1
+      "min_gap": 1,
+      "last_used": 3
     },
     {
       "id": "burnt-lime-smell",
