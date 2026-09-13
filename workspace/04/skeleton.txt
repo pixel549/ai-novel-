@@ -1,0 +1,61 @@
+{
+  "pov": "Edie",
+  "events": [
+    {
+      "n": 1,
+      "event": "Lloyd announces a woman standing at the far end of the stone corridor, though I see only cold rock."
+    },
+    {
+      "n": 2,
+      "event": "He mentions a second Maria beside the first, while my eyes register a single figure."
+    },
+    {
+      "n": 3,
+      "event": "Lloyd points to a patch of wall and says it is a door, and I feel the stone where no frame exists."
+    },
+    {
+      "n": 4,
+      "event": "Maria steps forward, confirms the woman's presence, the extra Maria, and the door as real, setting the rule for us."
+    },
+    {
+      "n": 5,
+      "event": "Without hesitation Lloyd moves toward the supposed doorway and pushes it open as if it were there."
+    },
+    {
+      "n": 6,
+      "event": "I claim I see a small brass lever on the floor, a detail I know is false."
+    },
+    {
+      "n": 7,
+      "event": "Lloyd looks to Maria for a ruling; she denies the lever, and he steps back, ignoring my lie."
+    },
+    {
+      "n": 8,
+      "event": "I note that Lloyd never questions Maria\u2019s verdict, even when it conflicts with his own sight."
+    },
+    {
+      "n": 9,
+      "event": "I conclude Maria is Lloyd\u2019s only interface to the world, the conduit for what he perceives beyond me."
+    },
+    {
+      "n": 10,
+      "event": "I record that my own plain perception now serves as the reliable baseline for the trio."
+    },
+    {
+      "n": 11,
+      "event": "I acknowledge a quiet gratitude for being the dull one, a role that keeps me steady."
+    },
+    {
+      "n": 12,
+      "event": "We continue down the corridor, following the path Maria validated, and I watch the dim light at the tunnel\u2019s mouth flicker."
+    }
+  ],
+  "learned": [
+    "Lloyd can see entities I cannot.",
+    "Maria acts as Lloyd\u2019s interpreter and authority on his unseen perceptions.",
+    "Lloyd obeys Maria\u2019s rulings instantly, regardless of his own senses.",
+    "My straightforward perception is a useful control point for the group.",
+    "The existence of unseen people and doors is real to Lloyd."
+  ],
+  "ends_on": "The faint glow at the tunnel\u2019s mouth swallows the darkness behind us."
+}
