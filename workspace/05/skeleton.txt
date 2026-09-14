@@ -1,0 +1,49 @@
+{
+  "pov": "Edie",
+  "events": [
+    {
+      "n": 1,
+      "event": "We stand on the chapel floor where the chalice should be and confirm the space is empty."
+    },
+    {
+      "n": 2,
+      "event": "Maria lifts the chalice, drinks a measured sip, then sets it down and stops."
+    },
+    {
+      "n": 3,
+      "event": "Lloyd places his right hand on the bench, his arm briefly shimmers, and he releases a memory that vanishes unreadable."
+    },
+    {
+      "n": 4,
+      "event": "I stay awake through two cycles that would have been sleep, noting the loss of rest."
+    },
+    {
+      "n": 5,
+      "event": "The bench trembles as Lloyd's arm passes through it, yet no one remarks on the phantom limb."
+    },
+    {
+      "n": 6,
+      "event": "A nurse in a soot\u2011stained coat attaches a cord to the bench and initiates the extraction timer."
+    },
+    {
+      "n": 7,
+      "event": "The wall clock shows four hours while the extraction display reads nineteen days remaining."
+    },
+    {
+      "n": 8,
+      "event": "The nurse asks, \"Did you enjoy the treatment?\" and we answer briefly."
+    },
+    {
+      "n": 9,
+      "event": "Lloyd remains slumped in the steam, waiting for Maria to confirm the room is real before he moves."
+    }
+  ],
+  "learned": [
+    "Maria can drink only enough to return and then walk away from the chalice.",
+    "Lloyd surrendered a memory he can no longer name the shape of.",
+    "I gave up sleeping without waking twice during the extraction.",
+    "Lloyd's right arm functions and looks like a normal arm, passing through the bench unnoticed.",
+    "The extraction process lasts nineteen days on the cord and four hours on the clock."
+  ],
+  "ends_on": "Lloyd sits in the steam, eyes fixed on Maria, waiting for her word that the room is real."
+}
