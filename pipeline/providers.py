@@ -7,6 +7,7 @@ other file knowing about it.
 
 import json
 import os
+import socket
 import time
 import urllib.error
 import urllib.request
@@ -68,7 +69,7 @@ def _stub(role_cfg):
 # --------------------------------------------------------------------------
 
 
-def _gemini(system, user, model, max_tokens, retries=4):
+def _gemini(system, user, model, max_tokens, error_retries=6, truncation_retries=3):
     key = os.environ.get("GEMINI_API_KEY")
     if not key:
         raise ModelError("GEMINI_API_KEY not set")
@@ -78,16 +79,17 @@ def _gemini(system, user, model, max_tokens, retries=4):
         f"{model}:generateContent?key={key}"
     )
 
-    # Gemini 2.5/3.x "thinking" models count invisible reasoning tokens
-    # against maxOutputTokens with no separate budget or validation - a call
-    # can burn most of its budget thinking and return a chapter truncated
-    # mid-sentence with finishReason MAX_TOKENS, which looks like ordinary
-    # (short) text if you don't check for it. Caught live: unify given a
-    # healthy 3413-word draft returned 265 words that stopped mid-scene, and
-    # the editor read the incompleteness as the chapter diverging from the
-    # skeleton. Detect it and retry with a larger budget instead of quietly
-    # accepting a fragment as a finished pass.
-    for attempt in range(retries):
+    # Two independent retry budgets, not one shared counter. They used to be
+    # the same loop counter, which meant a call that truncated (below) burned
+    # through the same attempts reserved for genuine transient errors - caught
+    # live when action needed 3 truncation-retries to land a usable draft,
+    # leaving character's own call almost no room before a real Gemini 503
+    # ("high demand") exhausted what was left and crashed the run. Truncation
+    # and transient errors are unrelated failure modes and now each get their
+    # own full allowance.
+    truncations = 0
+    errors = 0
+    while True:
         body = {
             "systemInstruction": {"parts": [{"text": system}]},
             "contents": [{"role": "user", "parts": [{"text": user}]}],
@@ -102,13 +104,27 @@ def _gemini(system, user, model, max_tokens, retries=4):
                     "User-Agent": "ai-novel-pipeline/1.0",
                 },
             )
-            with urllib.request.urlopen(req, timeout=180) as resp:
+            # 300s, not 180s: raised max_tokens ceilings (unify/revise can now
+            # ask for 24576+ after repeated truncation-retries) mean a genuine
+            # completion can legitimately take longer to generate.
+            with urllib.request.urlopen(req, timeout=300) as resp:
                 data = json.loads(resp.read())
             candidate = data["candidates"][0]
             finish = candidate.get("finishReason")
             parts = candidate.get("content", {}).get("parts", [])
             text = parts[0]["text"] if parts else ""
-            if finish == "MAX_TOKENS" and attempt < retries - 1:
+            # Gemini 2.5/3.x "thinking" models count invisible reasoning
+            # tokens against maxOutputTokens with no separate budget or
+            # validation - a call can burn most of its budget thinking and
+            # return a chapter truncated mid-sentence with finishReason
+            # MAX_TOKENS, which looks like ordinary (short) text if you don't
+            # check for it. Caught live: unify given a healthy 3413-word
+            # draft returned 265 words that stopped mid-scene, and the editor
+            # read the incompleteness as the chapter diverging from the
+            # skeleton. Detect it and retry with a larger budget instead of
+            # quietly accepting a fragment as a finished pass.
+            if finish == "MAX_TOKENS" and truncations < truncation_retries:
+                truncations += 1
                 max_tokens = int(max_tokens * 1.6)
                 print(f"             (gemini hit MAX_TOKENS with {len(text.split())} "
                       f"words visible - retrying with maxOutputTokens={max_tokens})")
@@ -117,13 +133,27 @@ def _gemini(system, user, model, max_tokens, retries=4):
                 raise ModelError(f"gemini returned no usable text (finishReason={finish})")
             return text
         except urllib.error.HTTPError as e:
-            if e.code in (429, 503) and attempt < retries - 1:
-                time.sleep(30 * (attempt + 1))
+            if e.code in (429, 503) and errors < error_retries:
+                errors += 1
+                wait = 30 * errors
+                print(f"             (gemini {e.code} - retrying in {wait}s, "
+                      f"attempt {errors}/{error_retries})")
+                time.sleep(wait)
                 continue
             raise ModelError(f"gemini {e.code}: {e.read()[:300]}")
+        except (socket.timeout, TimeoutError, urllib.error.URLError) as e:
+            # A stalled connection is just as transient as a 429/503 and
+            # shouldn't crash the run uncaught - same backoff, same budget.
+            if errors < error_retries:
+                errors += 1
+                wait = 30 * errors
+                print(f"             (gemini request error ({e}) - retrying "
+                      f"in {wait}s, attempt {errors}/{error_retries})")
+                time.sleep(wait)
+                continue
+            raise ModelError(f"gemini request failed after retries: {e}")
         except (KeyError, IndexError) as e:
             raise ModelError(f"gemini returned no usable text: {e}")
-    raise ModelError("gemini: retries exhausted")
 
 
 # --------------------------------------------------------------------------
@@ -131,7 +161,7 @@ def _gemini(system, user, model, max_tokens, retries=4):
 # --------------------------------------------------------------------------
 
 
-def _openai_compatible(role_cfg, system, user, max_tokens, retries=4):
+def _openai_compatible(role_cfg, system, user, max_tokens, error_retries=6):
     key = os.environ.get(role_cfg.get("api_key_env", ""))
     base = role_cfg.get("base_url")
     if not key or not base:
@@ -157,7 +187,8 @@ def _openai_compatible(role_cfg, system, user, max_tokens, retries=4):
     if "reasoning_format" in role_cfg:
         body["reasoning_format"] = role_cfg["reasoning_format"]
 
-    for attempt in range(retries):
+    errors = 0
+    while True:
         try:
             req = urllib.request.Request(
                 base.rstrip("/") + "/chat/completions",
@@ -168,12 +199,18 @@ def _openai_compatible(role_cfg, system, user, max_tokens, retries=4):
                     "User-Agent": "ai-novel-pipeline/1.0",
                 },
             )
-            with urllib.request.urlopen(req, timeout=180) as resp:
+            with urllib.request.urlopen(req, timeout=300) as resp:
                 data = json.loads(resp.read())
             return data["choices"][0]["message"]["content"]
         except urllib.error.HTTPError as e:
-            if e.code in (429, 503) and attempt < retries - 1:
-                time.sleep(30 * (attempt + 1))
+            if e.code in (429, 503) and errors < error_retries:
+                errors += 1
+                time.sleep(30 * errors)
                 continue
             raise ModelError(f"{role_cfg.get('role')} {e.code}: {e.read()[:300]}")
-    raise ModelError("retries exhausted")
+        except (socket.timeout, TimeoutError, urllib.error.URLError) as e:
+            if errors < error_retries:
+                errors += 1
+                time.sleep(30 * errors)
+                continue
+            raise ModelError(f"{role_cfg.get('role')} request failed after retries: {e}")
