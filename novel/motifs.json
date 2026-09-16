@@ -18,8 +18,8 @@
       "id": "plaster-peeling",
       "subject": "entrance",
       "detail": "plaster peeling beneath strips of iodine\u2011stained cloth",
-      "min_gap": 5,
-      "last_used": 1
+      "min_gap": 4,
+      "last_used": 6
     },
     {
       "id": "heavy-valve",
@@ -54,7 +54,7 @@
       "subject": "shawl",
       "detail": "shawl wrapped around Maria's shoulders",
       "min_gap": 1,
-      "last_used": 5
+      "last_used": 6
     },
     {
       "id": "frayed-knot-cord",
@@ -103,7 +103,7 @@
       "subject": "Edie",
       "detail": "flat scars across palms from cable work",
       "min_gap": 1,
-      "last_used": 5
+      "last_used": 6
     },
     {
       "id": "knot-cord-hitch",
@@ -117,14 +117,14 @@
       "subject": "Edie",
       "detail": "deaf in left ear from camouflet",
       "min_gap": 1,
-      "last_used": 4
+      "last_used": 6
     },
     {
       "id": "crooked-arm",
       "subject": "Lloyd",
       "detail": "right forearm set at five-degree inward angle with misaligned elbow",
       "min_gap": 1,
-      "last_used": 5
+      "last_used": 6
     },
     {
       "id": "soot-stained-apron",
@@ -139,6 +139,27 @@
       "detail": "brass-cased extraction timer display showing days remaining",
       "min_gap": 4,
       "last_used": 5
+    },
+    {
+      "id": "burnt-lime-smell",
+      "subject": "Stillwell Hydro",
+      "detail": "cold smell of burnt lime and wet iron",
+      "min_gap": 4,
+      "last_used": 6
+    },
+    {
+      "id": "mismatched-shadows",
+      "subject": "rail guard",
+      "detail": "three distinct shadows stretching from boots under flat white light",
+      "min_gap": 6,
+      "last_used": 6
+    },
+    {
+      "id": "brass-eyed-quadruped",
+      "subject": "rail creature",
+      "detail": "dog-like iron quadruped with glinting brass eye sockets and mechanical gait",
+      "min_gap": 6,
+      "last_used": 6
     }
   ],
   "character": [
@@ -182,14 +203,14 @@
       "subject": "Stillwell Hydro",
       "detail": "steel door closed behind us in steam room",
       "min_gap": 4,
-      "last_used": 1
+      "last_used": 6
     },
     {
       "id": "shawl-wrap",
       "subject": "Maria",
       "detail": "shawl wrapped around Maria's shoulders",
       "min_gap": 1,
-      "last_used": 4
+      "last_used": 6
     },
     {
       "id": "frayed-knot-cord",
@@ -203,7 +224,7 @@
       "subject": "Edie",
       "detail": "flat scars across palms from cable work",
       "min_gap": 1,
-      "last_used": 5
+      "last_used": 6
     },
     {
       "id": "salt-crusted-stairs",
@@ -231,7 +252,7 @@
       "subject": "Edie",
       "detail": "lead-weight silence in dead left ear from camouflet",
       "min_gap": 1,
-      "last_used": 5
+      "last_used": 6
     },
     {
       "id": "jointed-creature",
@@ -245,7 +266,7 @@
       "subject": "Lloyd",
       "detail": "right forearm set at five-degree inward angle with misaligned elbow",
       "min_gap": 1,
-      "last_used": 5
+      "last_used": 6
     },
     {
       "id": "soot-stained-apron",
@@ -260,6 +281,27 @@
       "detail": "brass-cased extraction timer display showing days remaining",
       "min_gap": 4,
       "last_used": 5
+    },
+    {
+      "id": "burnt-lime-smell",
+      "subject": "Stillwell Hydro",
+      "detail": "cold smell of burnt lime and wet iron",
+      "min_gap": 4,
+      "last_used": 6
+    },
+    {
+      "id": "mismatched-shadows",
+      "subject": "rail guard",
+      "detail": "three distinct shadows stretching from boots under flat white light",
+      "min_gap": 4,
+      "last_used": 6
+    },
+    {
+      "id": "brass-eyed-quadruped",
+      "subject": "rail creature",
+      "detail": "dog-like iron quadruped with glinting brass eye sockets and mechanical gait",
+      "min_gap": 4,
+      "last_used": 6
     }
   ],
   "atmosphere": [

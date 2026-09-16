@@ -1,0 +1,61 @@
+{
+  "pov": "Lloyd",
+  "events": [
+    {
+      "n": 1,
+      "event": "I step out of Stillwell onto the cobbled street, the sky a harsh white."
+    },
+    {
+      "n": 2,
+      "event": "My Insight pricks as the daylight shows the city\u2019s polite veneer hiding rot."
+    },
+    {
+      "n": 3,
+      "event": "I see a rail guard by the tracks, his form throwing three shadows instead of two."
+    },
+    {
+      "n": 4,
+      "event": "A creature that looks like a dog walks beside him, its eyes glinting metal."
+    },
+    {
+      "n": 5,
+      "event": "Maria puts her hand on the guard\u2019s sleeve, then a second time, saying nothing."
+    },
+    {
+      "n": 6,
+      "event": "I note that Maria has no place to go, Edie looks eastward without explaining, and I state I\u2019m heading home to get my mother out."
+    },
+    {
+      "n": 7,
+      "event": "Edie opens a ledger, tallies the cost of the journey east, and marks a payment for a job waiting at the next station."
+    },
+    {
+      "n": 8,
+      "event": "She slides a sealed envelope with a small purse of coins into my palm."
+    },
+    {
+      "n": 9,
+      "event": "Edie folds a paper plan into her coat, the inked lines outlining the work we will do."
+    },
+    {
+      "n": 10,
+      "event": "Without questioning, we move down the main road, the guard\u2019s mismatched shadows flickering as we pass."
+    },
+    {
+      "n": 11,
+      "event": "The dog\u2011like creature follows at a distance, its gait oddly mechanical."
+    },
+    {
+      "n": 12,
+      "event": "My Insight steadies, confirming that the city\u2019s outward cheer is a false mask over hunger and decay."
+    }
+  ],
+  "learned": [
+    "The daylight world pretends to be fine, masking its deeper decay.",
+    "The rail guard\u2019s shadows are inconsistent, indicating something abnormal about him.",
+    "Maria currently has nowhere to go.",
+    "Edie is heading east for a paid job and already possesses the necessary funds.",
+    "I intend to go home to rescue my mother."
+  ],
+  "ends_on": "We vanish down the road, the extra shadow of the guard stretching ahead of us like a dark omen."
+}
