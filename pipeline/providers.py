@@ -7,7 +7,6 @@ other file knowing about it.
 
 import json
 import os
-import socket
 import time
 import urllib.error
 import urllib.request
@@ -141,9 +140,21 @@ def _gemini(system, user, model, max_tokens, error_retries=6, truncation_retries
                 time.sleep(wait)
                 continue
             raise ModelError(f"gemini {e.code}: {e.read()[:300]}")
-        except (socket.timeout, TimeoutError, urllib.error.URLError) as e:
-            # A stalled connection is just as transient as a 429/503 and
-            # shouldn't crash the run uncaught - same backoff, same budget.
+        except OSError as e:
+            # Catches urllib.error.URLError, socket.timeout/TimeoutError, and
+            # - the gap found live on chapter 6 - raw connection failures
+            # like http.client.RemoteDisconnected that urllib does NOT wrap
+            # in URLError. do_open() only wraps OSError from h.request();
+            # an OSError raised later from h.getresponse() (a dropped
+            # connection, reset, etc.) propagates unwrapped, so the
+            # previous (socket.timeout, TimeoutError, URLError) tuple missed
+            # it entirely and crashed the run uncaught. Every one of these
+            # is OSError under the hood (RemoteDisconnected is a
+            # ConnectionResetError is a ConnectionError is an OSError), and
+            # HTTPError - also technically an OSError subclass - is already
+            # caught by the more specific except above it, so broadening
+            # this to plain OSError is strictly more coverage, not less
+            # precision.
             if errors < error_retries:
                 errors += 1
                 wait = 30 * errors
@@ -208,7 +219,11 @@ def _openai_compatible(role_cfg, system, user, max_tokens, error_retries=6):
                 time.sleep(30 * errors)
                 continue
             raise ModelError(f"{role_cfg.get('role')} {e.code}: {e.read()[:300]}")
-        except (socket.timeout, TimeoutError, urllib.error.URLError) as e:
+        except OSError as e:
+            # Same broadening as _gemini() - see its comment. Covers
+            # URLError/timeouts and raw connection drops (RemoteDisconnected
+            # etc.) that urllib doesn't wrap, without swallowing HTTPError
+            # (already handled above, and matched first regardless).
             if errors < error_retries:
                 errors += 1
                 time.sleep(30 * errors)
