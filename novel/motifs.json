@@ -373,7 +373,7 @@
       "subject": "Edie",
       "detail": "flat scars across palms from cable work",
       "min_gap": 1,
-      "last_used": 5
+      "last_used": 6
     },
     {
       "id": "salt-crust-floor",
@@ -401,14 +401,14 @@
       "subject": "Edie",
       "detail": "lead-weight silence in dead left ear from camouflet",
       "min_gap": 1,
-      "last_used": 5
+      "last_used": 6
     },
     {
       "id": "crooked-arm",
       "subject": "Lloyd",
       "detail": "right forearm set at five-degree inward angle with misaligned elbow",
       "min_gap": 1,
-      "last_used": 5
+      "last_used": 6
     },
     {
       "id": "soot-stained-apron",
@@ -423,6 +423,20 @@
       "detail": "brass-cased extraction timer display showing days remaining",
       "min_gap": 4,
       "last_used": 5
+    },
+    {
+      "id": "mismatched-shadows",
+      "subject": "rail guard",
+      "detail": "three distinct shadows stretching from boots under flat white light",
+      "min_gap": 4,
+      "last_used": 6
+    },
+    {
+      "id": "brass-eyed-quadruped",
+      "subject": "rail creature",
+      "detail": "dog-like iron quadruped with glinting brass eye sockets and mechanical gait",
+      "min_gap": 4,
+      "last_used": 6
     }
   ]
 }
