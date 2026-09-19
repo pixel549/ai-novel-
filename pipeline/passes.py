@@ -19,6 +19,13 @@ import re
 from . import state
 from .providers import call_model
 
+# Mirrors run_chapter.py's MIN_LENGTH/MAX_LENGTH (duplicated rather than
+# imported - run_chapter.py imports this module, so the reverse would be
+# circular). Used by revise() to tell an over/under-length chapter apart
+# from the actual word count, not by parsing the editor's own free-text fix
+# suggestion - see revise() for why that was the wrong signal to trust.
+MIN_LENGTH, MAX_LENGTH = 1800, 3200
+
 
 def _sys(role, canon, act, pov):
     return f"""You are one stage of a multi-stage novel drafting pipeline. You are the {role}.
@@ -360,21 +367,31 @@ Output JSON only:
 
 def revise(roles, n, act, pov, canon, skel, draft, verdict):
     cfg = roles["unify"]
-    # Caught live: handed a too-short chapter and a check-8 "expand" failure,
+    # Caught live: handed a too-short chapter and a check-8 length failure,
     # this pass shrank it further two rounds running (859 -> ~330 words)
     # instead of growing it - "fix only what's named, don't touch the rest"
     # reads to the model as license to trim rather than add. Spell out the
-    # expand case explicitly so cutting isn't the safe-looking move.
-    expand = next(
-        (f for f in verdict["failures"]
-         if f.get("check") == 8 and "expand" in f.get("fix", "").lower()),
-        None,
-    )
+    # expand/trim case explicitly so the safe-looking move (cut when
+    # unsure) isn't the one it defaults to either way.
+    #
+    # Whether it's expand or trim is decided from draft's actual word count,
+    # not by parsing the editor's own free-text "fix" suggestion - that field
+    # is only guaranteed to exist when the code-level length override in
+    # run_chapter.py wrote it (fixed wording: "Expand"/"Trim to land..."),
+    # not when the editor model caught the length problem itself and wrote
+    # its own fix text, which isn't guaranteed to use either word. Caught
+    # live: a 4063-word chapter's own editor-written fix wasn't logged
+    # verbatim, and this pass trimmed it to only 3929 - proof the case
+    # wasn't actually being detected before this fix.
+    has_length_failure = any(f.get("check") == 8 for f in verdict["failures"])
+    word_count = len(draft.split())
+    expand = has_length_failure and word_count < MIN_LENGTH
+    trim = has_length_failure and word_count > MAX_LENGTH
     expansion_note = ""
     if expand:
         expansion_note = f"""
 
-This chapter is {len(draft.split())} words and must reach at least 1,800. The
+This chapter is {word_count} words and must reach at least {MIN_LENGTH}. The
 fix is to ADD - more interiority, more dialogue, more sensory detail, beats
 played out in full rather than summarized. Do not cut, condense or tighten
 anything to compensate; a chapter that comes out of this pass shorter than it
@@ -382,6 +399,23 @@ went in is a failure regardless of anything else it gets right. Add to the
 scenes and beats already in the frozen skeleton below - do not introduce a
 new scene, encounter or character to pad the length. Where an event feels
 rushed, that is exactly where to slow down and add page."""
+    elif trim:
+        # Mirror of the expand case, caught live the same way: handed a
+        # 4063-word chapter, this pass cut only to 3929 words - a 3% trim
+        # when ~20% was needed. The same "fix only what's named" framing
+        # that once produced too little cutting apparently also produces
+        # too little cutting here; a vague "trim" instruction doesn't
+        # convey how much is actually required.
+        over_words = word_count - MAX_LENGTH
+        expansion_note = f"""
+
+This chapter is {word_count} words and must come down to {MAX_LENGTH} or
+fewer - at least {over_words} words need to go. A small trim will not pass
+again. Cut whole sentences and passages, not just adjectives: redundant
+description, a beat that restates one already played, dialogue that circles
+where it should land. Every frozen skeleton event must still survive, but
+survive does not mean untouched - the fix here is real, decisive cutting,
+not a polish pass."""
     return call_model(
         cfg,
         _sys("revision pass", canon, act, pov),

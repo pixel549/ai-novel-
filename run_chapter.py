@@ -159,6 +159,24 @@ def main():
                 retry = passes.unify(roles, n, act, pov, canon, skel, draft)
                 print(f"             retry: {len(retry.split())} words")
                 new = retry if len(retry.split()) > len(new.split()) else new
+            elif len(new.split()) > MAX_LENGTH:
+                # unify's own prompt states a computed target range (75-85%
+                # of input), but caught live: given a 4051-word draft it
+                # returned 4063 words - not just failing to cut, actually
+                # growing past the input. The floor above didn't catch this
+                # (4063 is nowhere near under 60% retention), and neither
+                # editor nor revise() could fix it after the fact (revise
+                # trimmed 4063->3929 over one attempt, nowhere near enough,
+                # and MAX_REVISIONS then discarded the chapter along with
+                # the already-checkpointed character/atmosphere passes).
+                # Catching an over-length unify output here, before it ever
+                # reaches the editor, is a much cheaper place to retry.
+                old_words, new_words = len(draft.split()), len(new.split())
+                print(f"             {new_words} words — over the {MAX_LENGTH} "
+                      f"ceiling, retrying once")
+                retry = passes.unify(roles, n, act, pov, canon, skel, draft)
+                print(f"             retry: {len(retry.split())} words")
+                new = retry if len(retry.split()) < len(new.split()) else new
 
         if draft and name in MIN_RETENTION:
             old_words, new_words = len(draft.split()), len(new.split())
