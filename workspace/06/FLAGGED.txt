@@ -1,0 +1,12 @@
+{
+  "verdict": "REVISE",
+  "failures": [
+    {
+      "check": 8,
+      "problem": "The chapter exceeds the maximum length constraint of 3,200 words (the draft is approximately 3,700 words long).",
+      "where": "Whole chapter",
+      "fix": "Trim descriptive passages, particularly around the street inspection, the guard's shadows, and the mechanical dog, to bring the total word count under 3,200 words."
+    }
+  ],
+  "notes": "The chapter follows the skeleton and POV closely but requires trimming to meet the strict word count limit."
+}

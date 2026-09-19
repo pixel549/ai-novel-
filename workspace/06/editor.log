@@ -1,0 +1,42 @@
+--- attempt 1 ---
+{
+  "verdict": "REVISE",
+  "failures": [
+    {
+      "check": 8,
+      "problem": "Chapter is 4063 words, outside the required 1800-3200 range.",
+      "where": "(whole chapter)",
+      "fix": "Trim to land within 1800-3200 words."
+    }
+  ],
+  "notes": "length override \u2014 code-checked, not the editor's own count"
+}
+
+--- attempt 2 ---
+{
+  "verdict": "REVISE",
+  "failures": [
+    {
+      "check": 8,
+      "problem": "Chapter is 3929 words, outside the required 1800-3200 range.",
+      "where": "(whole chapter)",
+      "fix": "Trim to land within 1800-3200 words."
+    }
+  ],
+  "notes": "length override \u2014 code-checked, not the editor's own count"
+}
+
+--- attempt 3 ---
+{
+  "verdict": "REVISE",
+  "failures": [
+    {
+      "check": 8,
+      "problem": "The chapter exceeds the maximum length constraint of 3,200 words (the draft is approximately 3,700 words long).",
+      "where": "Whole chapter",
+      "fix": "Trim descriptive passages, particularly around the street inspection, the guard's shadows, and the mechanical dog, to bring the total word count under 3,200 words."
+    }
+  ],
+  "notes": "The chapter follows the skeleton and POV closely but requires trimming to meet the strict word count limit."
+}
+
