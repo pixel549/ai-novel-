@@ -435,7 +435,7 @@
       "id": "crooked-arm",
       "subject": "Lloyd",
       "detail": "right forearm set at five-degree inward angle with misaligned elbow",
-      "min_gap": 19,
+      "min_gap": 6,
       "last_used": 6
     },
     {
@@ -456,7 +456,7 @@
       "id": "mismatched-shadows",
       "subject": "rail guard",
       "detail": "three distinct shadows stretching from boots under flat white light",
-      "min_gap": 22,
+      "min_gap": 6,
       "last_used": 6
     },
     {
@@ -470,7 +470,14 @@
       "id": "oilcloth-ledger",
       "subject": "Edie",
       "detail": "grease-stained oilcloth ledger",
-      "min_gap": 4,
+      "min_gap": 6,
+      "last_used": 6
+    },
+    {
+      "id": "mechanical-dog",
+      "subject": "rail creature",
+      "detail": "dog-like iron quadruped with riveted plate ribs",
+      "min_gap": 6,
       "last_used": 6
     }
   ]
