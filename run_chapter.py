@@ -2,12 +2,22 @@
 """Draft one chapter.
 
     python run_chapter.py 1
-    python run_chapter.py 1 --force        rerun passes already on disk
-    python run_chapter.py 1 --stop unify   stop after a given pass
-    python run_chapter.py 1 --redo unify   clear this pass onward, then run
+    python run_chapter.py 1 --force            rerun passes already on disk
+    python run_chapter.py 1 --stop unify       stop after a given pass
+    python run_chapter.py 1 --redo unify       clear this pass onward, then run
+    python run_chapter.py 1 --max-passes 4     do the whole chapter in one go
 
 Every pass is written to workspace/NN/ the moment it finishes. A rate limit
 costs you one pass, not the chapter — run the same command again.
+
+By default a single run only attempts MAX_NEW_PASSES_PER_RUN fresh prose
+passes (action/character/atmosphere/unify) before stopping cleanly (exit 0,
+not a failure) and leaving the rest for the next run. This staggers a
+chapter's workload across multiple scheduled fires instead of one long run
+that has to get everything right in a single sitting - a chapter needing
+all four fresh now typically ships over two scheduled runs instead of one.
+Pass --max-passes with a bigger number (e.g. 4, to cover every prose pass)
+to force a full regeneration in one command, same as before this existed.
 
 When you're debugging one specific pass, prefer --redo over --force: --force
 reruns everything from skeleton, spending a full chapter's worth of API
@@ -65,6 +75,20 @@ MIN_ATMOSPHERE_GROWTH = 100
 # is losing most of the chapter's content outright.
 MIN_UNIFY_RETENTION = 0.60
 
+# Staggering: a scheduled run only attempts this many fresh (not already
+# cached) prose passes before stopping cleanly, leaving the rest for the
+# next scheduled fire. Added as a second, independent line of defense
+# alongside the provider fallback chains - not because any one pass being
+# heavy was ever the proven cause of a failure, but because bounding how
+# much of a chapter's workload (and how many Gemini/Groq/etc. calls with
+# their own retries) any single run can attempt keeps the blast radius of
+# a genuinely bad run small no matter what causes it, known failure mode or
+# not. 2 means a chapter needing all four passes fresh typically ships over
+# two scheduled runs instead of one - slower, but the checkpoint system
+# already made "finishes a day late" a non-event, and a chapter that ships
+# a day late beats one that fails outright chasing everything at once.
+MAX_NEW_PASSES_PER_RUN = 2
+
 
 def main():
     ap = argparse.ArgumentParser()
@@ -75,6 +99,10 @@ def main():
                      help="clear this pass and everything after it, then run "
                           "normally - reuses good checkpoints instead of "
                           "regenerating the whole chapter like --force does")
+    ap.add_argument("--max-passes", type=int, default=MAX_NEW_PASSES_PER_RUN,
+                     help="stop cleanly after this many fresh prose passes "
+                          "(default staggers across multiple runs; pass 4 "
+                          "to force the whole chapter in one command)")
     args = ap.parse_args()
 
     n = args.chapter
@@ -116,6 +144,7 @@ def main():
 
     # ---- prose passes ---------------------------------------------------
     draft = None
+    new_passes_run = 0
     for name in ORDER:
         if state.pass_done(n, name) and not args.force:
             draft = state.load_pass(n, name)
@@ -123,6 +152,12 @@ def main():
             if args.stop == name:
                 return
             continue
+
+        if new_passes_run >= args.max_passes:
+            print(f"  [{name}] reached this run's pass budget "
+                  f"({args.max_passes} fresh pass(es)) — stopping cleanly, "
+                  f"resuming from here next run")
+            return
 
         print(f"  [{name}] running")
         if name == "action":
@@ -187,6 +222,7 @@ def main():
 
         draft = new
         state.save_pass(n, name, draft)
+        new_passes_run += 1
         print(f"             {len(draft.split())} words")
         if args.stop == name:
             return
