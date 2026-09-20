@@ -1,5 +1,5 @@
 {
-  "_comment": "Live config. Put your best model on unify - it writes the book. The editor must be a different model from unify, or it will approve its own work. A role's value can be a single {provider, model, ...} dict, or a LIST of them - a fallback chain tried in preference order, falling back only once a candidate's own internal retries are exhausted (see providers.call_model). Useful when one provider has a bad night: list your best model first, a more available one next, then a wholly different provider as a last resort. Pin '-latest'-style aliases where a provider offers them (e.g. mistral-small-latest) rather than a dated snapshot - it costs nothing and avoids the exact version-churn problem that broke several pinned models in this project's own history.",
+  "_comment": "Live config. Put your best model on unify - it writes the book. The editor must be a different model from unify, or it will approve its own work. A role's value can be a single {provider, model, ...} dict, or a LIST of them - a fallback chain tried in preference order, falling back only once a candidate's own internal retries are fully exhausted (see providers.call_model). Useful when one provider has a bad night: list your best model first, a more available one next, then a wholly different provider as a last resort. Pin '-latest'-style aliases where a provider offers them (e.g. mistral-small-latest) rather than a dated snapshot - it costs nothing and avoids the exact version-churn problem that broke several pinned models in this project's own history. Groq is deliberately absent from the heavy roles' chains (action/character/atmosphere/unify/editor) - live proof it can't serve them: a large canon.md + motif-ledger payload hit a 413 'tokens per minute (TPM): Limit 8000' even on a bigger Groq model, so it's kept only on skeleton/summariser, whose payloads stay genuinely small. Also: never push a new commit to main while a scheduled run is in progress - its own end-of-run checkpoint push can get rejected as a non-fast-forward conflict, silently losing that run's work.",
 
   "skeleton": [
     { "role": "skeleton", "provider": "openai_compatible", "model": "openai/gpt-oss-120b",
@@ -14,8 +14,6 @@
   "action": [
     { "role": "action", "provider": "gemini", "model": "gemini-3.5-flash-lite" },
     { "role": "action", "provider": "gemini", "model": "gemini-3.6-flash" },
-    { "role": "action", "provider": "openai_compatible", "model": "openai/gpt-oss-120b",
-      "base_url": "https://api.groq.com/openai/v1", "api_key_env": "GROQ_API_KEY" },
     { "role": "action", "provider": "openai_compatible", "model": "mistral-small-latest",
       "base_url": "https://api.mistral.ai/v1", "api_key_env": "MISTRAL_API_KEY" },
     { "role": "action", "provider": "openai_compatible", "model": "llama3.3-70b",
@@ -25,8 +23,6 @@
   "character": [
     { "role": "character", "provider": "gemini", "model": "gemini-3.5-flash-lite" },
     { "role": "character", "provider": "gemini", "model": "gemini-3.6-flash" },
-    { "role": "character", "provider": "openai_compatible", "model": "openai/gpt-oss-120b",
-      "base_url": "https://api.groq.com/openai/v1", "api_key_env": "GROQ_API_KEY" },
     { "role": "character", "provider": "openai_compatible", "model": "mistral-small-latest",
       "base_url": "https://api.mistral.ai/v1", "api_key_env": "MISTRAL_API_KEY" },
     { "role": "character", "provider": "openai_compatible", "model": "llama3.3-70b",
@@ -36,8 +32,6 @@
   "atmosphere": [
     { "role": "atmosphere", "provider": "gemini", "model": "gemini-3.5-flash-lite" },
     { "role": "atmosphere", "provider": "gemini", "model": "gemini-3.6-flash" },
-    { "role": "atmosphere", "provider": "openai_compatible", "model": "openai/gpt-oss-120b",
-      "base_url": "https://api.groq.com/openai/v1", "api_key_env": "GROQ_API_KEY" },
     { "role": "atmosphere", "provider": "openai_compatible", "model": "mistral-small-latest",
       "base_url": "https://api.mistral.ai/v1", "api_key_env": "MISTRAL_API_KEY" },
     { "role": "atmosphere", "provider": "openai_compatible", "model": "llama3.3-70b",
@@ -47,8 +41,6 @@
   "unify": [
     { "role": "unify", "provider": "gemini", "model": "gemini-3.5-flash-lite" },
     { "role": "unify", "provider": "gemini", "model": "gemini-3.6-flash" },
-    { "role": "unify", "provider": "openai_compatible", "model": "openai/gpt-oss-120b",
-      "base_url": "https://api.groq.com/openai/v1", "api_key_env": "GROQ_API_KEY" },
     { "role": "unify", "provider": "openai_compatible", "model": "mistral-small-latest",
       "base_url": "https://api.mistral.ai/v1", "api_key_env": "MISTRAL_API_KEY" },
     { "role": "unify", "provider": "openai_compatible", "model": "llama3.3-70b",
@@ -57,8 +49,6 @@
 
   "editor": [
     { "role": "editor", "provider": "gemini", "model": "gemini-3.6-flash" },
-    { "role": "editor", "provider": "openai_compatible", "model": "openai/gpt-oss-120b",
-      "base_url": "https://api.groq.com/openai/v1", "api_key_env": "GROQ_API_KEY" },
     { "role": "editor", "provider": "openai_compatible", "model": "mistral-small-latest",
       "base_url": "https://api.mistral.ai/v1", "api_key_env": "MISTRAL_API_KEY" },
     { "role": "editor", "provider": "openai_compatible", "model": "llama3.3-70b",
