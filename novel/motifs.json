@@ -116,14 +116,14 @@
       "id": "camouflet-deafness",
       "subject": "Edie",
       "detail": "deaf in left ear from camouflet",
-      "min_gap": 1,
+      "min_gap": 13,
       "last_used": 6
     },
     {
       "id": "crooked-arm",
       "subject": "Lloyd",
       "detail": "right forearm set at five-degree inward angle with misaligned elbow",
-      "min_gap": 1,
+      "min_gap": 13,
       "last_used": 6
     },
     {
@@ -144,21 +144,21 @@
       "id": "burnt-lime-smell",
       "subject": "Stillwell Hydro",
       "detail": "cold smell of burnt lime and wet iron",
-      "min_gap": 4,
+      "min_gap": 11,
       "last_used": 6
     },
     {
       "id": "mismatched-shadows",
       "subject": "rail guard",
       "detail": "three distinct shadows stretching from boots under flat white light",
-      "min_gap": 4,
+      "min_gap": 22,
       "last_used": 6
     },
     {
       "id": "brass-eyed-quadruped",
       "subject": "rail creature",
       "detail": "dog-like iron quadruped with glinting brass eye sockets and mechanical gait",
-      "min_gap": 4,
+      "min_gap": 22,
       "last_used": 6
     }
   ],
@@ -265,7 +265,7 @@
       "id": "crooked-arm",
       "subject": "Lloyd",
       "detail": "right forearm set at five-degree inward angle with misaligned elbow",
-      "min_gap": 7,
+      "min_gap": 13,
       "last_used": 6
     },
     {
@@ -286,21 +286,21 @@
       "id": "burnt-lime-smell",
       "subject": "Stillwell Hydro",
       "detail": "cold smell of burnt lime and wet iron",
-      "min_gap": 2,
+      "min_gap": 8,
       "last_used": 6
     },
     {
       "id": "mismatched-shadows",
       "subject": "rail guard",
       "detail": "three distinct shadows stretching from boots under flat white light",
-      "min_gap": 10,
+      "min_gap": 16,
       "last_used": 6
     },
     {
       "id": "brass-eyed-quadruped",
       "subject": "rail creature",
       "detail": "dog-like iron quadruped with glinting brass eye sockets and mechanical gait",
-      "min_gap": 10,
+      "min_gap": 16,
       "last_used": 6
     }
   ],
