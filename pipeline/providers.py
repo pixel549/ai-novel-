@@ -68,7 +68,7 @@ def _stub(role_cfg):
 # --------------------------------------------------------------------------
 
 
-def _gemini(system, user, model, max_tokens, error_retries=6, truncation_retries=3):
+def _gemini(system, user, model, max_tokens, error_retries=9, truncation_retries=3):
     key = os.environ.get("GEMINI_API_KEY")
     if not key:
         raise ModelError("GEMINI_API_KEY not set")
@@ -86,6 +86,14 @@ def _gemini(system, user, model, max_tokens, error_retries=6, truncation_retries
     # ("high demand") exhausted what was left and crashed the run. Truncation
     # and transient errors are unrelated failure modes and now each get their
     # own full allowance.
+    #
+    # error_retries raised 6 -> 9 (30s/60s/.../270s, ~22.5 min total) after
+    # three straight days of 503 storms outlasting the old 10.5-minute
+    # budget entirely, on every pass, not just the expensive ones - a job
+    # taking longer is free on GitHub Actions; a job failing outright isn't.
+    # The real fix for that pattern is the roles.json model swap (moving
+    # off gemini-3.6-flash, which is under sustained load, onto the
+    # higher-throughput 3.5-flash-lite tier); this is the secondary margin.
     truncations = 0
     errors = 0
     while True:
