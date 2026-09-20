@@ -1,12 +1,4 @@
 {
-  "verdict": "REVISE",
-  "failures": [
-    {
-      "check": 8,
-      "problem": "The chapter total is 1,519 words, falling short of the required 1,800 to 3,200 word range.",
-      "where": "Entire chapter",
-      "fix": "Expand the scene descriptions and interior beats to bring the word count above the 1,800-word minimum."
-    }
-  ],
-  "notes": "The text hits all skeleton events in exact sequence and maintains proper POV, but fails the strict length requirement."
+  "verdict": "CRASH",
+  "notes": "unhandled exception mid-revision loop"
 }

@@ -88,3 +88,17 @@
   "notes": "The text hits all skeleton events in exact sequence and maintains proper POV, but fails the strict length requirement."
 }
 
+--- attempt 1 ---
+{
+  "verdict": "REVISE",
+  "failures": [
+    {
+      "check": 8,
+      "problem": "Chapter is 1042 words, outside the required 1800-3200 range.",
+      "where": "(whole chapter)",
+      "fix": "Expand to land within 1800-3200 words."
+    }
+  ],
+  "notes": "The chapter follows the skeleton and voice guidelines closely, but fails the length requirement at 888 words."
+}
+
