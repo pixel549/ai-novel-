@@ -205,23 +205,31 @@ def main():
             verdict = passes.editor(roles, n, act, pov, canon, skel, draft, prev, motif_snapshot)
 
             # The editor LLM is unreliable at actually counting words - verified
-            # live (it passed a 393-word chapter against an 1800-3200 requirement).
-            # Word count is cheap to check in code, so don't trust the model's
-            # self-report for it.
+            # live in both directions: it once passed a 393-word chapter against
+            # an 1800-3200 requirement (too lenient), and separately rejected a
+            # real 1955-word chapter as "approximately 1,630 words" three attempts
+            # running (too strict) - revise() then genuinely shrank a fine chapter
+            # chasing a problem that didn't exist, until it hit MAX_REVISIONS on a
+            # self-inflicted wound. Word count is cheap to check in code, so check
+            # 8 is always replaced with the code-computed truth, regardless of
+            # what the editor itself said - never trust its self-report, not just
+            # when it's being too generous.
             word_count = len(draft.split())
-            if verdict["verdict"] == "PASS" and not (MIN_LENGTH <= word_count <= MAX_LENGTH):
-                verdict = {
-                    "verdict": "REVISE",
-                    "failures": [{
-                        "check": 8,
-                        "problem": f"Chapter is {word_count} words, outside the required "
-                                   f"{MIN_LENGTH}-{MAX_LENGTH} range.",
-                        "where": "(whole chapter)",
-                        "fix": f"{'Expand' if word_count < MIN_LENGTH else 'Trim'} to land "
-                               f"within {MIN_LENGTH}-{MAX_LENGTH} words.",
-                    }],
-                    "notes": "length override — code-checked, not the editor's own count",
-                }
+            failures = [f for f in verdict.get("failures", []) if f.get("check") != 8]
+            if not (MIN_LENGTH <= word_count <= MAX_LENGTH):
+                failures.append({
+                    "check": 8,
+                    "problem": f"Chapter is {word_count} words, outside the required "
+                               f"{MIN_LENGTH}-{MAX_LENGTH} range.",
+                    "where": "(whole chapter)",
+                    "fix": f"{'Expand' if word_count < MIN_LENGTH else 'Trim'} to land "
+                           f"within {MIN_LENGTH}-{MAX_LENGTH} words.",
+                })
+            verdict = {
+                "verdict": "PASS" if not failures else "REVISE",
+                "failures": failures,
+                "notes": verdict.get("notes", ""),
+            }
 
             state.log_editor(n, attempt, verdict)
             print(f"           {verdict['verdict']}: {len(verdict.get('failures', []))} failures")

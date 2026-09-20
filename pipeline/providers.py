@@ -17,14 +17,36 @@ class ModelError(Exception):
 
 
 def call_model(role_cfg, system, user, max_tokens=4000):
-    provider = role_cfg.get("provider", "stub")
+    """role_cfg is normally one {provider, model, ...} dict. It can also be a
+    LIST of them - a fallback chain, tried in preference order. Each
+    candidate already retries internally (_gemini/_openai_compatible only
+    raise ModelError once their own retry budget is exhausted), so falling
+    back here means "this whole provider is down right now," not "one
+    request failed." Added after three straight days where a single
+    provider (gemini-3.6-flash, under sustained demand) had no fallback at
+    all - once its own retries ran out, the entire chapter failed outright.
+    A plain dict behaves exactly as before (a one-candidate chain)."""
+    chain = role_cfg if isinstance(role_cfg, list) else [role_cfg]
+    for i, cfg in enumerate(chain):
+        try:
+            return _dispatch(cfg, system, user, max_tokens)
+        except ModelError as e:
+            if i == len(chain) - 1:
+                raise
+            next_cfg = chain[i + 1]
+            print(f"             ({cfg.get('provider')}/{cfg.get('model')} exhausted its "
+                  f"retries ({e}) - falling back to "
+                  f"{next_cfg.get('provider')}/{next_cfg.get('model')})")
 
+
+def _dispatch(cfg, system, user, max_tokens):
+    provider = cfg.get("provider", "stub")
     if provider == "stub":
-        return _stub(role_cfg)
+        return _stub(cfg)
     if provider == "gemini":
-        return _gemini(system, user, role_cfg.get("model", "gemini-2.0-flash"), max_tokens)
+        return _gemini(system, user, cfg.get("model", "gemini-2.0-flash"), max_tokens)
     if provider == "openai_compatible":
-        return _openai_compatible(role_cfg, system, user, max_tokens)
+        return _openai_compatible(cfg, system, user, max_tokens)
     raise ModelError(f"unknown provider: {provider}")
 
 

@@ -1,20 +1,44 @@
 {
-  "_comment": "Live config. Both Gemini Pro-tier options are dead ends: gemini-3.1-pro-preview hit a hard 429 quota-exceeded (needs billing enabled, not just a low free allowance) and gemini-2.5-pro came back 404 'no longer available to new users' - a real decommission, not a rate issue. Only skeleton and summariser stay on Groq: skeleton's input never includes the motif section and has held up across every chapter so far; summariser doesn't send canon.md at all, so its input is small regardless of how much else grows. Mistral is parked entirely: 429 rate_limited on the very first call, two different roles, two separate runs, before Groq's own error confirmed canon.md's size is the real constraint - worth checking its dashboard limits directly before trying again. summariser also carries reasoning_effort/reasoning_format - its original model (qwen/qwen3.6-27b) was a reasoning model that emitted <think>...</think> as literal text sharing the same token budget as the real answer, burning through 500 then 2000 tokens on chapter 2 without ever finishing its reasoning, let alone writing the summary. These two fields (read by providers._openai_compatible, ignored by roles that don't set them) disable reasoning outright and strip it from the response as a second line of defense. qwen/qwen3.6-27b itself was then decommissioned outright (404 model_not_found, chapter 5's overnight run) - moved summariser to openai/gpt-oss-20b, the smaller sibling of skeleton's already-proven gpt-oss-120b: same family, distinct model ID from skeleton so no shared TPM concerns, small enough for a task that never sends canon.md anyway. Two live 400s fixing this: qwen accepted reasoning_effort 'none' but gpt-oss only accepts low/medium/high (set to 'low'), and reasoning_format isn't supported by gpt-oss at all - had to drop it. Not a problem in practice: gpt-oss puts reasoning in its own response field rather than qwen's literal <think>...</think> inline in content, so the content field _openai_compatible() actually reads was never going to carry reasoning text regardless of these settings. _strip_thinking() in passes.py stays as a no-cost safety net for whatever model ends up here next. 2026-09-20: swapped action/character/atmosphere/unify off gemini-3.6-flash onto gemini-3.5-flash-lite, and moved editor the other way (3.5-flash-lite -> 3.6-flash), after three straight days of 503 'high demand' storms exhausting the full 6-retry (~10.5min) backoff - the run that finally nailed this down failed on action, the very FIRST call of a fresh regeneration, proving it's the model under sustained load, not any one pass's payload size. Flash-lite is Google's own high-throughput/high-volume tier (lower per-call intelligence, meant for exactly this kind of volume) vs 3.6-flash's heavier 'workhorse' tier - and editor, the one role still left on 3.6-flash, has not 503'd once in two weeks of logs, versus every other role 503ing repeatedly. Putting the flakier-under-load model on editor (cheap, fast, low-stakes, already has its own retry margin) and the higher-availability model on the passes that actually have to complete every single day keeps unify/editor still on distinct models (the no-self-grading rule) while directly targeting the dominant recent failure mode with hard evidence, not a guess. If prose quality visibly suffers from the lite model, worth revisiting - reliability came first here under explicit instruction.",
+  "_comment": "Live config. Both Gemini Pro-tier options are dead ends: gemini-3.1-pro-preview hit a hard 429 quota-exceeded (needs billing enabled, not just a low free allowance) and gemini-2.5-pro came back 404 'no longer available to new users' - a real decommission, not a rate issue. Only skeleton and summariser stay single-model on Groq: skeleton's input never includes the motif section and has held up across every chapter so far; summariser doesn't send canon.md at all, so its input is small regardless of how much else grows. Mistral is parked entirely: 429 rate_limited on the very first call, two different roles, two separate runs, before Groq's own error confirmed canon.md's size is the real constraint - worth checking its dashboard limits directly before trying again. summariser also carries reasoning_effort/reasoning_format - its original model (qwen/qwen3.6-27b) was a reasoning model that emitted <think>...</think> as literal text sharing the same token budget as the real answer, burning through 500 then 2000 tokens on chapter 2 without ever finishing its reasoning, let alone writing the summary. These two fields (read by providers._openai_compatible, ignored by roles that don't set them) disable reasoning outright and strip it from the response as a second line of defense. qwen/qwen3.6-27b itself was then decommissioned outright (404 model_not_found, chapter 5's overnight run) - moved summariser to openai/gpt-oss-20b, the smaller sibling of skeleton's already-proven gpt-oss-120b: same family, distinct model ID from skeleton so no shared TPM concerns, small enough for a task that never sends canon.md anyway. Two live 400s fixing this: qwen accepted reasoning_effort 'none' but gpt-oss only accepts low/medium/high (set to 'low'), and reasoning_format isn't supported by gpt-oss at all - had to drop it. Not a problem in practice: gpt-oss puts reasoning in its own response field rather than qwen's literal <think>...</think> inline in content, so the content field _openai_compatible() actually reads was never going to carry reasoning text regardless of these settings. _strip_thinking() in passes.py stays as a no-cost safety net for whatever model ends up here next. 2026-09-20, two changes same night: (1) swapped action/character/atmosphere/unify off gemini-3.6-flash onto gemini-3.5-flash-lite, moved editor the other way (3.5-flash-lite -> 3.6-flash), after three straight days of 503 'high demand' storms outlasting the full retry backoff - the run that nailed it down failed on action, the very FIRST call of a fresh regeneration, proving it's the model under sustained load, not any one pass's payload. Flash-lite is Google's own high-throughput tier (lower per-call intelligence, built for exactly this kind of volume) vs 3.6-flash's heavier 'workhorse' tier - editor, the one role on 3.6-flash, had not 503'd once in two weeks, versus every role on 3.6-flash 503ing repeatedly. (2) A role's value can now be a LIST instead of a single dict - providers.call_model() tries each candidate in order, falling back only once a candidate's own internal retries are fully exhausted (see providers.py). action/character/atmosphere/unify each chain lite (proven reliable) -> 3.6-flash (higher quality, tried if lite itself is somehow down) -> Groq gpt-oss-120b (last resort, a wholly different provider, distinct from any Gemini outage). editor chains 3.6-flash -> the same Groq model, deliberately never listing flash-lite so it can't coincidentally land on the exact model unify is using that same call. skeleton/summariser stay single-model for now - no observed failures there yet to justify the added complexity.",
 
   "skeleton":   { "role": "skeleton",   "provider": "openai_compatible",
                   "model": "openai/gpt-oss-120b",
                   "base_url": "https://api.groq.com/openai/v1",
                   "api_key_env": "GROQ_API_KEY" },
 
-  "action":     { "role": "action",     "provider": "gemini", "model": "gemini-3.5-flash-lite" },
+  "action": [
+    { "role": "action", "provider": "gemini", "model": "gemini-3.5-flash-lite" },
+    { "role": "action", "provider": "gemini", "model": "gemini-3.6-flash" },
+    { "role": "action", "provider": "openai_compatible", "model": "openai/gpt-oss-120b",
+      "base_url": "https://api.groq.com/openai/v1", "api_key_env": "GROQ_API_KEY" }
+  ],
 
-  "character":  { "role": "character",  "provider": "gemini", "model": "gemini-3.5-flash-lite" },
+  "character": [
+    { "role": "character", "provider": "gemini", "model": "gemini-3.5-flash-lite" },
+    { "role": "character", "provider": "gemini", "model": "gemini-3.6-flash" },
+    { "role": "character", "provider": "openai_compatible", "model": "openai/gpt-oss-120b",
+      "base_url": "https://api.groq.com/openai/v1", "api_key_env": "GROQ_API_KEY" }
+  ],
 
-  "atmosphere": { "role": "atmosphere", "provider": "gemini", "model": "gemini-3.5-flash-lite" },
+  "atmosphere": [
+    { "role": "atmosphere", "provider": "gemini", "model": "gemini-3.5-flash-lite" },
+    { "role": "atmosphere", "provider": "gemini", "model": "gemini-3.6-flash" },
+    { "role": "atmosphere", "provider": "openai_compatible", "model": "openai/gpt-oss-120b",
+      "base_url": "https://api.groq.com/openai/v1", "api_key_env": "GROQ_API_KEY" }
+  ],
 
-  "unify":      { "role": "unify",      "provider": "gemini", "model": "gemini-3.5-flash-lite" },
+  "unify": [
+    { "role": "unify", "provider": "gemini", "model": "gemini-3.5-flash-lite" },
+    { "role": "unify", "provider": "gemini", "model": "gemini-3.6-flash" },
+    { "role": "unify", "provider": "openai_compatible", "model": "openai/gpt-oss-120b",
+      "base_url": "https://api.groq.com/openai/v1", "api_key_env": "GROQ_API_KEY" }
+  ],
 
-  "editor":     { "role": "editor",     "provider": "gemini", "model": "gemini-3.6-flash" },
+  "editor": [
+    { "role": "editor", "provider": "gemini", "model": "gemini-3.6-flash" },
+    { "role": "editor", "provider": "openai_compatible", "model": "openai/gpt-oss-120b",
+      "base_url": "https://api.groq.com/openai/v1", "api_key_env": "GROQ_API_KEY" }
+  ],
 
   "summariser": { "role": "summariser", "provider": "openai_compatible",
                   "model": "openai/gpt-oss-20b",

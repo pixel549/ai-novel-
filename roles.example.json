@@ -1,20 +1,44 @@
 {
-  "_comment": "Live config. Put your best model on unify - it writes the book. The editor must be a different model from unify, or it will approve its own work.",
+  "_comment": "Live config. Put your best model on unify - it writes the book. The editor must be a different model from unify, or it will approve its own work. A role's value can be a single {provider, model, ...} dict, or a LIST of them - a fallback chain tried in preference order, falling back only once a candidate's own internal retries are exhausted (see providers.call_model). Useful when one provider has a bad night: list your best model first, then a more available one, then a wholly different provider as a last resort.",
 
   "skeleton":   { "role": "skeleton",   "provider": "openai_compatible",
                   "model": "openai/gpt-oss-120b",
                   "base_url": "https://api.groq.com/openai/v1",
                   "api_key_env": "GROQ_API_KEY" },
 
-  "action":     { "role": "action",     "provider": "gemini", "model": "gemini-3.5-flash-lite" },
+  "action": [
+    { "role": "action", "provider": "gemini", "model": "gemini-3.5-flash-lite" },
+    { "role": "action", "provider": "gemini", "model": "gemini-3.6-flash" },
+    { "role": "action", "provider": "openai_compatible", "model": "openai/gpt-oss-120b",
+      "base_url": "https://api.groq.com/openai/v1", "api_key_env": "GROQ_API_KEY" }
+  ],
 
-  "character":  { "role": "character",  "provider": "gemini", "model": "gemini-3.5-flash-lite" },
+  "character": [
+    { "role": "character", "provider": "gemini", "model": "gemini-3.5-flash-lite" },
+    { "role": "character", "provider": "gemini", "model": "gemini-3.6-flash" },
+    { "role": "character", "provider": "openai_compatible", "model": "openai/gpt-oss-120b",
+      "base_url": "https://api.groq.com/openai/v1", "api_key_env": "GROQ_API_KEY" }
+  ],
 
-  "atmosphere": { "role": "atmosphere", "provider": "gemini", "model": "gemini-3.5-flash-lite" },
+  "atmosphere": [
+    { "role": "atmosphere", "provider": "gemini", "model": "gemini-3.5-flash-lite" },
+    { "role": "atmosphere", "provider": "gemini", "model": "gemini-3.6-flash" },
+    { "role": "atmosphere", "provider": "openai_compatible", "model": "openai/gpt-oss-120b",
+      "base_url": "https://api.groq.com/openai/v1", "api_key_env": "GROQ_API_KEY" }
+  ],
 
-  "unify":      { "role": "unify",      "provider": "gemini", "model": "gemini-3.5-flash-lite" },
+  "unify": [
+    { "role": "unify", "provider": "gemini", "model": "gemini-3.5-flash-lite" },
+    { "role": "unify", "provider": "gemini", "model": "gemini-3.6-flash" },
+    { "role": "unify", "provider": "openai_compatible", "model": "openai/gpt-oss-120b",
+      "base_url": "https://api.groq.com/openai/v1", "api_key_env": "GROQ_API_KEY" }
+  ],
 
-  "editor":     { "role": "editor",     "provider": "gemini", "model": "gemini-3.6-flash" },
+  "editor": [
+    { "role": "editor", "provider": "gemini", "model": "gemini-3.6-flash" },
+    { "role": "editor", "provider": "openai_compatible", "model": "openai/gpt-oss-120b",
+      "base_url": "https://api.groq.com/openai/v1", "api_key_env": "GROQ_API_KEY" }
+  ],
 
   "summariser": { "role": "summariser", "provider": "openai_compatible",
                   "model": "openai/gpt-oss-20b",
