@@ -5,14 +5,14 @@
       "subject": "hydro sign",
       "detail": "iodine\u2011stained sign flickering above entrance",
       "min_gap": 5,
-      "last_used": 1
+      "last_used": 6
     },
     {
       "id": "brass-token",
       "subject": "token",
       "detail": "brass token marked Run 1",
-      "min_gap": 3,
-      "last_used": 2
+      "min_gap": 1,
+      "last_used": 6
     },
     {
       "id": "plaster-peeling",
@@ -25,29 +25,29 @@
       "id": "heavy-valve",
       "subject": "valve",
       "detail": "heavy valve lifted in intake chamber",
-      "min_gap": 3,
-      "last_used": 1
+      "min_gap": 1,
+      "last_used": 6
     },
     {
       "id": "gas-lamp",
       "subject": "lamp",
       "detail": "gas lamp lit in intake chamber",
-      "min_gap": 3,
-      "last_used": 1
+      "min_gap": 1,
+      "last_used": 6
     },
     {
       "id": "pressure-gauge",
       "subject": "gauge",
       "detail": "pressure gauge read 120 psi",
-      "min_gap": 3,
-      "last_used": 1
+      "min_gap": 1,
+      "last_used": 6
     },
     {
       "id": "steam-room-door",
       "subject": "door",
       "detail": "steel door closed behind us in steam room",
-      "min_gap": 1,
-      "last_used": 5
+      "min_gap": 4,
+      "last_used": 6
     },
     {
       "id": "shawl-wrap",
@@ -60,36 +60,36 @@
       "id": "frayed-knot-cord",
       "subject": "Stillwell Hydro",
       "detail": "thick knot-cord frayed at the ends",
-      "min_gap": 4,
-      "last_used": 2
+      "min_gap": 6,
+      "last_used": 6
     },
     {
       "id": "salt-crust-floor",
       "subject": "Stillwell Hydro",
       "detail": "stone floor coated in a thick crust of dried salt",
       "min_gap": 6,
-      "last_used": 2
+      "last_used": 6
     },
     {
       "id": "jointed-creature",
       "subject": "",
       "detail": "thin, many-elbowed creature sliding along walls",
-      "min_gap": 12,
-      "last_used": 2
+      "min_gap": 8,
+      "last_used": 6
     },
     {
       "id": "copper-wire-apron",
       "subject": "attendant",
       "detail": "canvas apron tied at the waist with copper wire",
-      "min_gap": 4,
-      "last_used": 2
+      "min_gap": 1,
+      "last_used": 6
     },
     {
       "id": "brass-ferrule-cord",
       "subject": "Stillwell Hydro",
       "detail": "hemp knot-cord bound with brass wire ferrules",
-      "min_gap": 1,
-      "last_used": 5
+      "min_gap": 4,
+      "last_used": 6
     },
     {
       "id": "salt-crusted-stairs",
@@ -109,8 +109,8 @@
       "id": "knot-cord-hitch",
       "subject": "Stillwell Hydro",
       "detail": "coiled knot-cord running hitch around wrist",
-      "min_gap": 3,
-      "last_used": 2
+      "min_gap": 1,
+      "last_used": 6
     },
     {
       "id": "camouflet-deafness",
@@ -151,14 +151,14 @@
       "id": "mismatched-shadows",
       "subject": "rail guard",
       "detail": "three distinct shadows stretching from boots under flat white light",
-      "min_gap": 6,
+      "min_gap": 4,
       "last_used": 6
     },
     {
       "id": "brass-eyed-quadruped",
       "subject": "rail creature",
       "detail": "dog-like iron quadruped with glinting brass eye sockets and mechanical gait",
-      "min_gap": 6,
+      "min_gap": 4,
       "last_used": 6
     }
   ],
@@ -223,7 +223,7 @@
       "id": "scarred-palms",
       "subject": "Edie",
       "detail": "flat scars across palms from cable work",
-      "min_gap": 1,
+      "min_gap": 7,
       "last_used": 6
     },
     {
@@ -251,7 +251,7 @@
       "id": "camouflet-deafness",
       "subject": "Edie",
       "detail": "lead-weight silence in dead left ear from camouflet",
-      "min_gap": 1,
+      "min_gap": 7,
       "last_used": 6
     },
     {
@@ -265,7 +265,7 @@
       "id": "crooked-arm",
       "subject": "Lloyd",
       "detail": "right forearm set at five-degree inward angle with misaligned elbow",
-      "min_gap": 1,
+      "min_gap": 7,
       "last_used": 6
     },
     {
@@ -293,14 +293,14 @@
       "id": "mismatched-shadows",
       "subject": "rail guard",
       "detail": "three distinct shadows stretching from boots under flat white light",
-      "min_gap": 4,
+      "min_gap": 10,
       "last_used": 6
     },
     {
       "id": "brass-eyed-quadruped",
       "subject": "rail creature",
       "detail": "dog-like iron quadruped with glinting brass eye sockets and mechanical gait",
-      "min_gap": 4,
+      "min_gap": 10,
       "last_used": 6
     }
   ],
@@ -372,7 +372,7 @@
       "id": "scarred-palms",
       "subject": "Edie",
       "detail": "flat scars across palms from cable work",
-      "min_gap": 1,
+      "min_gap": 7,
       "last_used": 6
     },
     {
@@ -400,14 +400,14 @@
       "id": "camouflet-deafness",
       "subject": "Edie",
       "detail": "lead-weight silence in dead left ear from camouflet",
-      "min_gap": 1,
+      "min_gap": 7,
       "last_used": 6
     },
     {
       "id": "crooked-arm",
       "subject": "Lloyd",
       "detail": "right forearm set at five-degree inward angle with misaligned elbow",
-      "min_gap": 1,
+      "min_gap": 7,
       "last_used": 6
     },
     {
@@ -428,14 +428,14 @@
       "id": "mismatched-shadows",
       "subject": "rail guard",
       "detail": "three distinct shadows stretching from boots under flat white light",
-      "min_gap": 4,
+      "min_gap": 16,
       "last_used": 6
     },
     {
       "id": "brass-eyed-quadruped",
       "subject": "rail creature",
       "detail": "dog-like iron quadruped with glinting brass eye sockets and mechanical gait",
-      "min_gap": 4,
+      "min_gap": 16,
       "last_used": 6
     }
   ]

@@ -40,3 +40,51 @@
   "notes": "The chapter follows the skeleton and POV closely but requires trimming to meet the strict word count limit."
 }
 
+--- attempt 1 ---
+{
+  "verdict": "REVISE",
+  "failures": [
+    {
+      "check": 8,
+      "problem": "The chapter word count is approximately 1,630 words, which falls below the required minimum length of 1,800 words.",
+      "where": "Entire chapter",
+      "fix": "Expand the narrative beats and descriptions\u2014such as Lloyd's sensory observation of the rail yard, Edie's ledger work, or the journey along the dirt road\u2014to bring the total length into the required range of 1,800 to 3,200 words."
+    }
+  ],
+  "notes": "The chapter adheres to canon constraints and the frozen skeleton, but falls short of the required minimum length."
+}
+
+--- attempt 2 ---
+{
+  "verdict": "REVISE",
+  "failures": [
+    {
+      "check": 8,
+      "problem": "The chapter is approximately 1,527 words long, falling short of the required length range of 1,800 to 3,200 words.",
+      "where": "Entire chapter (1,527 words)",
+      "fix": "Expand the scene details, dialogue beats, and character observations to bring the word count above the 1,800-word threshold."
+    },
+    {
+      "check": 9,
+      "problem": "The atmospheric motif 'burnt-lime-smell' ('cold smell of burnt lime and wet iron') was used in Chapter 5 and is on cooldown until Chapter 11, but is reused here as decorative background detail.",
+      "where": "and beneath the brickwork of the houses the smell of burnt lime and wet iron rises from the cellar gratings",
+      "fix": "Replace 'the smell of burnt lime and wet iron' with alternative sensory description not currently on cooldown."
+    }
+  ],
+  "notes": "The chapter follows the skeleton and canon constraints well, but fails on word count length and reuses a motif currently on cooldown."
+}
+
+--- attempt 3 ---
+{
+  "verdict": "REVISE",
+  "failures": [
+    {
+      "check": 8,
+      "problem": "The chapter total is 1,519 words, falling short of the required 1,800 to 3,200 word range.",
+      "where": "Entire chapter",
+      "fix": "Expand the scene descriptions and interior beats to bring the word count above the 1,800-word minimum."
+    }
+  ],
+  "notes": "The text hits all skeleton events in exact sequence and maintains proper POV, but fails the strict length requirement."
+}
+

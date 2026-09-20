@@ -3,10 +3,10 @@
   "failures": [
     {
       "check": 8,
-      "problem": "The chapter exceeds the maximum length constraint of 3,200 words (the draft is approximately 3,700 words long).",
-      "where": "Whole chapter",
-      "fix": "Trim descriptive passages, particularly around the street inspection, the guard's shadows, and the mechanical dog, to bring the total word count under 3,200 words."
+      "problem": "The chapter total is 1,519 words, falling short of the required 1,800 to 3,200 word range.",
+      "where": "Entire chapter",
+      "fix": "Expand the scene descriptions and interior beats to bring the word count above the 1,800-word minimum."
     }
   ],
-  "notes": "The chapter follows the skeleton and POV closely but requires trimming to meet the strict word count limit."
+  "notes": "The text hits all skeleton events in exact sequence and maintains proper POV, but fails the strict length requirement."
 }
