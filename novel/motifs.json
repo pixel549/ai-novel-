@@ -160,6 +160,20 @@
       "detail": "dog-like iron quadruped with glinting brass eye sockets and mechanical gait",
       "min_gap": 22,
       "last_used": 6
+    },
+    {
+      "id": "rail-guard-shadows",
+      "subject": "rail guard",
+      "detail": "three shadows stretching from boots",
+      "min_gap": 6,
+      "last_used": 6
+    },
+    {
+      "id": "mechanical-dog",
+      "subject": "rail creature",
+      "detail": "dog-like iron quadruped with glinting brass eye sockets",
+      "min_gap": 6,
+      "last_used": 6
     }
   ],
   "character": [
@@ -265,7 +279,7 @@
       "id": "crooked-arm",
       "subject": "Lloyd",
       "detail": "right forearm set at five-degree inward angle with misaligned elbow",
-      "min_gap": 13,
+      "min_gap": 4,
       "last_used": 6
     },
     {
@@ -293,7 +307,7 @@
       "id": "mismatched-shadows",
       "subject": "rail guard",
       "detail": "three distinct shadows stretching from boots under flat white light",
-      "min_gap": 16,
+      "min_gap": 4,
       "last_used": 6
     },
     {
@@ -301,6 +315,20 @@
       "subject": "rail creature",
       "detail": "dog-like iron quadruped with glinting brass eye sockets and mechanical gait",
       "min_gap": 16,
+      "last_used": 6
+    },
+    {
+      "id": "oilcloth-ledger",
+      "subject": "Edie",
+      "detail": "thick oilcloth ledger",
+      "min_gap": 4,
+      "last_used": 6
+    },
+    {
+      "id": "mechanical-dog",
+      "subject": "rail creature",
+      "detail": "riveted iron plate ribs and brass sockets",
+      "min_gap": 4,
       "last_used": 6
     }
   ],
