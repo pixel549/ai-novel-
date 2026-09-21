@@ -1,0 +1,48 @@
+{
+  "pov": "Lloyd",
+  "events": [
+    {
+      "n": 1,
+      "event": "We arrive at the cracked stone steps that lead down to Hessel Bight\u2019s flooded cellar."
+    },
+    {
+      "n": 2,
+      "event": "The cellar door sighs open, exposing eleven pale bodies bobbing in stagnant water."
+    },
+    {
+      "n": 3,
+      "event": "I wade through the chill, pull the rusted latch on a concealed hatch, and lift it ajar."
+    },
+    {
+      "n": 4,
+      "event": "The landlord slides a sack of stale bread and a coarse blanket to us, saying we may spend the night upstairs."
+    },
+    {
+      "n": 5,
+      "event": "A weary woman recites the going rates for odd jobs\u2014coal carrying, shutter mending\u2014each payment barely enough for a meal."
+    },
+    {
+      "n": 6,
+      "event": "Edie scans the rafters for loose beams, but my right arm, half\u2011ethereal, brushes a hidden iron rod that she does not notice."
+    },
+    {
+      "n": 7,
+      "event": "I grip the cold rod, yank it free, and feel its weight despite Edie\u2019s unchanged assessment of the space."
+    },
+    {
+      "n": 8,
+      "event": "Maria kneels beside a boy whose hand is crushed under a fallen beam, places her palm on it, and the flesh seals together."
+    },
+    {
+      "n": 9,
+      "event": "The boy shouts \u201cWitch!\u201d and Maria bows slightly, allowing the label to settle."
+    }
+  ],
+  "learned": [
+    "Hessel Bight trades food and a night\u2019s shelter for labor.",
+    "Freelance work in the city pays miserably and offers no security.",
+    "Lloyd\u2019s arm can sense and interact with objects that Edie\u2019s Still Mind does not register.",
+    "Maria is being called a witch by the locals, not a sister."
+  ],
+  "ends_on": "The night settles over the burnt manse, water still lapping against the cellar walls."
+}
