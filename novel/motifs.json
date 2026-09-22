@@ -414,15 +414,15 @@
       "id": "scarred-palms",
       "subject": "Edie",
       "detail": "flat scars across palms from cable work",
-      "min_gap": 13,
-      "last_used": 6
+      "min_gap": 8,
+      "last_used": 7
     },
     {
       "id": "salt-crust-floor",
       "subject": "Stillwell Hydro",
       "detail": "stone floor coated in a thick crust of dried salt",
-      "min_gap": 3,
-      "last_used": 2
+      "min_gap": 4,
+      "last_used": 7
     },
     {
       "id": "brass-ferrule-cord",
@@ -484,8 +484,8 @@
       "id": "oilcloth-ledger",
       "subject": "Edie",
       "detail": "grease-stained oilcloth ledger",
-      "min_gap": 6,
-      "last_used": 6
+      "min_gap": 4,
+      "last_used": 7
     },
     {
       "id": "mechanical-dog",

@@ -1,0 +1,4 @@
+{
+  "verdict": "CRASH",
+  "notes": "unhandled exception mid-revision loop"
+}
