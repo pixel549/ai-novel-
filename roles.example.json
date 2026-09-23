@@ -1,68 +1,38 @@
 {
-  "_comment": "Live config. Put your best model on unify - it writes the book. The editor must be a different model from unify, or it will approve its own work. A role's value can be a single {provider, model, ...} dict, or a LIST of them - a fallback chain tried in preference order, falling back only once a candidate's own internal retries are fully exhausted (see providers.call_model). Useful when one provider has a bad night: list your best model first, a more available one next, then a wholly different provider as a last resort. Pin '-latest'-style aliases where a provider offers them (e.g. mistral-small-latest) rather than a dated snapshot - it costs nothing and avoids the exact version-churn problem that broke several pinned models in this project's own history. Groq is deliberately absent from the heavy roles' chains (action/character/atmosphere/unify/editor) - live proof it can't serve them: a large canon.md + motif-ledger payload hit a 413 'tokens per minute (TPM): Limit 8000' even on a bigger Groq model, so it's kept only on skeleton/summariser, whose payloads stay genuinely small. Cerebras's model is gpt-oss-120b, not a Llama model - an earlier llama3.3-70b entry died with a live 404 'model_not_found' once it was actually reached (Cerebras had deprecated it account-wide by then), crashing the run since it was the last candidate in the chain with nowhere further to fall back to. Also: never push a new commit to main while a scheduled run is in progress - its own end-of-run checkpoint push can get rejected as a non-fast-forward conflict, silently losing that run's work.",
+  "_comment": "Live config. Put your best model on unify - it writes the book. The editor must be a different model from unify, or it will approve its own work. A role's value can be a single {provider, model, ...} dict, or a LIST of them - a fallback chain tried in preference order, falling back only once a candidate's own internal retries are fully exhausted (see providers.call_model). Useful when one provider has a bad night: list your best model first, a more available one next, then a wholly different provider as a last resort - but only list a candidate you've actually confirmed works on your account. This project tried Mistral and Cerebras as a third/fourth tier and had to remove both: Mistral 429'd (rate_limited) on every single attempt across weeks, including isolated calls nowhere near its published free-tier throughput - looked like an inactive free quota, not real rate limiting; Cerebras came back a flat 402 Payment Required once actually reached - its free trial credit was spent. A broken candidate in the chain isn't harmless: it still burns its own retry budget before falling through (or crashes the run outright if it's last), so verify a fallback tier actually succeeds live before trusting it, and pull it out the moment it doesn't rather than leaving dead weight in the chain. Groq is deliberately absent from the heavy roles' chains (action/character/atmosphere/unify/editor) - live proof it can't serve them: a large canon.md + motif-ledger payload hit a 413 'tokens per minute (TPM): Limit 8000' even on a bigger Groq model, so it's kept only on skeleton/summariser, whose payloads stay genuinely small. Also: never push a new commit to main while a scheduled run is in progress - its own end-of-run checkpoint push can get rejected as a non-fast-forward conflict, silently losing that run's work.",
 
   "skeleton": [
     { "role": "skeleton", "provider": "openai_compatible", "model": "openai/gpt-oss-120b",
       "base_url": "https://api.groq.com/openai/v1", "api_key_env": "GROQ_API_KEY" },
-    { "role": "skeleton", "provider": "gemini", "model": "gemini-3.5-flash-lite" },
-    { "role": "skeleton", "provider": "openai_compatible", "model": "mistral-small-latest",
-      "base_url": "https://api.mistral.ai/v1", "api_key_env": "MISTRAL_API_KEY" },
-    { "role": "skeleton", "provider": "openai_compatible", "model": "gpt-oss-120b",
-      "base_url": "https://api.cerebras.ai/v1", "api_key_env": "CEREBRAS_API_KEY" }
+    { "role": "skeleton", "provider": "gemini", "model": "gemini-3.5-flash-lite" }
   ],
 
   "action": [
     { "role": "action", "provider": "gemini", "model": "gemini-3.5-flash-lite" },
-    { "role": "action", "provider": "gemini", "model": "gemini-3.6-flash" },
-    { "role": "action", "provider": "openai_compatible", "model": "mistral-small-latest",
-      "base_url": "https://api.mistral.ai/v1", "api_key_env": "MISTRAL_API_KEY" },
-    { "role": "action", "provider": "openai_compatible", "model": "gpt-oss-120b",
-      "base_url": "https://api.cerebras.ai/v1", "api_key_env": "CEREBRAS_API_KEY" }
+    { "role": "action", "provider": "gemini", "model": "gemini-3.6-flash" }
   ],
 
   "character": [
     { "role": "character", "provider": "gemini", "model": "gemini-3.5-flash-lite" },
-    { "role": "character", "provider": "gemini", "model": "gemini-3.6-flash" },
-    { "role": "character", "provider": "openai_compatible", "model": "mistral-small-latest",
-      "base_url": "https://api.mistral.ai/v1", "api_key_env": "MISTRAL_API_KEY" },
-    { "role": "character", "provider": "openai_compatible", "model": "gpt-oss-120b",
-      "base_url": "https://api.cerebras.ai/v1", "api_key_env": "CEREBRAS_API_KEY" }
+    { "role": "character", "provider": "gemini", "model": "gemini-3.6-flash" }
   ],
 
   "atmosphere": [
     { "role": "atmosphere", "provider": "gemini", "model": "gemini-3.5-flash-lite" },
-    { "role": "atmosphere", "provider": "gemini", "model": "gemini-3.6-flash" },
-    { "role": "atmosphere", "provider": "openai_compatible", "model": "mistral-small-latest",
-      "base_url": "https://api.mistral.ai/v1", "api_key_env": "MISTRAL_API_KEY" },
-    { "role": "atmosphere", "provider": "openai_compatible", "model": "gpt-oss-120b",
-      "base_url": "https://api.cerebras.ai/v1", "api_key_env": "CEREBRAS_API_KEY" }
+    { "role": "atmosphere", "provider": "gemini", "model": "gemini-3.6-flash" }
   ],
 
   "unify": [
     { "role": "unify", "provider": "gemini", "model": "gemini-3.5-flash-lite" },
-    { "role": "unify", "provider": "gemini", "model": "gemini-3.6-flash" },
-    { "role": "unify", "provider": "openai_compatible", "model": "mistral-small-latest",
-      "base_url": "https://api.mistral.ai/v1", "api_key_env": "MISTRAL_API_KEY" },
-    { "role": "unify", "provider": "openai_compatible", "model": "gpt-oss-120b",
-      "base_url": "https://api.cerebras.ai/v1", "api_key_env": "CEREBRAS_API_KEY" }
+    { "role": "unify", "provider": "gemini", "model": "gemini-3.6-flash" }
   ],
 
-  "editor": [
-    { "role": "editor", "provider": "gemini", "model": "gemini-3.6-flash" },
-    { "role": "editor", "provider": "openai_compatible", "model": "mistral-small-latest",
-      "base_url": "https://api.mistral.ai/v1", "api_key_env": "MISTRAL_API_KEY" },
-    { "role": "editor", "provider": "openai_compatible", "model": "gpt-oss-120b",
-      "base_url": "https://api.cerebras.ai/v1", "api_key_env": "CEREBRAS_API_KEY" }
-  ],
+  "editor": { "role": "editor", "provider": "gemini", "model": "gemini-3.6-flash" },
 
   "summariser": [
     { "role": "summariser", "provider": "openai_compatible", "model": "openai/gpt-oss-20b",
       "base_url": "https://api.groq.com/openai/v1", "api_key_env": "GROQ_API_KEY",
       "reasoning_effort": "low" },
-    { "role": "summariser", "provider": "gemini", "model": "gemini-3.5-flash-lite" },
-    { "role": "summariser", "provider": "openai_compatible", "model": "mistral-small-latest",
-      "base_url": "https://api.mistral.ai/v1", "api_key_env": "MISTRAL_API_KEY" },
-    { "role": "summariser", "provider": "openai_compatible", "model": "gpt-oss-120b",
-      "base_url": "https://api.cerebras.ai/v1", "api_key_env": "CEREBRAS_API_KEY" }
+    { "role": "summariser", "provider": "gemini", "model": "gemini-3.5-flash-lite" }
   ]
 }
