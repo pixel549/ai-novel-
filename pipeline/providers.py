@@ -123,6 +123,23 @@ def _gemini(system, user, model, max_tokens, error_retries=9, truncation_retries
             "systemInstruction": {"parts": [{"text": system}]},
             "contents": [{"role": "user", "parts": [{"text": user}]}],
             "generationConfig": {"temperature": 1.0, "maxOutputTokens": max_tokens},
+            # This is dark gothic fiction by design (corpses, violence, body
+            # horror) - Gemini's default safety thresholds can flat-out block
+            # a call over content the story is deliberately built around,
+            # returning a response with no 'candidates' key at all (looks
+            # like "no usable text", not an HTTP error, so it wasn't obvious
+            # until read live). Caught live: chapter 7's unify call, a scene
+            # with eleven corpses in floodwater, failed identically on
+            # flash-lite two days running - the same content classified the
+            # same way both times, not random flakiness. BLOCK_ONLY_HIGH
+            # (not BLOCK_NONE, which needs special account eligibility) is
+            # the standard middle ground for creative-writing use.
+            "safetySettings": [
+                {"category": "HARM_CATEGORY_HARASSMENT", "threshold": "BLOCK_ONLY_HIGH"},
+                {"category": "HARM_CATEGORY_HATE_SPEECH", "threshold": "BLOCK_ONLY_HIGH"},
+                {"category": "HARM_CATEGORY_SEXUALLY_EXPLICIT", "threshold": "BLOCK_ONLY_HIGH"},
+                {"category": "HARM_CATEGORY_DANGEROUS_CONTENT", "threshold": "BLOCK_ONLY_HIGH"},
+            ],
         }
         try:
             req = urllib.request.Request(
@@ -138,6 +155,15 @@ def _gemini(system, user, model, max_tokens, error_retries=9, truncation_retries
             # completion can legitimately take longer to generate.
             with urllib.request.urlopen(req, timeout=300) as resp:
                 data = json.loads(resp.read())
+            if "candidates" not in data or not data["candidates"]:
+                # A missing/empty candidates list with no HTTP error usually
+                # means the whole call was blocked before generation ever
+                # started - promptFeedback carries the real reason (e.g.
+                # blockReason: SAFETY) that a bare KeyError would hide.
+                raise ModelError(
+                    f"gemini blocked the call, no candidates returned "
+                    f"(promptFeedback={data.get('promptFeedback')})"
+                )
             candidate = data["candidates"][0]
             finish = candidate.get("finishReason")
             parts = candidate.get("content", {}).get("parts", [])
