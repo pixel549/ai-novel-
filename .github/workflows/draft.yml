@@ -1,8 +1,13 @@
 name: Draft chapter
 
 on:
-  schedule:
-    - cron: "0 12 * * *"   # once a day
+  # Cron trigger disabled 2026-09-27: the free-tier API pipeline (see roles.json's
+  # comment for the full history) kept exhausting Gemini/Groq quota. Chapters are
+  # now drafted by scheduled Claude sessions instead (no external LLM API calls),
+  # which would otherwise race this workflow for the same chapters/ files if both
+  # ran on a schedule. Kept as workflow_dispatch so it can still be run by hand.
+  # schedule:
+  #   - cron: "0 12 * * *"   # once a day
   workflow_dispatch:
     inputs:
       chapter:
