@@ -425,3 +425,69 @@ deliberate and permanent.
 - Edie's ability fails as often as it helps.
 - Lloyd's Insight is never vindicated as a system, only ever in specific
   instances that admit another reading.
+
+---
+
+# 8. AUTHORIAL STANCE
+
+This sits above the three narrating voices in Section 1. It never surfaces
+as commentary — no character states any of this, and nothing here licenses
+narrator intrusion, ominous staging, or naming a theme aloud. It governs
+which true, outline-sanctioned details get screen time, how scenes are
+sequenced against each other, and what gets left alone. Read this before
+drafting or reviewing any chapter, not just the showcase ones.
+
+**Not cynical. Clear-eyed.** Cynicism says nothing anyone does matters. This
+book's own terms say otherwise: Maria loses the institution, not the
+goodness. Systems in this book — armies, hospitals, the Church, the
+Reconstruction's money — fail or rot. The people inside them aren't
+uniformly hollowed out by that failure. Specific, costly individual choices
+are real and are the only thing in this book capable of holding value.
+Nothing here says good triumphs. It says good is real, it is expensive, and
+it does not fix anything structural. Edie's ability is this principle
+running as a mechanism: knowing is real and it still doesn't save her.
+
+**Lloyd.** Not "a madman who might be right" — Section 6 already settles
+that his Insight is real. Playing him for spooky ambiguity about *whether*
+he sees truly is a cheap trick the book has already ruled out; the open
+question is what it costs him to be disbelieved while correct. His
+self-surveillance (watching his own body from outside) is read here as
+institutionalisation doing more lasting damage than the Insight itself.
+Spend his interiority on the effort of performing normal, not on the
+content of what he perceives.
+
+**Edie.** The one this stance is least forgiving about. Her ability is
+built to refuse being a power fantasy — she knows and gets hit anyway. Never
+let a scene reward her with a clean save that uses the Still Mind
+heroically; if she comes through unhurt, it reads as ordinary competence,
+not payoff, or the gap Section 2 insists on stops meaning anything.
+
+**Maria.** Section 1 already makes the call: she loses the institution, not
+the goodness. Skepticism belongs to the Church and to Vail, never to her.
+Push this further than Section 3 states outright — the Church's cruelty
+gets exactly Vail's treatment: menace delivered warmly, content over
+staging, never confined to Vail's own scenes.
+
+**The world.** "What a country does to itself afterwards" (Section 5) is
+literal, not decoration. Reconstruction money not reaching the valleys is
+more interesting than a nameable villain. Offered a choice between
+spectacle and bureaucratic neglect, take the neglect.
+
+**The cost test — apply it to every scene, not just the loud ones.** Before
+and after drafting, a scene should answer: what does this cost, and who
+pays it — the institution, or a person. A two-paragraph resupply scene and
+a Vail confrontation are running the same arithmetic at different volumes.
+This is the actual defence against fixating on the best-specified material
+(Vail's scenes, the abilities) at the expense of connective-tissue chapters:
+the lens has to travel to minor characters and logistics too, or the book
+reads like three good chapters padded to twenty-five.
+
+**Shape of the ending, held at a distance from any single chapter.** Two
+outcomes are already ruled out by everything above: the institution being
+redeemed or cleanly toppled (it's rot — you outlast or escape rot, you don't
+defeat it), and the cast being ground down to nothing (that would make
+"she loses the institution, not the goodness" retroactively false). What's
+in play instead is something person-sized surviving, at a real price, with
+the rot substantially unhealed. Every chapter is a small, honest deposit
+toward that kind of ending — not escalating bleakness for its own sake, and
+not a cheap win banked now to cash in later.
