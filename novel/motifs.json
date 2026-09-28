@@ -3,7 +3,7 @@
     {
       "id": "iodine-sign",
       "subject": "hydro sign",
-      "detail": "iodine\u2011stained sign flickering above entrance",
+      "detail": "iodine‑stained sign flickering above entrance",
       "min_gap": 5,
       "last_used": 6
     },
@@ -17,7 +17,7 @@
     {
       "id": "plaster-peeling",
       "subject": "entrance",
-      "detail": "plaster peeling beneath strips of iodine\u2011stained cloth",
+      "detail": "plaster peeling beneath strips of iodine‑stained cloth",
       "min_gap": 4,
       "last_used": 6
     },
@@ -188,6 +188,20 @@
       "detail": "hemp knot-cord bound with wire",
       "min_gap": 6,
       "last_used": 7
+    },
+    {
+      "id": "sweetwater-standpipe",
+      "subject": "Ammet Ford",
+      "detail": "cast-iron standpipe with a tin cup on a chain, water praised as sweetest in the valley",
+      "min_gap": 6,
+      "last_used": 8
+    },
+    {
+      "id": "indemnity-notice",
+      "subject": "Larrow Consolidated Works",
+      "detail": "printed notice headed THE LARROW INDEMNITY, sealed, claims payable in the seventh year",
+      "min_gap": 5,
+      "last_used": 8
     }
   ],
   "character": [
@@ -344,6 +358,13 @@
       "detail": "riveted iron plate ribs and brass sockets",
       "min_gap": 4,
       "last_used": 6
+    },
+    {
+      "id": "sweetwater-standpipe",
+      "subject": "Ammet Ford",
+      "detail": "the sweetness sitting under Lloyd's tongue, wanted without being decided on",
+      "min_gap": 4,
+      "last_used": 8
     }
   ],
   "atmosphere": [
@@ -507,6 +528,20 @@
       "detail": "sitting on an upturned apple crate",
       "min_gap": 7,
       "last_used": 7
+    },
+    {
+      "id": "sweetwater-standpipe",
+      "subject": "Ammet Ford",
+      "detail": "a stillness on the cup's surface, gone as soon as the hand shakes",
+      "min_gap": 6,
+      "last_used": 8
+    },
+    {
+      "id": "glass-school-windows",
+      "subject": "Ammet Ford",
+      "detail": "real glass in a row of school windows, catching flat grey light",
+      "min_gap": 8,
+      "last_used": 8
     }
   ]
 }
