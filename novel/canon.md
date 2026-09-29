@@ -491,3 +491,34 @@ in play instead is something person-sized surviving, at a real price, with
 the rot substantially unhealed. Every chapter is a small, honest deposit
 toward that kind of ending — not escalating bleakness for its own sake, and
 not a cheap win banked now to cash in later.
+
+---
+
+# 9. PROSE DIRECTION
+
+The standard for the sentences themselves. Sections 1 and 7 still set each
+narrator's voice; this section sets how the prose moves.
+
+- **Prose should be dynamic, syntactically diverse, and consistent.**
+  Consistent means the same narrator and the same sensibility, not the same
+  sentence shapes. Vary length, openings and construction within a paragraph,
+  and let a short sentence do work after a long one.
+- **Review previous chapters for character and language beats, and evolve or
+  move on from them instead of repeating them.** Before drafting, read
+  `novel/voice_ledger.json` (recurring constructions, stock gestures, ways of
+  closing a paragraph or scene) and the last three `chapters/NN.ends_on.txt`
+  lines. A habit repeated next chapter is a tic; a habit developed is a voice.
+  Each ledger entry is either developed into something new or left alone.
+- **Write like an author of intelligent, surreal, high-concept fantasy.** The
+  strangeness lives in the world (what the water does, what a number means,
+  what an institution declines to say) and arrives deadpan, through concrete
+  detail. It does not live in dreamy narration or ornament. The narrator stays
+  the narrator of chapters 1-5: exact, observant, plain about odd things.
+- **Write each paragraph or section in accordance with the section's focus
+  and goal.** Give every paragraph a job set by the outline beat it serves, do
+  that job, and stop. Prefer to end on an action, an object or a line of
+  dialogue over the narrator explaining what it meant. (Section 8 applies:
+  Lloyd's interiority goes on the effort of performing normal, not on
+  narrating what he perceives.)
+- **After drafting,** add to `novel/voice_ledger.json` any construction or
+  gesture that appeared more than twice in the chapter.

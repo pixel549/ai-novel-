@@ -1,0 +1,50 @@
+{
+  "_comment": "Ledger of recurring prose habits (constructions, gestures, paragraph/scene closers), the language-level counterpart to motifs.json. Nightly sessions read this before drafting and add entries after. Status: 'develop' = use only in a new form; 'rest' = do not use until rested_until chapter; 'watch' = fine in moderation. Saturday review prunes and logs counts.",
+  "constructions": [
+    {
+      "id": "the-way-simile",
+      "pattern": "'the way [clause]' used as a trailing simile",
+      "example": "the way you feel an old break in the weather before you feel the ache of it",
+      "counts_by_chapter": {"05": 1, "06": 4, "07": 17, "08": 18, "09": 18},
+      "status": "rest",
+      "rested_until": 12,
+      "note": "Chapters 1-4 had none. Reach for one precise image or a plain statement instead."
+    },
+    {
+      "id": "a-thing-abstraction",
+      "pattern": "'a thing' as a placeholder noun",
+      "example": "a thing to explain; a thing your body has quietly decided",
+      "counts_by_chapter": {"04": 1, "07": 6, "08": 7, "09": 2},
+      "status": "rest",
+      "rested_until": 12,
+      "note": "Name the actual object or action."
+    },
+    {
+      "id": "i-have-learned-aphorism",
+      "pattern": "'I have learned/found/never...' followed by a general rule",
+      "example": "I have learned the exact weight a thing has to reach before it's worth the cost of saying it out loud",
+      "counts_by_chapter": {"08": 3, "09": 1},
+      "status": "rest",
+      "rested_until": 13,
+      "note": "Lloyd's self-knowledge should show up as behaviour, not as narrated wisdom."
+    },
+    {
+      "id": "long-sentence-run",
+      "pattern": "sentences over 40 words",
+      "counts_by_chapter": {"01": 10, "02": 12, "03": 10, "04": 6, "05": 12, "06": 20, "07": 32, "08": 22, "09": 25},
+      "status": "develop",
+      "note": "Chapters 1-5 sit at roughly 6-12 per chapter. Keep long sentences where the rumination earns them; break them with short ones."
+    }
+  ],
+  "closers": [
+    {
+      "id": "narrator-explains-the-scene",
+      "pattern": "paragraph or chapter ends on the narrator stating what he did not say, or what the scene means",
+      "example": "I said none of that. I hadn't said anything since the school wall and didn't start now.",
+      "chapters": ["08"],
+      "status": "develop",
+      "note": "End on an action, an object or a line of dialogue."
+    }
+  ],
+  "gestures": []
+}
