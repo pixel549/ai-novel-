@@ -201,7 +201,14 @@
       "subject": "Larrow Consolidated Works",
       "detail": "printed notice headed THE LARROW INDEMNITY, sealed, claims payable in the seventh year",
       "min_gap": 5,
-      "last_used": 8
+      "last_used": 9
+    },
+    {
+      "id": "twig-turn",
+      "subject": "Lloyd",
+      "detail": "hands turning a stripped twig or small object over and over without his deciding to",
+      "min_gap": 5,
+      "last_used": 9
     }
   ],
   "character": [
@@ -365,6 +372,13 @@
       "detail": "the sweetness sitting under Lloyd's tongue, wanted without being decided on",
       "min_gap": 4,
       "last_used": 8
+    },
+    {
+      "id": "counting-tell",
+      "subject": "Lloyd",
+      "detail": "counts something concrete to manage a fact he can't otherwise process",
+      "min_gap": 4,
+      "last_used": 9
     }
   ],
   "atmosphere": [
