@@ -5,35 +5,51 @@
       "id": "the-way-simile",
       "pattern": "'the way [clause]' used as a trailing simile",
       "example": "the way you feel an old break in the weather before you feel the ache of it",
-      "counts_by_chapter": {"05": 1, "06": 4, "07": 17, "08": 18, "09": 18},
+      "counts_by_chapter": {"05": 1, "06": 4, "07": 17, "08": 18, "09": 18, "10": 0},
       "status": "rest",
       "rested_until": 12,
-      "note": "Chapters 1-4 had none. Reach for one precise image or a plain statement instead."
+      "note": "Chapters 1-4 had none. Reach for one precise image or a plain statement instead. Ch. 10 rested it cleanly at zero, but see same-as-comparison — a substitute crept in and needs watching."
     },
     {
       "id": "a-thing-abstraction",
       "pattern": "'a thing' as a placeholder noun",
       "example": "a thing to explain; a thing your body has quietly decided",
-      "counts_by_chapter": {"04": 1, "07": 6, "08": 7, "09": 2},
+      "counts_by_chapter": {"04": 1, "07": 6, "08": 7, "09": 2, "10": 0},
       "status": "rest",
       "rested_until": 12,
-      "note": "Name the actual object or action."
+      "note": "Name the actual object or action. Clean at zero in ch. 10."
     },
     {
       "id": "i-have-learned-aphorism",
       "pattern": "'I have learned/found/never...' followed by a general rule",
       "example": "I have learned the exact weight a thing has to reach before it's worth the cost of saying it out loud",
-      "counts_by_chapter": {"08": 3, "09": 1},
+      "counts_by_chapter": {"08": 3, "09": 1, "10": 0},
       "status": "rest",
       "rested_until": 13,
-      "note": "Lloyd's self-knowledge should show up as behaviour, not as narrated wisdom."
+      "note": "Lloyd's self-knowledge should show up as behaviour, not as narrated wisdom. A near-miss in ch. 10 ('I've learned to read the quiet...') was caught in revision and rewritten as direct observation — watch for this shape resurfacing."
     },
     {
       "id": "long-sentence-run",
       "pattern": "sentences over 40 words",
-      "counts_by_chapter": {"01": 10, "02": 12, "03": 10, "04": 6, "05": 12, "06": 20, "07": 32, "08": 22, "09": 25},
+      "counts_by_chapter": {"01": 10, "02": 12, "03": 10, "04": 6, "05": 12, "06": 20, "07": 32, "08": 22, "09": 25, "10": 23},
       "status": "develop",
-      "note": "Chapters 1-5 sit at roughly 6-12 per chapter. Keep long sentences where the rumination earns them; break them with short ones."
+      "note": "Chapters 1-5 sit at roughly 6-12 per chapter. Keep long sentences where the rumination earns them; break them with short ones. Ch. 10 kept the count high but interleaved with a genuinely short-sentence argument scene (dialogue under 10 words a line) — lean harder on that contrast rather than reducing long-sentence count alone."
+    },
+    {
+      "id": "same-as-comparison",
+      "pattern": "'same as [clause]' used as a trailing comparison, the direct replacement for the rested the-way-simile",
+      "example": "same as I run all of them back now",
+      "counts_by_chapter": {"10": 2},
+      "status": "watch",
+      "note": "Used twice in ch. 10 while the-way-simile was resting; trimmed from an initial four. Watch closely — this is exactly the kind of substitution that becomes the next tic. Rest it alongside the-way-simile if it climbs again."
+    },
+    {
+      "id": "clerical-self-metaphor",
+      "pattern": "Lloyd narrates his own perception-management in filing/accounting/procedural language",
+      "example": "filed and closed and not brought up again; I did the sum; running the frame back",
+      "counts_by_chapter": {"10": 5},
+      "status": "watch",
+      "note": "New this chapter — fits his established self-surveillance but appeared five times. Fine as a one-chapter cluster; if it recurs next chapter treat it as a habit needing development, not repetition."
     }
   ],
   "closers": [

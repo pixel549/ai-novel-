@@ -54,7 +54,7 @@
       "subject": "shawl",
       "detail": "shawl wrapped around Maria's shoulders",
       "min_gap": 1,
-      "last_used": 7
+      "last_used": 10
     },
     {
       "id": "frayed-knot-cord",
@@ -86,10 +86,10 @@
     },
     {
       "id": "brass-ferrule-cord",
-      "subject": "Stillwell Hydro",
+      "subject": "Edie",
       "detail": "hemp knot-cord bound with brass wire ferrules",
       "min_gap": 4,
-      "last_used": 6
+      "last_used": 10
     },
     {
       "id": "salt-crusted-stairs",
@@ -107,10 +107,10 @@
     },
     {
       "id": "knot-cord-hitch",
-      "subject": "Stillwell Hydro",
+      "subject": "Edie",
       "detail": "coiled knot-cord running hitch around wrist",
       "min_gap": 1,
-      "last_used": 6
+      "last_used": 10
     },
     {
       "id": "camouflet-deafness",
@@ -209,6 +209,13 @@
       "detail": "hands turning a stripped twig or small object over and over without his deciding to",
       "min_gap": 5,
       "last_used": 9
+    },
+    {
+      "id": "hollow-collar",
+      "subject": "Mercies clergy",
+      "detail": "a collar or vestment that doesn't move with the throat or body underneath it",
+      "min_gap": 4,
+      "last_used": 10
     }
   ],
   "character": [
@@ -259,7 +266,7 @@
       "subject": "Maria",
       "detail": "shawl wrapped around Maria's shoulders",
       "min_gap": 3,
-      "last_used": 7
+      "last_used": 10
     },
     {
       "id": "frayed-knot-cord",
@@ -291,10 +298,10 @@
     },
     {
       "id": "brass-ferrule-cord",
-      "subject": "Maria",
+      "subject": "Edie",
       "detail": "hemp knot-cord bound with brass wire ferrules",
       "min_gap": 4,
-      "last_used": 5
+      "last_used": 10
     },
     {
       "id": "camouflet-deafness",
@@ -429,7 +436,7 @@
       "subject": "Maria",
       "detail": "shawl wrapped around Maria's shoulders",
       "min_gap": 1,
-      "last_used": 7
+      "last_used": 10
     },
     {
       "id": "burnt-lime-smell",
@@ -461,10 +468,10 @@
     },
     {
       "id": "brass-ferrule-cord",
-      "subject": "Stillwell Hydro",
+      "subject": "Edie",
       "detail": "hemp knot-cord bound with brass wire ferrules",
       "min_gap": 4,
-      "last_used": 5
+      "last_used": 10
     },
     {
       "id": "jointed-creature",
