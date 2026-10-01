@@ -89,7 +89,8 @@
       "subject": "Edie",
       "detail": "hemp knot-cord bound with brass wire ferrules",
       "min_gap": 4,
-      "last_used": 10
+      "last_used": 11,
+      "note": "Cooldown overridden in ch. 11 — a counting/day-cord motif is load-bearing for a chapter about paperwork and tallies. Rest properly from here."
     },
     {
       "id": "salt-crusted-stairs",
@@ -110,7 +111,7 @@
       "subject": "Edie",
       "detail": "coiled knot-cord running hitch around wrist",
       "min_gap": 1,
-      "last_used": 10
+      "last_used": 11
     },
     {
       "id": "camouflet-deafness",
@@ -180,7 +181,7 @@
       "subject": "Edie",
       "detail": "grease-stained oilcloth ledger",
       "min_gap": 4,
-      "last_used": 7
+      "last_used": 11
     },
     {
       "id": "hemp-rope",
@@ -301,7 +302,7 @@
       "subject": "Edie",
       "detail": "hemp knot-cord bound with brass wire ferrules",
       "min_gap": 4,
-      "last_used": 10
+      "last_used": 11
     },
     {
       "id": "camouflet-deafness",
@@ -364,7 +365,7 @@
       "subject": "Edie",
       "detail": "thick oilcloth ledger",
       "min_gap": 4,
-      "last_used": 7
+      "last_used": 11
     },
     {
       "id": "mechanical-dog",
@@ -471,7 +472,7 @@
       "subject": "Edie",
       "detail": "hemp knot-cord bound with brass wire ferrules",
       "min_gap": 4,
-      "last_used": 10
+      "last_used": 11
     },
     {
       "id": "jointed-creature",
@@ -527,7 +528,7 @@
       "subject": "Edie",
       "detail": "grease-stained oilcloth ledger",
       "min_gap": 4,
-      "last_used": 7
+      "last_used": 11
     },
     {
       "id": "mechanical-dog",
