@@ -323,7 +323,7 @@
       "subject": "Lloyd",
       "detail": "right forearm set at five-degree inward angle with misaligned elbow",
       "min_gap": 4,
-      "last_used": 6
+      "last_used": 12
     },
     {
       "id": "soot-stained-apron",
@@ -387,6 +387,20 @@
       "detail": "counts something concrete to manage a fact he can't otherwise process",
       "min_gap": 4,
       "last_used": 9
+    },
+    {
+      "id": "poor-box",
+      "subject": "Church almshouses",
+      "detail": "iron-post alms box slotted at the top, FOR THE POOR cut into weathered green lettering",
+      "min_gap": 6,
+      "last_used": 12
+    },
+    {
+      "id": "mercies-lintel-carving",
+      "subject": "Church buildings",
+      "detail": "a loaf, a roof, and a pair of clasped hands carved over the door, worn soft by decades of hands",
+      "min_gap": 5,
+      "last_used": 12
     }
   ],
   "atmosphere": [
@@ -493,7 +507,7 @@
       "subject": "Lloyd",
       "detail": "right forearm set at five-degree inward angle with misaligned elbow",
       "min_gap": 6,
-      "last_used": 6
+      "last_used": 12
     },
     {
       "id": "soot-stained-apron",
@@ -564,6 +578,27 @@
       "detail": "real glass in a row of school windows, catching flat grey light",
       "min_gap": 8,
       "last_used": 8
+    },
+    {
+      "id": "poor-box",
+      "subject": "Church almshouses",
+      "detail": "iron-post alms box slotted at the top, FOR THE POOR cut into weathered green lettering",
+      "min_gap": 6,
+      "last_used": 12
+    },
+    {
+      "id": "mercies-lintel-carving",
+      "subject": "Church buildings",
+      "detail": "a loaf, a roof, and a pair of clasped hands carved over the door, worn soft by decades of hands",
+      "min_gap": 5,
+      "last_used": 12
+    },
+    {
+      "id": "building-breathing",
+      "subject": "",
+      "detail": "a building's ordinary comings and goings (smoke, doors, washing) read as breath, left ambiguous whether that's more than a figure of speech",
+      "min_gap": 8,
+      "last_used": 12
     }
   ]
 }
