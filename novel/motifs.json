@@ -89,8 +89,8 @@
       "subject": "Edie",
       "detail": "hemp knot-cord bound with brass wire ferrules",
       "min_gap": 4,
-      "last_used": 11,
-      "note": "Cooldown overridden in ch. 11 — a counting/day-cord motif is load-bearing for a chapter about paperwork and tallies. Rest properly from here."
+      "last_used": 12,
+      "note": "Cooldown overridden a second chapter running in ch. 12 — appears three times, including the chapter's closing line, tying the cord's counting to the forty-one-crowns reveal. Thematically load-bearing (ch. 12 is literally about counting and tallies), but two overrides back to back mean it has not actually rested since ch. 09. Hold it firmly through ch. 16 at minimum before using it as more than an incidental prop."
     },
     {
       "id": "salt-crusted-stairs",
@@ -111,7 +111,7 @@
       "subject": "Edie",
       "detail": "coiled knot-cord running hitch around wrist",
       "min_gap": 1,
-      "last_used": 11
+      "last_used": 12
     },
     {
       "id": "camouflet-deafness",
@@ -181,7 +181,8 @@
       "subject": "Edie",
       "detail": "grease-stained oilcloth ledger",
       "min_gap": 4,
-      "last_used": 11
+      "last_used": 12,
+      "note": "Used again in ch. 12, one chapter after ch. 11 (min_gap 4) — second cooldown breach alongside the cord itself. Let it rest through at least ch. 16."
     },
     {
       "id": "hemp-rope",
@@ -365,7 +366,7 @@
       "subject": "Edie",
       "detail": "thick oilcloth ledger",
       "min_gap": 4,
-      "last_used": 11
+      "last_used": 12
     },
     {
       "id": "mechanical-dog",
@@ -542,7 +543,7 @@
       "subject": "Edie",
       "detail": "grease-stained oilcloth ledger",
       "min_gap": 4,
-      "last_used": 11
+      "last_used": 12
     },
     {
       "id": "mechanical-dog",

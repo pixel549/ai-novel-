@@ -5,9 +5,9 @@
       "id": "the-way-simile",
       "pattern": "'the way [clause]' used as a trailing simile",
       "example": "the way you feel an old break in the weather before you feel the ache of it",
-      "counts_by_chapter": {"05": 1, "06": 4, "07": 17, "08": 18, "09": 18, "10": 0, "11": 0, "12": 1},
+      "counts_by_chapter": {"01": 0, "02": 0, "03": 0, "04": 0, "05": 0, "06": 4, "07": 14, "08": 17, "09": 18, "10": 0, "11": 0, "12": 1},
       "status": "watch",
-      "note": "Came off rest at ch. 12 as scheduled. Draft reached for it five times before revision; four were cut back to plain statements or a different image, leaving one clean use (Vail's delight echoing an old teaching memory). Confirms the instinct to overreach for it the moment it's available again — keep trimming hard rather than letting it regrow to ch. 7-9 levels."
+      "note": "Saturday review recount (2026-10-02): earlier per-chapter figures included idiomatic, non-simile uses of 'the way' ('all the way', 'in the way of', 'the way to/in/back') as false positives — ch. 05's prior count of 1 was entirely one such false positive ('The way back is open') and has been corrected to 0; ch. 07/08 were each one false positive high. Real construction is confined to Lloyd's POV (ch. 06 on) and peaked ch. 07-09 before the ch. 10-11 rest. Came off rest at ch. 12 as scheduled: draft reached for it five times before revision, four were cut back to plain statements or a different image, leaving one clean use (Vail's delight echoing an old teaching memory). Keep trimming hard rather than letting it regrow to ch. 07-09 levels."
     },
     {
       "id": "a-thing-abstraction",
@@ -29,17 +29,17 @@
     {
       "id": "long-sentence-run",
       "pattern": "sentences over 40 words",
-      "counts_by_chapter": {"01": 10, "02": 12, "03": 10, "04": 6, "05": 12, "06": 20, "07": 32, "08": 22, "09": 25, "10": 23, "11": 20, "12": 23},
+      "counts_by_chapter": {"01": 1, "02": 0, "03": 0, "04": 0, "05": 0, "06": 15, "07": 26, "08": 23, "09": 21, "10": 23, "11": 20, "12": 23},
       "status": "develop",
-      "note": "Ch. 12 held the established range. The long/short contrast moved to a new pairing this chapter: Lloyd's long waiting-and-rumination sentences against Maria's own looping compound sentences when she retells the confession, rather than against clipped procedural dialogue (ch. 10-11's version). Same habit, new partner — keep rotating what the long sentences are set against rather than defaulting to the procedural-dialogue contrast every time."
+      "note": "Saturday review recount (2026-10-02): the ch. 01-05 figures on file were never an accurate sentence-length count (verified by script: sentence-split on terminal punctuation, word-tokenize, count >40) — Edie's Act I chapters are information-dense but syntactically contained and genuinely have almost none. The habit is real but begins cleanly at ch. 06 with the switch to Lloyd's POV, consistent with his canon voice ('runs long, then breaks'), and has held a stable low-to-mid-20s rate ever since rather than still 'developing' — ch. 10-12's figures were already accurate and are unchanged. Ch. 12 held the established range; the long/short contrast moved to a new pairing this chapter: Lloyd's long waiting-and-rumination sentences against Maria's own looping compound sentences when she retells the confession, rather than against clipped procedural dialogue (ch. 10-11's version). Keep rotating what the long sentences are set against rather than defaulting to the procedural-dialogue contrast every time."
     },
     {
       "id": "same-as-comparison",
       "pattern": "'same as [clause]' used as a trailing comparison, the direct replacement for the rested the-way-simile",
       "example": "same as I run all of them back now",
-      "counts_by_chapter": {"10": 2, "11": 0, "12": 0},
+      "counts_by_chapter": {"09": 1, "10": 2, "11": 0, "12": 0},
       "status": "watch",
-      "note": "Clean at zero again in ch. 12 — draft reached for it twice (the building's breathing, Vail's bread-baking) and both were rewritten to plainer statements. Two chapters clean; it isn't hardening into a habit."
+      "note": "First instance found at ch. 09 ('she rations, same as me') during the Saturday review recount, predating the ch. 10 cluster that first got it flagged. Clean at zero again in ch. 12 — draft reached for it twice (the building's breathing, Vail's bread-baking) and both were rewritten to plainer statements. Two chapters clean; it isn't hardening into a habit."
     },
     {
       "id": "clerical-self-metaphor",
@@ -74,6 +74,14 @@
       "chapters": ["08"],
       "status": "develop",
       "note": "End on an action, an object or a line of dialogue. Ch. 12 closed on Edie's cord going still in her hands instead — an object, not an explanation."
+    },
+    {
+      "id": "patient-inevitability-closer",
+      "pattern": "chapter ends on an image of something indifferent or inanimate personified as 'patient', waiting out time without hurry",
+      "example": "the night came down slow over the burnt manse... patient, working at the dark the way it works at everything, given enough time and no one to tell it to stop",
+      "chapters": ["06", "07", "08"],
+      "status": "develop",
+      "note": "Found in Saturday review (2026-10-02), not caught night-to-night because each instance is only the final line of its own chapter. Ch. 06 closes on the guard's shadow 'like a dark omen'; ch. 07 closes on floodwater 'patient, working at the dark... given enough time'; ch. 08 closes on the sweetness sitting on Lloyd's tongue 'patient, the way a thing sits when it isn't in any hurry to be noticed' — three chapters running on the same closing move (indifferent thing, personified patience, time doing the work). It stopped on its own at ch. 09-12, which end on action or dialogue instead, so no fix needed to drafted text, but treat this as used up: do not return to 'patient' as a chapter-closing word, and prefer the ch. 09-12 habit of ending on an action or a line of dialogue."
     }
   ],
   "gestures": []
