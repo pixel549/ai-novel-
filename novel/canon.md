@@ -183,6 +183,21 @@ is a second one.
 - **Cost:** he cannot always tell which mode he's in until he tries, and the
   second arm's sensation bleeds into the first. He drops things.
 
+**The ch. 3 regrowth, resolved.** During the search (ch. 3), Lloyd's right arm
+is severed clean at the elbow and Maria heals him on the spot. That healing is
+real and is entirely within her stated limits below: she closes the wound,
+stops the bleeding, sets what bone there is to set. What she does not do, and
+cannot do, is grow him a new forearm, wrist, and five fingers from nothing —
+that would break her hard limit (no regrowth) regardless of how it reads from
+outside. What actually fills the gap beneath her hands is something the Salts
+already put there, the same source the chalice (ch. 5) draws the second,
+ethereal arm from — present and waiting at that stump before the chalice ever
+touches it, not created by it. Lloyd feels this happen under Maria's palms and
+says nothing; the published account of what he privately concludes is in
+ch. 6. Neither Maria nor Edie ever learns that the arm she believes she
+regrew isn't, strictly, hers. She is not wrong that she healed him. She is
+wrong about what the healing was for.
+
 ## Maria — Arcana, untouched by the Salts
 
 **Maria does not gain a chalice ability.** She drinks only what is needed to
@@ -388,6 +403,7 @@ they don't have. Check every draft against this.
 | Edie killed Reyne | ch. 24 | ch. 24 | ch. 1 |
 | Maria's theft | ch. 12 | ch. 1 | ch. 12 |
 | Lloyd has a second arm | ch. 5 | never told | never told |
+| The ch. 3 regrowth wasn't Maria's doing | ch. 6 | never told | never told |
 | The Fourth Mercy exists | ch. 13 (suspects) | ch. 13 | ch. 13 |
 | What it actually is | ch. 14 | ch. 14 | ch. 14 |
 | Anse Duley was taken | ch. 14 | ch. 14 | never |

@@ -6,6 +6,77 @@ only), this pass reads every drafted chapter in full against `canon.md` and
 
 ---
 
+## 2026-10-02 (addendum) — Follow-up fixes on Jake's direction
+
+Jake reviewed the findings below and asked for all four open items to be
+resolved rather than left as flags, and supplied the key that unlocks the
+first one: the ch. 3 "regrowth" isn't fully Maria's healing — it's the Salts
+doing it, the same source the second, ethereal arm comes from at the chalice,
+and that's worth a horror beat in Lloyd's own POV rather than a silent fix.
+All four are now done:
+
+- **Canon contradiction (Maria's healing vs. ch. 3 regrowth) — resolved, not
+  just patched.** Added a note to `canon.md` §2 (Lloyd's ability section)
+  making it canon: Maria's healing in ch. 3 really did close the wound, set
+  the bone, stop the bleeding — all within her stated limits — but the
+  forearm, wrist, and fingers that filled in beneath her hands came from
+  whatever the Salts already had waiting there, the same source the second
+  arm manifests from at the chalice. She believes she regrew it. She didn't,
+  and never finds out she didn't. Added a row to the §6 who-knows-what table
+  ("The ch. 3 regrowth wasn't Maria's doing" — Lloyd only, ch. 6, never told).
+  The passage itself lives in the rewritten ch. 6 (below) rather than as a
+  change to ch. 3's already-committed, Edie-POV text — Edie has no Insight
+  and genuinely has no way to perceive anything beyond an ordinary, if
+  remarkable, healing, so nothing in ch. 3 needed to change for this to hold
+  together.
+- **Chapter 1, completed.** Wrote the missing ending — the rest of the steam
+  room beat, the timer sounding, stepping into the cold corridor, towels,
+  Lloyd wiping his forearm, Maria's shawl, Edie pocketing the token — landing
+  on the doorway image the frozen skeleton's `ends_on` already specified.
+  Chapter is now 2,824 words (was 2,247 and incomplete), within the pipeline's
+  1,800–3,200 word band. Caught myself reaching for Lloyd's "the way [clause]"
+  tic twice while drafting this in Edie's voice and rewrote both — that
+  construction has a clean 0 count across all of Act I and should stay that
+  way; it's specifically a Lloyd habit. Updated `chapters/01.summary.txt`
+  again to cover the now-complete chapter.
+- **Chapter 2's ability-creep, fixed.** Rewrote Maria's second use of Arcana
+  in the wire-creature fight: it no longer delivers a "concussive pulse" that
+  physically slams and pins the creature to the wall (a kinetic-force effect
+  canon doesn't give her). It's now an overexposure of light with no force
+  behind it, and the creature's reaction is a flinch/recoil rather than being
+  physically thrown — giving Lloyd a still target to land his second strike
+  on, same plot function, without the ability reading as a weapon. Updated
+  the one downstream reference ("Maria's pinned pulse" in the paragraph where
+  the creature finally breaks) to match. Her first use of light in the same
+  fight (locking Lloyd's strike line steady) was left alone — that one reads
+  fine as an intensified, combat-pressure version of her canon Steadying
+  knack rather than a new force ability.
+- **Chapter 6, fully rewritten.** Fixed the present/past tense defect
+  end to end (it traced to the unify pass pasting the frozen skeleton's
+  present-tense event lines in verbatim as paragraph openers — confirmed by
+  comparing the committed text against `workspace/06/skeleton.txt`) and cut
+  the doubled-up beats that came with it. All twelve skeleton events are
+  preserved, the chapter still ends on the frozen `ends_on` line exactly, and
+  this is where the Maria's-healing reveal above now lives: a private,
+  guarded passage right after Lloyd checks his arm's balance on stepping
+  outside, where he admits to himself (and only to us) that what came back
+  under Maria's hands didn't feel grown, it felt delivered — the same way the
+  second arm later arrives already whole — and that he's never going to ask
+  her whether she can tell the difference between what she did and what she
+  thinks she did. New chapter is 1,853 words (was 1,950), still inside the
+  1,800–3,200 band. Recounted its prose-habit stats afterward and updated
+  `voice_ledger.json`: "the way" went from 4 to 5 true uses (trimmed down once
+  from a first-pass 7, specifically so fixing one problem didn't create a
+  second one), 40+-word sentences recount to 14. The ch. 6/7/8 "patient
+  inevitability" closer note from the main review still applies unchanged —
+  ch. 6's closing line wasn't touched.
+
+Nothing here required touching `change_requests.md` — all four were either a
+pipeline-output bug (ch. 1), a now-resolved canon clarification (the arm), or
+in-chapter execution fixes (ch. 2, ch. 6), not outline amendments.
+
+---
+
 ## 2026-10-02 — Review of chapters 1–12
 
 Backup tag `backup-pre-review-2026-10-02` created locally before any changes
@@ -14,6 +85,9 @@ repo — carrying on per standing instructions; the commit history is the
 rollback).
 
 ### Needs your attention — most important item first
+
+*All four items below were resolved the same day — see the addendum above
+this entry for what changed. Left in place as the record of what was found.*
 
 **Chapter 1 is incomplete.** `chapters/01.md` cuts off mid-sentence
 ("...the far wall vanished behind a wall of grey-white") and never reaches the
