@@ -364,17 +364,67 @@ can barely use any of it.
 
 
 ## Ch. 16 — Delirium
-POV Lloyd, interior, unreliable. The end of Act II.
-- Days compressed into an unmarked interior. Salt corridors overlaid on the
-  Vantry stair overlaid on Callow Ford. Ivet Hale in the tank. Crane's name
-  spoken by someone who shouldn't know it.
-- The buried memory from the chalice surfaces sideways and is still not
-  legible.
-- Foreshadowing, all deniable in retrospect: a courteous man asking after
-  someone else's safety; a knot-cord with ninety-one knots; a room Maria does
-  not tell him is real.
-- Maria's voice comes through intermittently from outside, naming objects.
-- Ends before he wakes.
+POV Lloyd, interior, unreliable. The end of Act II. No marked scene breaks —
+the chapter is one unbroken slide between places, not a sequence of cuts.
+Physically he is being moved and tended somewhere in the gap between
+Ascension House and the let room ch. 17 opens in — hands, a stretcher or
+cart-board under him, cloth changed, a cup held to his mouth — but the prose
+never fixes or names wherever "here" currently is; that not-knowing is the
+chapter's engine, not a setting problem to solve. Being specific about the
+images is what keeps delirium from reading as fog: the beats below are
+concrete so the slide between them is the only thing left vague.
+- **The three stairs.** The salt-crusted stairs down into the Salts (ch. 2)
+  overlay the Vantry sub-basement stair (ch. 14–15) overlay the stair at his
+  mother's house in Callow Ford, the one with the roof gone down half an inch
+  and daylight showing through the north gable, the detail he gave Maria in
+  ch. 6. Each time he's sure he's reached the bottom of one he's at the top of
+  another. The salt crust, the ash and scorched brine smell of Vantry, and his
+  mother's damp thatch trade places under his hand on the same section of
+  rail without the rail itself changing.
+- **Ivet Hale in the tank.** One of the brine tanks from Ascension House, and
+  she is in it, and she surfaces, and she knows him, and she asks — mildly,
+  the way she'd ask about the weather — why he never came home. Canon's
+  Insight ambiguity applies in full: this cannot be squared with ch. 25's
+  Ivet, alive and moved to clean water, and the chapter does not try to square
+  it, any more than the chapel in ch. 3 was required to be the same room twice.
+  Play it as true inside the slide and let the reader hold both.
+- **Crane's name.** Spoken once, conversationally, by a voice that belongs to
+  none of the three overlaid places — not threatening, not announced, the way
+  you'd hear a stranger mention a mutual acquaintance across a room. Lloyd has
+  no name yet to hang it on (he doesn't meet Crane on the page until ch. 21),
+  so on the page it lands as one more wrong noise among the wrong noises, not
+  a clue he registers as a clue. Nothing in the prose may flag it as
+  significant.
+- **The courteous man.** Separately — same non-place, possibly the same
+  voice, possibly not — an unhurried, well-spoken man asks after someone
+  else's safety, gently, the way a host checks on a guest. (This is Crane;
+  the line is the one his death in ch. 24 echoes exactly, "courteous,
+  confused, asking after someone else's safety." Deniable here as a
+  stranger's idle kindness or pure fever noise with no referent at all —
+  Lloyd never connects the two scenes, and neither should the prose.)
+- **The buried memory.** What Lloyd gave up at the chalice (ch. 5) surfaces
+  in fragments that refuse to assemble into a scene: a smell (tallow, cold
+  stone), a texture under his hand that isn't quite rope, a single word said
+  in a voice he can't place, repeated until it stops meaning anything, the
+  way any word does said enough times running. It should leave the chapter
+  exactly as illegible as it entered it — a draft that lets the pieces cohere
+  into a recoverable memory is rejected outright, not merely flagged.
+- **The knot-cord.** It is in his hands at some point in the slide, except it
+  carries ninety-one knots, not the nineteen the ch. 2–3 search actually ran.
+  He counts it twice. Both counts agree and he still doesn't trust either one.
+  (Echoes Edie's ninety-one sappers — canon: she never tells him that number,
+  so on the page it can only have arrived by Insight, by delirium, or by
+  coincidence. The book does not choose.)
+- **Maria's voice.** Comes through from outside the slide at intervals, flat,
+  patient, unhurried — naming the ordinary objects of wherever he actually is
+  that he can't otherwise place as real: a cup, a window, a blanket, her own
+  hand on his. The same ritual as ch. 4–5, continuing with him only half able
+  to surface for it. He wants it more than anything else that happens in the
+  chapter and the prose should never let him say so outright.
+- Ends mid-slide, before he wakes, on an image that could belong to any of
+  the three stairs — no lucid interval, no resolving beat, no final clarity.
+  Ch. 17 opens already past this point; nothing here needs to hand off
+  cleanly to it.
 
 ---
 
@@ -542,3 +592,14 @@ Epilogue, three movements.
   cruel.
 - **Edie has no revelation scene.** Cumulative and mostly unspoken until ch. 24.
 - Ch. 1–5 claustrophobic. Ch. 6–13 breathe. Ch. 14–16 airless. Ch. 17–25 tighten.
+- **Ch. 16's beats were thin by design intent but too thin in practice** —
+  2026-10-03 creative session expanded them (concrete imagery for each
+  overlay, the fragments of the buried memory, what Maria's voice actually
+  names) without changing any outcome, because an unreliable chapter drafted
+  from a vague outline produces vague prose, not the deliberate kind. The
+  disorientation belongs in the slide between concrete images, not in the
+  outline's own level of detail. README's "candidate for writing by hand"
+  flag for ch. 16 is left as-is — this doesn't resolve the risk on its own,
+  it just gives the nightly pipeline something solid to fail against instead
+  of nothing to grab onto; worth checking what the pipeline actually produces
+  once it drafts ch. 16 before deciding whether a hand pass is still needed.
