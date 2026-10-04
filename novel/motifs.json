@@ -218,6 +218,22 @@
       "detail": "a collar or vestment that doesn't move with the throat or body underneath it",
       "min_gap": 4,
       "last_used": 10
+    },
+    {
+      "id": "unused-front-worked-service-door",
+      "subject": "Ascension House",
+      "detail": "a grand front entrance nobody uses, grass between the flags, against an oiled service door worked constantly by cart traffic",
+      "min_gap": 1,
+      "last_used": 13,
+      "note": "Introduced ch. 13 (Lloyd's four days of watching). Load-bearing setup for ch. 14's entry through that same service door — available again immediately."
+    },
+    {
+      "id": "noon-gaslamps",
+      "subject": "Vantry",
+      "detail": "gaslamps lit at noon under a soot-haze that never fully lifts",
+      "min_gap": 1,
+      "last_used": 13,
+      "note": "Introduced ch. 13 as Vantry's defining atmosphere. Low cooldown since the party stays in Vantry through at least ch. 15."
     }
   ],
   "character": [
@@ -387,7 +403,8 @@
       "subject": "Lloyd",
       "detail": "counts something concrete to manage a fact he can't otherwise process",
       "min_gap": 4,
-      "last_used": 9
+      "last_used": 13,
+      "note": "Reused ch. 13 on schedule (due at 13) — Lloyd counting brine-cart barrels outside Ascension House. Hold until at least ch. 17."
     },
     {
       "id": "poor-box",
@@ -600,6 +617,22 @@
       "detail": "a building's ordinary comings and goings (smoke, doors, washing) read as breath, left ambiguous whether that's more than a figure of speech",
       "min_gap": 8,
       "last_used": 12
+    },
+    {
+      "id": "unused-front-worked-service-door",
+      "subject": "Ascension House",
+      "detail": "a grand front entrance nobody uses, grass between the flags, against an oiled service door worked constantly by cart traffic",
+      "min_gap": 1,
+      "last_used": 13,
+      "note": "Introduced ch. 13. Available again immediately — ch. 14's break-in uses this same service door."
+    },
+    {
+      "id": "noon-gaslamps",
+      "subject": "Vantry",
+      "detail": "gaslamps lit at noon under a soot-haze that never fully lifts",
+      "min_gap": 1,
+      "last_used": 13,
+      "note": "Introduced ch. 13 as Vantry's defining atmosphere. Low cooldown since the party stays in Vantry through at least ch. 15."
     }
   ]
 }
