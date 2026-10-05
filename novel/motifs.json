@@ -3,7 +3,7 @@
     {
       "id": "iodine-sign",
       "subject": "hydro sign",
-      "detail": "iodine‑stained sign flickering above entrance",
+      "detail": "iodine\u2011stained sign flickering above entrance",
       "min_gap": 5,
       "last_used": 6
     },
@@ -17,7 +17,7 @@
     {
       "id": "plaster-peeling",
       "subject": "entrance",
-      "detail": "plaster peeling beneath strips of iodine‑stained cloth",
+      "detail": "plaster peeling beneath strips of iodine\u2011stained cloth",
       "min_gap": 4,
       "last_used": 6
     },
@@ -90,7 +90,7 @@
       "detail": "hemp knot-cord bound with brass wire ferrules",
       "min_gap": 4,
       "last_used": 12,
-      "note": "Cooldown overridden a second chapter running in ch. 12 — appears three times, including the chapter's closing line, tying the cord's counting to the forty-one-crowns reveal. Thematically load-bearing (ch. 12 is literally about counting and tallies), but two overrides back to back mean it has not actually rested since ch. 09. Hold it firmly through ch. 16 at minimum before using it as more than an incidental prop."
+      "note": "Cooldown overridden a second chapter running in ch. 12 \u2014 appears three times, including the chapter's closing line, tying the cord's counting to the forty-one-crowns reveal. Thematically load-bearing (ch. 12 is literally about counting and tallies), but two overrides back to back mean it has not actually rested since ch. 09. Hold it firmly through ch. 16 at minimum before using it as more than an incidental prop."
     },
     {
       "id": "salt-crusted-stairs",
@@ -132,7 +132,7 @@
       "subject": "Nurse",
       "detail": "grey canvas apron stained black with coal soot and yellowed with sulphur",
       "min_gap": 4,
-      "last_used": 5
+      "last_used": 14
     },
     {
       "id": "extraction-timer",
@@ -182,7 +182,7 @@
       "detail": "grease-stained oilcloth ledger",
       "min_gap": 4,
       "last_used": 12,
-      "note": "Used again in ch. 12, one chapter after ch. 11 (min_gap 4) — second cooldown breach alongside the cord itself. Let it rest through at least ch. 16."
+      "note": "Used again in ch. 12, one chapter after ch. 11 (min_gap 4) \u2014 second cooldown breach alongside the cord itself. Let it rest through at least ch. 16."
     },
     {
       "id": "hemp-rope",
@@ -224,16 +224,32 @@
       "subject": "Ascension House",
       "detail": "a grand front entrance nobody uses, grass between the flags, against an oiled service door worked constantly by cart traffic",
       "min_gap": 1,
-      "last_used": 13,
-      "note": "Introduced ch. 13 (Lloyd's four days of watching). Load-bearing setup for ch. 14's entry through that same service door — available again immediately."
+      "last_used": 14,
+      "note": "Introduced ch. 13 (Lloyd's four days of watching). Load-bearing setup for ch. 14's entry through that same service door \u2014 available again immediately."
     },
     {
       "id": "noon-gaslamps",
       "subject": "Vantry",
       "detail": "gaslamps lit at noon under a soot-haze that never fully lifts",
       "min_gap": 1,
-      "last_used": 13,
+      "last_used": 14,
       "note": "Introduced ch. 13 as Vantry's defining atmosphere. Low cooldown since the party stays in Vantry through at least ch. 15."
+    },
+    {
+      "id": "intake-register",
+      "subject": "Ascension House",
+      "detail": "chained intake register logged by name with no corresponding discharge",
+      "min_gap": 1,
+      "last_used": 14,
+      "note": "Introduced ch. 14 \u2014 this is where Maria finds Anse Duley's name. Load-bearing for ch. 15 (Maria takes the intake registers out as evidence) and ch. 17-18 (the name resurfaces). Available again immediately."
+    },
+    {
+      "id": "case-files-sixty-years",
+      "subject": "Ascension House extraction theatre",
+      "detail": "a wall of case files, sixty years deep, each folder a name and a dated result of failure",
+      "min_gap": 1,
+      "last_used": 14,
+      "note": "Introduced ch. 14. Load-bearing for ch. 15 (Maria carries the six-decade case files out) and referenced again ch. 18-19. Available again immediately."
     }
   ],
   "character": [
@@ -347,7 +363,7 @@
       "subject": "Nurse",
       "detail": "grey canvas apron stained black with coal soot and yellowed with sulphur",
       "min_gap": 4,
-      "last_used": 5
+      "last_used": 14
     },
     {
       "id": "extraction-timer",
@@ -404,7 +420,7 @@
       "detail": "counts something concrete to manage a fact he can't otherwise process",
       "min_gap": 4,
       "last_used": 13,
-      "note": "Reused ch. 13 on schedule (due at 13) — Lloyd counting brine-cart barrels outside Ascension House. Hold until at least ch. 17."
+      "note": "Reused ch. 13 on schedule (due at 13) \u2014 Lloyd counting brine-cart barrels outside Ascension House. Hold until at least ch. 17."
     },
     {
       "id": "poor-box",
@@ -532,7 +548,7 @@
       "subject": "Nurse",
       "detail": "grey canvas apron stained black with coal soot and yellowed with sulphur",
       "min_gap": 4,
-      "last_used": 5
+      "last_used": 14
     },
     {
       "id": "extraction-timer",
@@ -623,16 +639,32 @@
       "subject": "Ascension House",
       "detail": "a grand front entrance nobody uses, grass between the flags, against an oiled service door worked constantly by cart traffic",
       "min_gap": 1,
-      "last_used": 13,
-      "note": "Introduced ch. 13. Available again immediately — ch. 14's break-in uses this same service door."
+      "last_used": 14,
+      "note": "Introduced ch. 13. Available again immediately \u2014 ch. 14's break-in uses this same service door."
     },
     {
       "id": "noon-gaslamps",
       "subject": "Vantry",
       "detail": "gaslamps lit at noon under a soot-haze that never fully lifts",
       "min_gap": 1,
-      "last_used": 13,
+      "last_used": 14,
       "note": "Introduced ch. 13 as Vantry's defining atmosphere. Low cooldown since the party stays in Vantry through at least ch. 15."
+    },
+    {
+      "id": "stud-book",
+      "subject": "Ascension House breeding ward",
+      "detail": "a stud book of pairings and outcomes kept like a farmer's record of bloodlines",
+      "min_gap": 8,
+      "last_used": 14,
+      "note": "Introduced ch. 14. Edie takes the stud book itself in ch. 15 as evidence (it carries signatures) \u2014 a brief, factual reappearance there is fine; hold off on dwelling on it again after that."
+    },
+    {
+      "id": "the-kept-thing",
+      "subject": "Ascension House sub-basement",
+      "detail": "something once human, bound in a ring of brass fittings, kept and fed, no longer nameable",
+      "min_gap": 1,
+      "last_used": 14,
+      "note": "Introduced ch. 14, deliberately not engaged with. Load-bearing for ch. 15 \u2014 it gets out during the siege. Available again immediately."
     }
   ]
 }
