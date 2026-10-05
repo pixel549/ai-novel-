@@ -19,10 +19,11 @@
         "11": 0,
         "12": 1,
         "13": 1,
-        "14": 1
+        "14": 1,
+        "15": 0
       },
       "status": "watch",
-      "note": "Ch. 14 held at one clean, deliberate use (the tank water thick with bodies 'the way a jar goes thick with flies') \u2014 the draft reached for it twice more (Maria closing the register 'the way she'd close it over someone sleeping'; Edie's footsteps on the stair) and both were rewritten to 'like X' or cut, same discipline as ch. 12-13. Three chapters running at one or zero; the cap is holding."
+      "note": "Zero uses in ch. 15 — a siege/action chapter that reached for several manner-clause 'the way X did Y' constructions in early drafting and had every one of them rewritten to a plain 'as' clause or cut outright. Four of the last five chapters now at zero or one. The cap is holding better than the status implies; consider demoting to 'rest' if ch. 16 also comes in at zero."
     },
     {
       "id": "a-thing-abstraction",
@@ -37,10 +38,11 @@
         "11": 0,
         "12": 0,
         "13": 0,
-        "14": 0
+        "14": 0,
+        "15": 0
       },
       "status": "watch",
-      "note": "Fifth chapter running at zero. The ch. 14 draft reached for it three times in the first pass (the nurse's tank, the extraction-theatre folder, the stud book) and every one was rewritten to name the actual object instead. Treat any return to this as a real lapse now."
+      "note": "Sixth chapter running at zero. Not reached for at all in ch. 15, including under pressure in the fight scenes where a vague placeholder would have been the easy way out."
     },
     {
       "id": "i-have-learned-aphorism",
@@ -53,10 +55,11 @@
         "11": 0,
         "12": 0,
         "13": 0,
-        "14": 0
+        "14": 0,
+        "15": 0
       },
       "status": "watch",
-      "note": "A ch. 14 draft pass reached for this once directly ('I have found, in every direction I've ever tested it, that knowing a thing happened costs almost exactly the same as watching it') and it was cut outright rather than banked \u2014 replaced with Edie simply carrying the stud book for both of them, no generalised rule stated. Stays on watch."
+      "note": "Sixth chapter running at zero. One draft pass reached for a general 'I'd learned by then to...' rule during the quiet gathering beat and it was cut in favour of a concrete physical image (steady hands, folders coming off a shelf). Stays on watch."
     },
     {
       "id": "long-sentence-run",
@@ -75,10 +78,11 @@
         "11": 20,
         "12": 23,
         "13": 19,
-        "14": 22
+        "14": 22,
+        "15": 22
       },
       "status": "develop",
-      "note": "Ch. 14 landed at 22, same low-to-mid-20s band as ch. 7-13. Contrast rotated to a new pairing: Lloyd's spiralling, self-interrupting sentences against the flat closing lines of the extraction theatre's own case files ('result negative, subject retained') \u2014 institutional paperwork as the plain register, not another character's dialogue. Keep rotating the contrast partner rather than returning to the same one twice running."
+      "note": "Ch. 15 landed at 22, same low-to-mid-20s band as ch. 7-14. Contrast partner rotated again: Lloyd's long, accreting sentences (the plan, the catalogue of what Maria won't burn, the stair fight's single extended clauses) now pulled up short by Edie's and Maria's flat one-line calls in combat ('go.' / 'We're burning it' last chapter) rather than by institutional paperwork (ch. 14) or a second character's dialogue register generally. Keep rotating."
     },
     {
       "id": "same-as-comparison",
@@ -90,10 +94,11 @@
         "11": 0,
         "12": 0,
         "13": 1,
-        "14": 1
+        "14": 1,
+        "15": 1
       },
       "status": "watch",
-      "note": "One clean, isolated use again (Lloyd's wrongness about Vantry's haze, 'same as most of what I'd decided about this city on no evidence at all'). Three of the last four chapters at exactly one use \u2014 occasional and controlled, not a default; no change in status."
+      "note": "One clean, isolated use again (Lloyd's job on the stair, 'same as it had been going down'). Four of the last five chapters at exactly one use — this is now settled, controlled background usage, not a default; no change in status."
     },
     {
       "id": "clerical-self-metaphor",
@@ -104,23 +109,25 @@
         "11": 0,
         "12": 0,
         "13": 0,
-        "14": 0
+        "14": 0,
+        "15": 0
       },
       "status": "watch",
-      "note": "Fourth chapter running clean of Lloyd narrating his own perception-management in filing language. Ch. 14 kept the filing/ledger register where it belongs \u2014 on the institution's own documents and on Edie's decision-making \u2014 and let Lloyd's self-management stay physical (keeping his face still, keeping the cold arm close to his side)."
+      "note": "Fifth chapter running clean. Ch. 15 kept Lloyd's self-management entirely physical and sensory under far more pressure than usual (mid-fight, badly hurt) and still didn't reach for filing/procedural language — a good sign this one may be fully retired rather than just resting."
     },
     {
       "id": "negation-doubling",
-      "pattern": "a clause restated through its own negation for flat understatement \u2014 'didn't X because there wasn't X to do', 'wasn't an answer that wasn't Y'",
+      "pattern": "a clause restated through its own negation for flat understatement — 'didn't X because there wasn't X to do', 'wasn't an answer that wasn't Y'",
       "example": "she didn't say anything useful, because there wasn't anything useful to say; I didn't have an answer that wasn't the same thing said back to her, worse",
       "counts_by_chapter": {
         "11": 3,
         "12": 0,
         "13": 0,
-        "14": 0
+        "14": 0,
+        "15": 0
       },
       "status": "watch",
-      "note": "Fourth chapter running without it. Not reached for in ch. 14 either; still safe to use if it arises naturally, not a default."
+      "note": "Fifth chapter running without it. Not reached for in ch. 15 either; still safe to use if it arises naturally, not a default."
     },
     {
       "id": "which-appositive-judgment",
@@ -129,10 +136,11 @@
       "counts_by_chapter": {
         "12": 4,
         "13": 0,
-        "14": 0
+        "14": 0,
+        "15": 0
       },
       "status": "watch",
-      "note": "Ch. 13 evolved away from this; ch. 14 confirms it \u2014 a draft pass produced three different trailing 'which was/is [judgment]' closes (the stolen moment on the stair, the specimen shelves, the final line) and all three were rewritten into separate declaratives or a plain 'like' comparison instead. Treat a return to the bare trailing-'which' shape as a real lapse, two chapters running now."
+      "note": "Three chapters clean now. A draft pass produced two bare trailing 'which was/wasn't [judgment]' closes in the Vail yard scene alone and both were split into separate short declaratives instead (the pattern that's replacing it, see long-sentence-run's contrast note). Treat any return to the bare trailing-'which' shape as a real lapse."
     }
   ],
   "closers": [
@@ -144,7 +152,7 @@
         "08"
       ],
       "status": "develop",
-      "note": "Ch. 12 closed on Edie's cord going still; ch. 13 closed on Edie knotting off a thread and a one-word decision spoken aloud ('Thursday'); ch. 14 closed on Edie's line ('We're burning it') plus the concrete business of counting trips for the papers. Three chapters running on an object-plus-dialogue close instead — watch that this doesn't calcify into its own tic; the siege chapter (15) should probably end differently."
+      "note": "Ch. 15 breaks the run as anticipated — it ends on a flat, undialogued catalogue of Lloyd's injuries (skull, ribs, arm) rather than an object-plus-dialogue close. Three chapters (12-14) still the longest run on this pattern; ch. 15 is deliberately not added to the chapters list."
     },
     {
       "id": "patient-inevitability-closer",

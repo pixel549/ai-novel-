@@ -3,7 +3,7 @@
     {
       "id": "iodine-sign",
       "subject": "hydro sign",
-      "detail": "iodine\u2011stained sign flickering above entrance",
+      "detail": "iodine‑stained sign flickering above entrance",
       "min_gap": 5,
       "last_used": 6
     },
@@ -17,7 +17,7 @@
     {
       "id": "plaster-peeling",
       "subject": "entrance",
-      "detail": "plaster peeling beneath strips of iodine\u2011stained cloth",
+      "detail": "plaster peeling beneath strips of iodine‑stained cloth",
       "min_gap": 4,
       "last_used": 6
     },
@@ -90,7 +90,7 @@
       "detail": "hemp knot-cord bound with brass wire ferrules",
       "min_gap": 4,
       "last_used": 12,
-      "note": "Cooldown overridden a second chapter running in ch. 12 \u2014 appears three times, including the chapter's closing line, tying the cord's counting to the forty-one-crowns reveal. Thematically load-bearing (ch. 12 is literally about counting and tallies), but two overrides back to back mean it has not actually rested since ch. 09. Hold it firmly through ch. 16 at minimum before using it as more than an incidental prop."
+      "note": "Cooldown overridden a second chapter running in ch. 12 — appears three times, including the chapter's closing line, tying the cord's counting to the forty-one-crowns reveal. Thematically load-bearing (ch. 12 is literally about counting and tallies), but two overrides back to back mean it has not actually rested since ch. 09. Hold it firmly through ch. 16 at minimum before using it as more than an incidental prop."
     },
     {
       "id": "salt-crusted-stairs",
@@ -182,7 +182,7 @@
       "detail": "grease-stained oilcloth ledger",
       "min_gap": 4,
       "last_used": 12,
-      "note": "Used again in ch. 12, one chapter after ch. 11 (min_gap 4) \u2014 second cooldown breach alongside the cord itself. Let it rest through at least ch. 16."
+      "note": "Used again in ch. 12, one chapter after ch. 11 (min_gap 4) — second cooldown breach alongside the cord itself. Let it rest through at least ch. 16."
     },
     {
       "id": "hemp-rope",
@@ -224,32 +224,40 @@
       "subject": "Ascension House",
       "detail": "a grand front entrance nobody uses, grass between the flags, against an oiled service door worked constantly by cart traffic",
       "min_gap": 1,
-      "last_used": 14,
-      "note": "Introduced ch. 13 (Lloyd's four days of watching). Load-bearing setup for ch. 14's entry through that same service door \u2014 available again immediately."
+      "last_used": 15,
+      "note": "Used again ch. 15 as part of the escape route, now incidentally — Ascension House is destroyed by chapter's end, so this motif is effectively retired going forward."
     },
     {
       "id": "noon-gaslamps",
       "subject": "Vantry",
       "detail": "gaslamps lit at noon under a soot-haze that never fully lifts",
       "min_gap": 1,
-      "last_used": 14,
-      "note": "Introduced ch. 13 as Vantry's defining atmosphere. Low cooldown since the party stays in Vantry through at least ch. 15."
+      "last_used": 15,
+      "note": "Used again ch. 15, seen from the yard lit orange by the fire from underneath for the first time — a deliberate one-off variation on the recurring haze, not a plain repeat. The party leaves Vantry after this chapter; treat as dormant unless the plot returns there."
     },
     {
       "id": "intake-register",
       "subject": "Ascension House",
       "detail": "chained intake register logged by name with no corresponding discharge",
       "min_gap": 1,
-      "last_used": 14,
-      "note": "Introduced ch. 14 \u2014 this is where Maria finds Anse Duley's name. Load-bearing for ch. 15 (Maria takes the intake registers out as evidence) and ch. 17-18 (the name resurfaces). Available again immediately."
+      "last_used": 15,
+      "note": "Carried out of the building in ch. 15 as evidence (this is the register Maria found Anse Duley's name in, ch. 14). Load-bearing for ch. 17-18's resurfacing of the name. No longer a physical-location motif going forward — it's now an object Maria is carrying."
     },
     {
       "id": "case-files-sixty-years",
       "subject": "Ascension House extraction theatre",
       "detail": "a wall of case files, sixty years deep, each folder a name and a dated result of failure",
       "min_gap": 1,
-      "last_used": 14,
-      "note": "Introduced ch. 14. Load-bearing for ch. 15 (Maria carries the six-decade case files out) and referenced again ch. 18-19. Available again immediately."
+      "last_used": 15,
+      "note": "Carried out of the building in ch. 15 as evidence. Referenced again ch. 18-19 per outline. No longer a physical-location motif going forward — now an object in the party's possession."
+    },
+    {
+      "id": "maria-sustained-light",
+      "subject": "Maria",
+      "detail": "a small flame held steady over her own palm, used as a plain light source rather than a weapon",
+      "min_gap": 4,
+      "last_used": 15,
+      "note": "Introduced ch. 15 — deliberately the least dramatic use of her Arcana in the siege and the most useful. Worth a return in a later high-tension Act III scene as a contrast to the lightning/fire she hates using, but not soon."
     }
   ],
   "character": [
@@ -420,7 +428,7 @@
       "detail": "counts something concrete to manage a fact he can't otherwise process",
       "min_gap": 4,
       "last_used": 13,
-      "note": "Reused ch. 13 on schedule (due at 13) \u2014 Lloyd counting brine-cart barrels outside Ascension House. Hold until at least ch. 17."
+      "note": "Reused ch. 13 on schedule (due at 13) — Lloyd counting brine-cart barrels outside Ascension House. Hold until at least ch. 17."
     },
     {
       "id": "poor-box",
@@ -639,32 +647,40 @@
       "subject": "Ascension House",
       "detail": "a grand front entrance nobody uses, grass between the flags, against an oiled service door worked constantly by cart traffic",
       "min_gap": 1,
-      "last_used": 14,
-      "note": "Introduced ch. 13. Available again immediately \u2014 ch. 14's break-in uses this same service door."
+      "last_used": 15,
+      "note": "Used again ch. 15 as the escape route. Ascension House is destroyed by the end of the chapter — retired."
     },
     {
       "id": "noon-gaslamps",
       "subject": "Vantry",
       "detail": "gaslamps lit at noon under a soot-haze that never fully lifts",
       "min_gap": 1,
-      "last_used": 14,
-      "note": "Introduced ch. 13 as Vantry's defining atmosphere. Low cooldown since the party stays in Vantry through at least ch. 15."
+      "last_used": 15,
+      "note": "Used again ch. 15, seen from outside lit orange by the fire for the first time. The party leaves Vantry after this chapter — dormant unless the plot returns there."
     },
     {
       "id": "stud-book",
       "subject": "Ascension House breeding ward",
       "detail": "a stud book of pairings and outcomes kept like a farmer's record of bloodlines",
       "min_gap": 8,
-      "last_used": 14,
-      "note": "Introduced ch. 14. Edie takes the stud book itself in ch. 15 as evidence (it carries signatures) \u2014 a brief, factual reappearance there is fine; hold off on dwelling on it again after that."
+      "last_used": 15,
+      "note": "Brief, factual reappearance in ch. 15 exactly as anticipated — Edie takes it out as evidence, no further dwelling on it. Retired as a sensory motif; it's now just an object in Edie's coat."
     },
     {
       "id": "the-kept-thing",
       "subject": "Ascension House sub-basement",
       "detail": "something once human, bound in a ring of brass fittings, kept and fed, no longer nameable",
       "min_gap": 1,
+      "last_used": 15,
+      "note": "Gets loose during the siege (ch. 15) as outlined, and is not confirmed dead, contained, or destroyed in the fire — left deliberately unresolved. Do not resolve its fate off-page; if it recurs, it should be a deliberate choice, not a tidy-up."
+    },
+    {
+      "id": "occupied-brine-tanks",
+      "subject": "Ascension House",
+      "detail": "rows of brine tanks holding people who have never surfaced",
+      "min_gap": 1,
       "last_used": 14,
-      "note": "Introduced ch. 14, deliberately not engaged with. Load-bearing for ch. 15 \u2014 it gets out during the siege. Available again immediately."
+      "note": "Introduced ch. 14, present again as a live stake ch. 15 (the fire risk Maria won't take). Ascension House itself burns in ch. 15, but ch. 16's outline explicitly brings one tank back inside Lloyd's delirium (Ivet Hale, surfacing) — available again immediately for that specific, deliberately impossible reappearance. Do not use it anywhere else as an ordinary recurring detail; ch. 16 is a one-time exception built into the outline, not a precedent."
     }
   ]
 }
