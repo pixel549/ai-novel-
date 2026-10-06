@@ -89,15 +89,16 @@
       "subject": "Edie",
       "detail": "hemp knot-cord bound with brass wire ferrules",
       "min_gap": 4,
-      "last_used": 12,
-      "note": "Cooldown overridden a second chapter running in ch. 12 — appears three times, including the chapter's closing line, tying the cord's counting to the forty-one-crowns reveal. Thematically load-bearing (ch. 12 is literally about counting and tallies), but two overrides back to back mean it has not actually rested since ch. 09. Hold it firmly through ch. 16 at minimum before using it as more than an incidental prop."
+      "last_used": 16,
+      "note": "Outline-mandated override in ch. 16: the cord turns up in Lloyd's own hands inside the delirium, counting to ninety-one (Edie's sapper number, which canon confirms she never told him) instead of the nineteen the ch. 2-3 search actually ran. Both counts agree and he trusts neither — the discrepancy is never resolved on the page, per outline. This is the cord as a load-bearing delirium image, not an incidental prop; let it rest well past ch. 16 before using it casually again."
     },
     {
       "id": "salt-crusted-stairs",
       "subject": "Stillwell Hydro",
       "detail": "salt-crusted stairs leading down to chapel-like arches",
       "min_gap": 8,
-      "last_used": 2
+      "last_used": 16,
+      "note": "Deliberate override in ch. 16 — the central device of Lloyd's delirium, overlaid with the Vantry sub-basement stair and the stair at his mother's house, the same rail running through all three. Not a plain reuse; retire from ordinary rotation for a long stretch now that it's been spent this hard."
     },
     {
       "id": "scarred-palms",
@@ -427,8 +428,16 @@
       "subject": "Lloyd",
       "detail": "counts something concrete to manage a fact he can't otherwise process",
       "min_gap": 4,
-      "last_used": 13,
-      "note": "Reused ch. 13 on schedule (due at 13) — Lloyd counting brine-cart barrels outside Ascension House. Hold until at least ch. 17."
+      "last_used": 16,
+      "note": "Outline-mandated early reuse in ch. 16, one chapter ahead of the ch. 17 hold set last time — the knot-cord counted twice in the delirium, both counts agreeing at ninety-one and trusted by Lloyd anyway. Not a free choice; the beat is written into ch. 16's outline entry. Push the hold further out this time: avoid until at least ch. 20."
+    },
+    {
+      "id": "home-roof-gap",
+      "subject": "Lloyd",
+      "detail": "half-inch gap in the roof at his mother's house in Callow Ford, daylight showing through the north gable",
+      "min_gap": 1,
+      "last_used": 16,
+      "note": "First given to Maria as a told-not-shown detail in ch. 6; surfaces again in ch. 16 as the image Lloyd's delirium keeps sliding back to underneath the other two stairs, and the chapter ends on it. A strong candidate for a deliberate, earned return in ch. 25 when Maria actually reaches Callow Ford — hold it dormant until then rather than spending it incidentally."
     },
     {
       "id": "poor-box",
@@ -679,8 +688,8 @@
       "subject": "Ascension House",
       "detail": "rows of brine tanks holding people who have never surfaced",
       "min_gap": 1,
-      "last_used": 14,
-      "note": "Introduced ch. 14, present again as a live stake ch. 15 (the fire risk Maria won't take). Ascension House itself burns in ch. 15, but ch. 16's outline explicitly brings one tank back inside Lloyd's delirium (Ivet Hale, surfacing) — available again immediately for that specific, deliberately impossible reappearance. Do not use it anywhere else as an ordinary recurring detail; ch. 16 is a one-time exception built into the outline, not a precedent."
+      "last_used": 16,
+      "note": "The ch. 16 exception has now been used exactly as anticipated — Ivet surfacing in the second tank from the door, inside Lloyd's delirium, with the Insight ambiguity left fully open per canon. Ascension House burned in ch. 15; this image now belongs only to Lloyd's private delirium and should not recur as an ordinary physical-location motif. Retired."
     }
   ]
 }

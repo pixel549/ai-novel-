@@ -20,10 +20,12 @@
         "12": 1,
         "13": 1,
         "14": 1,
-        "15": 0
+        "15": 0,
+        "16": 0
       },
-      "status": "watch",
-      "note": "Zero uses in ch. 15 — a siege/action chapter that reached for several manner-clause 'the way X did Y' constructions in early drafting and had every one of them rewritten to a plain 'as' clause or cut outright. Four of the last five chapters now at zero or one. The cap is holding better than the status implies; consider demoting to 'rest' if ch. 16 also comes in at zero."
+      "status": "rest",
+      "rested_until": 20,
+      "note": "Zero again in ch. 16, a delirium chapter built almost entirely out of manner-clause comparisons (the stairs, the voices, the courteous man) that was drafted with several 'the way X' constructions and had every one of them rewritten to a plain 'as' clause or cut, same remedy as ch. 15. Demoting to rest as flagged last time — five of the last six chapters at zero or one. Leave this construction alone for a real stretch; the plain-'as' replacement is doing the work now."
     },
     {
       "id": "a-thing-abstraction",
@@ -39,10 +41,11 @@
         "12": 0,
         "13": 0,
         "14": 0,
-        "15": 0
+        "15": 0,
+        "16": 0
       },
       "status": "watch",
-      "note": "Sixth chapter running at zero. Not reached for at all in ch. 15, including under pressure in the fight scenes where a vague placeholder would have been the easy way out."
+      "note": "Seventh chapter running at zero, including ch. 16, where a vague placeholder noun would have been the easy way to gesture at everything delirium left unnamed and wasn't reached for even once. Safe to consider this one fully retired rather than merely resting."
     },
     {
       "id": "i-have-learned-aphorism",
@@ -56,10 +59,11 @@
         "12": 0,
         "13": 0,
         "14": 0,
-        "15": 0
+        "15": 0,
+        "16": 0
       },
       "status": "watch",
-      "note": "Sixth chapter running at zero. One draft pass reached for a general 'I'd learned by then to...' rule during the quiet gathering beat and it was cut in favour of a concrete physical image (steady hands, folders coming off a shelf). Stays on watch."
+      "note": "Seventh chapter running at zero. A draft pass of ch. 16 produced a near-miss ('is, I have come to understand, a different skill altogether') in the Ivet beat and it was cut back to a plain statement with no self-aware hedge. Stays on watch rather than retired, since the delirium register makes this one easy to slip back into."
     },
     {
       "id": "long-sentence-run",
@@ -79,10 +83,11 @@
         "12": 23,
         "13": 19,
         "14": 22,
-        "15": 22
+        "15": 22,
+        "16": 19
       },
       "status": "develop",
-      "note": "Ch. 15 landed at 22, same low-to-mid-20s band as ch. 7-14. Contrast partner rotated again: Lloyd's long, accreting sentences (the plan, the catalogue of what Maria won't burn, the stair fight's single extended clauses) now pulled up short by Edie's and Maria's flat one-line calls in combat ('go.' / 'We're burning it' last chapter) rather than by institutional paperwork (ch. 14) or a second character's dialogue register generally. Keep rotating."
+      "note": "Ch. 16 at 19, same band held through a whole-chapter unreliable-narration experiment. Contrast partner rotated to its most minimal form yet: Lloyd's long, overlapping delirium sentences pulled up short by Maria's bare grounding words reaching him from outside the slide (cup. window. blanket. her own hand.) rather than by another character's combat calls or institutional paperwork. Keep rotating into ch. 17, where the contrast partner should probably become physical nursing detail rather than dialogue at all."
     },
     {
       "id": "same-as-comparison",
@@ -95,10 +100,11 @@
         "12": 0,
         "13": 1,
         "14": 1,
-        "15": 1
+        "15": 1,
+        "16": 1
       },
       "status": "watch",
-      "note": "One clean, isolated use again (Lloyd's job on the stair, 'same as it had been going down'). Four of the last five chapters at exactly one use — this is now settled, controlled background usage, not a default; no change in status."
+      "note": "Four chapters running at exactly one use (Maria's hand on his chest, 'the same as I had every single time since the chapel'). Settled, controlled background usage — no change in status."
     },
     {
       "id": "clerical-self-metaphor",
@@ -110,10 +116,11 @@
         "12": 0,
         "13": 0,
         "14": 0,
-        "15": 0
+        "15": 0,
+        "16": 0
       },
       "status": "watch",
-      "note": "Fifth chapter running clean. Ch. 15 kept Lloyd's self-management entirely physical and sensory under far more pressure than usual (mid-fight, badly hurt) and still didn't reach for filing/procedural language — a good sign this one may be fully retired rather than just resting."
+      "note": "Sixth chapter running clean. Ch. 16 was the strongest possible temptation for this one — a whole chapter of Lloyd trying to manage facts he can't otherwise process, including the knot-cord count — and it still reached for arithmetic as a dry joke rather than filing language. Treat as effectively retired."
     },
     {
       "id": "negation-doubling",
@@ -124,10 +131,11 @@
         "12": 0,
         "13": 0,
         "14": 0,
-        "15": 0
+        "15": 0,
+        "16": 0
       },
       "status": "watch",
-      "note": "Fifth chapter running without it. Not reached for in ch. 15 either; still safe to use if it arises naturally, not a default."
+      "note": "Sixth chapter running without it. Not reached for in ch. 16 either, despite several places (the buried memory, the cord) where a negated restatement would have been an easy shape to default to; still safe to use if it arises naturally, not a default."
     },
     {
       "id": "which-appositive-judgment",
@@ -137,10 +145,11 @@
         "12": 4,
         "13": 0,
         "14": 0,
-        "15": 0
+        "15": 0,
+        "16": 0
       },
       "status": "watch",
-      "note": "Three chapters clean now. A draft pass produced two bare trailing 'which was/wasn't [judgment]' closes in the Vail yard scene alone and both were split into separate short declaratives instead (the pattern that's replacing it, see long-sentence-run's contrast note). Treat any return to the bare trailing-'which' shape as a real lapse."
+      "note": "Four chapters clean now. A draft pass of ch. 16's opening produced one bare trailing 'which told me...' close and it was split into two short declaratives instead, same remedy as ch. 12-13. Treat any return to the bare trailing-'which' shape as a real lapse."
     }
   ],
   "closers": [
@@ -152,7 +161,7 @@
         "08"
       ],
       "status": "develop",
-      "note": "Ch. 15 breaks the run as anticipated — it ends on a flat, undialogued catalogue of Lloyd's injuries (skull, ribs, arm) rather than an object-plus-dialogue close. Three chapters (12-14) still the longest run on this pattern; ch. 15 is deliberately not added to the chapters list."
+      "note": "Ch. 15 and ch. 16 both avoid it. Ch. 16 ends on a bare image — daylight through the gap in the Callow Ford roof, mid-slide, no resolving line and nothing stated about what it means — which is the chapter's own outline requirement (no lucid interval, no final clarity) as much as it is this ledger's preference. Three chapters (12-14) still the longest run on this pattern; neither ch. 15 nor ch. 16 is added to the chapters list."
     },
     {
       "id": "patient-inevitability-closer",
