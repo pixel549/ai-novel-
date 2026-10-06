@@ -238,11 +238,11 @@
     },
     {
       "id": "intake-register",
-      "subject": "Ascension House",
-      "detail": "chained intake register logged by name with no corresponding discharge",
+      "subject": "Maria",
+      "detail": "the intake register, kept wrapped and hidden, Anse Duley's name read and reread",
       "min_gap": 1,
-      "last_used": 15,
-      "note": "Carried out of the building in ch. 15 as evidence (this is the register Maria found Anse Duley's name in, ch. 14). Load-bearing for ch. 17-18's resurfacing of the name. No longer a physical-location motif going forward — it's now an object Maria is carrying."
+      "last_used": 17,
+      "note": "Resurfaced in ch. 17 exactly as anticipated — now an object Maria keeps under the floorboards of the let room, wrapped in one of Lloyd's torn shirts, taken out some nights and not others. Carries the Anse Duley reckoning rather than any sensory description of Ascension House itself. Likely to recur ch. 18 when the evidence goes out via Edie; after that it leaves Maria's hands and this entry should probably retire for good."
     },
     {
       "id": "case-files-sixty-years",
@@ -452,6 +452,22 @@
       "detail": "a loaf, a roof, and a pair of clasped hands carved over the door, worn soft by decades of hands",
       "min_gap": 5,
       "last_used": 12
+    },
+    {
+      "id": "ordinary-object-naming",
+      "subject": "Maria and Lloyd",
+      "detail": "naming the plain objects of a room aloud — cup, window, blanket, a hand — to tell him what's real",
+      "min_gap": 3,
+      "last_used": 17,
+      "note": "Introduced ch. 16 as Maria's voice reaching Lloyd from outside his delirium; reciprocated ch. 17 from her side, now explicitly a standing habit carried over from the Salts rather than a one-off. Central to the ch. 17 climax (his 'is this real,' her answer built out of the same named objects). Core to the relationship — don't retire it, but let it rest a few chapters before leaning on it again so it keeps its weight for whenever his Insight or her faith is next in question."
+    },
+    {
+      "id": "wrist-healing-ridge",
+      "subject": "Lloyd",
+      "detail": "a ridge of badly-knit bone above the wrist where Maria could argue the break straight but not re-set it clean, catching for a half-second before the fist closes",
+      "min_gap": 10,
+      "last_used": 17,
+      "note": "A new mark from the ch. 15 siege injuries (right arm broken in three places), healed in stages in ch. 17 — distinct from the ch. 3/ch. 6 elbow wrongness tracked separately as 'crooked-arm' (still resting until ch. 25; do not conflate the two images or use the old 'five-degree angle' phrasing for this one). This is the first physical cost Maria names herself as directly responsible for causing, not just failing to prevent."
     }
   ],
   "atmosphere": [
