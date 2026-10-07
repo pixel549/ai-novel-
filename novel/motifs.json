@@ -182,8 +182,8 @@
       "subject": "Edie",
       "detail": "grease-stained oilcloth ledger",
       "min_gap": 4,
-      "last_used": 12,
-      "note": "Used again in ch. 12, one chapter after ch. 11 (min_gap 4) — second cooldown breach alongside the cord itself. Let it rest through at least ch. 16."
+      "last_used": 19,
+      "note": "Used again in ch. 12, one chapter after ch. 11 (min_gap 4) — second cooldown breach alongside the cord itself. Rested through ch. 13-18 as planned. Ch. 19 gives it its biggest scene yet: Edie tallies the whole Vantry job in it, line by line, and leaves it behind with the party for good ('for the next one') — the object's own arc now closed, title-echoing ('paid out'). Treat as retired as a recurring prop; if it reappears, it should be in someone else's hands, not Edie's."
     },
     {
       "id": "hemp-rope",
@@ -233,8 +233,8 @@
       "subject": "Vantry",
       "detail": "gaslamps lit at noon under a soot-haze that never fully lifts",
       "min_gap": 1,
-      "last_used": 15,
-      "note": "Used again ch. 15, seen from the yard lit orange by the fire from underneath for the first time — a deliberate one-off variation on the recurring haze, not a plain repeat. The party leaves Vantry after this chapter; treat as dormant unless the plot returns there."
+      "last_used": 19,
+      "note": "Used again ch. 15, seen from the yard lit orange by the fire from underneath for the first time — a deliberate one-off variation on the recurring haze, not a plain repeat. The party stayed in Vantry's mill district through ch. 17-19 rather than leaving after ch. 15 as once assumed, so this is live again, not dormant: ch. 19 has Maria watch the lamps come up early over the better streets from the rented room, soot-haze or not, and use their punctuality as a trigger for her private arithmetic about who's at dinner in Carrowgate. They do leave Vantry for Carrowgate between ch. 19 and ch. 20 — retire as dormant from ch. 20 onward unless the plot returns to Vantry."
     },
     {
       "id": "intake-register",
@@ -249,8 +249,8 @@
       "subject": "Ascension House extraction theatre",
       "detail": "a wall of case files, sixty years deep, each folder a name and a dated result of failure",
       "min_gap": 1,
-      "last_used": 18,
-      "note": "Published in ch. 18 as a column of names run alongside the register plates, then shelved as a bound back-issue volume almost no one asks for by the chapter's end — the evidence's afterlife is bureaucratic indifference, not destruction. Likely one further glancing reference in ch. 19 per outline note; after that this entry can probably retire."
+      "last_used": 19,
+      "note": "Published in ch. 18 as a column of names run alongside the register plates, then shelved as a bound back-issue volume almost no one asks for by the chapter's end. Ch. 19 gives it the glancing reference anticipated last time — Maria reads, in a broadsheet, that the bound volume has gone to the Vantry assembly's standing archive, where nothing of its kind draws a second look once the story about it has aged. Retire this entry now; the image has done its full arc, from wall to volume to unread shelf."
     },
     {
       "id": "maria-sustained-light",
@@ -258,7 +258,15 @@
       "detail": "a small flame held steady over her own palm, used as a plain light source rather than a weapon",
       "min_gap": 4,
       "last_used": 15,
-      "note": "Introduced ch. 15 — deliberately the least dramatic use of her Arcana in the siege and the most useful. Worth a return in a later high-tension Act III scene as a contrast to the lightning/fire she hates using, but not soon."
+      "note": "Introduced ch. 15 — deliberately the least dramatic use of her Arcana in the siege and the most useful. Worth a return in a later high-tension Act III scene as a contrast to the lightning/fire she hates using, but not soon. Still dormant after ch. 19, a quiet connective chapter with no call for Arcana at all."
+    },
+    {
+      "id": "vail-letter-floorboard",
+      "subject": "Maria",
+      "detail": "Vail's letter, warm and without reproach, kept folded under the floorboard in the exact space the intake register left behind",
+      "min_gap": 1,
+      "last_used": 19,
+      "note": "Introduced ch. 18 as the chapter's closing image — Maria neither answers nor burns it. Ch. 19 returns to it once, in the chapter's private, unspoken section: she knows its contents by heart without looking and doesn't go and look. A live Chekhov's object — whether she ever answers it, or what she does with it if the floorboard space is ever disturbed, is open. Don't resolve it off-page."
     }
   ],
   "character": [
@@ -407,7 +415,8 @@
       "subject": "Edie",
       "detail": "thick oilcloth ledger",
       "min_gap": 4,
-      "last_used": 12
+      "last_used": 19,
+      "note": "Ch. 19 — Edie closes the account she's kept in it for the whole Vantry job and leaves it with Maria and Lloyd on departing for Carrowgate. Retired as a recurring prop."
     },
     {
       "id": "mechanical-dog",
@@ -609,7 +618,8 @@
       "subject": "Edie",
       "detail": "grease-stained oilcloth ledger",
       "min_gap": 4,
-      "last_used": 12
+      "last_used": 19,
+      "note": "Ch. 19 — its last appearance as Edie's prop; closed out and left behind. Retired."
     },
     {
       "id": "mechanical-dog",
