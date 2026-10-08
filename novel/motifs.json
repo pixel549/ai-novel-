@@ -267,6 +267,22 @@
       "min_gap": 1,
       "last_used": 19,
       "note": "Introduced ch. 18 as the chapter's closing image — Maria neither answers nor burns it. Ch. 19 returns to it once, in the chapter's private, unspoken section: she knows its contents by heart without looking and doesn't go and look. A live Chekhov's object — whether she ever answers it, or what she does with it if the floorboard space is ever disturbed, is open. Don't resolve it off-page."
+    },
+    {
+      "id": "crane-floor-plan",
+      "subject": "Lloyd",
+      "detail": "a session calendar matched against a watch roster, and a traced floor plan with three doors marked by neat crosses, carried folded inside his coat lining",
+      "min_gap": 1,
+      "last_used": 20,
+      "note": "Introduced ch. 20 as what Maria finds in his coat — the chapter's closing discovery, alongside Crane's name written in the margin in his own hand. Expected to recur ch. 21 when he lays the whole plan out for her in words, and again ch. 24 when Edie independently reconstructs his reconnaissance from marks on a floor plan she finds in the building itself — check the ch. 21 draft before assuming that's literally this same sheet rather than a separate copy or a later, more developed version."
+    },
+    {
+      "id": "stone-dust-boot",
+      "subject": "Lloyd",
+      "detail": "pale, fine dust off dressed stone ground into a boot toe, distinct from coal-yard soot",
+      "min_gap": 4,
+      "last_used": 20,
+      "note": "Introduced ch. 20 as the single physical tell that starts Maria's suspicion before she has anything else to go on — government-building stone against a coal-yard man's boots. A small, literal clue rather than a mood image; hold it in reserve for a later chapter where it could pay off again (confirming a lie, say) rather than spending it as plain texture."
     }
   ],
   "character": [
@@ -477,6 +493,14 @@
       "min_gap": 10,
       "last_used": 17,
       "note": "A new mark from the ch. 15 siege injuries (right arm broken in three places), healed in stages in ch. 17 — distinct from the ch. 3/ch. 6 elbow wrongness tracked separately as 'crooked-arm' (still resting until ch. 25; do not conflate the two images or use the old 'five-degree angle' phrasing for this one). This is the first physical cost Maria names herself as directly responsible for causing, not just failing to prevent."
+    },
+    {
+      "id": "crane-floor-plan",
+      "subject": "Maria",
+      "detail": "the floor plan and session calendar found in Lloyd's coat, held open too long to refold steadily along its own creases",
+      "min_gap": 1,
+      "last_used": 20,
+      "note": "Ch. 20's closing image — the shake in her hands is the chapter's one explicit tell of how hard the discovery has hit her, with nothing stated outright about what it means. Natural callback material for ch. 21 when she confronts him with it directly."
     }
   ],
   "atmosphere": [
@@ -716,6 +740,14 @@
       "min_gap": 1,
       "last_used": 16,
       "note": "The ch. 16 exception has now been used exactly as anticipated — Ivet surfacing in the second tank from the door, inside Lloyd's delirium, with the Insight ambiguity left fully open per canon. Ascension House burned in ch. 15; this image now belongs only to Lloyd's private delirium and should not recur as an ordinary physical-location motif. Retired."
+    },
+    {
+      "id": "stone-dust-boot",
+      "subject": "Lloyd",
+      "detail": "pale, fine stone dust on a boot toe, visibly out of place against coal-yard grime",
+      "min_gap": 4,
+      "last_used": 20,
+      "note": "Introduced ch. 20 — the detail that first catches Maria's attention, dated precisely to one evening, before she has any other evidence. Keep it a literal, placeable clue rather than a recurring mood texture."
     }
   ]
 }
