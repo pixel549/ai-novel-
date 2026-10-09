@@ -54,7 +54,8 @@
       "subject": "shawl",
       "detail": "shawl wrapped around Maria's shoulders",
       "min_gap": 1,
-      "last_used": 10
+      "last_used": 11,
+      "note": "2026-10-09 weekly review: last_used was stale at 10 across all three lists — ch. 11 ('Maria pulled her shawl up over her nose and didn't put it down again until we were past the second bridge') was the actual last appearance, still within every list's own min_gap so not a cooldown breach, just an uncorrected count. No reuse found ch. 12-22 — eleven chapters clear now and genuinely dormant; fine to bring back without ceremony whenever a cold or dirty scene wants it."
     },
     {
       "id": "frayed-knot-cord",
@@ -333,7 +334,7 @@
       "subject": "Maria",
       "detail": "shawl wrapped around Maria's shoulders",
       "min_gap": 3,
-      "last_used": 10
+      "last_used": 11
     },
     {
       "id": "frayed-knot-cord",
@@ -491,8 +492,8 @@
       "subject": "Lloyd",
       "detail": "a ridge of badly-knit bone above the wrist where Maria could argue the break straight but not re-set it clean, catching for a half-second before the fist closes",
       "min_gap": 10,
-      "last_used": 17,
-      "note": "A new mark from the ch. 15 siege injuries (right arm broken in three places), healed in stages in ch. 17 — distinct from the ch. 3/ch. 6 elbow wrongness tracked separately as 'crooked-arm' (still resting until ch. 25; do not conflate the two images or use the old 'five-degree angle' phrasing for this one). This is the first physical cost Maria names herself as directly responsible for causing, not just failing to prevent."
+      "last_used": 20,
+      "note": "A new mark from the ch. 15 siege injuries (right arm broken in three places), healed in stages in ch. 17 — distinct from the ch. 3/ch. 6 elbow wrongness tracked separately as 'crooked-arm' (still resting until ch. 25; do not conflate the two images or use the old 'five-degree angle' phrasing for this one). This is the first physical cost Maria names herself as directly responsible for causing, not just failing to prevent. 2026-10-09 weekly review: found and missed by nightly tracking — ch. 20 reuses this exact image twice in one chapter ('a man rebuilding a body that still caught at the wrist when he closed his fist too fast'; 'the newer scar, the wrist that still caught'), only three chapters after its ch. 17 introduction, well inside the 10-chapter min_gap. Not factually wrong — the detail is still true of him — but it's landed twice as incidental texture rather than being spent on a scene where the catch means something, which is what burned through the cooldown this fast. last_used moved to 20; hold it clear past ch. 25 now (where 'crooked-arm' is already due to resurface) rather than the originally planned ch. 27, and next time it's used, spend it on a beat rather than a passing description."
     },
     {
       "id": "crane-floor-plan",
@@ -559,7 +560,7 @@
       "subject": "Maria",
       "detail": "shawl wrapped around Maria's shoulders",
       "min_gap": 1,
-      "last_used": 10
+      "last_used": 11
     },
     {
       "id": "burnt-lime-smell",

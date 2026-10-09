@@ -6,6 +6,183 @@ only), this pass reads every drafted chapter in full against `canon.md` and
 
 ---
 
+## 2026-10-09 — Review of chapters 1–22
+
+Backup tag `backup-pre-review-2026-10-09` created locally before any changes.
+Tag push to origin was refused with a 403, same as the 2026-10-02 review —
+carrying on per standing instructions; the commit history is the rollback.
+
+Ten chapters have landed since the last full review (13–22), taking the book
+from the end of Act I's aftermath through to the end of ch. 22 — the whole of
+the Fourth Mercy raid, Lloyd's delirium, and five Act III (Maria) chapters
+covering the recovery, the Vantry fallout, and the discovery and confession of
+the Crane plan. All 22 drafted chapters were reread in full this pass, not
+just the new ones, since a contradiction between an early and a late chapter
+is exactly the kind of thing a summary-only nightly session can't catch.
+
+### Needs your attention
+
+Nothing structural. No canon contradictions, timeline or geography
+inconsistencies, dropped-and-contradicted plot threads, characterization
+drift, or POV violations found anywhere in chapters 13–22, and the fixes from
+the 2026-10-02 review (chapter 1's ending, chapter 2's ability framing,
+chapter 6's tense problem, the arm-regrowth canon note) are all still holding
+correctly in 13–22's references back to them. The who-knows-what table is
+being respected exactly: Lloyd's second arm and the ch.-3-regrowth truth are
+still never told to Maria or Edie; Maria's theft and the five weeks in
+Carrowgate stay where they were; Maria learns of the Crane plan in ch. 20 and
+Lloyd confesses it in ch. 21, on schedule; Edie's "charge" stays unnamed to
+Lloyd and Maria throughout (the broadsheet prints "Ferrick" in ch. 18 as a
+public byline, but nothing on the page connects that name to Edie for either
+of them yet). Vail's three on-page appearances (ch. 13's imbuing scene, ch.
+15's yard confrontation, ch. 18's letter) all stay inside canon §3's hard
+rules — no lowered voice, no threat, no banned staging cue, menace carried
+entirely in what she says. Maria's and Edie's ability limits hold throughout
+the siege (ch. 15): two lightning bolts, hated both times; the sustained-light
+use introduced as the deliberately undramatic one; Edie foreseeing a blow and
+still taking it on the ribs, no heroic clean save.
+
+One gap worth flagging even though it isn't a contradiction: outline ch. 5
+specifies a chalice cost for Edie ("Edie gives up sleeping without waking
+twice") alongside Lloyd's memory cost, which ch. 5 does dramatize on the page.
+Edie's cost never appears anywhere in chapters 1–22 — not in ch. 1–5 itself
+(the extraction happens same-day, so there's no "next night" inside Act I to
+show it), and not in any later chapter, because Edie has had no POV chapter
+since and the detail is invisible from outside unless someone notices her
+waking at night, which nobody has yet had cause to narrate. This may simply
+be a cost the book never puts on the page — it doesn't block anything — but
+it's been quietly undramatized for 22 chapters running and seemed worth
+surfacing rather than letting it go unmentioned indefinitely. Not opening a
+change request for it, since no outline content needs to change; just flagging
+it as something you may want a nightly session to work in as incidental color
+(Lloyd or Maria noticing her awake at an odd hour) if a convenient scene comes
+up, or to consciously decide is fine left as implicit.
+
+### Fixed directly (small, mechanical)
+
+No chapter text needed fixing this week — chapters 13–22 came out clean
+against canon and the outline, and chapters 1–12 are unchanged since the
+2026-10-02 fixes. This week's direct fixes are all to the reference ledgers:
+
+- **`novel/motifs.json`** — `wrist-healing-ridge` (the badly-knit wrist ridge
+  from Lloyd's ch.-15 arm, healed in ch. 17) breached its own 10-chapter
+  cooldown: ch. 20 reuses the exact image twice in one chapter ("a man
+  rebuilding a body that still caught at the wrist when he closed his fist too
+  fast"; "the newer scar, the wrist that still caught"), only three chapters
+  after ch. 17 introduced it. Not a factual error — the detail is still true
+  of him — but it was spent twice as passing texture rather than on a scene
+  where the catch means something, which is how it burned through the
+  cooldown this fast and went unnoticed (nightly sessions only see their own
+  chapter against the ledger's `last_used`, which was already wrong by the
+  time ch. 20 drafted). `last_used` corrected to 20 with a note to spend it on
+  a beat next time, not a description.
+- **`novel/motifs.json`** — `shawl-wrap`'s `last_used` was stale at 10 in all
+  three lists (action/character/atmosphere); the real last appearance is ch.
+  11 ("Maria pulled her shawl up over her nose..."), still well inside every
+  list's own cooldown so not a breach, just an uncorrected count. Updated to
+  11; it's been dormant for eleven chapters since and is fine to use again
+  whenever a cold or dirty scene wants it.
+
+### Change requests
+
+None opened. Nothing found this week rises to an outline amendment — see
+"Needs your attention" above for the one open item, which doesn't need
+`outline.md` or `canon.md` to change.
+
+### Motif ledger (`novel/motifs.json`)
+
+Beyond the two `last_used` corrections above, the ledger is current. The
+chapter-20-onward entries (`crane-floor-plan`, `stone-dust-boot`,
+`coin-stacking`, `vail-letter-floorboard`) are all accurately tracked and
+their notes match what's actually on the page. The deliberately-unresolved
+items (`the-kept-thing` from the siege, the Insight ambiguity generally) are
+correctly still open and correctly not nudged toward resolution by anything
+in 17-22.
+
+### Prose-habit counts (`novel/voice_ledger.json`)
+
+Recounted all four tracked constructs for every drafted chapter with a fresh
+script (exact substring search for "the way" and "a thing", a word-tokenizing
+sentence splitter for the 40-word threshold, each chapter's hits hand-checked
+rather than trusted to a fixed idiom blocklist, since a blanket filter was
+itself causing errors — see below). Corrected counts, against what was filed
+before this review:
+
+| Chapter | "the way" (was → now) | "a thing" | aphorism | 40+-word sentences (was → now) |
+|---|---|---|---|---|
+| 01 | 0 | 1 (new) | 0 | 1 → 7 |
+| 02 | 0 | 0 | 0 | 0 → 1 |
+| 06 | 5 → 6 | 0 | 0 | 14 |
+| 07 | 14 → 15 | 6 | 0 | 26 |
+| 08 | 17 → 18 | 7 | 3 | 23 |
+| 09 | 18 | 2 | 1 | 21 |
+| 21 | 0 | 0 | 0 → 1 | 16 |
+
+Everything not listed above checked out unchanged. Three distinct causes for
+the corrections, all now noted in `voice_ledger.json` itself:
+
+- **Stale pre-rewrite counts.** Chapters 1 and 2 were both substantively
+  rewritten in the 2026-10-02 addendum (ch. 1 completed with a new ending,
+  ch. 2's fight rewritten to fix the ability-creep finding) but neither
+  chapter's prose-habit counts were retaken afterward. The new material in
+  both carries habit instances that were never on file. General note added to
+  the ledger: a chapter's counts need retaking whenever it's substantively
+  rewritten later, not just logged once at first draft.
+- **An idiom filter that was itself too blunt.** The "the way" undercounts in
+  ch. 6-8 all trace to the same mechanical error: a blanket exclusion for
+  idiomatic phrases like "in the way" or "way off" was also catching genuine
+  manner-clause uses that happen to share a few words with an unrelated idiom
+  nearby in the same sentence ("in the way I knew thin", "the way men read
+  something" sitting close to an unrelated "way off shift"). Fixed by hand-
+  checking every hit against its actual sentence rather than trusting the
+  filter; this is a one-time correction, not a sign the underlying habit is
+  worse than tracked.
+- **A quiet instance nightly review missed.** Ch. 21's aphorism count was
+  filed as a clean twelfth chapter in the streak, but "There are rooms in him
+  I have learned not to knock on" is the pattern exactly as defined (compare
+  the ledger's own example), delivered quietly rather than as a flagged
+  aside, which is presumably why it read as clean on a single-chapter nightly
+  pass. Corrected to 1.
+
+**New construction noticed:** `i-did-not-anaphora` — sentence-initial "I did
+not [verb]," often arriving in short runs, distinct from the already-tracked
+`i-have-had-anaphora` (present/past-perfect openers) and `negation-doubling`
+(a clause negated against itself within one sentence). Counts: ch. 17: 3,
+ch. 18: 3, ch. 19: 5, ch. 20: 6, ch. 21: 0, ch. 22: 2. Never flagged before
+because no single chapter's count looked alarming in isolation — it only
+shows up reading Act III's chapters together, which is exactly what this
+weekly pass is for and a nightly pass can't be. Ch. 19's five-in-a-row is a
+deliberate, well-earned rhetorical list (everything Maria kept from the
+others, named explicitly as a list); ch. 20's six are scattered rather than
+massed and read closer to a default tic than a device. Added to the ledger
+with a recommendation that nightly sessions let a short deliberate list stand
+but watch for ch. 20's scattered-six shape recurring.
+
+**Quality beyond the counts:** no new chapter-ending or paragraph-shape
+sameness found beyond what the ledger already tracks (the closers entries are
+current through ch. 22 and match what's actually on the page). The one real
+finding in this category is the `i-did-not-anaphora` pattern above — Maria's
+Act III voice has a genuine, growing habit of listing what she withheld
+rather than stating what she did, and ch. 20 is where it starts to read as
+reflex rather than craft.
+
+### Anything else worth noting
+
+Twenty-two chapters in, the book is in good shape. The Insight ambiguity, the
+Vail writing rules, the who-knows-what table, and the authorial stance in
+canon §8 (the cost test, Edie never getting a heroic clean save, Maria
+keeping her humor even at the worst of it) are all holding up under a full
+reread, not just a chapter-by-chapter one. The only thing worth watching
+going forward isn't a correctness issue: ch. 21 and ch. 22 ran noticeably
+shorter and more dialogue-dense than the chapters around them (1,922 and
+1,904 words against a 1,800-3,200 band that's mostly running 2,100-2,400
+lately), which tracks with both chapters being built mostly from direct
+confrontation rather than description — not a problem on its own, but worth
+knowing if the back half of Act III starts feeling thin the way the README
+already flags ch. 16 as a risk chapter.
+
+---
+
 ## 2026-10-02 (addendum) — Follow-up fixes on Jake's direction
 
 Jake reviewed the findings below and asked for all four open items to be
