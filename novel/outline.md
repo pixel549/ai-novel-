@@ -511,15 +511,52 @@ Aftermath, the failure of the good act, and the choice she makes anyway.
 
 ## Ch. 23 — Ferrick
 POV Maria; the chapter's subject is Edie.
-- Ferrick's house. Edie runs his security: four people and a locked cabinet.
-- Ferrick in person: warm, tireless, principled, ineffective. He shows them the
-  sub-panel's second report on industrial water. It is excellent. It has changed
-  nothing. He is proud of it.
-- He has had the Vantry evidence for two months and has convened a hearing for
-  next spring.
-- Edie has begun to notice that belief and results are separate things and says
-  none of it.
-- Maria says nothing about Lloyd. Edie notices her saying nothing.
+- **Ferrick's house.** A trim terrace two streets off the Senate, good stone,
+  nothing ostentatious — the kind of house a man buys to prove he isn't
+  spending the valley's money on himself. The hall is lined with letters of
+  thanks, framed rather than displayed, from people whose names mean nothing
+  to Maria and plainly everything to him.
+- **Edie runs his security: four people and a locked cabinet.** The four are
+  unremarkable on purpose — an ex-quartermaster on the door, two who used to
+  be constables, a girl barely twenty who checks tradesmen's deliveries
+  against a list and misses nothing, because Edie trained her to notice when
+  a count is one short. Rotated and drilled the way Edie would shore a
+  tunnel: redundant, not decorative. The cabinet is iron, bolted to the floor
+  of a room that was meant to be a nursery, and holds the Vantry evidence —
+  register, requisition orders — banded exactly as it arrived, in Edie's own
+  hand. Nobody has needed to open it in two months.
+- **Ferrick in person: warm, tireless, principled, ineffective.** He already
+  knows Maria's name — Edie must have given it to him — and asks after her
+  hands before his own business, the first thing out of him rather than a
+  courtesy tacked on at the end. He shows them the sub-panel's second
+  report on industrial water — bound, indexed, forty pages testing mill
+  runoff from six towns against the valley's own wells — which states
+  plainly, in his own careful prose, that the Larrow's water will not be fit
+  to drink inside a decade at the current rate. It is excellent. It has
+  changed nothing. The bound copy sits on the shelf behind his desk, spine
+  out, where a visitor will see it; the working copy, pencilled in his own
+  hand, lives in a drawer he has to be asked to open.
+- **He has had the Vantry evidence for two months and has convened a hearing
+  for next spring.** The cabinet's lock wants oiling — nobody has turned the
+  key since the day it arrived. A calendar on the wall behind his desk has
+  the hearing date ringed in the same red ink Maria once watched Edie mark a
+  load line in, back on the road out of Stillwell.
+- **Edie has begun to notice that belief and results are separate things and
+  says none of it.** She totals the two months the way she totals everything:
+  four sub-panel sessions held, no vote taken, one excellent report filed and
+  admired and shelved. Adding up a column of zeros isn't yet, for her, the
+  same thing as deciding what the total means, so she keeps the sum to
+  herself. The Still Mind catches once in the chapter, uselessly, on nothing
+  worse than a dropped tray somewhere else in the house — a half-second of
+  knowing before the crash that buys nobody anything, the smallest possible
+  rehearsal of the gap she's lived in since the tunnel.
+- **Maria says nothing about Lloyd. Edie notices her saying nothing.** Edie
+  asks, without looking up from the report, whether the arm's still giving
+  him trouble at the coal yard. Maria says it's mending — true, and the whole
+  of what she offers. Edie doesn't ask a second question. She has never once
+  asked either of them for anything, and she has also never let an answer
+  that stopped short go unfiled; she just doesn't say, yet, where she's put
+  it.
 
 ## Ch. 24 — The Ledger and the Killing
 - Edie does Ferrick's advance security for the Indemnity review session and
@@ -603,3 +640,18 @@ Epilogue, three movements.
   it just gives the nightly pipeline something solid to fail against instead
   of nothing to grab onto; worth checking what the pipeline actually produces
   once it drafts ch. 16 before deciding whether a hand pass is still needed.
+- **Ch. 23's beats were the thinnest remaining in the outline** — 2026-10-10
+  creative session expanded them (concrete detail for Ferrick's house and
+  security detail, the locked cabinet's actual contents and the dust it's
+  gathering, the second report's real numbers, a small on-page beat for
+  Edie's Still Mind, the specific exchange that carries "Maria says nothing
+  about Lloyd") without changing any outcome, event, or who-knows-what
+  status — Edie still doesn't learn about the Crane plan here; that's ch. 24.
+  Chosen over a hand revision this week because nothing drafted so far reads
+  as thin or flat on the page (ch. 16 in particular, despite the README
+  flag, came out concrete and well-built once drafted against its own
+  2026-10-03 expansion — see the entry just above); the most useful lever
+  right now is
+  getting ahead of the next chapter the nightly pipeline will actually draft,
+  the same logic that worked for ch. 16, rather than fixing something that
+  isn't currently broken.
