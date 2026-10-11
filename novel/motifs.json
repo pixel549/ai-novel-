@@ -284,6 +284,46 @@
       "min_gap": 4,
       "last_used": 20,
       "note": "Introduced ch. 20 as the single physical tell that starts Maria's suspicion before she has anything else to go on — government-building stone against a coal-yard man's boots. A small, literal clue rather than a mood image; hold it in reserve for a later chapter where it could pay off again (confirming a lie, say) rather than spending it as plain texture."
+    },
+    {
+      "id": "ferrick-letters-hall",
+      "subject": "Ferrick's house",
+      "detail": "hall lined floor to picture-rail with letters of thanks, framed rather than simply pinned, from names that mean nothing to Maria and everything to him",
+      "min_gap": 6,
+      "last_used": 23,
+      "note": "Introduced ch. 23 as the first thing Maria sees in the house -- establishes Ferrick's genuine, well-earned decency before the chapter undercuts what that decency actually produces. Good for a brief callback if Maria ever returns to the house, but don't overuse; it's doing its job as a one-time establishing image."
+    },
+    {
+      "id": "locked-cabinet-nursery",
+      "subject": "Ferrick's house",
+      "detail": "iron cabinet bolted through the floorboards of a room that was meant to be a nursery, holding the real Vantry registers and requisition orders exactly as banded leaving Vantry; its lock wants oiling and nobody has opened it in two months",
+      "min_gap": 1,
+      "last_used": 23,
+      "note": "Introduced ch. 23. This is the physical resting place of the evidence that drove ch. 14-19 -- a Chekhov's object by nature. The nursery detail (never furnished as one) is doing quiet work about Ferrick's own household and shouldn't be explained further. Likely relevant again whenever the spring hearing (ch. 25's epilogue territory) actually convenes or fails to; don't let it get dusty off-page without a reason."
+    },
+    {
+      "id": "ferrick-red-ring-calendar",
+      "subject": "Ferrick's house",
+      "detail": "a calendar on the wall with the spring sub-panel hearing date ringed twice in red ink -- the same red Maria once watched Edie mark a load line in, on the road out of Stillwell",
+      "min_gap": 1,
+      "last_used": 23,
+      "note": "Introduced ch. 23, deliberately echoing Edie's old load-line ink rather than inventing a new color for institutional bureaucracy. The hearing itself is due in Act III's final stretch (ch. 25 references the Church losing its spring hearing after Crane's death) -- this calendar is the object that should pay that off, if a physical callback is wanted rather than just a stated outcome."
+    },
+    {
+      "id": "ferrick-two-reports",
+      "subject": "Ferrick",
+      "detail": "a finished, bound copy of his own report kept spine-out on a shelf where a visitor will see it, against a pencilled working copy kept in a drawer he has to be asked to unlock",
+      "min_gap": 6,
+      "last_used": 23,
+      "note": "Introduced ch. 23 -- the physical shape of the chapter's thesis about him (excellent work, no result) rather than a line stating it. One-time use; no plan to reuse unless a later chapter needs Ferrick's paperwork again."
+    },
+    {
+      "id": "edie-four-person-detail",
+      "subject": "Edie",
+      "detail": "Ferrick's security run as four deliberately unremarkable people -- a heavyset ex-soldier on the door, two former constables, a girl barely twenty checking deliveries against a list -- rotated and drilled rather than decorative",
+      "min_gap": 6,
+      "last_used": 23,
+      "note": "Introduced ch. 23 to show Edie's competence applied somewhere that still, per the chapter's own point, isn't accomplishing anything structural. Likely relevant again in ch. 24, where Edie does Ferrick's advance security for the Indemnity review session -- check whether that's staffed by this same detail or a separate arrangement before reusing the specific four people."
     }
   ],
   "character": [
