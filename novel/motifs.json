@@ -38,9 +38,10 @@
     {
       "id": "pressure-gauge",
       "subject": "gauge",
-      "detail": "pressure gauge read 120 psi",
+      "detail": "pressure gauge read 36 psi",
       "min_gap": 1,
-      "last_used": 6
+      "last_used": 6,
+      "note": "Corrected during a ch. 1 refine pass: this entry had read '120 psi' since the ledger was first written, but ch. 1's own text has the needle settle at thirty-six psi against the red limit stroke. Fixed across all three lists to match the prose rather than changing the prose to match a stale ledger number."
     },
     {
       "id": "steam-room-door",
@@ -375,7 +376,7 @@
     {
       "id": "pressure-gauge",
       "subject": "Stillwell Hydro",
-      "detail": "pressure gauge read 120 psi",
+      "detail": "pressure gauge read 36 psi",
       "min_gap": 4,
       "last_used": 1
     },
@@ -550,7 +551,7 @@
       "detail": "a ridge of badly-knit bone above the wrist where Maria could argue the break straight but not re-set it clean, catching for a half-second before the fist closes",
       "min_gap": 10,
       "last_used": 20,
-      "note": "A new mark from the ch. 15 siege injuries (right arm broken in three places), healed in stages in ch. 17 — distinct from the ch. 3/ch. 6 elbow wrongness tracked separately as 'crooked-arm' (still resting until ch. 25; do not conflate the two images or use the old 'five-degree angle' phrasing for this one). This is the first physical cost Maria names herself as directly responsible for causing, not just failing to prevent. 2026-10-09 weekly review: found and missed by nightly tracking — ch. 20 reuses this exact image twice in one chapter ('a man rebuilding a body that still caught at the wrist when he closed his fist too fast'; 'the newer scar, the wrist that still caught'), only three chapters after its ch. 17 introduction, well inside the 10-chapter min_gap. Not factually wrong — the detail is still true of him — but it's landed twice as incidental texture rather than being spent on a scene where the catch means something, which is what burned through the cooldown this fast. last_used moved to 20; hold it clear past ch. 25 now (where 'crooked-arm' is already due to resurface) rather than the originally planned ch. 27, and next time it's used, spend it on a beat rather than a passing description."
+      "note": "A new mark from the ch. 15 siege injuries (right arm broken in three places), healed in stages in ch. 17 — distinct from the ch. 3/ch. 6 elbow wrongness tracked separately as 'crooked-arm' (still resting until ch. 25; do not conflate the two images or use the old 'five-degree angle' phrasing for this one). This is the first physical cost Maria names herself as directly responsible for causing, not just failing to prevent. 2026-10-09 weekly review: found and missed by nightly tracking — ch. 20 reuses this exact image twice in one chapter ('a man rebuilding a body that still caught at the wrist when he closed his fist too fast'; 'the newer scar, the wrist that still caught'), only three chapters after its ch. 17 introduction, well inside the 10-chapter min_gap. Not factually wrong — the detail is still true of him — but it's landed twice as incidental texture rather than being spent on a scene where the catch means something, which is what burned through the cooldown this fast. last_used moved to 20; hold it clear past ch. 25 now (where 'crooked-arm' is already due to resurface) rather than the originally planned ch. 27, and next time it's used, spend it on a beat rather than a passing description. 2026-10-12 refine pass: cut the second, purely incidental instance ('the newer scar, the wrist that still caught,' describing him asleep) rather than waiting for a future chapter to spend it properly — there is no future chapter, the book is complete. The load-bearing first instance (Maria's mistaken explanation for his walks) stays. Ch. 20 now carries this image once, not twice; book complete, retire."
     },
     {
       "id": "crane-floor-plan",
@@ -601,7 +602,7 @@
     {
       "id": "pressure-gauge",
       "subject": "Stillwell Hydro",
-      "detail": "pressure gauge read 120 psi",
+      "detail": "pressure gauge read 36 psi",
       "min_gap": 4,
       "last_used": 1
     },
