@@ -90,8 +90,8 @@
       "subject": "Edie",
       "detail": "hemp knot-cord bound with brass wire ferrules",
       "min_gap": 4,
-      "last_used": 16,
-      "note": "Outline-mandated override in ch. 16: the cord turns up in Lloyd's own hands inside the delirium, counting to ninety-one (Edie's sapper number, which canon confirms she never told him) instead of the nineteen the ch. 2-3 search actually ran. Both counts agree and he trusts neither — the discrepancy is never resolved on the page, per outline. This is the cord as a load-bearing delirium image, not an incidental prop; let it rest well past ch. 16 before using it casually again."
+      "last_used": 25,
+      "note": "Outline-mandated override in ch. 16: the cord turns up in Lloyd's own hands inside the delirium, counting to ninety-one (Edie's sapper number, which canon confirms she never told him) instead of the nineteen the ch. 2-3 search actually ran. Both counts agree and he trusts neither — the discrepancy is never resolved on the page, per outline. Ch. 25 gives it its final use, outline-mandated again: Edie leaves it openly at her wrist rather than tucking it under her cuff, the chapter's one physical sign of her final position (counting outcomes rather than guarding a line). Book's final chapter; retire."
     },
     {
       "id": "salt-crusted-stairs",
@@ -127,7 +127,8 @@
       "subject": "Lloyd",
       "detail": "right forearm set at five-degree inward angle with misaligned elbow",
       "min_gap": 13,
-      "last_used": 6
+      "last_used": 25,
+      "note": "Due to resurface by ch. 25 per the ch. 24 wrist-healing-ridge note, and does, lightly: the closing scene names the elbow 'still wrong where it had always been wrong' rather than reusing the old 'five-degree angle' phrasing. Book's final chapter; retire."
     },
     {
       "id": "soot-stained-apron",
@@ -290,24 +291,24 @@
       "subject": "Ferrick's house",
       "detail": "hall lined floor to picture-rail with letters of thanks, framed rather than simply pinned, from names that mean nothing to Maria and everything to him",
       "min_gap": 6,
-      "last_used": 23,
-      "note": "Introduced ch. 23 as the first thing Maria sees in the house -- establishes Ferrick's genuine, well-earned decency before the chapter undercuts what that decency actually produces. Good for a brief callback if Maria ever returns to the house, but don't overuse; it's doing its job as a one-time establishing image."
+      "last_used": 25,
+      "note": "Introduced ch. 23 as the first thing Maria sees in the house -- establishes Ferrick's genuine, well-earned decency before the chapter undercuts what that decency actually produces. Ch. 25 gives it exactly the brief callback anticipated (two chapters early against the stated min_gap, but this is the scene the note itself flagged for it -- Maria returning to the house one last time) -- passed in a single clause on the way to the real business of the scene, not dwelt on. Book's final chapter; retire."
     },
     {
       "id": "locked-cabinet-nursery",
       "subject": "Ferrick's house",
       "detail": "iron cabinet bolted through the floorboards of a room that was meant to be a nursery, holding the real Vantry registers and requisition orders exactly as banded leaving Vantry; its lock wants oiling and nobody has opened it in two months",
       "min_gap": 1,
-      "last_used": 23,
-      "note": "Introduced ch. 23. This is the physical resting place of the evidence that drove ch. 14-19 -- a Chekhov's object by nature. The nursery detail (never furnished as one) is doing quiet work about Ferrick's own household and shouldn't be explained further. Likely relevant again whenever the spring hearing (ch. 25's epilogue territory) actually convenes or fails to; don't let it get dusty off-page without a reason."
+      "last_used": 25,
+      "note": "Introduced ch. 23. Paid off in ch. 25, exactly as flagged: Maria confirms it is still bolted and still unopened, because the Church lost its hearing to the murder frame rather than to anything inside this cabinet. The true evidence sat unused while the lie did the work -- the irony the object existed to deliver. Book's final chapter; retire."
     },
     {
       "id": "ferrick-red-ring-calendar",
       "subject": "Ferrick's house",
       "detail": "a calendar on the wall with the spring sub-panel hearing date ringed twice in red ink -- the same red Maria once watched Edie mark a load line in, on the road out of Stillwell",
       "min_gap": 1,
-      "last_used": 23,
-      "note": "Introduced ch. 23, deliberately echoing Edie's old load-line ink rather than inventing a new color for institutional bureaucracy. The hearing itself is due in Act III's final stretch (ch. 25 references the Church losing its spring hearing after Crane's death) -- this calendar is the object that should pay that off, if a physical callback is wanted rather than just a stated outcome."
+      "last_used": 25,
+      "note": "Introduced ch. 23. Pays off in ch. 25 exactly as anticipated: the month has turned past the ringed date and nobody has crossed it out, a small unfinished arithmetic left on the wall rather than a stated outcome. Book's final chapter; retire."
     },
     {
       "id": "ferrick-two-reports",
@@ -322,8 +323,8 @@
       "subject": "Edie",
       "detail": "Ferrick's security run as four deliberately unremarkable people -- a heavyset ex-soldier on the door, two former constables, a girl barely twenty checking deliveries against a list -- rotated and drilled rather than decorative",
       "min_gap": 6,
-      "last_used": 23,
-      "note": "Introduced ch. 23 to show Edie's competence applied somewhere that still, per the chapter's own point, isn't accomplishing anything structural. Ch. 24 resolves the question: for the Indemnity review session Edie staffs up beyond this core four (she tells Lloyd she is 'short two men for the afternoon sitting,' a shortage she manufactured a week ahead to give him a way in among temporary kitchen staff) rather than reusing the four named people directly. The original four aren't named or placed on page in ch. 24 — treat them as still running the house day-to-day, with the session itself handled by a larger, partly temporary crew under Edie's command."
+      "last_used": 25,
+      "note": "Introduced ch. 23 to show Edie's competence applied somewhere that still, per the chapter's own point, isn't accomplishing anything structural. Ch. 24 resolves the question: for the Indemnity review session Edie staffs up beyond this core four (she tells Lloyd she is 'short two men for the afternoon sitting,' a shortage she manufactured a week ahead to give him a way in among temporary kitchen staff) rather than reusing the four named people directly. Ch. 25 gives the delivery-list girl one incidental background mention (the ordinary house running on, months later) -- two chapters inside the stated min_gap, logged as a deliberate minor breach rather than a missed one: scene-setting continuity, not a fresh spend of the motif. Book's final chapter; retire."
     },
     {
       "id": "edie-own-floor-plan-crosses",
@@ -338,8 +339,8 @@
       "subject": "Senator Crane's body",
       "detail": "a torn scrap of vestment thread Edie leaves caught on a window latch near Crane's body, planted to suggest the Church without constituting proof",
       "min_gap": 1,
-      "last_used": 24,
-      "note": "Introduced ch. 24 as the one piece of staged physical evidence behind Edie's frame — deliberately flimsy, meant to seed a question rather than survive cross-examination. A strong Chekhov's object for ch. 25: whether it's ever traced, questioned, or simply does its job unexamined is still open. Don't let it resolve off-page if ch. 25 touches the Church's response to Crane's death."
+      "last_used": 25,
+      "note": "Introduced ch. 24 as the one piece of staged physical evidence behind Edie's frame. Resolved on page in ch. 25, as flagged: nobody ever traces it or questions it — it does its job unexamined, which is itself the point Maria draws the chapter's cost-test lesson from. Book's final chapter; retire."
     }
   ],
   "character": [
@@ -518,8 +519,8 @@
       "subject": "Lloyd",
       "detail": "half-inch gap in the roof at his mother's house in Callow Ford, daylight showing through the north gable",
       "min_gap": 1,
-      "last_used": 16,
-      "note": "First given to Maria as a told-not-shown detail in ch. 6; surfaces again in ch. 16 as the image Lloyd's delirium keeps sliding back to underneath the other two stairs, and the chapter ends on it. A strong candidate for a deliberate, earned return in ch. 25 when Maria actually reaches Callow Ford — hold it dormant until then rather than spending it incidentally."
+      "last_used": 25,
+      "note": "First given to Maria as a told-not-shown detail in ch. 6; surfaces again in ch. 16 as the image Lloyd's delirium keeps sliding back to. Ch. 25 delivers the earned return exactly as planned: Maria actually reaches Callow Ford and sees it in daylight, unchanged and unfixed even after the valley's wells get capped — the gap stands for what the systemic win didn't reach. Book's final chapter; retire."
     },
     {
       "id": "poor-box",
@@ -564,8 +565,8 @@
       "subject": "Lloyd",
       "detail": "coal-yard day-wages counted out into small stacks on the table each evening, never explained and never asked about",
       "min_gap": 6,
-      "last_used": 22,
-      "note": "New in ch. 22 — a quiet domestic habit distinct from the 'counting-tell' motif (which is Lloyd counting something concrete to manage a fact he can't otherwise process, currently resting). This one is plain household economy, not anxiety management, and Maria explicitly notes she's never asked why he does it. Worth a possible payoff later (what he's counted out for, or saving toward) rather than spending it as incidental texture again soon."
+      "last_used": 25,
+      "note": "New in ch. 22. Paid off in ch. 25, three chapters later against the stated min_gap but exactly the payoff this note anticipated rather than incidental reuse: Maria finally asks, and one of the stacks turns out to be meant for his mother all along, carried north in her hands since he can't go himself. Book's final chapter; retire."
     }
   ],
   "atmosphere": [
