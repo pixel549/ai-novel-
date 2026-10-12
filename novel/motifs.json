@@ -275,7 +275,7 @@
       "detail": "a session calendar matched against a watch roster, and a traced floor plan with three doors marked by neat crosses, carried folded inside his coat lining",
       "min_gap": 1,
       "last_used": 22,
-      "note": "Introduced ch. 20 as what Maria finds in his coat. Ch. 21 used it again exactly as anticipated. Ch. 22 keeps it on the table through all three days of the argument — still weighted flat under the candle stub, an unmoving fixture of the room rather than a fresh beat — and the chapter closes on it once more as the image she returns to after deciding to stay. Still expected again in ch. 24 when Edie independently reconstructs his reconnaissance from marks on a floor plan she finds in the building itself — check whether that one is this same sheet (carried on him) or a second working copy before drafting. Given how much work this single prop has now done, let it rest as plain set-dressing for a chapter or two unless ch. 23-24 need it moved again."
+      "note": "Introduced ch. 20 as what Maria finds in his coat. Ch. 21 used it again exactly as anticipated. Ch. 22 keeps it on the table through all three days of the argument — still weighted flat under the candle stub, an unmoving fixture of the room rather than a fresh beat — and the chapter closes on it once more as the image she returns to after deciding to stay. Resolved at ch. 24: the marks Edie finds are NOT this sheet. She finds Lloyd's reconnaissance instead on her own master security floor plan, a separate document kept at the townhouse under her own hand for two years, with three crosses added in a hand that wasn't hers. This coat-carried sheet itself is never mentioned again in ch. 24 and stays out of the prose; treat it as still technically on Lloyd's person but dormant going forward unless ch. 25 needs it."
     },
     {
       "id": "stone-dust-boot",
@@ -323,7 +323,23 @@
       "detail": "Ferrick's security run as four deliberately unremarkable people -- a heavyset ex-soldier on the door, two former constables, a girl barely twenty checking deliveries against a list -- rotated and drilled rather than decorative",
       "min_gap": 6,
       "last_used": 23,
-      "note": "Introduced ch. 23 to show Edie's competence applied somewhere that still, per the chapter's own point, isn't accomplishing anything structural. Likely relevant again in ch. 24, where Edie does Ferrick's advance security for the Indemnity review session -- check whether that's staffed by this same detail or a separate arrangement before reusing the specific four people."
+      "note": "Introduced ch. 23 to show Edie's competence applied somewhere that still, per the chapter's own point, isn't accomplishing anything structural. Ch. 24 resolves the question: for the Indemnity review session Edie staffs up beyond this core four (she tells Lloyd she is 'short two men for the afternoon sitting,' a shortage she manufactured a week ahead to give him a way in among temporary kitchen staff) rather than reusing the four named people directly. The original four aren't named or placed on page in ch. 24 — treat them as still running the house day-to-day, with the session itself handled by a larger, partly temporary crew under Edie's command."
+    },
+    {
+      "id": "edie-own-floor-plan-crosses",
+      "subject": "Edie",
+      "detail": "Edie's own master security floor plan of a building she guards, marked in her own hand for two years with small crosses over doors she's judged weak",
+      "min_gap": 6,
+      "last_used": 24,
+      "note": "Introduced ch. 24 as the object that exposes Lloyd — she finds three crosses on it that aren't hers, in a building she's catalogued completely enough to notice the one addition she didn't make. Left behind on the table at Maria and Lloyd's lodging at the chapter's end, not returned to Edie; closes the chapter as a bare image (the three crosses facing up at nobody) rather than being resolved further on page. Could recur if Edie is ever shown marking up a plan again for a later job, but no specific reuse planned."
+    },
+    {
+      "id": "vestment-thread-frame",
+      "subject": "Senator Crane's body",
+      "detail": "a torn scrap of vestment thread Edie leaves caught on a window latch near Crane's body, planted to suggest the Church without constituting proof",
+      "min_gap": 1,
+      "last_used": 24,
+      "note": "Introduced ch. 24 as the one piece of staged physical evidence behind Edie's frame — deliberately flimsy, meant to seed a question rather than survive cross-examination. A strong Chekhov's object for ch. 25: whether it's ever traced, questioned, or simply does its job unexamined is still open. Don't let it resolve off-page if ch. 25 touches the Church's response to Crane's death."
     }
   ],
   "character": [
