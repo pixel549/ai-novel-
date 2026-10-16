@@ -6,6 +6,211 @@ only), this pass reads every drafted chapter in full against `canon.md` and
 
 ---
 
+## 2026-10-16 — Review of chapters 1–25 (book complete)
+
+Backup tag `backup-pre-review-2026-10-16` created locally before any changes.
+Tag push to origin was refused with a 403, same as every prior review —
+carrying on per standing instructions; the commit history is the rollback.
+
+The novel finished since the last review: chapters 23, 24, and 25 (the Ferrick
+house visit, the Crane killing, and the "Year Seven" epilogue) have landed,
+taking the book to its full 25 chapters and closing Act III. All 25 chapters
+were reread in full this pass — not just the three new ones — specifically
+because a book that's just gone to a close is exactly where an early-chapter
+promise and a late-chapter payoff are most likely to have quietly drifted
+apart.
+
+### Needs your attention
+
+**The clearest finding this week is a timeline inconsistency around Edie's
+confession in ch. 24, baked into the outline itself rather than introduced by
+the draft.** Canon and outline both fix the Attrition as ending nineteen
+months before ch. 1, and the outline places Colonel Reyne's tunnel collapse
+"in the last year of the war" — so the collapse, and Edie's killing of Reyne
+eleven weeks later, happened roughly 1.5–2.5 years before ch. 1, not more.
+Ch. 24 happens well under a year after ch. 1 by the book's own internal
+clock (ch. 24 itself says "in four months" of Edie visiting them in
+Carrowgate, measured from their arrival there in ch. 20, which checks out
+against everything in between). That puts Edie's confession at something
+like two to three years after she killed Reyne — but the text has her say,
+twice, "Nine years ago I served under a colonel..." and "I've... spent nine
+years insisting on a line." Nine is nowhere close to two or three. I don't
+think this is a drafting slip so much as a pre-existing tension in the
+reference documents: outline.md's own ch. 24 notes call for "nine years,"
+likely because it was written to echo Lloyd's own nine years away from
+Callow Ford (a deliberate parallel between the two characters' long-held
+secrets, and a nice one), without being checked against "ended nineteen
+months before ch. 1" + "last year of the war" elsewhere in the same document.
+I haven't touched the text, because which fact is the one that's "wrong" is
+a judgment call, not a mechanical fix: either the Attrition-recency numbers
+move, which would ripple into the Reconstruction-hasn't-reached-the-valleys
+theme threaded through chapters 8, 9, and 21–22, or Edie's "nine years"
+becomes something smaller (and loses the Lloyd echo), or it's left exactly as
+drafted on the theory that a devastated, traumatized woman's "nine years" is
+emotionally true rather than a number she'd actually be able to audit, and
+nobody's going to do this arithmetic while reading. I'd lean toward the last
+of those three myself, but it's your call, not mine.
+
+**Softer and not a contradiction, just under-explained:** ch. 24 has Edie
+produce her own private security floor plan of Ferrick's townhouse — "kept in
+a drawer at the townhouse, marked up by my own hand and nobody else's, for
+two years" — with three crosses on it that are Lloyd's. But the floor plan
+Maria found in Lloyd's coat back in ch. 20 reads, by every detail around it
+(a "chief clerk," a "west stair... shut Tuesdays, carpet men in," a numbered
+central chamber), like a plan of the Indemnity Office or some other
+government building, not a private family townhouse. Nothing on the page
+ever shows Lloyd getting into Edie's own locked drawer at Ferrick's house to
+mark up that specific document — his established recon (ch. 20–22) was all
+in government offices and chop-houses, and the one time we see him physically
+inside the townhouse (ch. 24 itself) is explicitly his first time there,
+arranged "last week" by Edie for that day's killing. It's not unreasonable
+that he scouted the townhouse too, off-page, sometime after learning Maria
+had been inside it (ch. 23) — he's established as exactly the kind of patient,
+quiet infiltrator who'd do that without telling anyone — but the text doesn't
+say so, and the mechanism by which Edie's discovery works (her own, long-kept,
+private plan, marked by a hand that wasn't hers) is the engine of the whole
+chapter. Worth a read with this in mind; I'd call it elidable rather than
+broken, but it's close enough to the chapter's load-bearing beam that I didn't
+want to decide that for you silently.
+
+**Much smaller, mentioned only because I found it while checking the above:**
+ch. 25's opening paragraph attributes "ringed in red on his own wall" to "the
+sub-panel's old figures" (the water-safety report), but ch. 23 establishes
+the red ring specifically on the calendar date for the Church/Vantry hearing,
+a different document entirely — and ch. 25's own later scene (the Ferrick
+house visit) correctly calls back to "the spring hearing's date ringed twice
+in red." Likely just a loose reuse of the image rather than a real confusion,
+and arguably reads fine as "everything on his wall that mattered sat in red
+ink and went nowhere" — I left it alone, but flagging it in case you read it
+differently. In the same paragraph, "the schedule came forward eleven years"
+for the water-remediation timeline sits next to "beat that arithmetic by six
+years and some months" for the Indemnity payout a few lines later; these are
+two different schedules (remediation timeline vs. the seven-year payout) and
+don't contradict each other once you track which is which, but a reader
+moving quickly could conflate them. Not fixed, just noted.
+
+### Fixed directly (small, mechanical)
+
+- **`chapters/24.md`** — Ferrick's townhouse was described as having "its
+  brass plate" (implying a plate announcing it as a government building),
+  directly contradicting ch. 23's established and thematically pointed detail
+  that the house has "no plate on the door... the absence was the guard, not
+  the lack of one." Reworded to drop the brass plate and echo the "no plate"
+  detail instead, so the two chapters describe the same house consistently.
+- **`chapters/25.md`** — the planted evidence at Crane's death was introduced
+  in ch. 24 as "a torn scrap of vestment thread," then referred back to in
+  ch. 25 as "a scrap of altar-cloth" — two different objects standing in for
+  the same single prop. Standardized ch. 25 to "vestment thread," matching
+  ch. 24 and `motifs.json`'s `vestment-thread-frame` entry.
+
+No other canon contradictions, timeline/geography inconsistencies beyond the
+one flagged above, dropped-and-contradicted plot threads, characterization
+drift, or POV violations found anywhere in chapters 1–25. Specifically
+checked and confirmed clean on this pass: the who-knows-what table (Lloyd's
+second arm and the ch.-3-regrowth truth never told to Maria or Edie; Maria's
+theft and Lloyd's five weeks in Carrowgate never leak into Maria's or Edie's
+own narration respectively; Edie's killing of Reyne reaches Lloyd and Maria
+only in ch. 24, on schedule); Vail's hard prose rules across all four of her
+on-page appearances (ch. 12, 13, 15, 18 letter) — no lowered voice, no
+threat, no banned staging cue anywhere, including a line-by-line check for
+"cold," "flat," "chill," "seemed," and doorway-lingering around every Vail
+scene; the Insight ambiguity, specifically including Crane's death in ch. 24,
+which stages the killing (no mark, nothing a coroner could name, "something
+moved across his face that had nothing to do with pain yet") in a way that
+never actually confirms Lloyd's ability caused it rather than a convenient
+natural collapse — the hard limit that the ethereal arm "cannot apply force
+to ordinary matter" is never shown being broken on the page, because the
+book never commits to saying what happened at all. That's a deliberate and
+well-handled use of the ambiguity rule at the highest-stakes possible moment,
+not a hard-limit violation, and worth calling out as something that worked
+rather than just something I checked.
+
+### Change requests
+
+None opened. The timeline item above doesn't need `outline.md` to change in
+the sense `change_requests.md` is built for — there's no future drafting left
+to protect, and both ways of resolving it (adjust the Attrition's recency, or
+adjust Edie's "nine years") are small, contained copy-level decisions once
+you've picked one, not outline amendments. Left for your call in "Needs your
+attention" above. `change_requests.md` itself is unchanged (still no open
+requests).
+
+### Motif ledger (`novel/motifs.json`)
+
+Current and in excellent shape. Spot-checked every motif introduced or paid
+off in chapters 20–25 against the actual text (`crane-floor-plan`,
+`stone-dust-boot`, `coin-stacking`, `ferrick-letters-hall`,
+`locked-cabinet-nursery`, `ferrick-red-ring-calendar`, `edie-four-person-
+detail`, `edie-own-floor-plan-crosses`, `vestment-thread-frame`,
+`home-roof-gap`, `crooked-arm`) and every one matches what's on the page,
+including the payoffs ch. 25 was written to deliver and the handful of
+already-logged, deliberate minor cooldown breaches (`edie-four-person-detail`
+at two chapters early, `coin-stacking` at three chapters early against its
+own `min_gap`) — both already correctly annotated as intentional rather than
+missed. No stale `last_used` values found, no new breaches. Nothing needed
+updating.
+
+### Prose-habit counts (`novel/voice_ledger.json`)
+
+Recounted the two exact-substring constructs — `the-way-simile` and
+`a-thing-abstraction` — across all 25 chapters with a fresh script, hand-
+checking every hit against its sentence the same way the 2026-10-09 review
+did, specifically to catch anything the chapter-by-chapter nightly passes
+might have missed by only ever seeing their own chapter. Every single count
+matched what's already on file, chapter for chapter, with no corrections
+needed — both constructs are exactly as rested/retired as the ledger already
+says. Spot-checked the 40+-word-sentence counts with a script of my own; my
+naive automated sentence-splitter disagreed with the filed numbers by one or
+two sentences in a handful of chapters (mostly around scene-break markers and
+quoted dialogue, which a script without hand-checking handles worse than a
+human reader does), never by more than three, and never in a way that changed
+which band a chapter falls in. Given the existing counts were explicitly
+hand-verified chapter by chapter already, I'm treating the filed numbers as
+the real ones rather than overwriting good manual work with a cruder script's
+output. The aphorism, same-as, clerical-metaphor, negation-doubling, which-
+appositive, as-if, and both i-have/i-did-not anaphora entries were checked
+against the actual prose in every chapter they cite (including rereading the
+specific quoted examples in context) and all of them matched the text
+exactly, including the fine distinctions the notes already draw (e.g. ch.
+25's "I have learned not to answer that one quickly" correctly logged under
+`i-have-had-anaphora` rather than the aphorism entry, which I confirmed reads
+as a flat personal habit rather than a stated general rule, same call the
+ledger already made). No new recurring construction, gesture, or closer
+found beyond what's tracked. The ledger's own "final entry" markers on most
+constructs are accurate — the book is done, and the ledger reflects that.
+
+**Quality beyond the counts:** reread chapters 23–25 specifically for
+sentence-shape or paragraph-ending sameness the counts wouldn't catch, since
+those are the three chapters a prior full-book review hasn't seen yet. Ch.
+23 and 24 each end on a bare physical object (a locked front door against
+unbuttoned weather; bread and three crosses facing up at nobody), and ch. 25
+ends on a held hand and a repeated line of dialogue rather than a third
+object-close in a row — the ledger's own `narrator-explains-the-scene` entry
+already tracks this rotation and nothing here contradicts it. No new
+sameness found.
+
+### Anything else worth noting
+
+The book is complete at 25 chapters, roughly 59,500 words, inside the
+pipeline's stated band in every chapter (1,848–3,197 words). Twenty-five
+chapters in, canon's hard limits on all three abilities, the Insight
+ambiguity, Vail's writing rules, the authorial stance in canon §8 (the cost
+test, Edie never getting a heroic clean save, Maria keeping her humor even at
+the worst of it, the ending landing on "something person-sized surviving, at
+a real price, with the rot substantially unhealed" rather than either triumph
+or total grinding-down), and the who-knows-what table all hold up under a
+full reread of the finished book, not just a chapter-by-chapter one. The two
+mechanical fixes above are the only things that needed a line edit anywhere
+in the full 25 chapters. `README.md`'s "Known gaps" section is now stale — it
+still frames ch. 16 as an open risk to watch and tells a future session to
+"check `change_requests.md` before drafting Act II," both of which were
+settled chapters ago and the second of which no longer applies at all now
+that the book is finished. I haven't touched it, since it's outside this
+review's scope (`chapters/` and `novel/`), but it's worth a pass whenever
+you're next in the repo, if only so nobody reads it as current guidance.
+
+---
+
 ## 2026-10-09 — Review of chapters 1–22
 
 Backup tag `backup-pre-review-2026-10-09` created locally before any changes.
