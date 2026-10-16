@@ -407,7 +407,7 @@ they don't have. Check every draft against this.
 | The Fourth Mercy exists | ch. 13 (suspects) | ch. 13 | ch. 13 |
 | What it actually is | ch. 14 | ch. 14 | ch. 14 |
 | Anse Duley was taken | ch. 14 | ch. 14 | never |
-| Crane buried the survey | ch. 9 | ch. 21 | ch. 21 |
+| Crane buried the survey | ch. 9 | ch. 21 | ch. 24 |
 | Lloyd was institutionalised at 22 | ch. 1 | never told | never told |
 
 Lloyd never tells anyone about the second arm. Maria never learns about the five
