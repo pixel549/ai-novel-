@@ -91,9 +91,21 @@ interesting output in the repo.
 Get three chapters working locally first; debugging this through Actions logs
 is miserable.
 
-## Known gaps
+## Status
 
-- Ch. 16 (Lloyd delirious, deliberately unreliable) is the chapter most likely
-  to come out as mush. Candidate for writing by hand.
-- `novel/change_requests.md` has no open requests right now — check it before
-  drafting Act II in case that's changed.
+The book is complete: 25/25 chapters drafted, roughly 59,500 words. There is
+no more nightly drafting left to do and `novel/change_requests.md` has no
+open requests. What's left is upkeep: a Saturday consistency-review session
+rereads the whole book against `novel/canon.md` and `novel/outline.md` and
+logs findings to `novel/review-log.md` (read that file for anything open),
+and a weekly creative session either revises a chapter, expands
+`novel/canon.md` / `novel/motifs.json`, or — no longer applicable now that
+every chapter is drafted — fleshes out thin outline beats, logging what it
+picked and why at the bottom of `novel/outline.md`.
+
+Ch. 16 (Lloyd delirious, deliberately unreliable) was the chapter this README
+used to flag as most likely to come out as mush. It didn't: see the
+2026-10-03 entry at the bottom of `novel/outline.md` and the 2026-10-16 entry
+in `novel/review-log.md`, both of which checked it against the finished text
+and found it concrete and well-built. No chapter is currently flagged as a
+hand-revision candidate.

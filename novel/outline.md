@@ -563,8 +563,8 @@ POV Maria; the chapter's subject is Edie.
   finds Lloyd's reconnaissance, because it is the only thing in the building she
   did not put there. She reconstructs the plan from marks on a floor plan.
 - The three of them in a room. Edie's position at full strength: she killed
-  Reyne, it was murder, and she has spent nine years insisting on a line so that
-  what she did stays on the wrong side of it and means something.
+  Reyne, it was murder, and she has spent three years insisting on a line so
+  that what she did stays on the wrong side of it and means something.
 - She spends a night with the evidence and cannot construct a version in which
   clean hands produced the better outcome. Vantry was pure good and the
   programme survived it. Ferrick is pure good and has produced two reports. She
@@ -655,3 +655,48 @@ Epilogue, three movements.
   getting ahead of the next chapter the nightly pipeline will actually draft,
   the same logic that worked for ch. 16, rather than fixing something that
   isn't currently broken.
+- **The book went to 25 chapters (complete) between the 2026-10-10 and
+  2026-10-16 sessions, closing off option (c) for good** — there is no
+  undrafted chapter left to flesh out, so this and future weekly creative
+  sessions choose between (a) revision and (b) canon/motif expansion only.
+  The 2026-10-16 Saturday consistency review (see `novel/review-log.md`)
+  read all 25 chapters and flagged two open items under "Needs your
+  attention" rather than fixing them, since both were judgment calls on a
+  finished book rather than mechanical slips. The 2026-10-17 creative
+  session picked up both as a (a)-type revision of ch. 24, the clearest
+  lever available this week since the motif ledger was separately confirmed
+  "current and in excellent shape" by the same review (no (b) work was
+  actually waiting) and no chapter read as thin or flat on its own merits.
+  **Timeline arithmetic:** canon/outline fix the Attrition's end at nineteen
+  months before ch. 1 and put Reyne's tunnel collapse "in the last year of
+  the war," which puts Edie's killing of Reyne, and so her ch. 24 confession,
+  at roughly two to three years before ch. 24 — not the nine years ch. 24
+  and ch. 25 had her state twice and refer back to once. Resolved by changing
+  Edie's own stated number (the smaller, contained fix the review itself
+  identified, versus moving the Attrition's recency and rippling into the
+  Reconstruction-hasn't-reached-the-valleys theme in ch. 8, 9, and 21–22) to
+  **three years** in all three places (`chapters/24.md` twice, `chapters/
+  25.md` once, plus this outline's own ch. 24 note above) — chosen over a
+  vaguer or smaller number because it's inside the review's computed window
+  and happens to land on the same number ch. 24 already uses for how long
+  Edie has been guarding Ferrick, which reads as the two facts being causally
+  related (she sought Ferrick out around when she killed Reyne) rather than
+  as a coincidence needing its own justification. Lloyd's own, textually
+  correct nine years away from Callow Ford (ch. 8, 9, 12, 16, 19, 25) is
+  untouched — only Edie's number tied to Reyne was ever wrong, and the
+  echo between the two was apparently the reason nobody had checked Edie's
+  number against the Attrition's own fixed dates before now. **Floor-plan
+  mechanism:** ch. 24 has Edie discover Lloyd's reconnaissance as new
+  crosses on her own master security floor plan of the townhouse, "kept...
+  marked up by my own hand and nobody else's, for two years" — without
+  ever showing or explaining how Lloyd got at a document under that much
+  of a lock. Rather than invent an off-page break-in for a character never
+  otherwise shown picking locks, added a short passage right after Edie's
+  reveal where she states, in character (flat, factual, nothing volunteered
+  beyond what's asked), that she already checked the drawer, the lock, and
+  the window and found no trace of entry — turning an unexplained gap into
+  an explicitly acknowledged one, in keeping with the book's existing pattern
+  of deliberately unresolved mysteries (the chapel in ch. 3, the Insight
+  ambiguity generally) rather than quietly leaving a hole a careful reader
+  would read as a mistake. No event, outcome, or who-knows-what status
+  changed by either fix.
