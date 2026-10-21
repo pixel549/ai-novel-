@@ -93,9 +93,15 @@ is miserable.
 
 ## Status
 
+**Update 2026-10-21:** scheduled sessions now run a full read-through of the
+book, then plan a Deep Salts tabletop campaign (not a second novel). The work
+queue is `campaign/STATUS.md`, the instructions are `campaign/RUNBOOK.md`, the
+structure is `campaign/PLAN.md`. The paragraph below describes the earlier
+upkeep routine and is superseded where it conflicts.
+
 The book is complete: 25/25 chapters drafted, roughly 59,500 words. There is
 no more nightly drafting left to do and `novel/change_requests.md` has no
-open requests. What's left is upkeep: a Saturday consistency-review session
+open requests. What was left was upkeep: a Saturday consistency-review session
 rereads the whole book against `novel/canon.md` and `novel/outline.md` and
 logs findings to `novel/review-log.md` (read that file for anything open),
 and a weekly creative session either revises a chapter, expands
