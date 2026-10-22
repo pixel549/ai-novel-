@@ -18,7 +18,7 @@ Status: `todo` / `in-progress` / `done` / `blocked`. Run rows top to bottom.
 | ID | Item | Depends on | Status | Notes |
 |---|---|---|---|---|
 | P1.1 | Read-through: ch. 1–5 | none | done | 2026-10-21: notes in `novel/readthrough/batch-1.md`; one small fix made in ch.4 (a continuity contradiction on Lloyd's arm); open threads logged (uncashed chalice cost for Edie, the "19 DAYS REMAINING" extraction-timer figure, the 19-foot shaft) |
-| P1.2 | Read-through: ch. 6–10 | P1.1 | todo | |
+| P1.2 | Read-through: ch. 6–10 | P1.1 | done | 2026-10-22: notes in `novel/readthrough/batch-2.md`; no one-line fixes needed this batch; two structural issues logged for Jake (ch.7 ethereal-arm/rod retrieval may breach its own hard limit; ch.9 closing paragraphs break the first-person frame with a direct "a page in whatever this is" address) — not touched, per RUNBOOK. Open threads added: the Sweetwater double meaning (disease name vs. Ammet Ford's dosed well water) is strong source-bible material; Brother Aldous's non-moving collar is a strong NPC/construct hook; the Selwick day-discrepancy is a good thin-site seed |
 | P1.3 | Read-through: ch. 11–15 | P1.2 | todo | |
 | P1.4 | Read-through: ch. 16–20 | P1.3 | todo | |
 | P1.5 | Read-through: ch. 21–25 | P1.4 | todo | |
