@@ -98,11 +98,12 @@ correction:
   whatever this is." Canon Section 1's "Never" list for Lloyd is explicit
   ("Never articulate, never wry, never self-analysing out loud") and Section
   7 adds, book-wide, "No character ever names their own arc, growth, or
-  psychology aloud." The line does not recur anywhere in ch. 10–20 (eleven
-  clean chapters since), which on current evidence trends toward "one-off
-  slip" rather than an intended device. Needs a decision: let it stand as a
-  single deliberate overreach (striking on its own terms), or walk it back to
-  match Lloyd's established voice.
+  psychology aloud." The line does not recur anywhere in ch. 10–25 — the rest
+  of the book, confirmed clean as of the Phase 1 read-through's completion —
+  which settles the question raised when this was first logged: it reads now
+  as a one-off slip rather than an intended device. Needs a decision: let it
+  stand as a single deliberate overreach (striking on its own terms), or walk
+  it back to match Lloyd's established voice.
 - **R-3 (ch. 16 vs. ch. 13) — three nights or four days.** Ch. 16 (Lloyd,
   delirious) narrates the Ascension House tank room as one he'd described to
   the others "from outside a barred window three nights running." Ch. 13's
@@ -124,7 +125,28 @@ correction:
   room for an off-page stop — but worth a call only if it matters for the
   Gazetteer's geography (C1); otherwise it can stand as unresolved backstory.
 
-None of R-1–R-4 were touched in chapter text this pass, per RUNBOOK (Phase 1
+Second Saturday-adjacent finding, added same session after P1.5 (read-through
+ch. 21–25) — see `novel/readthrough/batch-5.md`:
+
+- **R-5 (ch. 23) — the Still Mind registers a dropped tray.** Canon Section 2
+  is explicit: Edie's ability "covers violence only. Not lies, not
+  intentions, not danger in general. A collapsing floor does not register. A
+  man deciding to hit her does." In ch. 23, her Still Mind flinches a
+  half-second ahead of a tray dropping elsewhere in Ferrick's house — an
+  accident with no person's violent intent behind it, the same category of
+  event canon's own example rules out. This is not a drafting slip:
+  `novel/outline.md` (line 552–555) specifies the beat deliberately ("The
+  Still Mind catches once in the chapter, uselessly, on nothing worse than a
+  dropped tray... the smallest possible rehearsal of the gap she's lived in
+  since the tunnel"), so the contradiction sits between the outline and
+  canon.md's hard limit, not between the chapter and its outline. Needs a
+  decision: loosen the hard limit to cover sudden/startling accidents
+  generally, or re-ground the scene so what she senses is a person's sharp,
+  violence-adjacent reflex near the tray (someone lunging to catch it, say)
+  rather than the tray's fall itself.
+
+None of R-1–R-5 were touched in chapter text this pass, per RUNBOOK (Phase 1
 is read-only on chapters; anything beyond a one-line slip gets logged, not
-rewritten). All four are also cross-referenced in the relevant batch's "Open
-threads" / "Structural issues" sections for SYNTHESIS (P1.6) to weigh.
+rewritten). All five are also cross-referenced in the relevant batch's "Open
+threads" / "Structural issues" sections for SYNTHESIS (P1.6) to weigh. The
+Phase 1 read-through (all 25 chapters, batches 1–5) is now complete.
