@@ -69,8 +69,11 @@ Lloyd delirious after the siege, not a lost day on the road.
 Callow Ford. Left at 22 for work in Carrowgate, sent money home, nine years
 without visiting. High Insight before the Salts, worse after. He cannot
 reliably tell which of what he sees is shared, and has organised his life
-around not being alone with that. Left arm taken at the elbow in the Salts and
-regrown wrong — two inches long, too many joints. Kept gloved.
+around not being alone with that. Right arm taken at the elbow in the Salts;
+surfaces whole and normal-looking, but he can pass it through solid matter,
+and a second, ethereal, invisible arm occupies the same shoulder (see
+`novel/canon.md` Section 2, "The Second Right" — this entry predates that
+resolution and is corrected here to match it).
 
 **MARIA VESK**, 28. Former Sister of the Third Mercy. Minor arcane ability
 since childhood: she can steady a thing, a body, a tremor. Six years ago she

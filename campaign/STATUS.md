@@ -2,14 +2,17 @@
 
 ## Digest
 
-(2026-10-21) Plan reworked: the campaign is set in the real world after the
-novel; the Salts are background lore plus optional short "thin site"
-incursions. Next: Phase 1 read-through (P1.1 onward), then the vertical slice.
-**Jake: put your ruleset, design bible and monster manual in
-`campaign/system/` (see the README there); until they are there, campaign
-files use archetype and tier only and mark numbers `(SYS?)`. Item S1 proposes
-how the Salts-loop rules (anchor, hub, Tokens, bail-out) translate to the
-surface.**
+(2026-10-23, Saturday QA) First QA pass done: batches 1–4 (ch. 1–20) checked
+against canon.md and each other; one small fix (outline.md's stale left-arm
+Cast line, now matching canon). Four larger questions logged in
+`DECISIONS.md` → Review findings (R-1–R-4: ch.7's ethereal arm lifting a
+solid rod past its stated limit, ch.9's one-line fourth-wall break, a
+three-nights/four-days mismatch between ch.16 and ch.13, an undramatized
+Carrowgate stop implied in ch.12/13) — Jake's call on each, none blocking.
+Next: P1.5 (read-through ch. 21–25), then P1.6 synthesis. **Still waiting on
+Jake: ruleset, design bible and monster manual in `campaign/system/` (see the
+README there); until they're there, campaign files use archetype and tier
+only and mark numbers `(SYS?)`.**
 
 ## Work queue
 

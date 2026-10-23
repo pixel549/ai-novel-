@@ -63,4 +63,68 @@ Project-management file. Not loaded at the table.
 
 ## Review findings
 
-(none yet)
+First Saturday QA pass (2026-10-23), covering everything written for the
+campaign phase so far: `campaign/PLAN.md`, `RUNBOOK.md`, `DECISIONS.md`,
+`STATUS.md`, `system/README.md`, and `novel/readthrough/batch-1.md`–
+`batch-4.md` (read-through notes for ch. 1–20), checked against
+`novel/canon.md`, each other, and (for the two flagged chapter-text issues
+below) the chapters themselves. No `campaign/system/` ruleset exists yet, so
+nothing to check campaign files against on that front — none exist yet
+either. One small fix made (`novel/outline.md`'s stale Cast-section line
+still describing Lloyd's injury as his left arm, "regrown wrong," predating
+canon.md's resolution — corrected to match canon.md Section 2; this was
+flagged twice in batch-1/2 as a documentation-sync item and never itself a
+chapter problem). Four larger items carried up from the batch notes, none
+fixed, because each needs a judgment call rather than a mechanical
+correction:
+
+- **R-1 (ch. 7) — the ethereal arm lifts a solid object.** Canon Section 2 is
+  explicit that Lloyd's ethereal second arm "cannot lift, carry, throw, or
+  apply force to ordinary matter while ethereal" and "grants no strength
+  beyond his own," reserving ambiguity only for combat against things seen by
+  Insight. In ch. 7 the ethereal arm reaches into a stud bay and draws an
+  ordinary three-foot iron rod bodily through solid lath into Lloyd's other
+  hand, "solid" and weighted. The chapter itself lampshades the tension
+  ("shouldn't be a thing that arm is allowed to touch... a weight to it that
+  a thing made only of my own seeing has no business having") but doesn't
+  resolve it. Batch-3's comparison point (ch. 15's ethereal-arm combat use,
+  squarely inside the stated limit) strengthens the case that ch. 7 is the
+  outlier. Needs a decision: ground it (the rod stays intangible to anyone
+  but Lloyd, or he can't keep it) or accept it as an early, currently-
+  unflagged expansion of what the arm can do, well ahead of the "clumsy
+  early, fluent late" curve canon promises for later in the book.
+- **R-2 (ch. 9) — Lloyd breaks the fourth wall.** Closing the chapter, Lloyd
+  explicitly names the act of narrating and the existence of "a page in
+  whatever this is." Canon Section 1's "Never" list for Lloyd is explicit
+  ("Never articulate, never wry, never self-analysing out loud") and Section
+  7 adds, book-wide, "No character ever names their own arc, growth, or
+  psychology aloud." The line does not recur anywhere in ch. 10–20 (eleven
+  clean chapters since), which on current evidence trends toward "one-off
+  slip" rather than an intended device. Needs a decision: let it stand as a
+  single deliberate overreach (striking on its own terms), or walk it back to
+  match Lloyd's established voice.
+- **R-3 (ch. 16 vs. ch. 13) — three nights or four days.** Ch. 16 (Lloyd,
+  delirious) narrates the Ascension House tank room as one he'd described to
+  the others "from outside a barred window three nights running." Ch. 13's
+  own text gives this as four days, twice over ("I counted that cart on both
+  its days for four days running"; "On the fourth evening I came back from
+  the chapel wall with the same report"). Ch. 16 is built around deliberately
+  unreliable numbers elsewhere (the knot-cord counts ninety-one instead of
+  nineteen, by outline mandate), so this could be the same conceit extending
+  one step further into background detail, or it could be a plain slip — and
+  unlike the cord, nothing marks this specific number as intentionally wrong.
+  Needs a decision: leave it (read as delirium bleeding into a fact Lloyd
+  should have straight) or correct "three" to "four" in ch. 16.
+- **R-4 (ch. 12, ch. 13) — a Carrowgate stop that isn't on the page.** Two
+  separate lines imply the trio passed through or connected to Carrowgate
+  between ch. 6 and ch. 12, which isn't dramatized anywhere in the on-page
+  route: ch. 12's "the bonesetter in Carrowgate had sworn it would settle"
+  (of Lloyd's arm) and ch. 13's "her bundle still tied the same knot it had
+  been since Carrowgate" (of Maria's). Not a confirmed contradiction — there's
+  room for an off-page stop — but worth a call only if it matters for the
+  Gazetteer's geography (C1); otherwise it can stand as unresolved backstory.
+
+None of R-1–R-4 were touched in chapter text this pass, per RUNBOOK (Phase 1
+is read-only on chapters; anything beyond a one-line slip gets logged, not
+rewritten). All four are also cross-referenced in the relevant batch's "Open
+threads" / "Structural issues" sections for SYNTHESIS (P1.6) to weigh.
