@@ -13,10 +13,15 @@ contradicts canon's own hard limit) — Jake's call on each, none blocking.
 Two threads are now confirmed as permanent book gaps rather than still-open:
 Edie's ch.5 chalice cost never pays off, and the "19 DAYS REMAINING" timer is
 never explained — both good campaign hooks, neither a continuity problem.
-Next: P1.6 (synthesis + source-bible + hooks), then Phase 2 begins. **Still
-waiting on Jake: ruleset, design bible and monster manual in
-`campaign/system/` (see the README there); until they're there, campaign
-files use archetype and tier only and mark numbers `(SYS?)`.**
+(2026-10-24, Sunday) P1.6 done same session: `novel/readthrough/SYNTHESIS.md`,
+`campaign/source-bible.md`, and `campaign/hooks.md` are written. **Phase 1 is
+now fully complete; Phase 2 begins next session with A1 (Campaign Brief).**
+SYNTHESIS.md's honest verdict: every chapter rated strong, with five named
+exceptions (R-1–R-5, all already logged below) and no chapter recommended
+for hand revision outright — ch. 7 and ch. 23 are conditional on Jake's call
+on R-1/R-5. Still waiting on Jake: ruleset, design bible and monster manual
+in `campaign/system/` (see the README there); until they're there, campaign
+files use archetype and tier only and mark numbers `(SYS?)`.
 
 ## Work queue
 
@@ -29,7 +34,7 @@ Status: `todo` / `in-progress` / `done` / `blocked`. Run rows top to bottom.
 | P1.3 | Read-through: ch. 11–15 | P1.2 | done | 2026-10-22: notes in `novel/readthrough/batch-3.md`; no one-line fixes needed this batch (one Carrowgate geography question flagged, not fixed — see DECISIONS.md). Maria's healing-cost open thread (batches 1–2) substantially paid off in ch.15. New hooks: the pre-Church foundation under Ascension House, Vail's "impossible" arrival in ch.15, the thing in tank four |
 | P1.4 | Read-through: ch. 16–20 | P1.3 | done | 2026-10-23: notes in `novel/readthrough/batch-4.md`; no one-line fixes made (one numeric question flagged in ch.16 — "three nights" vs ch.13's "four days" — not fixed, since ch.16's delirium conceit makes it ambiguous whether this is a slip or by design). Clean POV handover Lloyd→Maria noted as a craft success. Flagging to Jake: the ch.16 "candidate for writing by hand" flag looks resolved on this read (see batch-4.md); Edie's ch.5 chalice cost still hasn't landed after 15 chapters and looks likely to go unpaid given only 5 chapters remain. New hooks: the Indemnity Office (brass pin, crossed quills — likely tied to Crane's buried survey), the Vantry assembly's standing archive (evidence filed and unread), the Sanctum's crisis-PR playbook, Edie's itemised recovery-cost ledger ("Paid out") |
 | P1.5 | Read-through: ch. 21–25 | P1.4 | done | 2026-10-23: notes in `novel/readthrough/batch-5.md`; no one-line fixes needed this batch. One new hard-limit question logged (R-5: ch.23's Still Mind firing on a dropped tray, outline-mandated but in tension with canon's "collapsing floor does not register" line). Confirms book-wide: Edie's chalice cost never pays off and the "19 DAYS REMAINING" timer is never explained — both closed out as permanent gaps, not threads to keep tracking. Ending matches `DECISIONS.md` D-1's defaults exactly (Crane dead and blamed on the Church, schedule brought forward, wells capped, Sanctum untouched) — this batch is the primary citation for D-1 going forward. |
-| P1.6 | Synthesis + source bible + hooks | P1.5 | todo | |
+| P1.6 | Synthesis + source bible + hooks | P1.5 | done | 2026-10-24: `novel/readthrough/SYNTHESIS.md`, `campaign/source-bible.md`, `campaign/hooks.md` all written. Phase 1 (full 25-chapter read-through) is now complete end to end. SYNTHESIS ranks R-1–R-5 by stakes, dismisses the long-sentence-rate worry as canon-specified voice rather than a real problem, confirms the ch.16 hand-revision flag resolved, and flags ch.7/ch.23 as the only hand-revision candidates (conditional on Jake's R-1/R-5 calls). source-bible.md is organised by place/faction/person/object/rule per RUNBOOK; hooks.md ranks 15 open threads by campaign usefulness, Sweetwater's double meaning first. Nothing thin — all three files draw on the full five-batch record plus canon.md and voice_ledger.json. |
 | A1 | Campaign Brief | P1.6 | todo | |
 | C1 | Gazetteer | A1 | todo | |
 | C2 | Factions & Clocks | A1, C1 | todo | creative |
