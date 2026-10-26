@@ -40,6 +40,21 @@ Project-management file. Not loaded at the table.
   favours for Tokens, safehouses for the hub, real travel, and a
   flight/capture/recovery rule in place of bail-out. Jake decides what sticks.
 
+- **D-11 Carrowgate geography and the hydros network (session default,
+  2026-10-26, for C1).** Two calls made to write the Gazetteer: (1) the road
+  and rail between the Larrow Valley and Vantry pass within a half-day of
+  Carrowgate's outskirts, close enough for the undramatized ch.12/13 stop
+  (R-4) to be a station changeover rather than a detour — consistent with
+  everything on the page (nothing rules it out) and with Lloyd's own nine
+  years working in Carrowgate before the book opens; (2) Stillwell is not
+  the Commonwealth's only hydro — canon §5's "the Church has been using
+  [the Salts] industrially for years" implies a supply chain the novel
+  never maps, so C1 assumes a small handful of further hydros exist
+  elsewhere, unnamed and unplaced until a Part needs one. Neither call
+  touches chapter text or contradicts canon; both are logged here per
+  RUNBOOK's Phase 2 instructions rather than re-litigated in C1 itself. See
+  `campaign/C1-gazetteer.md` → "The Map" and "The Hydros".
+
 ## Open questions for Jake
 
 - **Q-1** The ruleset (v7), design bible (v2.5), dev log, character sheet and
