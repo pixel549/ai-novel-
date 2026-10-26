@@ -55,6 +55,20 @@ Project-management file. Not loaded at the table.
   RUNBOOK's Phase 2 instructions rather than re-litigated in C1 itself. See
   `campaign/C1-gazetteer.md` → "The Map" and "The Hydros".
 
+- **D-12 The Valley Trust — who runs Larrow Consolidated Works after Crane
+  (session default, 2026-10-26, for C2).** The novel confirms only that
+  Crane owned the works through two intermediaries and never names them.
+  C2 needs a faction entry for "what replaced it," so this session names
+  that entry **the Valley Trust**: the same two intermediaries, kept
+  running the works under a plainer name with no founder's name left to
+  rally around or burn down. No specific administrator is named — left
+  inventable at the Part level (R1b) — and nothing about Crane's own
+  on-page culpability or death changes. Consistent with A1's "new, quieter
+  management" line and with nothing on the page that specifies otherwise.
+  Logged here per RUNBOOK's Phase 2 instructions rather than decided
+  silently in C2 itself. See `campaign/C2-factions-clocks.md` → "The Valley
+  Trust."
+
 ## Open questions for Jake
 
 - **Q-1** The ruleset (v7), design bible (v2.5), dev log, character sheet and
