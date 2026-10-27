@@ -84,6 +84,23 @@ Project-management file. Not loaded at the table.
   silently in C3 itself. See `campaign/C3-the-salts-as-background.md` → "The
   Chalice."
 
+- **D-14 Mutation stays Salts-side; a chalice-ability build procedure
+  (session default, 2026-10-27, for S1).** Two calls made to write Surface
+  Adaptation: (1) the ruleset's mutation system is bound tightly enough to
+  the Salts' own unstable physics (the chapel that's never the same room
+  twice, injuries that heal wrong) that this session defaults it to staying
+  Salts-side rather than inventing a surface trigger for it — thin sites
+  (T1–T3) still run it unmodified per C3, nowhere else does; (2) C3's D-13
+  asked S1 for a procedure for building bespoke chalice abilities
+  consistently, so this session proposes one (name an ordinary function,
+  invert or extend it once, pair it with an equally specific permanent cost
+  using the same function, check the result against Lloyd's own pair, never
+  reuse Lloyd's pair for anyone else), tagged `(untested)` like everything
+  else in S1. Neither call touches chapter text or contradicts canon; both
+  are logged here per RUNBOOK's Phase 2 instructions rather than
+  re-litigated in S1 itself. See `campaign/S1-surface-adaptation.md` →
+  "Mutation and the Salts Loop" and "A Procedure for Chalice Abilities."
+
 ## Open questions for Jake
 
 - **Q-1** The ruleset (v7), design bible (v2.5), dev log, character sheet and
