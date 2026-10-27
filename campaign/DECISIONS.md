@@ -69,6 +69,21 @@ Project-management file. Not loaded at the table.
   silently in C2 itself. See `campaign/C2-factions-clocks.md` → "The Valley
   Trust."
 
+- **D-13 Chalice abilities are bespoke, not a menu (session default,
+  2026-10-27, for C3).** The novel only ever shows one chalice recipient
+  (Lloyd), and his ability-and-cost pair (an ethereal second arm /
+  mode-confusion and dropped objects) is sized specifically to him. C3
+  needed a rule for what a PC gets when they drink at a thin site, so this
+  session sets the default that chalice abilities are always built fresh for
+  the recipient — a specific capability paired with an equally specific,
+  permanent cost, following Lloyd's shape rather than drawn from a fixed
+  list of options. No second character is ever granted Lloyd's own arm.
+  `S1` can later propose a procedure for building these consistently
+  `(untested)`; until then it's DM judgement, same as it was for the novel.
+  Logged here per RUNBOOK's Phase 2 instructions rather than decided
+  silently in C3 itself. See `campaign/C3-the-salts-as-background.md` → "The
+  Chalice."
+
 ## Open questions for Jake
 
 - **Q-1** The ruleset (v7), design bible (v2.5), dev log, character sheet and
