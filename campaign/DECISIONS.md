@@ -101,6 +101,22 @@ Project-management file. Not loaded at the table.
   re-litigated in S1 itself. See `campaign/S1-surface-adaptation.md` →
   "Mutation and the Salts Loop" and "A Procedure for Chalice Abilities."
 
+- **D-15 Starting base and alternates (session default, 2026-10-28, for
+  D1).** Neither the novel nor `C1`/`S1` names a specific base the campaign
+  opens from, so this session invents one to give Part I somewhere concrete
+  to start: **Beddoe's**, a converted-cooperage boarding house in Harrow's
+  Weir (`C1`'s own "worth having ready" village) run by Nessa Beddoe, a
+  miner's widow whose husband died one year short of the Larrow Indemnity's
+  payout clause. Three alternates are named alongside it — Stillwell Hydro's
+  ordinary lodging (not its Salts entry), the Larrow Consolidated Works'
+  company guest-rooms at Ammet Ford, and Ferrick's sub-panel's mobile
+  capping camp — each with a different upkeep cost (a tab, crowns, a favour,
+  labour respectively) per `S1`'s Crowns and Favours economy. None of this
+  touches chapter text or contradicts canon; it is an invented but
+  consistent answer to a question `PLAN.md`'s D1 item requires one for.
+  Logged here per RUNBOOK's Phase 2 instructions rather than decided
+  silently in D1 itself. See `campaign/D1-bases-safehouses.md`.
+
 ## Open questions for Jake
 
 - **Q-1** The ruleset (v7), design bible (v2.5), dev log, character sheet and
