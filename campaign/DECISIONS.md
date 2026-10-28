@@ -117,6 +117,22 @@ Project-management file. Not loaded at the table.
   Logged here per RUNBOOK's Phase 2 instructions rather than decided
   silently in D1 itself. See `campaign/D1-bases-safehouses.md`.
 
+- **D-16 Pellick's defining household, and the valley's rail halt (session
+  default, 2026-10-28, for R1a).** Two calls made to write Part I's overview
+  and locations: (1) Pellick is named in `C1` only as "last on Ferrick's
+  capping schedule," with no one to make that concrete, so this session
+  invents **Mirrin Tope**, an old collier's widow, and her grandson (sick
+  with the Sweetwater since spring) to give the Capping Clock's lateness a
+  face at this specific village, following D-15's own naming convention; (2)
+  `C1`'s Map describes a trunk rail passing through the valley but never
+  places a stop, so this session puts the valley's one halt at **Ammet
+  Ford** — the Works' own convenience, never advertised past the valley's
+  edge — reinforcing Ammet Ford's existing showpiece reading rather than
+  adding a new one. Neither call touches chapter text or contradicts canon;
+  both are logged here per RUNBOOK's Phase 2 instructions rather than
+  re-litigated in R1a itself. See `campaign/R1a-larrow-valley-overview.md` →
+  "Pellick" and "The Valley's Reach."
+
 ## Open questions for Jake
 
 - **Q-1** The ruleset (v7), design bible (v2.5), dev log, character sheet and
