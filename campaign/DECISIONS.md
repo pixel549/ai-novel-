@@ -133,6 +133,28 @@ Project-management file. Not loaded at the table.
   re-litigated in R1a itself. See `campaign/R1a-larrow-valley-overview.md` →
   "Pellick" and "The Valley's Reach."
 
+- **D-17 The Sweetwater double meaning resolved, and the Valley Trust's
+  administrator named (session default, 2026-10-29, for R1b).** Two calls
+  made to complete Part I's lead web and antagonist: (1) `hooks.md` #1's
+  double meaning is confirmed true rather than left ambiguous — Ammet
+  Ford's company well and the valley's Sweetwater disease are the same
+  contaminated groundwater at two doses, the well's filtered and dosed down
+  into a pleasant compulsion, everywhere else drinking it raw; this gives
+  R1b's lead web a resolvable in-fiction truth to build reveals around,
+  per `C1`'s own suggestion that this is the strongest use of the thread,
+  without forcing the table to discover or believe it; (2) the Valley
+  Trust's day-to-day administrator — left inventable at the Part level by
+  D-12 — is named **Hew Corlett**, reporting to Crane's still-unnamed two
+  intermediaries rather than one of them himself, built per `C2`'s DM note
+  to play sincere and procedural rather than as a disguised villain. A
+  third, smaller invention supports Reveal B's routes: **Garrick Fen**, one
+  of the two inspectors `source-bible.md` already says were "reassigned to
+  the coast" for pushing to reopen the survey, now placed quietly near
+  Stillwell. None of these three touch chapter text or contradict canon;
+  all are logged here per RUNBOOK's Phase 2 instructions rather than
+  decided silently in R1b itself. See
+  `campaign/R1b-larrow-valley-leads-antagonist.md`.
+
 ## Open questions for Jake
 
 - **Q-1** The ruleset (v7), design bible (v2.5), dev log, character sheet and
