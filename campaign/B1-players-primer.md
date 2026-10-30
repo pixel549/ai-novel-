@@ -17,7 +17,7 @@ for how a DM should run the session this handout is meant to open.*
 You live in the Aventine Commonwealth: gaslight and rail, a Senate that
 still sits in Carrowgate like it means something, an empire that stopped
 getting bigger a long time ago. The war everyone calls the Attrition ended
-a little under two years back. Nobody in this Commonwealth talks much about
+the better part of three years back. Nobody in this Commonwealth talks much about
 who it was fought against — that's not evasion, it's just not a
 conversation people have anymore, the way you don't discuss last winter's
 weather. What people do talk about is what four years of it cost: villages

@@ -155,6 +155,21 @@ Project-management file. Not loaded at the table.
   decided silently in R1b itself. See
   `campaign/R1b-larrow-valley-leads-antagonist.md`.
 
+- **D-18 Bestiary archetypes for Part I (session default, 2026-10-30, for
+  G1).** Four "People" archetypes and one "Pest-Class Horror" archetype are
+  named in `R1b`'s Encounters section without being built out, so this
+  session invents the behaviour and tells each needs: the Valley Trust
+  Functionary (covers the Ammet Ford gatekeeper, the company runner, the
+  mine foreman and clerk), the Capping-Camp Tester, the Mercy Brother
+  (Aldous and Tam, with the construct/homunculus question left open per
+  `hooks.md` #9), the Unregistered Arcana Practitioner, and the
+  Collapsed-Tunnel Lingerer (the low-tier instance for the Older Workings
+  set piece, reused re-dressed for Hessel Bight's manse cellar rather than
+  inventing a second creature). None of these touch chapter text or
+  contradict canon; all are logged here per RUNBOOK's Phase 2 instructions
+  rather than decided silently in G1 itself. See `campaign/G1-bestiary-
+  part-1.md`.
+
 ## Open questions for Jake
 
 - **Q-1** The ruleset (v7), design bible (v2.5), dev log, character sheet and
@@ -265,3 +280,28 @@ is read-only on chapters; anything beyond a one-line slip gets logged, not
 rewritten). All five are also cross-referenced in the relevant batch's "Open
 threads" / "Structural issues" sections for SYNTHESIS (P1.6) to weigh. The
 Phase 1 read-through (all 25 chapters, batches 1–5) is now complete.
+
+Second Saturday QA pass (2026-10-30), covering everything added or changed
+since the first pass: `novel/readthrough/batch-5.md`, `SYNTHESIS.md`,
+`source-bible.md`, `hooks.md`, and all ten Phase 2 files written since
+(`A1`, `C1`, `C2`, `C3`, `S1`, `D1`, `R1a`, `R1b`, `A2`, `B1`) — checked
+against `novel/canon.md`, each other, and (for the timeline question below)
+basic arithmetic on the book's own stated elapsed-time markers. Still no
+`campaign/system/` ruleset exists (Q-1), so nothing to check the Phase 2
+files' mechanics against on that front. One small fix made:
+`campaign/B1-players-primer.md`'s "the war everyone calls the Attrition
+ended a little under two years back" undercounted by roughly a year.
+Canon fixes the Attrition's end at nineteen months before ch. 1; the book's
+own stated elapsed-time markers between ch. 1 and ch. 25 (six weeks'
+recovery, an eleven-day press cycle, three weeks in Carrowgate, two months
+of Ferrick sitting on the Vantry evidence, eleven days after Crane's death)
+sum to several months on their own, and `DECISIONS.md` D-1 adds a further
+year on top for the campaign's own anchor — the true figure is close to
+three years, not two. Corrected to "the better part of three years back."
+This is the only player-facing numeric claim in any Phase 2 file that does
+this arithmetic explicitly, which is likely why it was the one that slipped.
+No other contradictions found across the ten Phase 2 files or the three
+Phase 1 synthesis files — cross-references, named defaults (D-11–D-17), and
+`source-bible.md` citations all check out against each other and against
+canon on this pass. All five R-1–R-5 findings remain open, unchanged, and
+still none of them block anything downstream.

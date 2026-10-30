@@ -2,26 +2,17 @@
 
 ## Digest
 
-(2026-10-23, Saturday) QA pass done (batches 1–4 vs. canon.md and each other;
-one small fix in outline.md) and P1.5 done same session: **the full 25-chapter
-read-through is now complete.** Five questions sit in `DECISIONS.md` → Review
-findings (R-1–R-5: ch.7's ethereal arm lifting a solid rod past its stated
-limit; ch.9's one-line fourth-wall break; a three-nights/four-days mismatch
-between ch.16 and ch.13; an undramatized Carrowgate stop implied in ch.12/13;
-ch.23's Still Mind registering a dropped tray, which is outline-mandated but
-contradicts canon's own hard limit) — Jake's call on each, none blocking.
-Two threads are now confirmed as permanent book gaps rather than still-open:
-Edie's ch.5 chalice cost never pays off, and the "19 DAYS REMAINING" timer is
-never explained — both good campaign hooks, neither a continuity problem.
-(2026-10-24, Sunday) P1.6 done same session: `novel/readthrough/SYNTHESIS.md`,
-`campaign/source-bible.md`, and `campaign/hooks.md` are written. **Phase 1 is
-now fully complete; Phase 2 begins next session with A1 (Campaign Brief).**
-SYNTHESIS.md's honest verdict: every chapter rated strong, with five named
-exceptions (R-1–R-5, all already logged below) and no chapter recommended
-for hand revision outright — ch. 7 and ch. 23 are conditional on Jake's call
-on R-1/R-5. Still waiting on Jake: ruleset, design bible and monster manual
-in `campaign/system/` (see the README there); until they're there, campaign
-files use archetype and tier only and mark numbers `(SYS?)`.
+(2026-10-30, Saturday) Second QA pass done: everything added since the first
+pass (batch-5, SYNTHESIS, source-bible, hooks, and all ten Phase 2 files
+A1–B1) checked against canon.md and each other. One small fix — B1's "under
+two years" since the Attrition was off by about a year on the book's own
+arithmetic, corrected to "the better part of three years." No other
+contradictions found. Same session, with room to spare: G1 (Bestiary, Part
+I) done — four People archetypes plus the Collapsed-Tunnel Lingerer, logged
+as D-18. **Vertical slice is one item from complete**: only H1 (Compendium,
+Part I) remains, already unblocked by R1b. R-1–R-5 (see `DECISIONS.md` →
+Review findings) and Q-1 (the ruleset, still not in `campaign/system/`) are
+unchanged and still don't block anything.
 
 ## Work queue
 
@@ -45,7 +36,7 @@ Status: `todo` / `in-progress` / `done` / `blocked`. Run rows top to bottom.
 | R1b | Part I lead web, set pieces, antagonist | R1a | done | 2026-10-29: `campaign/R1b-larrow-valley-leads-antagonist.md` written (~3,390 w). Completes Part I's template sections 4–9. Resolves the Sweetwater double meaning as literally true (Ammet Ford's well is the valley's own contaminated groundwater, filtered and dosed down) and names the Valley Trust's day-to-day administrator, Hew Corlett, both logged as `DECISIONS.md` D-17. Builds a three-reveal lead web (the two waters; the buried survey; who's keeping it buried now), each with three routes, introducing one new NPC (Garrick Fen, a reassigned inspector near Stillwell) and reusing Mirrin Tope, Nessa Beddoe's slate, and the capping camp rather than inventing fresh ones. Corlett is built as a procedural, non-violent antagonist per `C2`'s sincere-factions note — defeat/flight/capture are all institutional, not combat. Confirms no thin site in Region I (per `R1a`/`C3`) and points the first thin site to Region II instead. Nothing thin; cites A1, C1, C2, C3, D1, R1a, source-bible.md, hooks.md, and canon.md §§4/5/6/8 throughout rather than re-deriving. **Part I's vertical-slice work (R1a+R1b) is now complete; A2, B1, G1, and H1 are unblocked and are the remaining vertical-slice items per `STATUS.md`'s own marker row below.** Phase 2 continues next session with whichever of A2/B1/G1/H1 has its dependencies met first (all four currently do).|
 | A2 | DM's Guide | A1, R1b | done | 2026-10-29: `campaign/A2-dms-guide.md` written (~2,220 w). Covers running order (how a Part unfolds session to session, scene budgeting, advancing clocks between sessions, and the `K1`-shaped gap in continuity tracking — flagged as a real risk for an AI DM with no memory across sessions), a table-ready distillation of `PLAN.md`'s tone contract, an AI-DM standing instructions addendum (reading order before a session, never inventing a fact against the source files, honouring telegraphed tells exactly, generating stats live and archetype-only, preserving player agency over the lead web, not resolving the who-knows-what gaps or the cameo limits), a four-item session zero agenda, and a lines-and-veils section naming the specific sensitive content this campaign's source material surfaces (Fourth Mercy experimentation, institutionalisation, war-trauma backstory, child illness/death, body horror, compulsion, institutional neglect) with canon §7's own restraint set as the default floor. Nothing thin; cites A1, PLAN.md, C2, R1b, S1, canon.md §§4/6/7/8, and DECISIONS.md D-6/D-7/D-8/D-10 throughout rather than re-deriving. No new `DECISIONS.md` default needed — this file is procedural/DM-facing, not a world-fact call. **B1, G1, and H1 are the three vertical-slice items left; Phase 2 continues next session with whichever has its dependencies met first (all three currently do).** |
 | B1 | Player's Primer | A1, D1 | done | 2026-10-30: `campaign/B1-players-primer.md` written (~1,785 w). Player-facing handout (second-person, no design rationale) covering what an ordinary Commonwealth resident knows (the Attrition, reconstruction, the Church's three public Mercies, Arcana, the Salts as rumour), last year's events exactly as public memory garbles them (the Ascension House scandal curdling into an authenticity dispute, Crane's death blamed on the Church, the capping schedule) per A1's public/buried/closed split, the Harrow's Weir/Beddoe's starting point per D1, ordinary character hooks per A1's "What the PCs Are," Crowns and Favours and the no-fixed-safehouse rule in player terms per S1, and an explicit "what you're not" (not Lloyd/Maria/Edie, no starting chalice gift, no toppled institutions). Deliberately withholds every buried/closed fact (the Sweetwater double meaning's truth, Corlett, the Fourth Mercy's specifics) since this file goes to players, not just the DM. Nothing thin; cites A1, D1, S1, PLAN.md's tone contract, and A2 §4 (session zero) throughout rather than re-deriving. No new `DECISIONS.md` default needed — restates existing calls in player-safe language only. **Vertical slice: G1 and H1 are the two remaining items; Phase 2 continues next session with whichever has room, both already unblocked by R1b.** |
-| G1 | Bestiary additions, Part I | R1b | todo | |
+| G1 | Bestiary additions, Part I | R1b | done | 2026-10-30: `campaign/G1-bestiary-part-1.md` written (~2,150 w). Four "People" archetypes (the Valley Trust Functionary, covering the Ammet Ford gatekeeper/company runner/mine foreman and clerk; the Capping-Camp Tester; the Mercy Brother, Aldous and Tam, construct question left open per `hooks.md` #9; the Unregistered Arcana Practitioner) and one Pest-Class Horror (the Collapsed-Tunnel Lingerer, built for the Older Workings set piece and reused re-dressed for Hessel Bight's manse cellar rather than a second creature). Explicitly defers the ch.2 wire-frame creature and the thing in tank four to a later region's bestiary or a thin site, since Region I has neither. Logged as `DECISIONS.md` D-18 rather than decided silently. Nothing thin; cites R1a, R1b, C2, D1, source-bible.md, hooks.md, and canon.md §§2/4/5/8 throughout rather than re-deriving. **H1 is the last vertical-slice item; Phase 2 continues next session with H1 (Compendium, Part I), now the only thing left before the vertical slice is complete.** |
 | H1 | Compendium, Part I | R1b | todo | |
 | — | **Vertical slice complete: flag to Jake in the digest** | | | |
 | R2a | Part II overview + locations | R1b | todo | creative |
