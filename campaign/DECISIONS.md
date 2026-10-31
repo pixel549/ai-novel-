@@ -170,6 +170,29 @@ Project-management file. Not loaded at the table.
   rather than decided silently in G1 itself. See `campaign/G1-bestiary-
   part-1.md`.
 
+- **D-19 Compendium items, weapons, and a worked chalice-gift example
+  (session default, 2026-10-31, for H1).** Three things `R1b`, `D1`, and
+  `R1a` imply without naming: this session invents the concrete props those
+  files assume exist (the buried survey as a physical ledger volume, Nessa's
+  slate as a trackable prop, a quartermaster's-ledger convention generalised
+  from Edie's own, a generic knot-cord, the capping-team's sample kit and
+  sampling rod, a flask of Ammet Ford's water, the standing bounty handbill,
+  the Indemnity clerk's case) and the valley's ordinary weapons register
+  (mine tools, the gatekeeper's cosh, an Attrition-surplus revolver, a
+  trench knife) — all low-stakes, non-magical, consistent with `A1` pillar 1
+  (investigation, not loot). Separately, since Region I confirms no thin
+  site (`R1a`/`R1b`/`G1`/`C3`), this session also writes one worked,
+  explicitly non-canonical illustration of `S1`'s chalice-ability build
+  procedure ("Sure Footing," a balance-based capability/cost pair) purely to
+  teach the procedure's shape to whoever eventually runs `T1` — built on a
+  function neither Lloyd nor Edie use, and explicitly flagged as never to be
+  assigned to any PC, so it cannot be mistaken for a menu item against
+  `C3`'s D-13. None of this touches chapter text or contradicts canon; all
+  of it is logged here per RUNBOOK's Phase 2 instructions rather than
+  decided silently in H1 itself. See `campaign/H1-compendium-part-1.md`.
+  **This completes Part I's vertical slice (A1, C1, C2, C3, S1, D1, R1a,
+  R1b, A2, B1, G1, H1) — flagged to Jake in `STATUS.md`'s digest.**
+
 ## Open questions for Jake
 
 - **Q-1** The ruleset (v7), design bible (v2.5), dev log, character sheet and
