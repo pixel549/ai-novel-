@@ -193,6 +193,27 @@ Project-management file. Not loaded at the table.
   **This completes Part I's vertical slice (A1, C1, C2, C3, S1, D1, R1a,
   R1b, A2, B1, G1, H1) — flagged to Jake in `STATUS.md`'s digest.**
 
+- **D-20 Vantry's lodging-row foothold and rail yard named; Part II's
+  opening span fixed loosely (session default, 2026-11-01, for R2a).**
+  Three calls made to write Part II's overview and locations: (1) Region II
+  has no `D1`-equivalent base file (none is queued in `PLAN.md`'s work
+  items), so this session invents a single lightly-detailed candidate
+  foothold directly inside `R2a`'s Locations section rather than leaving
+  the whole region without one — **Ress Tannery** and his rooming house,
+  **the Shuttle**, in the lodging rows, following `D1`'s own naming
+  convention (a specific, named proprietor) rather than the fuller
+  upkeep/recovery treatment `D1` gave Region I, since no Part II work item
+  exists to carry that detail; (2) the city's rail yards needed a name to
+  be keyed as a location at all, so this session names them **Coal Drop
+  Yards**; (3) `A1`'s timeline anchor needed a loose span between Part I's
+  end and Part II's start to avoid assuming any specific Part I outcome,
+  so this file sets it at "two to three months past wherever a table's own
+  Part I ended" — generous, non-binding, and explicitly not a fixed date
+  for `K1` (not yet written) to inherit. None of the three touches chapter
+  text or contradicts canon; all are logged here per RUNBOOK's Phase 2
+  instructions rather than decided silently in `R2a` itself. See
+  `campaign/R2a-vantry-overview.md`.
+
 ## Open questions for Jake
 
 - **Q-1** The ruleset (v7), design bible (v2.5), dev log, character sheet and
