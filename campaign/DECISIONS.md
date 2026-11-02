@@ -242,6 +242,27 @@ Project-management file. Not loaded at the table.
   broadsheet editor). See
   `campaign/R2b-vantry-leads-antagonist.md`.
 
+- **D-22 Carrowgate's boarding-district foothold named (session default,
+  2026-11-02, for R3a).** One call made to write Part III's overview and
+  locations: Region III has no `D1`-equivalent base file (none is queued in
+  `PLAN.md`'s work items, same gap `R2a` found for Region II), so this
+  session invents a single lightly-detailed candidate foothold directly
+  inside `R3a`'s Locations section rather than leaving the region without
+  one — **Caddock Lowe**, a former Larrow mine pump-man who left the valley
+  for Carrowgate work roughly Lloyd's own span ago, and his rooming house,
+  **the Waiting House**, three streets back from the Indemnity Office,
+  named for how many of its tenants are waiting on that office for a claim
+  or a hearing date. Follows `D1`'s and `R2a`'s own naming convention (a
+  specific, named proprietor) rather than a fuller upkeep/recovery
+  treatment, since no Part III work item exists to carry that detail. Does
+  not place Lloyd or Maria at the Waiting House or anywhere else in
+  Carrowgate beyond `A1`'s own "in or near Carrowgate" — that restraint is
+  deliberate, not an oversight, and is spelled out in `R3a`'s DM notes.
+  Neither this invention nor the restraint around it touches chapter text
+  or contradicts canon; logged here per RUNBOOK's Phase 2 instructions
+  rather than decided silently in `R3a` itself. See
+  `campaign/R3a-carrowgate-overview.md`.
+
 ## Open questions for Jake
 
 - **Q-1** The ruleset (v7), design bible (v2.5), dev log, character sheet and
