@@ -214,6 +214,34 @@ Project-management file. Not loaded at the table.
   instructions rather than decided silently in `R2a` itself. See
   `campaign/R2a-vantry-overview.md`.
 
+- **D-21 The ascension work has not resumed; a standing Church antagonist
+  named; a disappearance invented to anchor the lead web (session default,
+  2026-11-02, for R2b).** Three calls made to complete Part II's lead web
+  and antagonist: (1) nothing like Ascension House is running anywhere in
+  Vantry a year-plus on — the ruin stays a ruin, extending `C3`'s own
+  restraint (a second ascension site is reserved for Region IV) rather
+  than reversing it; what hasn't stopped is the ordinary identification
+  machine (bread and shelter noticing the surplus) now running with
+  nowhere in this city to send what it notices; (2) the Sanctum's
+  crisis-PR instinct (`hooks.md` #5), proven once in ch. 18, is given a
+  standing face here: **Brother Calder Wick**, "the Almoner," installed in
+  Vantry after the exposure and answering informally to Vail — built as
+  institutional-first, personal-second per `C2`'s own DM notes, the same
+  discipline `R1b` used for Corlett; his tell is genuine charity offered
+  before any answer, never a lie, never a refusal once the help is given;
+  (3) a specific missing lodger, **Nell Quane**, is invented at the Shuttle
+  to give Reveal B something concrete to investigate — her profile matches
+  the old intake register's selection pattern closely enough to unsettle
+  and loosely enough to prove nothing, and per the lodging rows' own
+  restraint in `R2a`, **her actual fate is deliberately left unresolved**,
+  a table's own call rather than this file's. None of the three touches
+  chapter text or contradicts canon; all are logged here per RUNBOOK's
+  Phase 2 instructions rather than decided silently in R2b itself. Also
+  named in R2b, following D-20's convention rather than as a fresh
+  default: Hester Combe (the archive clerk) and Corde Ashby (the
+  broadsheet editor). See
+  `campaign/R2b-vantry-leads-antagonist.md`.
+
 ## Open questions for Jake
 
 - **Q-1** The ruleset (v7), design bible (v2.5), dev log, character sheet and
