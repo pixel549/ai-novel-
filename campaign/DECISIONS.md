@@ -263,6 +263,31 @@ Project-management file. Not loaded at the table.
   rather than decided silently in `R3a` itself. See
   `campaign/R3a-carrowgate-overview.md`.
 
+- **D-23 The Indemnity clerk named; the Sanctum's stake in Crane's death
+  resolved no; the Valley Trust's two intermediaries named as Part III's
+  antagonist (session default, 2026-11-03, for R3b).** Three calls made to
+  complete Part III's lead web and antagonist: (1) the Indemnity Office's
+  clerk, left unnamed by `R3a`, is named **Winifred Sorrel**, this Part's
+  Reveal A route, following the naming convention `R1a`/`R2a` set for every
+  earlier Part's clerk-equivalent; (2) `R3a`'s open question of whether the
+  Sanctum has any operational stake in Crane's death or the buried survey
+  is answered **no** rather than left open further — canon already settles
+  who killed Crane (Lloyd, ch. 24), so this file does not reopen that, but
+  it does give the Church's own publicly-absorbed blame a concrete shape:
+  a restitution payment, paid fast and without contest, per the Sanctum's
+  own crisis-PR playbook (`hooks.md` #5) applied here to a false
+  accusation rather than a true one, explicitly not evidence of guilt; (3)
+  the Valley Trust's two intermediaries — named as a faction by `C2`/D-12
+  but left unnamed at the Part level since, per `C2`'s own restraint, and
+  pointed at directly by `R3a`'s own premise card ("the two men who've run
+  the works since him") — are named **Osric Pell** (the Trust's legal and
+  financial side) and **Garrett Vane** (its political and social side),
+  built as this Part's antagonist in place of inventing a third
+  capital-level face. None of the three touches chapter text or
+  contradicts canon; all are logged here per RUNBOOK's Phase 2 instructions
+  rather than decided silently in `R3b` itself. See
+  `campaign/R3b-carrowgate-leads-antagonist.md`.
+
 ## Open questions for Jake
 
 - **Q-1** The ruleset (v7), design bible (v2.5), dev log, character sheet and
