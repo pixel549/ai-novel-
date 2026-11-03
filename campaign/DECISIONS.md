@@ -288,6 +288,38 @@ Project-management file. Not loaded at the table.
   rather than decided silently in `R3b` itself. See
   `campaign/R3b-carrowgate-leads-antagonist.md`.
 
+- **D-24 Region IV located — Oldbridge, Lissom Fen, the House of Quiet
+  Rest, and Greymere Hydro named; Greymere decided as the Fourth Mercy's
+  supply link (session default, 2026-11-03, for R4a).** `C1`'s own Region
+  IV entry deliberately left the Fourth Mercy's wider network unlocated
+  ("build them when R4a is actually written, not before"); this session
+  does that, extending `C1`'s Map past Vantry's junction along one of the
+  lines `C1` already says meets there. Four calls made: (1) the region's
+  geography — a branch line to **Oldbridge** (the last rail stop), a fen
+  road on to **Lissom Fen**, and the **House of Quiet Rest** and
+  **Greymere Hydro** beyond, with everything past Greymere left
+  deliberately unmapped per `C1`'s own restraint on Region V; (2) the
+  House of Quiet Rest's cover is a genuine, Church-run convalescent
+  retreat for Attrition veterans nobody else will keep — the specific
+  shape of "smaller, better-hidden than Vantry's" `C1` deferred, built
+  from the lesson ch. 18's exposure taught the Church (fewer sites,
+  tighter compartmenting) rather than from Ascension House's own
+  confidence; (3) per `C2`'s explicit deferral ("which is which is a
+  Part-level decision, not fixed here"), **Greymere Hydro is decided as
+  the Fourth Mercy's actual supply link**, not merely a nerve-cure
+  business, resolving the Hydro Network Map clock's second instance; (4)
+  an invented foothold at Oldbridge, **Rufus Pledge** and **the Night
+  Siding**, follows `D1`/`R1a`/`R2a`/`R3a`'s own naming convention for a
+  lightly-detailed proprietor rather than a fuller base treatment, since
+  no Region IV base file is queued. Also flags, without building, an
+  older structure beneath the House's own foundations as this region's
+  strongest remaining candidate for one of the two unplaced thin sites
+  (`T2`/`T3`) — `R4b`'s or a later session's call to use or decline, same
+  restraint `R2a` used in flagging Ascension House's ruin for `T1`. None
+  of the four touches chapter text or contradicts canon; all are logged
+  here per RUNBOOK's Phase 2 instructions rather than decided silently in
+  `R4a` itself. See `campaign/R4a-fourth-mercy-network-overview.md`.
+
 ## Open questions for Jake
 
 - **Q-1** The ruleset (v7), design bible (v2.5), dev log, character sheet and
