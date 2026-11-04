@@ -352,6 +352,46 @@ Project-management file. Not loaded at the table.
   rather than decided silently in `R4b` itself. See
   `campaign/R4b-fourth-mercy-leads-antagonist.md`.
 
+- **D-26 Region V located — Hollowmere, the Tide Flats, Fallow Head, and
+  the First House named; the First House decided as the Fourth Mercy's
+  original site, decommissioned and repurposed as its complete archive
+  (session default, 2026-11-04, for R5a).** `C1`'s own Region V entry
+  deliberately left this region blank ("dependent on everything R4b
+  decides... filling this in before R4b exists would be the kind of
+  invented structure... licence isn't meant to cover"); this session ends
+  that deferral the same way `R4a` ended Region IV's, picking up the
+  specific thread `R4a` itself left unmapped — "a longer, little-used
+  cart road the rest of the way out to the old coast." Five calls made:
+  (1) the region's geography — **Hollowmere** (a decayed coastal hamlet,
+  this file's invented foothold, following `D1`/`R1a`/`R2a`/`R3a`/`R4a`'s
+  own naming convention), the **Tide Flats** between it and the headland,
+  and **Fallow Head** beyond them; (2) **the First House**, on Fallow
+  Head, is decided as the site where the Fourth Mercy's ascension work
+  actually began, decades before Ascension House — decommissioned as an
+  active site within its own first years and kept since as the doctrine's
+  complete archive rather than rebuilt a third time as another tank-room
+  facility, a deliberate variety call following `R4b`'s own warning
+  against reusing that shape again; (3) an invented caretaker, **Sister
+  Edda Vance**, close to ninety, sincere and meticulous, built on the same
+  honest-Church-face model as Anstey, Wick, and Vail herself, holds the
+  complete sixty-year record — the campaign's largest instance of
+  `hooks.md` #3's "evidence exists, evidence mattering is a separate
+  problem," scaled from one ward to the whole institution's memory of
+  itself; (4) a regional Pest Pressure Clock instance is given to this
+  region via **the wreck of the *Aldermoor*,** an Attrition-era troop
+  transport visible at low tide on the Tide Flats, extending `C1`'s own
+  Scars-of-the-Attrition texture rather than inventing a new kind of
+  threat; (5) **the Named Ground**, a walled plot of sixty years' plain,
+  numbered markers behind the First House, is added as a single sustained
+  image rather than a set piece, built to prove canon §7's "catalogued,
+  not lurid" rule directly rather than just cite it. None of the five
+  touches chapter text or contradicts canon; all are logged here per
+  RUNBOOK's Phase 2 instructions rather than decided silently in `R5a`
+  itself. This file deliberately builds no lead web, antagonist, or
+  ending here — per the usual "a"/"b" split, all three (plus Q-3's several
+  endings and Q-4's chalice-at-a-price default) are `R5b`'s job next
+  session. See `campaign/R5a-old-coast-overview.md`.
+
 ## Open questions for Jake
 
 - **Q-1** The ruleset (v7), design bible (v2.5), dev log, character sheet and
