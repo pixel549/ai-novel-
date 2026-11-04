@@ -320,6 +320,38 @@ Project-management file. Not loaded at the table.
   here per RUNBOOK's Phase 2 instructions rather than decided silently in
   `R4a` itself. See `campaign/R4a-fourth-mercy-network-overview.md`.
 
+- **D-25 The undercroft's work scoped to one activity; its overseer named;
+  Greymere's proprietor named; a resident invented to anchor the lead web;
+  the flagged thin-site candidate confirmed as `T3` (session default,
+  2026-11-04, for R4b).** Five calls made to complete Part IV's lead web and
+  antagonist: (1) rather than shrinking Ascension House's full five-activity
+  suite, this file scopes the undercroft to one of canon §4's five
+  documented activities — a small bank of immersion tanks and the early
+  stages of homunculi-growing — since that is the one the premise card's own
+  hook (excess brine traffic) already points at; (2) the undercroft's
+  overseer, left unnamed by `R4a`, is named **Brother Corwin Ness** ("the
+  Warden" informally), built institutional-first and personal-second per
+  `C2`'s DM notes, same discipline `R1b`/`R2b`/`R3b` used for Corlett, Wick,
+  and Pell/Vane, with his reporting line left institutional and unnamed
+  rather than tied to Vail or the Sanctum, the same restraint `R3b` used to
+  keep the Sanctum clean of Crane's death; (3) Greymere Hydro's proprietor,
+  left for this file to name by `R4a`, is named **Josiah Rede**, fixed as
+  selling manifest access for a price rather than giving it away or
+  stonewalling, per `R4a`'s own explicit ask; (4) a specific resident,
+  **Corporal Emrys Dunmore**, and his sister, **Teyla Dunmore**, are invented
+  to give the Part's human cost a face, matching `R4a`'s own "a family with
+  a relative who went in" framing and the precedent `R2b` set with Nell
+  Quane — his actual fate is deliberately left open, same restraint; (5) the
+  older structure `R4a` flagged beneath the House's own foundations is
+  **confirmed, not declined, as `T3`**'s location — `STATUS.md`'s own
+  dependency line (`T3`: `T2, R4b`) already assumed this file would settle
+  it, so this session does rather than deferring the question a second
+  time; `T3` itself stays unbuilt, same split `R2a` held for `T1` at
+  Ascension House's own ruin. None of the five touches chapter text or
+  contradicts canon; all are logged here per RUNBOOK's Phase 2 instructions
+  rather than decided silently in `R4b` itself. See
+  `campaign/R4b-fourth-mercy-leads-antagonist.md`.
+
 ## Open questions for Jake
 
 - **Q-1** The ruleset (v7), design bible (v2.5), dev log, character sheet and
