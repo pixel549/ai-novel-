@@ -2,22 +2,25 @@
 
 ## Digest
 
-**(2026-10-31, Sunday) FLAG FOR JAKE — the vertical slice is complete.**
-H1 (Compendium, Part I) is done, logged as D-19. That closes out A1, C1, C2,
-C3, S1, D1, R1a, R1b, A2, B1, G1, and H1 — brief, surface adaptation, a base,
-a full first Part (overview, lead web, set pieces, antagonist), DM's Guide,
-Player's Primer, bestiary, and compendium. Per `PLAN.md`'s own marker row,
-this session is stopping here rather than starting `R2a` or any other
-post-slice item, so you get a look at the whole vertical slice before Phase
-2 goes any wider. Nothing in it has been played at a table yet — every
-`(untested)`/`(SYS?)` tag in `S1`, `D1`, and `H1` is still exactly that, and
-`campaign/system/` still has no ruleset in it (Q-1). Open calls worth your
-attention before or alongside trying it: R-1–R-5 (novel continuity
-judgment calls, `DECISIONS.md` → Review findings, none of them blocking) and
-every session default D-11–D-19 (all overturnable, all logged with the file
-they feed). Once you've had a look — or sooner, if you'd rather not wait —
-future sessions pick up with whichever of `R2a` (Part II) or `T1` (the first
-thin site) you'd prefer first; both are already unblocked.
+**(2026-11-05, Thursday) FLAG FOR JAKE — the Parts spine (R1–R5) is
+complete.** `R5b` closes out Part V and the campaign's five-region spine
+end to end: every region has its overview, locations, lead web, set pieces,
+and antagonist, and the campaign now has its several endings (Q-3: Walk
+Away, Private Reckoning, Quiet Leverage, Public Exposure, Burn It) and a
+practical answer to Q-4 (no fourth thin site). A table could stop here and
+already have a complete, playable five-Part campaign on top of the vertical
+slice flagged below. Still open: `campaign/system/` has no ruleset (Q-1),
+so every number in every Part is still `(SYS?)`; nothing has been played at
+a table yet; R-1–R-5 (novel continuity calls) and D-11–D-27 (every session
+default, all overturnable) are all still open for your review. What's left
+per `PLAN.md`: `G2`–`G5`/`H2`–`H5` (bestiary/compendium for Parts II–V),
+`F1` (Travel & Downtime), `I1` (Dramatis Personae, incl. the Lloyd/Maria/
+Edie cameo rules every Part has been deferring to it), `J1` (tables and
+handouts), `K1` (continuity index), and `Z1` (final integration pass) — none
+of them blocked by anything else. Previous flag, preserved: **(2026-10-31)
+the vertical slice (A1, C1, C2, C3, S1, D1, R1a, R1b, A2, B1, G1, H1)
+completed first**, per `PLAN.md`'s own playable-first order; nothing in it
+has been played at a table yet either.
 
 ## Work queue
 
@@ -51,7 +54,7 @@ Status: `todo` / `in-progress` / `done` / `blocked`. Run rows top to bottom.
 | R4a | Part IV overview + locations | R3b | done | 2026-11-03: `campaign/R4a-fourth-mercy-network-overview.md` written (~3,850 w). Covers the Part template's sections 1–3 only (premise card, situation, locations) — lead web, set pieces and antagonist are `R4b`'s job next session, same split used for Parts I–III. Locates Region IV for the first time (`C1` had deliberately left it unmapped): a branch line off Vantry's junction to **Oldbridge** (the last rail stop), on by fen road to **Lissom Fen** and the **House of Quiet Rest** (a genuine Church convalescent retreat for Attrition veterans, and — per this session's default — the second, smaller, better-hidden ascension site `C1` promised), then **Greymere Hydro**, decided as the Fourth Mercy's actual supply link rather than just a nerve-cure business, resolving the Hydro Network Map clock's second instance. Also keys **the Fen Line** (an abandoned Attrition trench system) as this region's Pest Pressure Clock instance, and invents an Oldbridge foothold (Rufus Pledge, the Night Siding) following D1/R1a/R2a/R3a's naming convention. Flags, without building, an older structure under the House's own foundations as the strongest remaining candidate for one of the two unplaced thin sites (T2/T3). All four geography/identity calls logged as `DECISIONS.md` D-24. Nothing thin; cites A1, C1, C2, C3, R3b, source-bible.md, hooks.md, and canon.md §§4/5/6/7 throughout rather than re-deriving. Phase 2 continues next session with R4b (Part IV lead web, set pieces, antagonist), now unblocked. |
 | R4b | Part IV leads, set pieces, antagonist | R4a | done | 2026-11-04: `campaign/R4b-fourth-mercy-leads-antagonist.md` written (~4,330 w). Completes Part IV's template sections 4–9. Scopes the undercroft to one of canon §4's five activities (immersion + early homunculi-growing, matching the premise card's own brine-traffic hook) rather than the full suite, and names its overseer, **Brother Corwin Ness** ("the Warden") — institutional-first, personal-second per `C2`'s DM notes, same discipline `R1b`/`R2b`/`R3b` used for Corlett, Wick, and Pell/Vane, with his tell built on reframing consent rather than refusing or lying. Names Greymere's proprietor (**Josiah Rede**, sells manifest access for a price, per `R4a`'s own ask) and invents a resident to anchor the lead web (**Corporal Emrys Dunmore**, missing; his sister **Teyla Dunmore**, Reveal B's human route), his fate deliberately left open per the `R2b`/Nell Quane precedent. Builds a three-reveal lead web (the brine manifest; the undercroft isn't storage; who runs it and how), two set pieces (The Arrivals Board; What the Wagon Carries). Confirms `R4a`'s flagged thin-site candidate (the older structure under the House) as **`T3`**'s location without building `T3` itself, resolving the dependency `STATUS.md` already assumed. All five new calls logged as `DECISIONS.md` D-25. Nothing thin; cites A1, C2, C3, R1b, R2b, R3b, R4a, source-bible.md, hooks.md, and canon.md §§3/4/6/7 throughout rather than re-deriving. Phase 2 continues next session with R5a (Part V overview + locations), now unblocked; G4 and H4 (Bestiary/Compendium, Part IV) are also unblocked, and T3 is now unblocked pending T2. |
 | R5a | Part V overview + locations | R4b | done | 2026-11-04: `campaign/R5a-old-coast-overview.md` written (~3,580 w). Covers the Part template's sections 1–3 only (premise card, situation, locations) — lead web, set pieces, antagonist, and the campaign's several endings (Q-3) are `R5b`'s job next session, same split used for Parts I–IV. Ends `C1`'s own deferral on Region V by picking up the specific thread `R4a` left unmapped (the cart road "out to the old coast"), keying four sites (Hollowmere and Wren Catchpole's Anchorage as this region's invented foothold; the Tide Flats, carrying a new Pest Pressure Clock instance via the wrecked troop transport *Aldermoor*; Fallow Head and the First House; the Named Ground). Decides the First House as the Fourth Mercy's original, decommissioned site — kept since as the complete sixty-year archive rather than rebuilt as a third tank-room facility, a deliberate variety call extending `R4b`'s own warning against reusing that shape — and invents its caretaker, Sister Edda Vance, as this campaign's largest instance of `hooks.md` #3 (evidence existing vs. mattering) scaled to the whole institution's memory of itself. Explicitly does not extend the Hydro Network Map clock to this site (archival, not logistical) and keeps Lloyd/Maria/Edie entirely offstage per `A1`'s timeline anchor, same restraint `R4a` held. All five calls logged as `DECISIONS.md` D-26. Nothing thin; cites A1, C1, C2, C3, R4a, R4b, source-bible.md, hooks.md, and canon.md §§4/5/6/7 throughout rather than re-deriving. Phase 2 continues next session with R5b (Part V lead web, set pieces, antagonist, and endings), now unblocked; G5/H5 (Bestiary/Compendium, Part V) remain blocked on R5b. |
-| R5b | Part V finale and endings | R5a | todo | creative |
+| R5b | Part V finale and endings | R5a | done | 2026-11-05: `campaign/R5b-old-coast-leads-antagonist-endings.md` written (~3,850 w). Completes Part V's template sections 4–9, plus the campaign's own several endings (Q-3) and Q-4's practical resolution. Resolves `R5a`'s open question of whether Sister Edda Vance opens the First House's record to the party — yes, but only through patience, proof of good faith, or a specific name, never pressure — and names this Part's (and the campaign's) antagonist, **Brother Elias Prynne**, "the Registrar," dispatched from the Sanctum only once Fallow Head is disturbed, whose tool is filing rather than force. Builds a three-reveal lead web (Hollowmere's quiet complicity; Fallow Head as the oldest record, not a ruin; what Vance will show and at what cost), two set pieces (The Named Ground, a procedure rather than a puzzle, for resolving an earlier Part's open thread — Dunmore, Quane, Duley, or a table's own — left to the table per `R5a`'s own restraint; The Registrar's Visit), and five named endings ordered by cost (Walk Away, Private Reckoning, Quiet Leverage, Public Exposure, Burn It), each tying Prynne's own defeat/flight/capture to which ending a table lands on rather than staging a separate fight. Opens no fourth thin site, deciding Q-4 comes due by restraint rather than by building one. All four new calls logged as `DECISIONS.md` D-27. Nothing thin; cites A1, C2, C3, R5a, source-bible.md, hooks.md, and canon.md §§3/4/6/7 throughout rather than re-deriving. **Completes the Parts spine (R1–R5); see digest above.** `G5` and `H5` (Bestiary/Compendium, Part V) are now unblocked; `F1`, `I1`, `J1`, `K1`, and `Z1` remain, none Part-blocked. |
 | T1 | Thin Site 1 (short Salts incursion) | C3, R1b | todo | creative |
 | T2 | Thin Site 2 | T1, R2b | todo | creative |
 | T3 | Thin Site 3 | T2, R4b | todo | creative |

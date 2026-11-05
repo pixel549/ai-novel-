@@ -392,6 +392,37 @@ Project-management file. Not loaded at the table.
   endings and Q-4's chalice-at-a-price default) are `R5b`'s job next
   session. See `campaign/R5a-old-coast-overview.md`.
 
+- **D-27 Vance will open the record, and at what cost; the campaign's
+  antagonist and its several endings named (session default, 2026-11-05,
+  for R5b).** Four calls made to complete Part V's lead web, antagonist,
+  and the campaign's close: (1) `R5a`'s own open question — whether Sister
+  Edda Vance shows the First House's record to the party at all — is
+  answered yes, but only through patience, proof of good faith, or a
+  specific name rather than through pressure or institutional authority;
+  the cost is that opening the archive ends the only role she has had for
+  sixty years, whatever the party does with it next; (2) the campaign's
+  antagonist, **Brother Elias Prynne**, "the Registrar," is named and built
+  institutional-first, personal-second per `C2`'s own discipline, but
+  shaped to this Part's documentary stakes rather than reusing Corlett's,
+  Wick's, Pell/Vane's, or Ness's own register: his tool is filing, not
+  force, and he is dispatched only once the Church has reason to believe
+  Fallow Head has been disturbed, never waiting there; (3) the campaign's
+  several endings (Q-3, existing default: several, ordered by cost, none
+  clean) are built out as five named options — Walk Away, Private
+  Reckoning, Quiet Leverage, Public Exposure, Burn It — each costing a
+  different party, with Prynne's own defeat/flight/capture outcomes tied
+  directly to which one a table lands on rather than staged as a separate
+  fight; (4) Q-4's open question (should PCs be able to take the salts at
+  all; existing default: yes, only at a thin site, at a price) is answered
+  in practice by this file opening no new thin site at all — the campaign's
+  last Part proves the point by not needing one, rather than by building a
+  fourth incursion to prove it with. None of the four touches chapter text
+  or contradicts canon; all are logged here per RUNBOOK's Phase 2
+  instructions rather than decided silently in `R5b` itself. **This
+  completes the Parts spine (`R1a`/`b` through `R5a`/`b`) — flagged to Jake
+  in `STATUS.md`'s digest.** See
+  `campaign/R5b-old-coast-leads-antagonist-endings.md`.
+
 ## Open questions for Jake
 
 - **Q-1** The ruleset (v7), design bible (v2.5), dev log, character sheet and
@@ -402,12 +433,17 @@ Project-management file. Not loaded at the table.
   and the anchor all line up already).
 - **Q-4** Should the PCs be able to take the salts at all? Default: yes, but
   only at thin sites and at a price, so the option exists without becoming the
-  loop.
+  loop. Exercised throughout `T1`–`T3`'s placements; `R5b` (2026-11-05)
+  answers it a final time by opening no fourth site at all. Still Jake's to
+  overturn.
 - **Q-5** Which parts of the ruleset should stay untouched on the surface
   (combat, limb targeting, status effects, parry) versus be adapted? Default:
   combat and condition rules untouched; economy, recovery and travel adapted.
 - **Q-3** Does the campaign want a canonical ending, or a set of possible
-  endings? Default: several, ordered by cost, none clean.
+  endings? Default: several, ordered by cost, none clean. Built out as five
+  named endings in `R5b` (2026-11-05, D-27) — Walk Away, Private Reckoning,
+  Quiet Leverage, Public Exposure, Burn It. Still Jake's to overturn or
+  reorder.
 
 ## Blocked
 
