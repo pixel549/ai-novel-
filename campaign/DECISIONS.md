@@ -423,6 +423,31 @@ Project-management file. Not loaded at the table.
   in `STATUS.md`'s digest.** See
   `campaign/R5b-old-coast-leads-antagonist-endings.md`.
 
+- **D-28 The pre-Church foundation's minimum resolution; its entry trigger,
+  resident creature use, and resident presence (session default, 2026-11-05,
+  for T1).** `hooks.md` #4 left what's under Ascension House genuinely open
+  ("whatever was on that ground before the chapel is still there," no further
+  specification); this file needed to resolve the minimum to be playable
+  without foreclosing the mystery the hooks file deliberately didn't answer.
+  Four calls made: (1) the site has no name, no founder, and no doctrine, and
+  — the load-bearing part — is **not** Fourth Mercy work at all: it predates
+  the Church's ownership of the ground by an undated margin, the Church's
+  sixty-year ascension programme never found or used it, and neither Vail nor
+  Brother Wick (`R2b`) knows it exists, so this file does not reverse `D-21`'s
+  "no resumed ascension work anywhere in Vantry" — it sits entirely outside
+  that question; (2) the thin site's entry trigger (no hydro, no reagent) is
+  invented as a variant of `C3`'s own "the chalice is there because someone
+  decided to look at the room as though it is" rule, extended to the whole
+  site via Ascension House's barred basement window; (3) `hooks.md` #11 (the
+  wire-frame creature) and #12 (the nineteen-foot shaft) are used directly as
+  the hooks file itself proposes, not reserved further; (4) the "shape that
+  moved nothing like a man walks" (`hooks.md` #4) is kept deliberately
+  unresolved at node 3 ("the Gleam") rather than given a stat block, name, or
+  motive — a DM can return to it later without this file having cashed it
+  out. None of the four touches chapter text or contradicts canon; all are
+  logged here per RUNBOOK's Phase 2 instructions rather than decided silently
+  in `T1` itself. See `campaign/T1-the-foundation.md`.
+
 ## Open questions for Jake
 
 - **Q-1** The ruleset (v7), design bible (v2.5), dev log, character sheet and
