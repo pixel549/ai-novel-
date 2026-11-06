@@ -430,8 +430,9 @@ them here even off-page.
   §6 (who-knows-what, binding on Edie's entry above), §8 (the cost test).
 - `DECISIONS.md` — D-6 (no single hub), D-11 (the hydros network), D-16
   (the Region I naming convention this file follows for Ress Tannery and
-  Coal Drop Yards, logged as this session's equivalent default). Jake can
-  overturn any of them.
+  Coal Drop Yards), D-20 (this file's own session defaults — Ress Tannery
+  and the Shuttle, Coal Drop Yards, and the two-to-three-month timeline
+  span — logged this session). Jake can overturn any of them.
 - Next in Phase 2: `R2b` (Part II lead web, set pieces, antagonist) depends
   on this file and is now unblocked; it should decide where the ascension
   work resumed, if anywhere, and build the antagonist pressure this file

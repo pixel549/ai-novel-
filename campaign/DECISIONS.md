@@ -479,6 +479,36 @@ Project-management file. Not loaded at the table.
   RUNBOOK's Phase 2 instructions rather than decided silently in `T2`
   itself. See `campaign/T2-the-second-day.md`.
 
+- **D-30 The third thin site's minimum resolution; its entry trigger,
+  resident "creature," and the restraint keeping it unconnected to the
+  undercroft above it (session default, 2026-11-06, for T3).** `R4a` and
+  `R4b` flagged, then confirmed, an older structure beneath the House of
+  Quiet Rest's own foundations as `T3`'s location without building it; this
+  file needed to resolve the minimum to be playable without letting it
+  explain or excuse Brother Ness's own work directly above it — `R4b`
+  already ruled that reading off the table. Four calls made: (1) the site
+  has a real, physical access point (a service stair off the locked wing,
+  per `R4b`), unlike `T1`'s invented door or `T2`'s committed count, so this
+  file's own version of `C3`'s "declared, not found" rule is a second kind
+  of looking rather than a different door — a party that chooses to look
+  for something in the cistern's standing water, rather than at it, is what
+  opens the site; (2) nothing here is Fourth Mercy work and nothing here
+  predates or explains the undercroft's own ascension work, extending
+  `T1`'s own D-28 restraint to this site specifically, since it sits
+  beneath an active facility rather than a dead ruin; (3) a fresh
+  unresolved device is invented rather than reusing `hooks.md` #12's
+  distance-and-measurement principle a third time (used at `T1`, then `T2`)
+  — a reflection that intermittently disagrees with the room actually above
+  it; (4) a native "creature" (something standing fully submerged in water
+  too shallow to cover it, visible only once looked for, gone the next
+  glance) is invented for node 2, built to echo `T1`'s wire-frame creature's
+  and `T2`'s company on the road's own behaviour (notices sluggishly, never
+  hunts) without reusing either. None of the four touches chapter text or
+  contradicts canon; all are logged here per RUNBOOK's Phase 2 instructions
+  rather than decided silently in `T3` itself. See
+  `campaign/T3-the-standing-cistern.md`. **This completes all three thin
+  sites (`T1`–`T3`).**
+
 ## Open questions for Jake
 
 - **Q-1** The ruleset (v7), design bible (v2.5), dev log, character sheet and
@@ -619,3 +649,43 @@ Phase 1 synthesis files — cross-references, named defaults (D-11–D-17), and
 `source-bible.md` citations all check out against each other and against
 canon on this pass. All five R-1–R-5 findings remain open, unchanged, and
 still none of them block anything downstream.
+
+Third Saturday QA pass (2026-11-06), covering everything added or changed
+since the second pass (commit `5205a23`): `campaign/H1-compendium-part-1.md`,
+`R2a-vantry-overview.md`, `R2b-vantry-leads-antagonist.md`,
+`R3a-carrowgate-overview.md`, `R3b-carrowgate-leads-antagonist.md`,
+`R4a-fourth-mercy-network-overview.md`,
+`R4b-fourth-mercy-leads-antagonist.md`, `R5a-old-coast-overview.md`,
+`R5b-old-coast-leads-antagonist-endings.md`, `T1-the-foundation.md`, and
+`T2-the-second-day.md` — eleven files covering the rest of Part I's
+vertical slice and all of Parts II–V plus the first two thin sites.
+Checked against `novel/canon.md`, `source-bible.md`, `hooks.md`,
+`DECISIONS.md`'s own Defaults chosen (D-11–D-29), and each other. Still no
+`campaign/system/` ruleset exists (Q-1), so no mechanics to check against
+one. Two small fixes made:
+
+- `R2a-vantry-overview.md`'s own Cross-references section cited `D-16`
+  (R1a's naming-convention precedent) as if it were this file's own session
+  default, but never cited `D-20` — the entry that actually logs R2a's own
+  three calls (Ress Tannery/the Shuttle, Coal Drop Yards, the two-to-three-
+  month timeline span). Corrected to cite both: D-16 for the precedent,
+  D-20 for this file's own default, matching the pattern every later Part
+  file ( R3a→D-22, R3b→D-23, etc.) already follows correctly.
+- `STATUS.md`'s `R5b` row logged the file's size as "~3,850 w"; an actual
+  word count comes to ~4,590 w (the full file, cross-references included,
+  runs 4,592 words by `wc -w`, well outside the rounding margin every other
+  Part file's logged count sits within). Corrected in `STATUS.md`.
+
+No contradictions against canon, against `source-bible.md`/`hooks.md`, or
+among the eleven files themselves: every session default (D-16, D-20–D-29)
+traces cleanly to the file that logged it and is cited consistently by
+every later file that depends on it; travel times, naming conventions
+(Beddoe's → Ress Tannery → Caddock Lowe → Rufus Pledge → Wren Catchpole),
+and the antagonist-tell discipline (Corlett → Wick → Pell/Vane → Ness →
+Prynne) all hold across all five Parts; the who-knows-what gaps (canon §6)
+are honoured consistently for Lloyd, Maria, and Edie's restricted
+appearances in every Part that touches Carrowgate or Vantry; and `T1`/`T2`
+both independently confirm no second PC ever receives Lloyd's own
+chalice-ability pair. All five R-1–R-5 findings remain open, unchanged, and
+still block nothing downstream. The Parts spine (R1–R5) and two of three
+thin sites are now QA'd end to end.
