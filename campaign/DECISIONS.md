@@ -448,6 +448,37 @@ Project-management file. Not loaded at the table.
   logged here per RUNBOOK's Phase 2 instructions rather than decided silently
   in `T1` itself. See `campaign/T1-the-foundation.md`.
 
+- **D-29 The Selwick day-discrepancy's minimum resolution; its entry
+  trigger, resident "creature" use, and the construct question left
+  untouched (session default, 2026-11-06, for T2).** `hooks.md` #10 leaves
+  the discrepancy itself genuinely open — "a discrepancy noticed by Edie
+  and never resolved" — and this file needed to resolve the minimum to be
+  playable without deciding which of Brother Aldous's two-day count or the
+  marker post's one-day reading was ever true. Four calls made: (1) the
+  discrepancy is kept exactly as unresolved as the hook found it; what this
+  file adds is a consequence, not an explanation — a party that commits out
+  loud to Aldous's two-day count and paces the walk against it gets an
+  extra day the post doesn't agree exists, while a party that picks the
+  post's count or doesn't engage at all reaches Selwick exactly as `R1a`
+  and `C1` already describe it; (2) the thin site's own entry trigger is
+  invented as a distinct version of `C3`'s "declared, not found" rule —
+  committing out loud to a specific count, rather than `T1`'s barred-window
+  threshold — per `C3`'s own instruction that each site invent its own
+  version rather than reuse another's; (3) `hooks.md` #12 (the
+  nineteen-foot shaft's principle) is reused for the second time, turned
+  outward onto open road instead of underground corridors, and a new
+  native "creature" (travellers matching the party's pace at a held
+  distance, dissolving to road-dust) is invented for node 2, built to echo
+  `T1`'s wire-frame creature's behaviour without reusing it, since that
+  creature is native to `T1`'s own site specifically; (4) `hooks.md` #9
+  (Aldous's non-moving collar) is deliberately left exactly as open as `G1`
+  already set it — this file resists the temptation to resolve the
+  construct question just because both hooks share a road, the same
+  restraint D-28 set for `T1`'s own unresolved elements. None of the four
+  touches chapter text or contradicts canon; all are logged here per
+  RUNBOOK's Phase 2 instructions rather than decided silently in `T2`
+  itself. See `campaign/T2-the-second-day.md`.
+
 ## Open questions for Jake
 
 - **Q-1** The ruleset (v7), design bible (v2.5), dev log, character sheet and
