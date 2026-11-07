@@ -509,6 +509,35 @@ Project-management file. Not loaded at the table.
   `campaign/T3-the-standing-cistern.md`. **This completes all three thin
   sites (`T1`–`T3`).**
 
+- **D-31 The cameo tier system; the Still Mind's table-use default;
+  unlocking Edie and Vail for one scene each (session default, 2026-11-07,
+  for I1).** `A1`, `A2`, and every Part file from `R1b` through `R3a` have
+  been running the novel's three (and, per `R3a`, Vail) on a provisional
+  "until `I1` exists" restraint, pending this file. Four calls made: (1) a
+  three-tier cameo system (background mention; confirmed silent presence;
+  one full scene with dialogue) is adopted as the standing rule for all
+  four, replacing every Part's own placeholder language rather than
+  leaving each to improvise its own; (2) `hooks.md`'s own note on R-5 (ch.
+  23's Still Mind firing on a dropped tray, pending Jake's ruling) is given
+  a table-use default — any play use of the ability follows canon's stated
+  hard limit (violence only, never an accident) — without resolving R-5
+  itself, which stays open and separately logged above; (3) Edie Marrow,
+  whose fixed presence in Ferrick's household `R2a`/`R2b` built and then
+  deliberately left silent, and Ondine Vail, whose presence at the Sanctum
+  `R3a` built and explicitly reserved for this file, are each unlocked for
+  exactly one Tier 2 scene, bound by canon §1's voice rules (Edie) and
+  canon §3's full writing rules reproduced as table rules (Vail) — the
+  heaviest discipline in the file, since her failure mode (menace written
+  into delivery) is identical at a table and on the page; (4) Lloyd and
+  Maria stay Tier 0/1 for the whole campaign, including its ending —
+  extending every Part file's own restraint rather than building either of
+  them a scene no Part file ever set up, and closing `R5a`'s deferred
+  question of a late-campaign appearance the same way `R5b` already did
+  (no appearance in Part V at all). None of the four touches chapter text
+  or contradicts canon; all are logged here per RUNBOOK's Phase 2
+  instructions rather than decided silently in `I1` itself. See
+  `campaign/I1-dramatis-personae.md`.
+
 ## Open questions for Jake
 
 - **Q-1** The ruleset (v7), design bible (v2.5), dev log, character sheet and
