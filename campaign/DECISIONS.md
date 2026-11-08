@@ -538,6 +538,29 @@ Project-management file. Not loaded at the table.
   instructions rather than decided silently in `I1` itself. See
   `campaign/I1-dramatis-personae.md`.
 
+- **D-32 Heat and Notoriety invented; the recovery-tier system generalised
+  past Region I; the favour price-list shape (session default, 2026-11-08,
+  for F1).** `PLAN.md`'s F1 item asks for "heat and notoriety" without
+  either existing anywhere in an earlier file; this session invents both
+  from scratch rather than leaving the item's own target unmet. Three calls
+  made: (1) **Heat** (fast, local, faction-specific suspicion that decays
+  with time and distance) and **Notoriety** (slower, region-wide word of
+  mouth that doesn't decay on its own) are built as two distinct, lightly
+  tracked DM notes rather than one meter, tied respectively to the Press
+  Cycle/Consolidation clocks and to ordinary NPC reactions, explicitly
+  `(untested)` per `S1`'s own tagging convention for new mechanics; (2)
+  since Regions II–V have no `D1`-equivalent base file (a gap `R2a`/`R3a`
+  already noted when inventing their own lightly-detailed footholds), this
+  file generalises `D1`'s four Region-I-specific recovery levels into a
+  four-tier system (Rough/Ordinary/Standing/Specialist) any later Part can
+  use without a dedicated bases file of its own; (3) `H1`'s quartermaster's
+  ledger was left waiting on this file for an actual price list, so this
+  session sets one, shaped (cheap/moderate/dear/not-for-sale) rather than
+  numbered, consistent with every other `(SYS?)` figure pending
+  `campaign/system/`. None of the three touches chapter text or contradicts
+  canon; all are logged here per RUNBOOK's Phase 2 instructions rather than
+  decided silently in `F1` itself. See `campaign/F1-travel-downtime.md`.
+
 ## Open questions for Jake
 
 - **Q-1** The ruleset (v7), design bible (v2.5), dev log, character sheet and
