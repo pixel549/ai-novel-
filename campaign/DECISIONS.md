@@ -587,6 +587,34 @@ Project-management file. Not loaded at the table.
   RUNBOOK's Phase 2 instructions rather than decided silently in `G2`
   itself. See `campaign/G2-bestiary-part-2.md`.
 
+- **D-34 Compendium props for Part II, and the Chalice-Gifts section's
+  shape against a live thin site (session default, 2026-11-09, for H2).**
+  `R2a`, `R2b`, and `T1` each imply a concrete object or prop without
+  naming one, and this file is the first Compendium entry written after
+  an actual, built, reachable thin site (`T1`) existed — unlike `H1`,
+  which kept its own Chalice-Gifts section inert for a region with no
+  site at all. Two calls made: (1) this session invents the physical
+  props the lead web and locations already assume exist — the stolen
+  intake register, the stud book, and the extraction files as handleable
+  documents distinct from one another; a civic request slip as the
+  (trivially easy) obstacle Reveal A's Route 1 actually turns on; the
+  broadsheet's photographed plates; Ress Tannery's rooming book as this
+  region's version of Nessa's slate; a settled debt/chit as the physical
+  half of Wick's tell; a Mercy House shelter roll; a hidden candle stub
+  for the Lodging-Row Spark; and a city-appropriate weapons/tools register
+  (yard and mill tools, a watchman's cosh, re-citing the Commonwealth-wide
+  revolver and trench knife from `H1` rather than re-inventing them) —
+  all low-stakes, non-magical, consistent with `A1` pillar 1; (2) rather
+  than writing a second worked chalice-gift example the way `H1` did for
+  a siteless region, this file's Chalice-Gifts section is written as a
+  pointer to `T1`'s own live chalice, explicitly declining to duplicate or
+  pre-build anything `T1`/`S1` already own, and explicitly re-stating the
+  boundary `G2`'s Tank-Four Remnant already drew against `T1`'s own
+  entity so a DM reading the Compendium doesn't blur the two. None of
+  this touches chapter text or contradicts canon; both calls are logged
+  here per RUNBOOK's Phase 2 instructions rather than decided silently in
+  `H2` itself. See `campaign/H2-compendium-part-2.md`.
+
 ## Open questions for Jake
 
 - **Q-1** The ruleset (v7), design bible (v2.5), dev log, character sheet and
