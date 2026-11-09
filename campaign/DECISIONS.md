@@ -561,6 +561,32 @@ Project-management file. Not loaded at the table.
   canon; all are logged here per RUNBOOK's Phase 2 instructions rather than
   decided silently in `F1` itself. See `campaign/F1-travel-downtime.md`.
 
+- **D-33 Bestiary archetypes for Part II, and the tank-four remnant's
+  bounded build-out (session default, 2026-11-09, for G2).** `R2a` and
+  `R2b` name several categories without building them out, and `R2b` §5
+  names a possibility — a surviving remnant of the thing in tank four
+  (`hooks.md` #7) — without confirming it or giving it a stat block,
+  explicitly leaving that to this file. This session invents: three
+  "People" archetypes (the Vantry Mercy sister or brother on the bread
+  line; the Church-Adjacent Watcher covering `R2b`'s Pursuit encounter — a
+  category with no tell at all, the unease supplied entirely by Wick's own
+  later foreknowledge; the Lodging-Row Spark, a generic instance of `R2b`'s
+  optional Arcana encounter distinct from Nell Quane's own case); one
+  Pest-Class Horror (the Rail-Cut Lingerer, `G1`'s Collapsed-Tunnel
+  Lingerer re-dressed a second time for Vantry's foundations, culverts,
+  and rail cutting rather than a new species, per `G1`'s own "a region
+  doesn't need two pest archetypes" instruction); and the Tank-Four
+  Remnant, built out as a strictly optional, wordless, non-combat
+  encounter confined to the burned laboratory's own footprint at Ascension
+  House, explicitly kept separate from `T1`'s own entity (D-28's "the
+  Gleam," unrelated Fourth Mercy work under the same ruin) and explicitly
+  bounded ("anything larger... belongs to Region IV," per `R2b` itself) —
+  this file resolves only that behaviour and tells exist to use the
+  possibility, never that the possibility is true. None of this touches
+  chapter text or contradicts canon; all of it is logged here per
+  RUNBOOK's Phase 2 instructions rather than decided silently in `G2`
+  itself. See `campaign/G2-bestiary-part-2.md`.
+
 ## Open questions for Jake
 
 - **Q-1** The ruleset (v7), design bible (v2.5), dev log, character sheet and
