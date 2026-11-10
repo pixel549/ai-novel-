@@ -615,6 +615,34 @@ Project-management file. Not loaded at the table.
   here per RUNBOOK's Phase 2 instructions rather than decided silently in
   `H2` itself. See `campaign/H2-compendium-part-2.md`.
 
+- **D-35 Bestiary archetypes for Part III, and the explicit decision not to
+  build a Fourth Mercy Products category (session default, 2026-11-10, for
+  G3).** `R3a` and `R3b` name several categories without building them out,
+  and D-23 already closes the question `G2` had to leave open for Region
+  II (whether the Sanctum has any Fourth Mercy connection here) with a flat
+  no. This session invents: the Sanctum Clerk or Page (the institutional
+  "nothing to hide" archetype behind any direct question about Crane's
+  case), the Capital Mercy Sister or Brother (the Mercy House literally in
+  the Sanctum's own shadow, third in the `G1`/`G2` family of Mercy-House
+  archetypes), the Retained Watcher (one archetype covering both `R3b`
+  §5's "retained inquiry agent" Pursuit entry and the "Carpet Men" set
+  piece's own cleaning-crew cover, since both are the same paid,
+  legitimately-covered surveillance with no tell except retrospective
+  foreknowledge), the Boarding-District Reader (the optional Region III
+  instance of `G1`/`G2`'s Arcana-practitioner archetype, more guarded than
+  either predecessor per the capital's own paperwork-heavy texture), and
+  the Kept-Ground Lingerer (`G1`'s Collapsed-Tunnel Lingerer re-dressed a
+  third time, per `G1`'s own "a region doesn't need two pest archetypes"
+  instruction, for Carrowgate's crypts, cellars, and Senate-avoided
+  ground). Separately, this file explicitly declines to build a Fourth
+  Mercy Products category the way `G2` did for Region II — not an
+  oversight but a direct consequence of D-23's own "the Sanctum is clean in
+  this file, deliberately and completely," stated plainly in the file
+  itself so a later session doesn't reach for one out of habit. None of
+  this touches chapter text or contradicts canon; all of it is logged here
+  per RUNBOOK's Phase 2 instructions rather than decided silently in `G3`
+  itself. See `campaign/G3-bestiary-part-3.md`.
+
 ## Open questions for Jake
 
 - **Q-1** The ruleset (v7), design bible (v2.5), dev log, character sheet and
