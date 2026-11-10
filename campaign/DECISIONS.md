@@ -643,6 +643,40 @@ Project-management file. Not loaded at the table.
   per RUNBOOK's Phase 2 instructions rather than decided silently in `G3`
   itself. See `campaign/G3-bestiary-part-3.md`.
 
+- **D-36 Compendium items for Part III; the vestment-thread frame's first
+  Compendium entry; the weapons section's deliberate thinness; the
+  Chalice-Gifts section's "behind, not ahead" framing (session default,
+  2026-11-10, for H3).** `R3a` and `R3b` name or imply several documents
+  without building them out, and this file is the first Compendium entry
+  written after two thin sites (`T1`, `T2`) existed rather than one or
+  none. Four calls made: (1) this session invents the physical documents
+  the lead web already assumes exist — the closed Indemnity file on
+  Crane's death, a civic request slip, the expedited-closure filing, the
+  carpet men's own maintenance contract, the Senate's appropriations
+  record, a settlement draft, and the Waiting House's slate (the third
+  instance of `D1`/`H2`'s own ledger convention) — all low-stakes,
+  non-magical, consistent with `A1` pillar 1; (2) `source-bible.md`'s own
+  vestment-thread frame (canon ch. 24) is given its first Compendium entry
+  in this file rather than `H1`/`H2`, since Region III is the first Part
+  whose lead web runs directly through the office that closed Crane's
+  case, with an explicit DM-notes warning against letting it imply Church
+  guilt, per `R3b`'s own warning; (3) the Weapons section is written
+  deliberately thinner than `H1`'s or `H2`'s, inventing no new
+  city-specific tool and adding one new entry instead — "what the Valley
+  Trust carries: paperwork, not weapons" — mirroring `H2`'s "what the
+  Church carries: nothing," since Region III's antagonist pressure never
+  reaches for a weapon at all (`R3b`); (4) the Chalice-Gifts section
+  departs from `H1`'s plain inertness: by this session, `T1` and `T2` are
+  both built and, per the campaign's own playable order, sit behind a
+  Part III party rather than ahead of it, so this file states that a PC
+  may already carry a gift from either without Region III touching it,
+  while treating `T3` (Region IV, still ahead in play order) as not yet
+  reachable — the same order-of-discovery discipline `H2` held when only
+  `T1` existed. None of the four touches chapter text or contradicts
+  canon; all are logged here per RUNBOOK's Phase 2 instructions rather
+  than decided silently in `H3` itself. See `campaign/H3-compendium-
+  part-3.md`.
+
 ## Open questions for Jake
 
 - **Q-1** The ruleset (v7), design bible (v2.5), dev log, character sheet and
