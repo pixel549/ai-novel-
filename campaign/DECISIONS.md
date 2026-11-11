@@ -677,6 +677,31 @@ Project-management file. Not loaded at the table.
   than decided silently in `H3` itself. See `campaign/H3-compendium-
   part-3.md`.
 
+- **D-37 Bestiary archetypes for Part IV, and the confirmed Fourth Mercy
+  Products build-out (session default, 2026-11-11, for G4).** `R4a` and
+  `R4b` name several categories without building them out, and — unlike
+  `G2`'s optional, unconfirmed tank-four remnant for Region II — `R4b`'s
+  D-25 call 1 confirms the undercroft's own Fourth Mercy work as real and
+  reachable without building its behaviour and tells, explicitly leaving
+  that to this file. This session invents: three "People" archetypes (the
+  House's "specialist" staff, covering `R4b` §5's Church-operatives entry
+  for the undercroft's own careful hands; the Fen Smallholder or Turf
+  Cutter, covering `R4a`'s own instruction to invent ordinary fen faces per
+  scene plus Lissom Fen's noticeboard texture; the Unregistered Arcana
+  Practitioner, Fen instance, the fourth and most cautious re-scaling of
+  `G1`/`G2`/`G3`'s own practitioner archetype); one Pest-Class Horror (the
+  Fen-Line Lingerer, the Collapsed-Tunnel Lingerer's fourth re-dress, run
+  diffuse rather than concentrated per `R4a`'s own texture for the Fen
+  Line); and the Fourth Mercy Products category itself, built out as two
+  bounded, explicitly non-combat entries — the Tanks and the Early
+  Growth — scoped exactly to D-25 call 1's "immersion and the early stages
+  of homunculi-growing, nothing further" and written throughout with canon
+  §7's catalogued-not-lurid restraint, per `R4b` §9's own warning against
+  treating the undercroft's residents as a loot table. None of this touches
+  chapter text or contradicts canon; all of it is logged here per RUNBOOK's
+  Phase 2 instructions rather than decided silently in `G4` itself. See
+  `campaign/G4-bestiary-part-4.md`.
+
 ## Open questions for Jake
 
 - **Q-1** The ruleset (v7), design bible (v2.5), dev log, character sheet and
