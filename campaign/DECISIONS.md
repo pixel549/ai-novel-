@@ -702,6 +702,34 @@ Project-management file. Not loaded at the table.
   Phase 2 instructions rather than decided silently in `G4` itself. See
   `campaign/G4-bestiary-part-4.md`.
 
+- **D-38 Compendium items for Part IV, and the Chalice-Gifts section's
+  third shape (session default, 2026-11-12, for H4).** `R4a`, `R4b`, and
+  `G4` each name or imply a concrete object without building it out, and
+  this file is the first Compendium entry written for a region where a
+  thin site sits *inside* its own geography rather than behind or ahead of
+  it — `T3` is physically beneath the House of Quiet Rest, not a separate
+  location a Region IV party travels to. Two calls made: (1) this session
+  invents the physical props the lead web already assumes exist —
+  Greymere's own manifest as a handleable ledger distinct from the fact of
+  its existence, Rufus Pledge's arrivals board (the fourth instance of
+  `D1`'s slate convention, after Nessa Beddoe, Ress Tannery, and Caddock
+  Lowe), Teyla Dunmore's unanswered letters, the parish noticeboard as a
+  fixed-in-place record, a settled brine account behind Josiah Rede's own
+  tell, and the fen's own tools-first weapons register (turf-cutting
+  tools, re-citing the Commonwealth-wide revolver and trench knife from
+  `H1` rather than re-inventing them) — all low-stakes, non-magical,
+  consistent with `A1` pillar 1; (2) the Chalice-Gifts section takes a
+  third shape, distinct from `H1`'s inert version and `H2`'s/`H3`'s
+  "pointer to a site ahead or behind" framing: since `T3` sits inside
+  Region IV's own geography, this file states plainly that `T3` is this
+  Part's own site, not a reward for finishing it, and restates the
+  boundary `G4`'s Fourth Mercy Products entries already drew against it
+  (nothing under the cistern explains or is explained by the undercroft
+  above it) rather than leaving a reader to infer that boundary from two
+  separate files. Neither call touches chapter text or contradicts canon;
+  both are logged here per RUNBOOK's Phase 2 instructions rather than
+  re-litigated in `H4` itself. See `campaign/H4-compendium-part-4.md`.
+
 ## Open questions for Jake
 
 - **Q-1** The ruleset (v7), design bible (v2.5), dev log, character sheet and
