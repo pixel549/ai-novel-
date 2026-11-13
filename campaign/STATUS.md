@@ -2,19 +2,24 @@
 
 ## Digest
 
-**(2026-11-06, Saturday) What exists:** the Parts spine (R1–R5) and all
-three thin sites (`T1`–`T3`, the last written this session) — a complete,
-playable five-Part campaign with every planned Salts incursion in place, on
-top of Part I's vertical slice (flagged 2026-10-31). This session's QA pass
-re-read the eleven files added since the last QA (2026-10-30) against
-canon, `source-bible.md`/`hooks.md`, and each other; fixed two small slips
-(a dropped D-20 cross-reference in `R2a`, `R5b`'s word count in this file)
+**(2026-11-13, Saturday) What exists:** the full Bestiary and Compendium
+set is now complete (`G1`–`G5`, `H1`–`H5`), on top of the Parts spine
+(R1–R5), all three thin sites, `I1` (cameo rules), and `F1` (Travel &
+Downtime) — only `J1` and `K1` remain before the final `Z1` integration
+pass. This session's QA pass re-read the nine files added since the last
+QA (2026-11-06) against canon, `source-bible.md`/`hooks.md`, and each
+other; fixed one small slip, in two places (`F1`'s Hessel Bight↔Vantry
+road leg — miscited and a day short of `R2a`'s own "four to five days")
 and found no larger contradictions (`DECISIONS.md` → Review findings).
-**What's next:** `G2`–`H5` (Bestiary/Compendium, Parts II–V), `F1`, `I1`,
-`J1`, `K1`, or `Z1` — none blocked, none Part-dependent any longer. **For
-Jake:** `campaign/system/` still has no ruleset (Q-1, every number still
-`(SYS?)`); R-1–R-5 and D-11–D-30 remain open for your review; nothing
-played at a table yet. **Blocked:** nothing.
+With room left, this session also wrote `H5` (Compendium, Part V), closing
+the Chalice-Gifts section's five-file arc: `T1`–`T3` are all now behind a
+Part V party and the campaign opens no new one. **What's next:** `J1`
+(rumour/encounter tables, handouts) or `K1` (campaign log and continuity
+index) — neither blocked, pick whichever a session has room for — then
+`Z1`, which waits on both. **For Jake:** `campaign/system/` still has no
+ruleset (Q-1, every number still `(SYS?)`); R-1–R-5 and most
+`DECISIONS.md` defaults remain open for your review; nothing played at a
+table yet. **Blocked:** nothing.
 
 ## Work queue
 
@@ -61,7 +66,7 @@ Status: `todo` / `in-progress` / `done` / `blocked`. Run rows top to bottom.
 | G4 | Bestiary, Part IV | R4b | done | 2026-11-11: `campaign/G4-bestiary-part-4.md` written (~2,700 w). Three "People" archetypes (the House's "specialist" staff, covering `R4b`'s Church-operatives entry for the undercroft's own careful hands; the Fen Smallholder or Turf Cutter, covering `R4a`'s own per-scene invention instruction plus Lissom Fen's noticeboard texture; the Unregistered Arcana Practitioner, Fen instance, the fourth and most cautious re-scaling of `G1`/`G2`/`G3`'s own practitioner archetype), one Pest-Class Horror (the Fen-Line Lingerer — the Collapsed-Tunnel Lingerer's fourth re-dress, run diffuse rather than concentrated per `R4a`'s own texture), and — unlike `G2`'s optional, unconfirmed tank-four remnant — a confirmed Fourth Mercy Products category (the Tanks; the Early Growth) scoped exactly to `R4b`'s D-25 call 1 and written with canon §7's catalogued-not-lurid restraint, per `R4b` §9's own warning against treating the undercroft's residents as a loot table. Logged as `DECISIONS.md` D-37 rather than decided silently. Nothing thin; cites R4a, R4b, C2, G1–G3, source-bible.md, hooks.md, and canon.md §§2/4/5/7/8 throughout rather than re-deriving. `H4` (Compendium, Part IV) remains unblocked by `R4b`; `G5`/`H5`, `J1`, and `K1` are also unblocked or complete, none depending on this file. |
 | H4 | Compendium, Part IV | R4b | done | 2026-11-12: `campaign/H4-compendium-part-4.md` written (~3,000 w). Supplies the physical props `R4a`/`R4b`'s lead web implies (Greymere's own two-column manifest; Rufus Pledge's arrivals board, the fourth instance of `D1`'s slate convention; Teyla Dunmore's unanswered letters; the parish noticeboard; a settled brine account behind Josiah Rede's tell) and a fen-appropriate weapons register (turf-cutting tools, re-citing H1's revolver and trench knife rather than re-inventing them). Structural difference from H1–H3: Region IV is the first region where a thin site (`T3`) sits inside its own geography rather than behind or ahead of it, so this file's Chalice-Gifts section takes a third shape — stating plainly that `T3` is this Part's own site, reachable here rather than a reward for finishing the Part, and restating the boundary `G4`'s confirmed Fourth Mercy Products entries already drew against it (nothing under the cistern explains or is explained by the undercroft above it). Logged as `DECISIONS.md` D-38 rather than decided silently. Nothing thin; cites R4a, R4b, T3, G4, C3, S1, F1, H1–H3, source-bible.md, hooks.md, and canon.md §§2/4/5/7 throughout rather than re-deriving. `G5`/`H5` (Bestiary/Compendium, Part V) remain, the only Part-matched items left; `J1` and `K1` are also unblocked, none depending on this file. |
 | G5 | Bestiary, Part V | R5b | done | 2026-11-13: `campaign/G5-bestiary-part-5.md` written (~2,480 w), the thinnest Bestiary entry yet, by design (`R5b`'s own "quietest Part in the campaign"). Two "People" archetypes (the Hollowmere Elder, covering both of `R5b`'s Route-2 lead-web uses, deliberately left unnamed per `R5b`'s own choice; the Unregistered Arcana Practitioner's Hollowmere instance, which deliberately breaks `G1`–`G4`'s own escalating-caution pattern rather than extending it a fifth time, since isolation rather than institutional distance is what's kept this one unnoticed) and one Pest-Class Horror (the Tideline Lingerer — the Collapsed-Tunnel Lingerer's fifth re-dress, for the wreck of the *Aldermoor* on the Tide Flats, concentrated and tide-bound rather than diffuse like `G4`'s Fen-Line instance). Explicitly builds no Church-operative archetype (Vance and Prynne are already fully built in `R5a`/`R5b`) and no Fourth Mercy Products category, matching `R5b` §5's own explicit "None." Logged as `DECISIONS.md` D-39 rather than decided silently. Nothing thin; cites R5a, R5b, C2, G1–G4, source-bible.md, and canon.md §§2/4/5/7/8 throughout rather than re-deriving. `H5` (Compendium, Part V) remains unblocked by `R5b`; `J1` and `K1` are also unblocked; `Z1` still waits on `H5`, `J1`, and `K1`. |
-| H5 | Compendium, Part V | R5b | todo | |
+| H5 | Compendium, Part V | R5b | done | 2026-11-13: `campaign/H5-compendium-part-5.md` written (~2,490 w), the shortest Compendium entry yet (shorter even than `H3`'s). Supplies the handful of documentary objects `R5a`/`R5b`'s lead web implies (Wren Catchpole's own account books, the fifth and last instance of the ledger convention `D1` began; the quarterly retainer as a sealed, never-itemised purse; the First House's own shelved ledgers, the campaign's single largest documentary object; a Named Ground marker cross-referenced to them by number; Brother Prynne's travelling case of blank forms behind his "properly filed" tell) and the coast's own version of the four native-Arcana gifts, following `G5`'s own break from the escalating-caution pattern rather than extending it. Closes the Chalice-Gifts section's own arc across all five `H` files: `T1`–`T3` are all now behind a Part V party, this region opens nothing new, and a party that never found any of the three has lost nothing this file considers a reward. The thinnest weapons register yet — no coast-specific tool invented, "what the Old Coast carries: nothing" restated and extended to Prynne himself, only the Commonwealth-wide revolver and trench knife re-cited. Logged as `DECISIONS.md` D-40 rather than decided silently. Nothing thin; cites R5a, R5b, G5, T1–T3, C3, S1, F1, H1–H4, source-bible.md, hooks.md, and canon.md §§2/4/6/7 throughout rather than re-deriving. **Completes the Bestiary and Compendium set (`G1`–`G5`, `H1`–`H5`).** `J1` and `K1` remain, neither blocked; `Z1` still waits on both. |
 | J1 | Rumour/encounter tables, handouts | C2, R1b | todo | |
 | K1 | Campaign log + continuity index templates | D1 | todo | |
 | Z1 | Integration pass + index | all | todo | |

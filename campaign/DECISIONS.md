@@ -758,6 +758,30 @@ Project-management file. Not loaded at the table.
   Phase 2 instructions rather than decided silently in `G5` itself. See
   `campaign/G5-bestiary-part-5.md`.
 
+- **D-40 Compendium items for Part V, and the Chalice-Gifts section's final
+  shape (session default, 2026-11-13, for H5).** `R5a` and `R5b` each name
+  or imply a concrete object without building it out, and this file is the
+  last Compendium entry in the campaign — the point where the Chalice-Gifts
+  section, four different shapes across `H1`–`H4` (inert; pointer-ahead;
+  pointer-behind-and-ahead; "it's here"), reaches its final one: all three
+  sites now behind a Part V party, none ahead, and none opened by this
+  region at all. Two calls made: (1) this session invents the physical
+  props the lead web already assumes exist — Wren Catchpole's own account
+  books (the fifth and last instance of the ledger convention `D1` began
+  with Nessa Beddoe's slate), the quarterly retainer itself as a sealed,
+  never-itemised purse, the First House's own shelved ledgers as the
+  campaign's single largest documentary object, a Named Ground marker
+  cross-referenced to those ledgers by number, and Brother Prynne's
+  travelling case of blank forms behind his own "properly filed" tell — all
+  low-stakes, non-magical, consistent with `A1` pillar 1; (2) the
+  Chalice-Gifts section states plainly that this Part opens nothing new,
+  per `R5b`'s own D-27 call 4, and that a PC carrying a gift from `T1`,
+  `T2`, or `T3` arrives here with it unchanged and un-costed-further,
+  closing the question `H1` opened five files ago. Neither call touches
+  chapter text or contradicts canon; both are logged here per RUNBOOK's
+  Phase 2 instructions rather than re-litigated in `H5` itself. See
+  `campaign/H5-compendium-part-5.md`.
+
 ## Open questions for Jake
 
 - **Q-1** The ruleset (v7), design bible (v2.5), dev log, character sheet and
@@ -938,3 +962,38 @@ both independently confirm no second PC ever receives Lloyd's own
 chalice-ability pair. All five R-1–R-5 findings remain open, unchanged, and
 still block nothing downstream. The Parts spine (R1–R5) and two of three
 thin sites are now QA'd end to end.
+
+Fourth Saturday QA pass (2026-11-13), covering everything added or changed
+since the third pass (commit `eff1905`): `campaign/I1-dramatis-personae.md`,
+`F1-travel-downtime.md`, `G2-bestiary-part-2.md`, `H2-compendium-part-2.md`,
+`G3-bestiary-part-3.md`, `H3-compendium-part-3.md`, `G4-bestiary-part-4.md`,
+`H4-compendium-part-4.md`, and `G5-bestiary-part-5.md` — nine files covering
+the cameo rules, travel & downtime, and the Bestiary/Compendium pairs for
+Parts II–V. Checked against `novel/canon.md`, `source-bible.md`, `hooks.md`,
+`DECISIONS.md`'s own Defaults chosen (D-28–D-30 and D-31–D-39), and each
+other. Still no `campaign/system/` ruleset exists (Q-1), so no mechanics to
+check against one. One small fix made, in two places:
+`F1-travel-downtime.md`'s travel table gave the Hessel Bight ↔ Vantry road
+leg as "5–6 days," cited to `R1a`§4 — but `R1a` never covers this leg (it
+only reaches as far as Hessel Bight, not Vantry), and the file that actually
+fixes the duration, `R2a`§4, gives "four to five days." Corrected both the
+table row and §2's prose mention of the same leg to "four to five days,"
+cited to `R2a`§4.
+
+No other contradictions found against canon, against
+`source-bible.md`/`hooks.md`, or among the nine files themselves: `I1`'s
+cameo tiers and who-knows-what table match canon §1/§3/§6 and every Part
+file's own prior restraint on Lloyd, Maria, Edie, and Vail; `F1`'s remaining
+travel durations all trace cleanly to the `R1a`–`R5a` §4 sections they cite;
+the Collapsed-Tunnel Lingerer's five re-dressings (`G1`→`G5`) and the
+Unregistered Arcana Practitioner's five regional instances stay internally
+consistent across all five Bestiary files, including `G5`'s own deliberate
+break from the escalating-caution pattern; the Fourth Mercy Products
+category's three different treatments (`G2` optional/unconfirmed, `G3`/`G5`
+explicitly none, `G4` confirmed) each cite the Part file that actually
+settles the question for that region; and the Chalice-Gifts section's four
+distinct shapes across `H1`–`H4` (inert, pointer-ahead, pointer-behind-and-
+ahead, "it's here") each match where `T1`–`T3` actually sit relative to the
+Part in the campaign's own play order. All five R-1–R-5 findings remain
+open, unchanged, and still block nothing downstream. Phase 2 is now
+complete except `H5`, `J1`, `K1`, and the final `Z1` integration pass.

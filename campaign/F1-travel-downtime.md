@@ -34,7 +34,7 @@ a cost and nothing else to the geography.
 | Stillwell ↔ the valley's northern edge | foot | under a day (`R1a`§4) | free |
 | Valley's edge ↔ Hessel Bight | road, overland | 4 days (`C1`, the one hard-given distance) | free on foot; a cart hire, `(SYS?)` |
 | Ammet Ford's rail halt → the trunk line | rail, company service | — | no fare; a favour owed to the Valley Trust the moment a party boards (`D1`) |
-| Hessel Bight ↔ Vantry | road | 5–6 days, via Tannery Reach, Sennet, the Selwick turning (`R1a`§4) | free on foot; see Waypoint Lodging below |
+| Hessel Bight ↔ Vantry | road | 4–5 days, via Tannery Reach, Sennet, the Selwick turning (`R2a`§4) | free on foot; see Waypoint Lodging below |
 | Hessel Bight ↔ Vantry | rail | under a day (`R2a`§4) | a fare, `(SYS?)` — moderate, the trunk line's ordinary ticket price |
 | Vantry ↔ Carrowgate | rail | a day (`R2a`/`R3a`§4) | a fare, `(SYS?)` — moderate |
 | Vantry ↔ Carrowgate | road | 3–4 days (`R2a`/`R3a`§4) | free on foot; see Waypoint Lodging |
@@ -71,7 +71,7 @@ cut between scenes — this file sets what actually happens during one.
 **One check per leg-day on anything over a day.** A short leg (under a day:
 Stillwell to the valley's edge, Lissom Fen to the House) gets one check at
 most, often none — these are errands, not journeys. A multi-day leg (the
-four days to Hessel Bight, the five or six to Vantry, the three or four
+four days to Hessel Bight, the four or five to Vantry, the three or four
 road-days to Carrowgate) gets one check per day travelled, drawn from
 whichever of the two tables below fits where the party is.
 
