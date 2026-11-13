@@ -730,6 +730,34 @@ Project-management file. Not loaded at the table.
   both are logged here per RUNBOOK's Phase 2 instructions rather than
   re-litigated in `H4` itself. See `campaign/H4-compendium-part-4.md`.
 
+- **D-39 Bestiary archetypes for Part V, and a deliberate break from the
+  Unregistered Arcana Practitioner's own escalating-caution pattern
+  (session default, 2026-11-13, for G5).** `R5b` §5 names two categories
+  without building them out (the unnamed village elder behind two of the
+  lead web's own routes; "a Hollowmere fisherman's half-remembered ward
+  against drowning"), and `R5a`'s own Secrets entry for the Tide Flats
+  explicitly defers the Pest Pressure Clock's fifth instance to this file
+  ("`G5`'s job to build, not yet written"). Two calls made: (1) the
+  Hollowmere Elder archetype is built for both of `R5b`'s Route-2 uses,
+  kept deliberately unnamed per `R5b`'s own choice ("nobody this file names
+  because the point is that it could be almost anyone in a village this
+  small"); the Tideline Lingerer is built as the fifth re-dress of `G1`'s
+  Collapsed-Tunnel Lingerer, concentrated at the *Aldermoor*'s wreck rather
+  than diffuse like `G4`'s Fen-Line instance, and bound by the tide instead
+  of a corridor or line; (2) the Hollowmere instance of the Unregistered
+  Arcana Practitioner deliberately breaks the escalating-caution pattern
+  `G1`–`G4` built (each more guarded than the last) rather than extending it
+  a fifth time — this instance plays its ward openly, since isolation, not
+  institutional distance, is what's kept it unnoticed, and `R5b`'s own
+  Prynne (dispatched late, reaching Hollowmere eventually) keeps this from
+  reading as the Church's reach actually shrinking. Separately, this file
+  explicitly builds no Church-operative archetype (Vance and Prynne are
+  already fully built in `R5a`/`R5b` §6) and no Fourth Mercy Products
+  category, matching `R5b` §5's own explicit "None." None of this touches
+  chapter text or contradicts canon; all of it is logged here per RUNBOOK's
+  Phase 2 instructions rather than decided silently in `G5` itself. See
+  `campaign/G5-bestiary-part-5.md`.
+
 ## Open questions for Jake
 
 - **Q-1** The ruleset (v7), design bible (v2.5), dev log, character sheet and
