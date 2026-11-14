@@ -782,6 +782,30 @@ Project-management file. Not loaded at the table.
   Phase 2 instructions rather than re-litigated in `H5` itself. See
   `campaign/H5-compendium-part-5.md`.
 
+- **D-41 Rumour/encounter tables cover all five regions; three handout
+  texts invented (session default, 2026-11-14, for J1).** `J1`'s formal
+  dependency (`C2`, `R1b`) dates from the vertical-slice era, but by this
+  session the full Parts spine and Bestiary/Compendium set exist, so this
+  file builds rumour and encounter tables for all five regions rather than
+  Region I alone — a scope call rather than a world-fact one, made because
+  building only a fifth of the file `PLAN.md` describes would leave it
+  thin for no reason. Three further calls give verbatim text to props
+  earlier files named without writing: (1) `hooks.md` #6's withheld fourth
+  catechism line is written as "and ascension, by consent" — matching the
+  "ledger-style hand" `source-bible.md` specifies and Vail's own consent
+  language (canon §3), never contradicting anything on the page since the
+  line's exact wording was always this file's to supply; (2) `H1`'s
+  standing bounty notice, named but left unwritten ("meant to be read, not
+  just summarised"), is given its actual handbill text; (3) Lloyd's false
+  wanted name, left unnamed by `R1a`/`source-bible.md` on purpose as
+  texture, is given a name and a vague, non-Crane charge ("Edwin Marsh,"
+  assault and theft at the Ammet Ford stores) deliberately chosen not to
+  touch Crane's death, which stays publicly blamed on the Church per D-1 —
+  his actual history still appears nowhere on the notice itself. None of
+  the four touches chapter text or contradicts canon; all are logged here
+  per RUNBOOK's Phase 2 instructions rather than decided silently in `J1`
+  itself. See `campaign/J1-tables-handouts.md`.
+
 ## Open questions for Jake
 
 - **Q-1** The ruleset (v7), design bible (v2.5), dev log, character sheet and
