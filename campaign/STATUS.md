@@ -2,24 +2,20 @@
 
 ## Digest
 
-**(2026-11-13, Saturday) What exists:** the full Bestiary and Compendium
-set is now complete (`G1`–`G5`, `H1`–`H5`), on top of the Parts spine
-(R1–R5), all three thin sites, `I1` (cameo rules), and `F1` (Travel &
-Downtime) — only `J1` and `K1` remain before the final `Z1` integration
-pass. This session's QA pass re-read the nine files added since the last
-QA (2026-11-06) against canon, `source-bible.md`/`hooks.md`, and each
-other; fixed one small slip, in two places (`F1`'s Hessel Bight↔Vantry
-road leg — miscited and a day short of `R2a`'s own "four to five days")
-and found no larger contradictions (`DECISIONS.md` → Review findings).
-With room left, this session also wrote `H5` (Compendium, Part V), closing
-the Chalice-Gifts section's five-file arc: `T1`–`T3` are all now behind a
-Part V party and the campaign opens no new one. **What's next:** `J1`
-(rumour/encounter tables, handouts) or `K1` (campaign log and continuity
-index) — neither blocked, pick whichever a session has room for — then
-`Z1`, which waits on both. **For Jake:** `campaign/system/` still has no
-ruleset (Q-1, every number still `(SYS?)`); R-1–R-5 and most
-`DECISIONS.md` defaults remain open for your review; nothing played at a
-table yet. **Blocked:** nothing.
+**(2026-11-15, Sunday) What exists:** everything in the work queue is now
+done except the final `Z1` integration pass. Since the last digest, `J1`
+(rumour/encounter tables, handouts, 2026-11-14) and `K1` (campaign log and
+continuity index, 2026-11-15) were both written, closing out Phase 2
+entirely — the full Parts spine (R1–R5), all three thin sites, the
+Bestiary/Compendium set (`G1`–`G5`/`H1`–`H5`), `I1` (cameo rules), `F1`
+(Travel & Downtime), `J1`, and now `K1` (a continuity index pointing to
+where every fact lives, plus a blank per-session log template) are all
+complete. **What's next:** `Z1` — the integration pass: contradictions
+across all files, an index/TOC, and a final DM checklist. It's the last
+item and depends on everything, which is now everything done. **For
+Jake:** `campaign/system/` still has no ruleset (Q-1, every number still
+`(SYS?)`); R-1–R-5 and most `DECISIONS.md` defaults remain open for your
+review; nothing played at a table yet. **Blocked:** nothing.
 
 ## Work queue
 
@@ -68,5 +64,5 @@ Status: `todo` / `in-progress` / `done` / `blocked`. Run rows top to bottom.
 | G5 | Bestiary, Part V | R5b | done | 2026-11-13: `campaign/G5-bestiary-part-5.md` written (~2,480 w), the thinnest Bestiary entry yet, by design (`R5b`'s own "quietest Part in the campaign"). Two "People" archetypes (the Hollowmere Elder, covering both of `R5b`'s Route-2 lead-web uses, deliberately left unnamed per `R5b`'s own choice; the Unregistered Arcana Practitioner's Hollowmere instance, which deliberately breaks `G1`–`G4`'s own escalating-caution pattern rather than extending it a fifth time, since isolation rather than institutional distance is what's kept this one unnoticed) and one Pest-Class Horror (the Tideline Lingerer — the Collapsed-Tunnel Lingerer's fifth re-dress, for the wreck of the *Aldermoor* on the Tide Flats, concentrated and tide-bound rather than diffuse like `G4`'s Fen-Line instance). Explicitly builds no Church-operative archetype (Vance and Prynne are already fully built in `R5a`/`R5b`) and no Fourth Mercy Products category, matching `R5b` §5's own explicit "None." Logged as `DECISIONS.md` D-39 rather than decided silently. Nothing thin; cites R5a, R5b, C2, G1–G4, source-bible.md, and canon.md §§2/4/5/7/8 throughout rather than re-deriving. `H5` (Compendium, Part V) remains unblocked by `R5b`; `J1` and `K1` are also unblocked; `Z1` still waits on `H5`, `J1`, and `K1`. |
 | H5 | Compendium, Part V | R5b | done | 2026-11-13: `campaign/H5-compendium-part-5.md` written (~2,490 w), the shortest Compendium entry yet (shorter even than `H3`'s). Supplies the handful of documentary objects `R5a`/`R5b`'s lead web implies (Wren Catchpole's own account books, the fifth and last instance of the ledger convention `D1` began; the quarterly retainer as a sealed, never-itemised purse; the First House's own shelved ledgers, the campaign's single largest documentary object; a Named Ground marker cross-referenced to them by number; Brother Prynne's travelling case of blank forms behind his "properly filed" tell) and the coast's own version of the four native-Arcana gifts, following `G5`'s own break from the escalating-caution pattern rather than extending it. Closes the Chalice-Gifts section's own arc across all five `H` files: `T1`–`T3` are all now behind a Part V party, this region opens nothing new, and a party that never found any of the three has lost nothing this file considers a reward. The thinnest weapons register yet — no coast-specific tool invented, "what the Old Coast carries: nothing" restated and extended to Prynne himself, only the Commonwealth-wide revolver and trench knife re-cited. Logged as `DECISIONS.md` D-40 rather than decided silently. Nothing thin; cites R5a, R5b, G5, T1–T3, C3, S1, F1, H1–H4, source-bible.md, hooks.md, and canon.md §§2/4/6/7 throughout rather than re-deriving. **Completes the Bestiary and Compendium set (`G1`–`G5`, `H1`–`H5`).** `J1` and `K1` remain, neither blocked; `Z1` still waits on both. |
 | J1 | Rumour/encounter tables, handouts | C2, R1b | done | 2026-11-14: `campaign/J1-tables-handouts.md` written (~2,720 w). Built against the full Parts spine rather than just Region I, since by this session all five exist: an eight-entry, truth-marked rumour table per region (40 entries total, each citing `hooks.md`/`source-bible.md`/the matching `R` file rather than inventing new facts, with the Selwick discrepancy, the Tank-Four Remnant, and Church-reach-beyond-confirmed all left exactly as open as `hooks.md` holds them), a d8 encounter table per region keyed to `C2`'s Pest Pressure Clock (Region V deliberately thinned to match `R5b`'s own "not a roll-table region" restraint rather than padded to match the others), and five handouts — three with newly-invented verbatim text (`hooks.md` #6's withheld catechism line; `H1`'s named-but-unwritten bounty notice; Lloyd's false wanted name and charge, chosen not to touch Crane's death) and two restating existing conventions (a quartermaster's ledger page per `F1`'s shaped-not-numbered costs; a single Named Ground marker per `R5a`). All three new-text calls logged as `DECISIONS.md` D-41. Nothing thin; cites `C2`, all ten `R` files, `G1`–`G5`, `H1`, `D1`, `F1`, `hooks.md`, `source-bible.md`, and canon.md §§3/4/7 throughout rather than re-deriving. `K1` remains, unblocked; `Z1` now waits on `K1` alone. |
-| K1 | Campaign log + continuity index templates | D1 | todo | |
+| K1 | Campaign log + continuity index templates | D1 | done | 2026-11-15: `campaign/K1-campaign-log-continuity-index.md` written (~1,245 w). Two tools, not lore, per `A2`'s own flag that this file's absence is "a real gap to patch with a plain text note, not a reason to re-derive continuity from nothing each time": (1) a continuity index pointing to where every kind of fact lives (regions/travel in `C1`/`F1`; factions/clocks in `C2`; the Salts/chalices in `C3`; surface rules in `S1`; bases/recovery/Heat-Notoriety in `D1`/`F1`; the NPC index and cameo rules in `I1` §A/C, deliberately not rebuilt here; bestiaries/compendium per region in `G1`–`G5`/`H1`–`H5`; the three thin sites; `J1`'s tables; `hooks.md`/`source-bible.md`/`SYNTHESIS.md`; every `DECISIONS.md` default D-1–D-41 and open question Q-1–Q-5; the still-open R-1–R-5 chapter-text findings) — all pointers, no facts duplicated; (2) a blank per-session campaign-log template (party, base/upkeep, clocks moved, Heat/Notoriety, new DM-ruled facts, NPC status, chalice gifts taken, open threads touched, next hook) with one illustrative worked example explicitly marked as no table has actually played it. No new `DECISIONS.md` default needed — procedural/DM-facing, same reasoning `A2` gave for itself. Nothing thin; cites `A1`, `A2`, `C2`, `F1`, `S1`, `C3`, `I1`, `hooks.md`, `source-bible.md`, and `DECISIONS.md` throughout rather than re-deriving. **`Z1` (Integration pass + index) is now the only item left, unblocked.** |
 | Z1 | Integration pass + index | all | todo | |
