@@ -84,7 +84,7 @@ checks run, each clean:
   hook. No fix needed; flagging here so a future reader doesn't have to
   re-derive this.
 
-### Two small fixes made this pass
+### Five small fixes made this pass
 
 `A2-dms-guide.md` §3's cameo-limits bullet was written before `I1` existed
 and said, flatly, that an AI DM should always decline to voice Lloyd, Maria,
@@ -97,6 +97,25 @@ superseded part of §1) and is fixed the same way: `A2`'s bullet now states
 `I1`'s actual tiers directly and points to it as binding, rather than
 repeating the now-inaccurate blanket "decline" instruction.
 
+`A1-campaign-brief.md`'s own "Cameo rules" bullet, under "Relationship to
+the Novel," carried the identical staleness — the same "Lloyd, Maria, and
+Edie may appear as NPCs under the rules `I1` will set out; until `I1`
+exists, do not run them as more than brief, off-page mentions" language
+`A2` had, missed on every pass since because neither file cross-references
+the other for this one bullet. Fixed the same way: `A1`'s bullet now names
+Lloyd, Maria, Edie, and Vail by `I1`'s actual tiers (Lloyd/Maria background
+-or-silent only, campaign-wide; Edie/Vail each unlocked for exactly one
+scene with dialogue), and notes that nothing in `I1` reopens a who-knows-
+what gap or changes the timeline anchor.
+
+`C1-gazetteer.md`'s own Map section still gave the Hessel Bight–Vantry road
+leg as "five or six days" — the figure `C1` was originally written with,
+before `R2a`§4 later fixed the number to "four to five days" for `F1`'s
+travel table. Pass 4 (§1 above, "Confirming the four prior QA passes' own
+findings") corrected `F1` itself to match `R2a`, but never touched `C1`'s
+own original text — the actual source of the figure. Fixed now to match,
+citing `R2a`§4 and noting `F1` already uses it.
+
 `I1-dramatis-personae.md` §C's own Region IV NPC index — "every other
 named, recurring NPC the campaign has invented so far," per that section's
 own stated scope — omitted Sister Prue Anstey, the House of Quiet Rest's
@@ -105,9 +124,17 @@ front-hall sister, named and given a full behavioural writeup across `R4a`,
 against §C's own promise, not a contradiction of any fact; added as a
 one-line entry alongside Ness, Rede, and the two Dunmores.
 
-Neither needed a `DECISIONS.md` default — both are documentation-currency
-fixes, not new world-fact calls, the same reasoning `A2` and `K1` both gave
-for needing none themselves.
+`STATUS.md`'s own `S1` work-queue row logged that file's word count as
+"~1,750 w" at the time it was written (2026-10-27); an actual `wc -w` run
+this pass found `S1-surface-adaptation.md` to be ~2,300 words. `STATUS.md`'s
+own row is the only place this figure lived, so it's corrected there
+directly, noting the original figure and this pass as the source of the
+correction, rather than introducing a sixth file to cite.
+
+None of the five needed a `DECISIONS.md` default — all are documentation-
+currency fixes (stale cross-references, a missed table row, a bookkeeping
+figure), not new world-fact calls, the same reasoning `A2` and `K1` both
+gave for needing none themselves.
 
 ### Confirming the four prior QA passes' own findings still hold
 
@@ -349,9 +376,10 @@ map rather than repeating it here. The two most load-bearing: `DECISIONS.md`
 (the record this pass checked against and added to) and `K1` (the topic
 index this file's own index is deliberately not a duplicate of). No new
 `DECISIONS.md` default needed for this file itself — procedural, like `A2`
-and `K1` before it — but see §1 above for the two small fixes (`A2`'s cameo
-bullet; `I1` §C's missing Anstey line) this pass made directly, following
-RUNBOOK's own QA-pass convention for small fixes.
+and `K1` before it — but see §1 above for the five small fixes (`A2`'s and
+`A1`'s matching cameo bullets; `C1`'s travel-time figure; `I1` §C's missing
+Anstey line; `STATUS.md`'s own `S1` word count) this pass made directly,
+following RUNBOOK's own QA-pass convention for small fixes.
 
 **This completes `PLAN.md`'s work queue.** Every row in `STATUS.md`'s work
 queue is now `done`. What remains is entirely Jake's: `campaign/system/`

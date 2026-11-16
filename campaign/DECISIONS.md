@@ -1037,19 +1037,38 @@ tells, the three thin sites' deliberate non-reuse of each other's devices,
 the chalice/cameo rules, the Bestiary/Compendium matrices (the Lingerer's
 five re-dresses, the Fourth Mercy Products category's three treatments,
 the Chalice-Gifts section's four shapes), and the `D-`1–41 numbering were
-all specifically checked and all held. Two small fixes made: `A2-dms-
+all specifically checked and all held. Five small fixes made: `A2-dms-
 guide.md` §3's cameo-limits bullet, written before `I1` existed, still
 told an AI DM to always decline voicing Lloyd, Maria, or Edie in a full
 scene "until `I1` exists" — stale since 2026-11-07, when `I1` unlocked one
 Tier 2 (speaking) scene each for Edie and Vail. Corrected to state `I1`'s
 actual tiers and point to it as binding, the same documentation-currency
-fix `A2` already carries for `K1`'s own supersession of part of §1. And
-`I1-dramatis-personae.md` §C's Region IV NPC index, which states its own
-scope as "every other named, recurring NPC the campaign has invented so
-far," omitted Sister Prue Anstey (House of Quiet Rest's front-hall sister,
-named and written up across `R4a`/`R4b`/`G4`) — added as a one-line entry
-alongside Ness, Rede, and the two Dunmores; a genuine gap against §C's own
-stated promise, not a contradiction of any fact. Also specifically checked
+fix `A2` already carries for `K1`'s own supersession of part of §1.
+`A1-campaign-brief.md`'s own "Cameo rules" bullet carried the identical
+staleness — the same "until `I1` exists, do not run them as more than
+brief, off-page mentions" language, missed on every pass since because
+neither file cross-references the other for this one bullet — and is
+fixed the same way: it now names Lloyd, Maria, Edie, and Vail by `I1`'s
+actual tiers directly. `C1-gazetteer.md`'s own Map section still gave the
+Hessel Bight–Vantry road leg as "five or six days," the figure `C1` was
+originally written with, before `R2a`§4 later fixed it to "four to five
+days" for `F1`'s travel table — pass 4 corrected `F1` itself to match, but
+never touched `C1`'s own original text, the actual source of the figure;
+fixed now to match, citing `R2a`§4. And `I1-dramatis-personae.md` §C's
+Region IV NPC index, which states its own scope as "every other named,
+recurring NPC the campaign has invented so far," omitted Sister Prue
+Anstey (House of Quiet Rest's front-hall sister, named and written up
+across `R4a`/`R4b`/`G4`) — added as a one-line entry alongside Ness, Rede,
+and the two Dunmores; a genuine gap against §C's own stated promise, not a
+contradiction of any fact. Fifth: `STATUS.md`'s own `S1` work-queue row
+logged that file's word count as "~1,750 w" when written (2026-10-27); an
+actual `wc -w` run this pass found `S1-surface-adaptation.md` to be
+~2,300 words, and `STATUS.md`'s own row is corrected to match, noting the
+original figure and this pass as the source of the correction. None of
+the five needed a `DECISIONS.md` default of its own — all are
+documentation-currency fixes (stale cross-references, a missed table row,
+a bookkeeping figure), not new world-fact calls, the same reasoning `A2`
+and `K1` both gave for needing none themselves. Also specifically checked
 and cleared: `hooks.md` #13 (Edie's "uncashed chalice cost") against `C3`'s
 claim that "Lloyd's second arm is the only on-page example" of a chalice
 ability — no contradiction, since `source-bible.md`'s Edie entry and
