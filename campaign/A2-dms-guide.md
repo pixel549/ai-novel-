@@ -38,16 +38,17 @@ got capped, a claimant didn't make it, a ledger got archived. The party
 should feel time passing even in sessions that don't visit a clock's own
 location.
 
-**Continuity.** `K1` (Campaign Log & Continuity Index) is the eventual home
-for this and doesn't exist yet (`PLAN.md`'s work queue). Until it's
-written, whoever runs a session should keep a short running note — what
-happened, what moved, what's now true that wasn't before — and read it back
-before the next session starts, alongside `A1`, this file, and whichever
-Part is live. **This matters more for an AI DM than a human one**: a
-session run by an AI has no memory of a previous session unless something
-written down carries it forward. Treat the absence of `K1` as a real gap to
-patch with a plain text note, not a reason to re-derive continuity from
-nothing each time.
+**Continuity.** `K1` (Campaign Log & Continuity Index), written after this
+file, is now the home for this: Part 1 is a continuity index pointing to
+where every kind of fact lives, and Part 2 is the per-session log template
+this paragraph originally asked whoever ran a session to improvise by
+hand. Read `K1`'s own most recent log entry, alongside `A1`, this file, and
+whichever Part is live, before starting any session that isn't the
+first. **This matters more for an AI DM than a human one**: a session run
+by an AI has no memory of a previous session unless something written down
+carries it forward. Treat a session with no log entry to read back from as
+a reason to ask the table for a plain summary (`K1`'s own instruction), not
+a reason to re-derive continuity from nothing each time.
 
 **Failure states are fine.** `R1b`'s own DM notes say this for Part I
 specifically; it's a running-order rule for every Part. A party that misses
@@ -131,11 +132,16 @@ mostly supplies by instinct.
 - **Don't resolve the who-knows-what gaps or the novel's cameo limits.**
   Canon §6's permanent gaps (Lloyd's second arm, his five weeks, Anse
   Duley's fate as Edie knows it) stay closed regardless of what a PC
-  investigates. Until `I1` exists, Lloyd, Maria, and Edie appear only as
-  background mentions, per `A1`'s cameo rules — an AI DM asked to voice one
-  of them in a full scene should decline and offer the background-mention
-  version instead, the same way it would decline inventing a number the
-  ruleset hasn't supplied yet.
+  investigates, at any cameo tier. `I1-dramatis-personae.md` now exists and
+  is the binding ruling on cameo tiers (superseding this bullet's older
+  "until `I1` exists" framing, written before it did): Lloyd and Maria stay
+  Tier 0/1 (background mention or confirmed silent presence) campaign-wide,
+  while Edie and Vail are each unlocked for exactly one Tier 2 scene with
+  dialogue, bound by `I1` §A's own tells and limits. An AI DM asked to voice
+  Lloyd or Maria in a full scene, or asked for a second Tier 2 scene with
+  Edie or Vail, should decline and offer the Tier 0/1 version instead, the
+  same way it would decline inventing a number the ruleset hasn't supplied
+  yet. Read `I1` §A before running any scene involving one of the four.
 - **When a player decision would retcon something fixed in `A1`'s timeline
   anchor,** say so plainly rather than quietly allowing it — "Crane is
   established dead before the campaign opens; that can't be undone" — the
@@ -224,6 +230,11 @@ without being told where the table's actual limits are.
 - `novel/canon.md` §4 (the Church), §6 (who-knows-what, binding on §3's
   cameo rule), §7 (prose constraints on horror and gore, the basis for §5's
   default stance), §8 (the cost test, §2).
+- `K1-campaign-log-continuity-index.md` — written after this file; now the
+  actual home for §1's running note and continuity index.
+- `I1-dramatis-personae.md` — written after this file; now the binding
+  ruling on §3's cameo-limits bullet, superseding its "until `I1` exists"
+  framing (added at `Z1`'s integration pass).
 - `DECISIONS.md` — D-6 (no hub/no statted clerk), D-7 (Insight), D-8 (AI-DM
   format, the basis for §3), D-10 (the surface replacements §1 and §3
   assume). Jake can overturn any of them.

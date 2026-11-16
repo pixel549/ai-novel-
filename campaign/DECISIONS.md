@@ -1021,3 +1021,43 @@ ahead, "it's here") each match where `T1`–`T3` actually sit relative to the
 Part in the campaign's own play order. All five R-1–R-5 findings remain
 open, unchanged, and still block nothing downstream. Phase 2 is now
 complete except `H5`, `J1`, `K1`, and the final `Z1` integration pass.
+
+`Z1` integration pass (2026-11-16, weeknight session, not a Saturday pass
+but doing the same job at full scope), covering every campaign file end to
+end rather than only what changed since the last pass: `A1`, `A2`, `B1`,
+`C1`–`C3`, `D1`, `S1`, `F1`, `G1`–`G5`, `H1`–`H5`, `I1`, `J1`, `K1`, all ten
+`R` files, `T1`–`T3`, `PLAN.md`, `RUNBOOK.md`, `STATUS.md`, this file in
+full, `hooks.md`, `source-bible.md`, `novel/canon.md`, and
+`novel/readthrough/SYNTHESIS.md`. `F1`, `J1`, and `K1` had never been
+through a Saturday pass before this one (all three postdate the fourth
+pass); everything else was rechecked on top of, not instead of, the four
+prior passes. No new contradiction found anywhere — geography, the
+timeline's own loose non-binding chaining, the six antagonists' distinct
+tells, the three thin sites' deliberate non-reuse of each other's devices,
+the chalice/cameo rules, the Bestiary/Compendium matrices (the Lingerer's
+five re-dresses, the Fourth Mercy Products category's three treatments,
+the Chalice-Gifts section's four shapes), and the `D-`1–41 numbering were
+all specifically checked and all held. Two small fixes made: `A2-dms-
+guide.md` §3's cameo-limits bullet, written before `I1` existed, still
+told an AI DM to always decline voicing Lloyd, Maria, or Edie in a full
+scene "until `I1` exists" — stale since 2026-11-07, when `I1` unlocked one
+Tier 2 (speaking) scene each for Edie and Vail. Corrected to state `I1`'s
+actual tiers and point to it as binding, the same documentation-currency
+fix `A2` already carries for `K1`'s own supersession of part of §1. And
+`I1-dramatis-personae.md` §C's Region IV NPC index, which states its own
+scope as "every other named, recurring NPC the campaign has invented so
+far," omitted Sister Prue Anstey (House of Quiet Rest's front-hall sister,
+named and written up across `R4a`/`R4b`/`G4`) — added as a one-line entry
+alongside Ness, Rede, and the two Dunmores; a genuine gap against §C's own
+stated promise, not a contradiction of any fact. Also specifically checked
+and cleared: `hooks.md` #13 (Edie's "uncashed chalice cost") against `C3`'s
+claim that "Lloyd's second arm is the only on-page example" of a chalice
+ability — no contradiction, since `source-bible.md`'s Edie entry and
+`SYNTHESIS.md` both confirm the cost `hooks.md` #13 flags is an
+`outline.md`-only beat that never reached the actual chapters, not an
+on-page fact `C3` missed. All five R-1–R-5 findings and all five open
+questions (Q-1–Q-5) remain exactly as open as every prior pass left them;
+none blocks anything. `campaign/Z1-integration-index.md` itself (the review
+log `PLAN.md` asks this work item for, plus a file index with reading
+orders and a final DM checklist) is written and complete.
+**`PLAN.md`'s entire work queue is now done.**

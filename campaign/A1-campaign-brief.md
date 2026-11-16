@@ -107,10 +107,13 @@ that mentioning the wrong name in the wrong office gets a reaction.
   Edie). No PC investigation uncovers these. They are not secrets the table
   is meant to solve; they are facts about three specific people that stay
   theirs.
-- **Cameo rules:** Lloyd, Maria, and Edie may appear as NPCs under the rules
-  `I1` will set out. Until `I1` exists, do not run them as more than brief,
-  off-page mentions — a name on a report, a face across a platform — rather
-  than scenes with dialogue.
+- **Cameo rules:** Lloyd, Maria, Edie, and Ondine Vail may appear as NPCs
+  under the rules `I1` sets out — read that file before voicing any of the
+  four. Lloyd and Maria stay background mention or silent presence only,
+  campaign-wide; Edie and Vail are each unlocked for exactly one scene with
+  dialogue, bounded tightly by `I1`'s own discipline. Nothing in `I1`
+  reopens a who-knows-what gap (canon §6) or changes anything this
+  timeline anchor fixed.
 
 ## What the PCs Are
 

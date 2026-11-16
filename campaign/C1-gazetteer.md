@@ -34,8 +34,9 @@ overland travel happens on this road, on foot and by cart, not on the train.
 foot. Valley's edge to Hessel Bight, about four days overland (per ch. 7 —
 "four days north of Stillwell" is the one hard distance the novel gives;
 treat it as the anchor and scale everything else off it). Hessel Bight to
-Vantry by road, another five or six days through Tannery Reach, Sennet, and
-the Selwick turning. By rail, the same leg is under a day. Vantry to
+Vantry by road, another four to five days through Tannery Reach, Sennet,
+and the Selwick turning (fixed by `R2a`§4, written after this file; `F1`
+uses that figure). By rail, the same leg is under a day. Vantry to
 Carrowgate, a day by rail, three or four by road. Nothing north or east of
 Vantry is mapped yet — that's Part IV's and Part V's problem, not this
 file's.

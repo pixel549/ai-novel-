@@ -279,6 +279,7 @@ files.
 | Name | Role | Source |
 |---|---|---|
 | Brother Corwin Ness ("the Warden") | undercroft overseer, House of Quiet Rest; Part IV antagonist | `R4b` |
+| Sister Prue Anstey | front-hall sister, House of Quiet Rest; genuine, unknowing charity | `R4a`; `G4` |
 | Josiah Rede | Greymere Hydro's proprietor | `R4b` |
 | Corporal Emrys Dunmore | missing resident; fate deliberately left open | `R4b` |
 | Teyla Dunmore | his sister | `R4b` |
